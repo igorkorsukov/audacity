@@ -56,7 +56,10 @@ Rectangle {
     Item {
         id: content
         anchors.fill: parent
-        anchors.leftMargin: 8
+        //anchors.leftMargin: 8
+
+        anchors.leftMargin: 240
+        anchors.rightMargin: 240
 
         Timeline {
             id: timeline
@@ -114,6 +117,8 @@ Rectangle {
             anchors.bottom: parent.bottom
             anchors.left: parent.left
             anchors.right: parent.right
+            cacheBuffer: 480
+            clip: false
 
             property real visibleContentHeight: view.contentHeight - view.contentY
 
@@ -142,8 +147,7 @@ Rectangle {
             model: tracksModel
 
             delegate: TrackClipsItem {
-                anchors.left: parent.left
-                anchors.right: parent.right
+                width: view.width
                 context: timeline.context
                 trackId: model.trackId
                 isDataSelected: model.isDataSelected
