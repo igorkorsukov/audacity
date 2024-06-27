@@ -45,42 +45,144 @@ Item {
 
             model: clipsModel
 
-            delegate: ClipItem {
+            // delegate: ClipItem {
 
-                height: parent.height
-                width: model.clipWidth
-                x: model.clipLeft
+            //     property int modelIndex: model.index
+            //     property real modelClipWidth: model.clipWidth
+            //     property real modelClipLeft: model.clipLeft
+            //     property string modelClipTitle: model.clipTitle
+            //     property color modelClipColor: model.clipColor
+            //     property var modelClipKey: model.clipKey
+            //     property real modelClipMoveMaximumX: model.clipMoveMaximumX
+            //     property real modelClipMoveMinimumX: model.clipMoveMinimumX
 
-                context: root.context
-                title: model.clipTitle
-                clipColor: model.clipColor
-                clipKey: model.clipKey
-                clipSelected: clipsModel.selectedClipIdx === model.index
-                collapsed: trackViewState.isTrackCollapsed
+            //     height: parent.height
+            //     width: modelClipWidth
+            //     x: modelClipLeft
 
-                dragMaximumX: model.clipMoveMaximumX + borderWidth
-                dragMinimumX: model.clipMoveMinimumX - borderWidth
+            //     context: root.context
+            //     title: modelClipTitle
+            //     clipColor: modelClipColor
+            //     clipKey: modelClipKey
+            //     clipSelected: clipsModel.selectedClipIdx === modelIndex
+            //     collapsed: trackViewState.isTrackCollapsed
 
-                onPositionChanged: function(x) {
-                    model.clipLeft = x
+            //     dragMaximumX: modelClipMoveMaximumX + borderWidth
+            //     dragMinimumX: modelClipMoveMinimumX - borderWidth
+
+            //     onPositionChanged: function(x) {
+            //         model.clipLeft = x
+            //     }
+
+            //     onRequestSelected: {
+            //         clipsModel.selectClip(modelIndex)
+            //     }
+
+            //     onTitleEditStarted: {
+            //         clipsModel.selectClip(modelIndex)
+            //     }
+
+            //     onTitleEditAccepted: function(newTitle) {
+            //         model.clipTitle = newTitle
+            //         clipsModel.resetSelectedClip()
+            //     }
+
+            //     onTitleEditCanceled: {
+            //         clipsModel.resetSelectedClip()
+            //     }
+            // }
+
+            delegate: Component {
+                Loader {
+                    id: loader
+                    property int modelIndex: model.index
+                    property real modelClipWidth: model.clipWidth
+                    property real modelClipLeft: model.clipLeft
+                    property string modelClipTitle: model.clipTitle
+                    property color modelClipColor: model.clipColor
+                    property var modelClipKey: model.clipKey
+                    property real modelClipMoveMaximumX: model.clipMoveMaximumX
+                    property real modelClipMoveMinimumX: model.clipMoveMinimumX
+
+                    height: parent.height
+                    width: model.clipWidth
+                    x: model.clipLeft
+
+                    //asynchronous: true
+                    sourceComponent: {
+                        // console.log("modelClipWidth: " + modelClipWidth
+                        //             + ", modelClipLeft: " + modelClipLeft
+                        //             + ", root.width: " + root.width)
+
+                        if (modelClipWidth < 24) {
+                            return dymmyComp
+                        }
+
+                        return clipComp
+                    }
                 }
+            }
+        }
+    }
 
-                onRequestSelected: {
-                    clipsModel.selectClip(model.index)
-                }
+    Component {
+        id: dymmyComp
+        Rectangle {
+            anchors.fill: parent
+            color: modelClipColor
 
-                onTitleEditStarted: {
-                    clipsModel.selectClip(model.index)
-                }
+            Rectangle {
+                id: header
+                anchors.top: parent.top
+                anchors.left: parent.left
+                anchors.right: parent.right
 
-                onTitleEditAccepted: function(newTitle) {
-                    model.clipTitle = newTitle
-                    clipsModel.resetSelectedClip()
-                }
+                height: 20
+                color: modelClipColor
+            }
+        }
+    }
 
-                onTitleEditCanceled: {
-                    clipsModel.resetSelectedClip()
-                }
+    Component {
+        id: clipComp
+
+        ClipItem {
+
+            // height: parent.height
+            // width: modelClipWidth
+            // x: modelClipLeft
+
+            anchors.fill: parent
+
+            context: root.context
+            title: modelClipTitle
+            clipColor: modelClipColor
+            clipKey: modelClipKey
+            clipSelected: clipsModel.selectedClipIdx === modelIndex
+            collapsed: trackViewState.isTrackCollapsed
+
+            dragMaximumX: modelClipMoveMaximumX + borderWidth
+            dragMinimumX: modelClipMoveMinimumX - borderWidth
+
+            onPositionChanged: function(x) {
+                model.clipLeft = x
+            }
+
+            onRequestSelected: {
+                clipsModel.selectClip(modelIndex)
+            }
+
+            onTitleEditStarted: {
+                clipsModel.selectClip(modelIndex)
+            }
+
+            onTitleEditAccepted: function(newTitle) {
+                model.clipTitle = newTitle
+                clipsModel.resetSelectedClip()
+            }
+
+            onTitleEditCanceled: {
+                clipsModel.resetSelectedClip()
             }
         }
     }

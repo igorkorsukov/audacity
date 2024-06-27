@@ -44,6 +44,10 @@ void WaveView::paint(QPainter* painter)
     params.geometry.frameLeft = m_context->frameStartTime() * m_context->zoom();
     params.geometry.frameWidth = (m_context->frameEndTime() - m_context->frameStartTime()) * m_context->zoom();
 
+    LOGDA() << "relClipLeft: " << params.geometry.relClipLeft
+            << " frameLeft: " << params.geometry.frameLeft
+            << " frameWidth: " << params.geometry.frameWidth;
+
     params.zoom = m_context->zoom();
 
     if (m_clipSelected) {
