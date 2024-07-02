@@ -82,7 +82,10 @@ Rectangle {
     Rectangle {
         id: content
         anchors.fill: parent
-        anchors.leftMargin: 12
+        //anchors.leftMargin: 12
+        anchors.leftMargin: 350
+        anchors.rightMargin: 350
+        color: ui.theme.backgroundPrimaryColor
 
         Timeline {
             id: timeline

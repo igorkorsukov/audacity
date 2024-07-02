@@ -45,10 +45,10 @@ public:
 
     Q_INVOKABLE void init();
     Q_INVOKABLE void reload();
+    Q_INVOKABLE void update();
     Q_INVOKABLE bool modeClip(int index, double x);
     Q_INVOKABLE void selectClip(int index);
     Q_INVOKABLE void resetSelectedClip();
-
     Q_INVOKABLE bool changeClipTitle(int index, const QString& newTitle);
 
     int rowCount(const QModelIndex& parent) const override;
@@ -70,8 +70,6 @@ private:
     enum RoleNames {
         ClipItemRole = Qt::UserRole + 1,
     };
-
-    void update();
 
     void updateItemsMetrics();
 

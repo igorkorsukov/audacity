@@ -18,6 +18,7 @@ class WaveView : public QQuickPaintedItem
     Q_OBJECT
     Q_PROPERTY(TimelineContext * context READ timelineContext WRITE setTimelineContext NOTIFY timelineContextChanged FINAL)
     Q_PROPERTY(ClipKey clipKey READ clipKey WRITE setClipKey NOTIFY clipKeyChanged FINAL)
+    Q_PROPERTY(ClipTime clipTime READ clipTime WRITE setClipTime NOTIFY clipTimeChanged FINAL)
     Q_PROPERTY(QColor clipColor READ clipColor WRITE setClipColor NOTIFY clipColorChanged FINAL)
     Q_PROPERTY(bool clipSelected READ clipSelected WRITE setClipSelected NOTIFY clipSelectedChanged FINAL)
 
@@ -36,6 +37,8 @@ public:
     void setTimelineContext(TimelineContext* newContext);
     ClipKey clipKey() const;
     void setClipKey(const ClipKey& newClipKey);
+    ClipTime clipTime() const;
+    void setClipTime(const ClipTime& newTime);
     QColor clipColor() const;
     void setClipColor(const QColor& newClipColor);
     bool clipSelected() const;
@@ -48,6 +51,7 @@ public:
 signals:
     void timelineContextChanged();
     void clipKeyChanged();
+    void clipTimeChanged();
     void clipColorChanged();
     void clipLeftChanged();
     void clipSelectedChanged();
@@ -58,6 +62,7 @@ private:
 
     TimelineContext* m_context = nullptr;
     ClipKey m_clipKey;
+    ClipTime m_clipTime;
     QColor m_clipColor;
     double m_clipLeft = 0;
     bool m_clipSelected = false;

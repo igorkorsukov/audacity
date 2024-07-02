@@ -59,9 +59,11 @@ Item {
                 x: item.x
 
                 context: root.context
+
                 title: item.title
                 clipColor: item.color
                 clipKey: item.key
+                clipTime: item.time
                 clipSelected: clipsModel.selectedClipIdx === model.index
                 collapsed: trackViewState.isTrackCollapsed
 

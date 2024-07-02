@@ -96,3 +96,17 @@ void ClipListItem::setMoveMinimumX(double newMoveMinimumX)
     m_moveMinimumX = newMoveMinimumX;
     emit moveMinimumXChanged();
 }
+
+ClipTime ClipListItem::time() const
+{
+    return m_time;
+}
+
+void ClipListItem::setTime(const ClipTime& newTime)
+{
+    if (m_time == newTime) {
+        return;
+    }
+    m_time = newTime;
+    emit timeChanged();
+}

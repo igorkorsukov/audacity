@@ -12,6 +12,7 @@ Rectangle {
 
     property alias context: waveView.context
     property alias clipKey: waveView.clipKey
+    property alias clipTime: waveView.clipTime
     property alias title: titleLabel.text
     property color clipColor: "#677CE4"
     property bool clipSelected: false
@@ -107,9 +108,22 @@ Rectangle {
                 drag.maximumX: root.dragMaximumX
                 drag.minimumX: root.dragMinimumX
 
+                property real dragStartX: 0
+                property real deltaDragX: root.x - headerDragArea.dragStartX
+
+                onPressed: {
+                    headerDragArea.dragStartX = root.x
+                }
+
+                onPositionChanged: {
+                    if (drag.active) {
+                        root.positionChanged(headerDragArea.deltaDragX)
+                    }
+                }
+
                 onReleased: {
                     if (drag.active) {
-                        root.positionChanged(root.x)
+                        root.positionChanged(headerDragArea.deltaDragX)
                     }
                 }
 
@@ -208,8 +222,8 @@ Rectangle {
             anchors.right: parent.right
             anchors.bottom: parent.bottom
 
+            clipLeft: headerDragArea.deltaDragX
             clipColor: root.clipColor
-            clipLeft: root.x
             clipSelected: root.clipSelected
         }
     }

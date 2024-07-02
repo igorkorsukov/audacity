@@ -42,8 +42,10 @@ void WaveView::paint(QPainter* painter)
 
     au3::IAu3WavePainter::Params params;
     params.geometry.clipHeight = height();
-    params.geometry.clipWidth = width();
-    params.geometry.relClipLeft = m_clipLeft;
+    params.geometry.clipWidth = (m_clipTime.clipEndTime - m_clipTime.clipStartTime) * m_context->zoom();
+
+    params.geometry.relClipLeft = m_context->timeToPosition(m_clipTime.clipStartTime);
+
     params.geometry.frameLeft = m_context->frameStartTime() * m_context->zoom();
     params.geometry.frameWidth = (m_context->frameEndTime() - m_context->frameStartTime()) * m_context->zoom();
 
@@ -142,6 +144,19 @@ void WaveView::setClipSelected(bool newClipSelected)
     }
     m_clipSelected = newClipSelected;
     emit clipSelectedChanged();
+
+    update();
+}
+
+ClipTime WaveView::clipTime() const
+{
+    return m_clipTime;
+}
+
+void WaveView::setClipTime(const ClipTime& newTime)
+{
+    m_clipTime = newTime;
+    emit clipTimeChanged();
 
     update();
 }

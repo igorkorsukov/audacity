@@ -19,6 +19,7 @@ class ClipListItem : public QObject
     Q_PROPERTY(QString title READ title WRITE setTitle NOTIFY titleChanged FINAL)
     Q_PROPERTY(QColor color READ color CONSTANT)
 
+    Q_PROPERTY(ClipTime time READ time WRITE setTime NOTIFY timeChanged FINAL)
     Q_PROPERTY(double x READ x WRITE setX NOTIFY xChanged FINAL)
     Q_PROPERTY(double width READ width WRITE setWidth NOTIFY widthChanged FINAL)
 
@@ -49,8 +50,12 @@ public:
     double moveMinimumX() const;
     void setMoveMinimumX(double newMoveMinimumX);
 
+    ClipTime time() const;
+    void setTime(const ClipTime& newTime);
+
 signals:
     void titleChanged();
+    void timeChanged();
     void xChanged();
     void widthChanged();
     void moveMaximumXChanged();
@@ -58,6 +63,7 @@ signals:
 
 private:
     processing::Clip m_clip;
+    ClipTime m_time;
     double m_x = 0.0;
     double m_width = 0.0;
     double m_moveMaximumX = 0.0;

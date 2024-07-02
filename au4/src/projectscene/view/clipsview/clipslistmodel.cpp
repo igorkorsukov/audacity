@@ -11,7 +11,7 @@ using namespace au::projectscene;
 using namespace au::processing;
 
 constexpr double MOVE_MAX = 100000.0;
-constexpr double MOVE_MIN = 0.0;
+constexpr double MOVE_MIN = -100000.0;
 
 ClipsListModel::ClipsListModel(QObject* parent)
     : QAbstractListModel(parent)
@@ -111,7 +111,7 @@ void ClipsListModel::update()
 
     m_clipList.clear();
 
-    for (const au::processing::Clip& c : m_allClipList) {
+    for (const Clip& c : m_allClipList) {
         if (c.endTime < m_context->frameStartTime()) {
             continue;
         }
@@ -140,6 +140,11 @@ void ClipsListModel::updateItemsMetrics()
     for (int i = 0; i < m_clipList.size(); ++i) {
         ClipListItem* item = m_clipList[i];
         const processing::Clip& clip = item->clip();
+
+        ClipTime time;
+        time.clipStartTime  = clip.startTime;
+        time.clipEndTime = clip.endTime;
+        item->setTime(time);
 
         item->setX(m_context->timeToPosition(clip.startTime));
         item->setWidth((clip.endTime - clip.startTime) * m_context->zoom());
@@ -206,6 +211,15 @@ QVariant ClipsListModel::data(const QModelIndex& index, int role) const
     if (role == ClipItemRole) {
         ClipListItem* item = m_clipList.at(index.row());
         return QVariant::fromValue(item);
+
+        // case ClipTimeRole: {
+        //     ClipTime ct;
+        //     ct.clipStartTime = clip.startTime;
+        //     ct.clipEndTime = clip.endTime;
+        //     ct.clipVisibleStartTime = startTime;
+        //     ct.clipVisibleEndTime = endTime;
+        //     return QVariant::fromValue(ct);
+        // }
     }
 
     return QVariant();

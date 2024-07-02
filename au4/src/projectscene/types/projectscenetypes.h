@@ -27,7 +27,6 @@ public:
 class ClipKey
 {
     Q_GADGET
-
 public:
 
     ClipKey() = default;
@@ -35,6 +34,30 @@ public:
         : key(k) {}
 
     processing::ClipKey key;
+};
+
+class ClipTime
+{
+    Q_GADGET
+public:
+
+    ClipTime() = default;
+
+    processing::secs_t clipStartTime = 0.0;
+    processing::secs_t clipEndTime = 0.0;
+
+    processing::secs_t clipVisibleStartTime = 0.0;
+    processing::secs_t clipVisibleEndTime = 0.0;
+
+    inline bool operator==(const ClipTime& other) const
+    {
+        return clipStartTime == other.clipStartTime
+               && clipEndTime == other.clipEndTime
+               && clipVisibleStartTime == other.clipVisibleStartTime
+               && clipVisibleEndTime == other.clipVisibleEndTime;
+    }
+
+    inline bool operator!=(const ClipTime& other) const { return !this->operator==(other); }
 };
 
 class VerticalRulerTypes

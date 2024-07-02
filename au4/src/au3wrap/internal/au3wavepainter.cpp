@@ -23,7 +23,7 @@
 
 #include "domaccessor.h"
 
-constexpr double CLIPVIEW_WIDTH_MIN = 4; // px
+constexpr double CLIPVIEW_WIDTH_MIN = 12; // px
 
 using Style = au::au3::Au3WavePainter::Style;
 
@@ -363,7 +363,7 @@ int GetWaveYPos(float value, float min, float max,
     return (int)(value * (height - 1) + 0.5);
 }
 
-struct WaveGeometry
+struct WaveMetrics
 {
     double waveTop = 0.0;       // wave channel view top
     double waveHeight = 0.0;    // wave channel view height
@@ -375,10 +375,7 @@ struct WaveGeometry
 
 struct ClipParameters
 {
-    // Do a bunch of calculations common to waveform and spectrum drawing.
-    ClipParameters(const WaveGeometry& geometry, double zoom);
-
-    const WaveGeometry geometry;
+    ClipParameters(const WaveMetrics& geometry, double zoom);
 
     WaveformPainter::Geometry drawGeometry;
 
@@ -388,29 +385,26 @@ struct ClipParameters
     double t1 = 0.0;
 };
 
-ClipParameters::ClipParameters(const WaveGeometry& geomet, double zoom)
-    : geometry(geomet)
+ClipParameters::ClipParameters(const WaveMetrics& metrics, double zoom)
 {
-    double drawWidth = std::min(geometry.relClipLeft + geometry.clipWidth, geometry.frameWidth) - geometry.relClipLeft;
+    double drawWidth = std::min(metrics.relClipLeft + metrics.clipWidth, metrics.frameWidth) - metrics.relClipLeft;
     double drawLeft = 0.0;
-    if (geometry.relClipLeft < 0) {
-        drawLeft = -geometry.relClipLeft;
+    if (metrics.relClipLeft < 0) {
+        drawLeft = -metrics.relClipLeft;
     }
 
-    drawGeometry.top = geometry.waveTop;
-    drawGeometry.left = drawLeft;
-    drawGeometry.height = geometry.waveHeight;
+    drawGeometry.top = metrics.waveTop;
+    drawGeometry.left = 0;//drawLeft;
+    drawGeometry.height = metrics.waveHeight;
     drawGeometry.width = drawWidth;
 
     t0 = drawLeft / zoom;
     t1 = drawWidth / zoom;
 
-    // LOGDA() << " relClipLeft: " << geometry.relClipLeft
-    //         << " clipWidth: " << geometry.clipWidth
-    //         << " frameLeft: " << geometry.frameLeft
-    //         << " frameWidth: " << geometry.frameWidth
-    //         << " draw width: " << drawWidth
-    //         << " draw left: " << drawLeft
+    // LOGDA() << " top: " << drawGeometry.top
+    //         << " left: " << drawGeometry.left
+    //         << " height: " << drawGeometry.height
+    //         << " width: " << drawGeometry.width
     //         << " t0: " << t0
     //         << " t1: " << t1
     // ;
@@ -594,14 +588,14 @@ static void DrawWaveform(int channelIndex,
                          QPainter& painter,
                          WaveTrack& track,
                          const WaveClip& clip,
-                         const WaveGeometry& geometry,
+                         const WaveMetrics& metrics,
                          double zoom,
                          const Style& style,
                          bool dB)
 {
     //If clip is "too small" draw a placeholder instead of
     //attempting to fit the contents into a few pixels
-    if (geometry.clipWidth < CLIPVIEW_WIDTH_MIN) {
+    if (metrics.clipWidth < CLIPVIEW_WIDTH_MIN) {
         //TODO: uncomment and fix me
         /*
       auto clipRect = ClipParameters::GetClipRect(clip, zoomInfo, rect);
@@ -610,7 +604,7 @@ static void DrawWaveform(int channelIndex,
         return;
     }
 
-    const ClipParameters params(geometry, zoom);
+    const ClipParameters params(metrics, zoom);
     if (params.drawGeometry.width < 0.1) {
         return;
     }
@@ -664,7 +658,7 @@ void Au3WavePainter::paint(QPainter& painter, const processing::ClipKey& clipKey
     // if (!(clipKey.trackId == 2 && clipKey.index == 0)) {
     //     return;
     // }
-    // LOGD() << "trackId: " << clipKey.trackId << ", clip: " << clipKey.index;
+    // LOGDA() << "trackId: " << clipKey.trackId << ", clip: " << clipKey.index;
 
     //! Pending tracks are same as project tracks, but with new tracks when recording, so we need draw them
     Track* track = &PendingTracks::Get(projectRef())
@@ -695,7 +689,7 @@ void Au3WavePainter::doPaint(QPainter& painter, const WaveTrack* _track, const W
 
     const Geometry& g = params.geometry;
 
-    WaveGeometry cg;
+    WaveMetrics cg;
     cg.waveHeight = channelHeight;
     cg.clipWidth = g.clipWidth;
     cg.relClipLeft = g.relClipLeft;
