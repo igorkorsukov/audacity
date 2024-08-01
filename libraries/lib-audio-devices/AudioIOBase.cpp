@@ -688,7 +688,7 @@ int AudioIOBase::getRecordDevIndex(const wxString &devNameArg)
       // JKC: This ASSERT will happen if you run with no config file
       // This happens once.  Config file will exist on the next run.
       // TODO: Look into this a bit more.  Could be relevant to blank Device Toolbar.
-      assert(false);
+      wxLogWarning("Not found input device");
       deviceNum = 0;
    }
 
