@@ -24,7 +24,7 @@ include(FetchContent)
 FetchContent_Declare(
   muse_framework
   GIT_REPOSITORY https://github.com/musescore/framework_tmp.git
-  GIT_TAG        u250206
+  GIT_TAG        u250212
 )
 
 FetchContent_GetProperties(muse_framework)
@@ -114,12 +114,8 @@ option(AU_BUILD_RECORD_TESTS "Build record tests" ON)
 option(AU_BUILD_TRACKEDIT_TESTS "Build trackedit tests" ON)
 option(AU_BUILD_EFFECTS_TESTS "Build effects tests" ON)
 
-option(AU_MODULE_EFFECTS_VST "Build audacity vst module" OFF)
-set(AU_MODULE_VST_VST3_SDK_PATH "" CACHE PATH "Path to VST3_SDK. SDK version >= ${VST3_SDK_VERSION} required")
-if (AU_MODULE_EFFECTS_VST)
-    set(MUSE_MODULE_VST ON)
-    set(MUSE_MODULE_VST_VST3_SDK_PATH ${AU_MODULE_VST_VST3_SDK_PATH})
-endif()
+option(AU_MODULE_EFFECTS_VST "Build audacity vst module" ON)
+set(AU_MODULE_VST_VST3_SDK_PATH "" CACHE PATH "[optional] Path to VST3_SDK. SDK version >= ${VST3_SDK_VERSION} required")
 
 # === Setup ===
 
