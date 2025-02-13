@@ -11,6 +11,8 @@
 
 #include "effects/effects_base/effectstypes.h"
 
+class VST3Instance;
+class EffectSettingsAccess;
 namespace au::effects {
 class VstViewModel : public QObject
 {
@@ -36,8 +38,11 @@ signals:
 private:
 
     EffectSettingsAccess* settingsAccess() const;
-    void updateSettings();
+    void settingsToView();
+    void settingsFromView();
 
     EffectInstanceId m_instanceId = -1;
+    std::shared_ptr<VST3Instance> m_auVst3Instance;
+    EffectSettingsAccess* m_settingsAccess = nullptr;
 };
 }

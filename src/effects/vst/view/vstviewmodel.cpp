@@ -13,41 +13,65 @@
 
 using namespace au::effects;
 
-EffectSettingsAccess* VstViewModel::settingsAccess() const
+void VstViewModel::init()
 {
     EffectInstanceId id = this->instanceId();
-    if (id == 0) {
-        return nullptr;
-    }
-
-    return instancesRegister()->settingsAccessById(id);
-}
-
-void VstViewModel::updateSettings()
-{
-    std::shared_ptr<EffectInstance> instance = instancesRegister()->instanceById(this->instanceId());
-    std::shared_ptr<VST3Instance> auVst3Instance = std::dynamic_pointer_cast<VST3Instance>(instance);
-    IF_ASSERT_FAILED(auVst3Instance) {
+    IF_ASSERT_FAILED(id != 0) {
         return;
     }
 
-    VST3Wrapper& w = auVst3Instance->GetWrapper();
-    if (EffectSettingsAccess* access = this->settingsAccess()) {
-        access->ModifySettings([&w](EffectSettings& settings) {
-            w.StoreSettings(settings);
-            return nullptr;
-        });
+    std::shared_ptr<EffectInstance> instance = instancesRegister()->instanceById(this->instanceId());
+    m_auVst3Instance = std::dynamic_pointer_cast<VST3Instance>(instance);
+    IF_ASSERT_FAILED(m_auVst3Instance) {
+        return;
     }
+
+    m_settingsAccess = instancesRegister()->settingsAccessById(id);
+    IF_ASSERT_FAILED(m_settingsAccess) {
+        return;
+    }
+
+    instancesRegister()->settingsChanged(id).onNotify(this, [this]() {
+        settingsToView();
+    });
+
+    settingsToView();
+}
+
+void VstViewModel::settingsToView()
+{
+    IF_ASSERT_FAILED(m_auVst3Instance && m_settingsAccess) {
+        return;
+    }
+
+    VST3Wrapper& w = m_auVst3Instance->GetWrapper();
+    m_settingsAccess->ModifySettings([&w](EffectSettings& settings) {
+        w.FetchSettings(settings);
+        return nullptr;
+    });
+}
+
+void VstViewModel::settingsFromView()
+{
+    IF_ASSERT_FAILED(m_auVst3Instance && m_settingsAccess) {
+        return;
+    }
+
+    VST3Wrapper& w = m_auVst3Instance->GetWrapper();
+    m_settingsAccess->ModifySettings([&w](EffectSettings& settings) {
+        w.StoreSettings(settings);
+        return nullptr;
+    });
 }
 
 void VstViewModel::onApply()
 {
-    updateSettings();
+    settingsFromView();
 }
 
 void VstViewModel::preview()
 {
-    updateSettings();
+    settingsFromView();
 
     if (EffectSettingsAccess* access = this->settingsAccess()) {
         access->ModifySettings([this](EffectSettings& settings) {

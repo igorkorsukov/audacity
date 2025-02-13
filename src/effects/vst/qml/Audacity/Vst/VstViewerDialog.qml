@@ -62,15 +62,14 @@ StyledDialogView {
             // bbox.buttonById(ButtonBoxModel.Apply).enabled = false
         }
 
-        //! NOTE Not implemented
-        // FlatButton {
-        //     id: manageBtn
-        //     text: qsTrc("effects", "Manage")
-        //     buttonRole: ButtonBoxModel.CustomRole
-        //     buttonId: ButtonBoxModel.CustomButton + 1
-        //     isLeftSide: true
-        //     onClicked: viewer.manage(manageBtn)
-        // }
+        FlatButton {
+            id: manageBtn
+            text: qsTrc("effects", "Manage")
+            buttonRole: ButtonBoxModel.CustomRole
+            buttonId: ButtonBoxModel.CustomButton + 1
+            isLeftSide: true
+            onClicked: viewer.manage(manageBtn)
+        }
 
         FlatButton {
             id: previewBtn
