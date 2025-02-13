@@ -25,6 +25,7 @@ import Muse.Ui 1.0
 import Muse.UiComponents 1.0
 
 import Audacity.Vst 1.0
+import Audacity.Effects 1.0
 
 Rectangle {
 
@@ -41,6 +42,7 @@ Rectangle {
 
     Component.onCompleted: {
         view.init()
+        Qt.callLater(manageMenuModel.load)
     }
 
     function onApply() {
@@ -51,9 +53,30 @@ Rectangle {
        viewModel.preview()
     }
 
+    function manage(parent) {
+        var px = parent.x
+        var py = parent.y + parent.height
+        var pos = mapFromItem(parent, px, py)
+
+        menuLoader.show(pos, manageMenuModel)
+    }
+
     VstViewModel {
         id: viewModel
         instanceId: view.instanceId
+    }
+
+    EffectManageMenu {
+        id: manageMenuModel
+        instanceId: view.instanceId
+    }
+
+    ContextMenuLoader {
+        id: menuLoader
+
+        onHandleMenuItem: function(itemId) {
+            manageMenuModel.handleMenuItem(itemId)
+        }
     }
 
     VstView {
