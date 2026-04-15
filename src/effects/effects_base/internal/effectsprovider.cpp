@@ -4,8 +4,6 @@
 #include "effectsprovider.h"
 #include "effectsutils.h"
 
-#include "au3wrap/internal/wxtypes_convert.h"
-
 #include "au3-effects/Effect.h"
 #include "au3-effects/EffectManager.h"
 #include "au3-realtime-effects/RealtimeEffectState.h"
@@ -13,6 +11,7 @@
 #include "au3-module-manager/ModuleManager.h"
 
 #include "framework/global/log.h"
+#include "stringutils.h"
 
 #include <map>
 
@@ -218,13 +217,13 @@ bool EffectsProvider::loadEffect(const EffectId& effectId) const
 
 std::string EffectsProvider::effectName(const std::string& effectId) const
 {
-    const auto it = std::find_if(m_effects.begin(), m_effects.end(), [&](const EffectMeta& meta) {
-        return meta.id == effectId;
-    });
-    if (it == m_effects.end()) {
-        return "";
+    std::vector<std::string> strings;
+    muse::strings::split(effectId, strings, "_");
+    if (strings.size() == 5) {
+        return strings[3];
     }
-    return it->title.toStdString();
+    assert(false);
+    return {};
 }
 
 std::string EffectsProvider::effectName(const effects::RealtimeEffectState& state) const
