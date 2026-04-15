@@ -352,7 +352,7 @@ void RealtimeEffectService::moveRealtimeEffect(const RealtimeEffectStatePtr& sta
 
 bool RealtimeEffectService::isActive(const RealtimeEffectStatePtr& state) const
 {
-    if (state == nullptr) {
+    if (!isAvailable(state)) {
         return false;
     }
     return state->GetSettings().extra.GetActive();
@@ -360,7 +360,7 @@ bool RealtimeEffectService::isActive(const RealtimeEffectStatePtr& state) const
 
 void RealtimeEffectService::setIsActive(const RealtimeEffectStatePtr& state, bool isActive)
 {
-    if (state == nullptr) {
+    if (!isAvailable(state)) {
         return;
     }
     if (state->GetSettings().extra.GetActive() == isActive) {
@@ -430,6 +430,15 @@ const EffectInstanceFactory* RealtimeEffectService::getInstanceFactory(const Plu
     return EffectManager::GetInstanceFactory(id, [provider](const PluginID& id) -> EffectSettingsManager* {
         return provider->effect(muse::String::fromStdString(id.ToStdString()));
     });
+}
+
+bool RealtimeEffectService::isAvailable(const RealtimeEffectStatePtr& state) const
+{
+    if (!state) {
+        return false;
+    }
+    const auto meta = effectsProvider()->meta(muse::String::fromStdString(state->GetID().ToStdString()));
+    return meta.isValid();
 }
 }
 

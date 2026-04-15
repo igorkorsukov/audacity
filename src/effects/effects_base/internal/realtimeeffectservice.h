@@ -62,6 +62,8 @@ public:
     std::optional<std::string> effectTrackName(const RealtimeEffectStatePtr& state) const override;
     std::optional<std::vector<RealtimeEffectStatePtr> > effectStack(TrackId trackId) const override;
 
+    bool isAvailable(const RealtimeEffectStatePtr& state) const override;
+
     bool isActive(const RealtimeEffectStatePtr&) const override;
     void setIsActive(const RealtimeEffectStatePtr&, bool) override;
     muse::async::Channel<RealtimeEffectStatePtr> isActiveChanged() const override;
