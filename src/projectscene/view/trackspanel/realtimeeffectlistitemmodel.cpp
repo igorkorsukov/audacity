@@ -44,6 +44,11 @@ bool RealtimeEffectListItemModel::prop_isMasterEffect() const
     return realtimeEffectService()->trackId(state) == effects::IRealtimeEffectService::masterTrackId;
 }
 
+bool RealtimeEffectListItemModel::prop_isAvailable() const
+{
+    return realtimeEffectService()->isAvailable(m_effectState.lock());
+}
+
 QString RealtimeEffectListItemModel::effectName() const
 {
     const auto state = m_effectState.lock();
@@ -83,18 +88,12 @@ void RealtimeEffectListItemModel::showEffectDialog()
 bool RealtimeEffectListItemModel::prop_isActive() const
 {
     const auto state = m_effectState.lock();
-    IF_ASSERT_FAILED(state) {
-        return false;
-    }
     return realtimeEffectService()->isActive(state);
 }
 
 void RealtimeEffectListItemModel::prop_setIsActive(bool isActive)
 {
     const auto state = m_effectState.lock();
-    IF_ASSERT_FAILED(state) {
-        return;
-    }
     realtimeEffectService()->setIsActive(state, isActive);
 }
 }

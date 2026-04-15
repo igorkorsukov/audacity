@@ -25,7 +25,7 @@ ListItemBlank {
     property int gripReorderTargetIndex: -1
 
     signal gripReorderCommitted(int targetIndex, bool focusGripHandle)
-    signal effectDialogOpened()
+    signal effectDialogOpened
 
     property NavigationPanel innerNavigationPanel: NavigationPanel {
         name: prv.title + " controls"
@@ -284,6 +284,8 @@ ListItemBlank {
         BypassEffectButton {
             id: bypassButton
 
+            enabled: item && item.isAvailable
+
             Layout.margins: 0
             Layout.alignment: Qt.AlignVCenter
             Layout.preferredWidth: root.height
@@ -304,6 +306,8 @@ ListItemBlank {
 
         FlatButton {
             id: effectNameButton
+
+            enabled: item && item.isAvailable
 
             navigation.panel: root.innerNavigationPanel
             navigation.order: bypassButton.navigation.order + 1
@@ -387,7 +391,7 @@ ListItemBlank {
                 return
             }
 
-            Qt.callLater(function() {
+            Qt.callLater(function () {
                 if (!root.innerNavigationPanel.active) {
                     root.innerNavigationActive = false
                     root.innerGripReorderActive = false
@@ -413,7 +417,7 @@ ListItemBlank {
 
         function onActiveChanged() {
             if (!gripButton.navigation.active) {
-                Qt.callLater(function() {
+                Qt.callLater(function () {
                     if (root.innerGripReorderActive || root.gripReorderTargetIndex >= 0) {
                         root.commitGripReorder(true)
                     }
