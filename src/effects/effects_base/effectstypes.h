@@ -209,6 +209,7 @@ struct EffectMeta {
     bool isRealtimeCapable = false;
     bool paramsAreInputAgnostic = true;
     bool isActivated = true;
+    bool isLoadable = true;
 
     bool isValid() const { return !id.empty(); }
 };
