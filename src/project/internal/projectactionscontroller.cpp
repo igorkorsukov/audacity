@@ -927,7 +927,12 @@ Ret ProjectActionsController::doOpenProject(const io::path_t& filePath)
 
     projectHistory()->init();
 
-    return openPageIfNeed(PROJECT_PAGE_URI);
+    const Ret ret = openPageIfNeed(PROJECT_PAGE_URI);
+    if (ret) {
+        missingEffectChecker()->warnIfEffectsMissing();
+    }
+
+    return ret;
 }
 
 //! TODO AU4
