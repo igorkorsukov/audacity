@@ -4,6 +4,8 @@
 #include "missingeffectchecker.h"
 
 #include "framework/global/log.h"
+#include "framework/global/types/uri.h"
+#include "framework/global/types/val.h"
 
 #include <set>
 
@@ -37,6 +39,14 @@ void MissingEffectChecker::warnIfEffectsMissing()
         return;
     }
 
-    interactive()->openSync("audacity://effects/missing_plugins");
+    muse::ValList names;
+    names.reserve(missingEffects.size());
+    for (const auto& name : missingEffects) {
+        names.push_back(muse::Val(name));
+    }
+
+    muse::UriQuery query("audacity://effects/missing_plugins");
+    query.addParam("missingPlugins", muse::Val(names));
+    interactive()->openSync(query);
 }
 }
