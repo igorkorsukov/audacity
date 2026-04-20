@@ -12,8 +12,8 @@ StyledDialogView {
 
     title: qsTrc("effects", "Missing plugins")
 
-    contentWidth: 480
-    contentHeight: 280
+    contentWidth: 560
+    contentHeight: 360
 
     margins: 12
 
@@ -47,6 +47,30 @@ StyledDialogView {
         order: 0
     }
 
+    ListModel {
+        id: pluginsModel
+    }
+
+    function populateModel() {
+        pluginsModel.clear()
+        const entries = root.missingPlugins || []
+        for (let i = 0; i < entries.length; ++i) {
+            pluginsModel.append({
+                name: entries[i].name || "",
+                path: entries[i].path || "",
+                vendor: entries[i].vendor || ""
+            })
+        }
+    }
+
+    Component.onCompleted: {
+        if (!root.missingPlugins) {
+            console.error("missing required property `missingPlugins`")
+            return
+        }
+        populateModel()
+    }
+
     ColumnLayout {
         anchors.fill: parent
         spacing: 12
@@ -76,33 +100,37 @@ StyledDialogView {
                     Layout.fillWidth: true
                     horizontalAlignment: Text.AlignLeft
                     wrapMode: Text.WordWrap
-                    text: qsTrc("effects", "Some plugins used in this project were not found:")
+                    text: qsTrc("effects", "Some plugins used in this project were not found. Double-click an entry to see its location.")
                 }
             }
         }
 
-        TextInputArea {
+        ValueList {
+            id: pluginsList
+
             Layout.fillWidth: true
             Layout.fillHeight: true
 
-            navigation.panel: navigationPanel
-            navigation.order: okButton.navigation.order + 1
-            navigation.name: "MissingPluginsList"
+            readOnly: true
+            sorterEnabled: true
 
-            currentText: (root.missingPlugins || []).map(function (name) {
-                return "\u2022  " + name
-            }).join("\n")
+            keyColumnWidth: 100
+            keyRoleName: "name"
+            keyTitle: qsTrc("effects", "Name")
 
-            Component.onCompleted: {
-                inputField.readOnly = true
-                inputField.activeFocusOnPress = true
-                inputField.persistentSelection = true
-            }
+            valueRoleName: "path"
+            valueTitle: qsTrc("effects", "Path")
 
-            Keys.onShortcutOverride: function (event) {
-                if (event.matches(StandardKey.Copy) || event.matches(StandardKey.SelectAll)) {
-                    event.accepted = true
-                }
+            navigationSection: root.navigationSection
+            navigationOrderStart: 1
+
+            model: pluginsModel
+
+            onHandleItem: function (index, item) {
+                detailDialog.pluginName = item.name
+                detailDialog.pluginPath = item.path
+                detailDialog.pluginVendor = item.vendor
+                detailDialog.open()
             }
         }
 
@@ -120,6 +148,107 @@ StyledDialogView {
             onClicked: {
                 root.accept()
             }
+        }
+    }
+
+    StyledDialogView {
+        id: detailDialog
+
+        title: qsTrc("effects", "Plugin details")
+
+        contentWidth: 520
+        contentHeight: detailLayout.implicitHeight
+        margins: 12
+
+        property string pluginName: ""
+        property string pluginPath: ""
+        property string pluginVendor: ""
+
+        NavigationPanel {
+            id: detailNavPanel
+            name: "MissingPluginDetailsPanel"
+            section: detailDialog.navigationSection
+            order: 0
+        }
+
+        Column {
+            id: detailLayout
+
+            anchors.fill: parent
+            spacing: 12
+
+            StyledTextLabel {
+                anchors.left: parent.left
+                anchors.right: parent.right
+
+                horizontalAlignment: Text.AlignLeft
+                text: detailDialog.pluginName
+                font: ui.theme.headerBoldFont
+            }
+
+            GridLayout {
+                anchors.left: parent.left
+                anchors.right: parent.right
+
+                columns: 2
+                columnSpacing: 12
+                rowSpacing: 6
+
+                StyledTextLabel {
+                    Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
+                    text: qsTrc("effects", "Vendor:")
+                }
+
+                StyledTextLabel {
+                    Layout.fillWidth: true
+                    horizontalAlignment: Text.AlignLeft
+                    text: detailDialog.pluginVendor.length > 0 ? detailDialog.pluginVendor : qsTrc("effects", "Unknown")
+                }
+
+                StyledTextLabel {
+                    Layout.alignment: Qt.AlignRight | Qt.AlignTop
+                    Layout.topMargin: 6
+                    text: qsTrc("effects", "Path:")
+                }
+
+                TextInputField {
+                    id: pathField
+
+                    Layout.fillWidth: true
+
+                    navigation.panel: detailNavPanel
+                    navigation.order: 0
+                    navigation.name: "PluginPath"
+
+                    readOnly: true
+                    currentText: detailDialog.pluginPath
+
+                    Component.onCompleted: {
+                        inputField.persistentSelection = true
+                    }
+                }
+            }
+
+            FlatButton {
+                id: detailCloseButton
+
+                anchors.right: parent.right
+
+                navigation.panel: detailNavPanel
+                navigation.order: 1
+                navigation.name: "Close"
+
+                text: qsTrc("effects", "Close")
+
+                onClicked: detailDialog.close()
+            }
+        }
+
+        onOpened: {
+            Qt.callLater(function () {
+                pathField.forceActiveFocus()
+                pathField.selectAll()
+            })
         }
     }
 }

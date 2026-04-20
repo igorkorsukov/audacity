@@ -215,6 +215,12 @@ bool EffectsProvider::loadEffect(const EffectId& effectId) const
     return loader->ensurePluginIsLoaded(effectId);
 }
 
+std::string EffectsProvider::effectPath(const std::string& effectId) const
+{
+    // Parse rather than querying meta in case the effect is missing
+    return utils::parseEffectPath(muse::String::fromStdString(effectId));
+}
+
 std::string EffectsProvider::effectName(const std::string& effectId) const
 {
     // Parse rather than querying meta in case the effect is missing

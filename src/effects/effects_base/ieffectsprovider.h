@@ -29,6 +29,7 @@ public:
     virtual EffectMeta meta(const EffectId& effectId) const = 0;
     virtual std::string effectName(const std::string& effectId) const = 0;
     virtual std::string effectName(const effects::RealtimeEffectState& state) const = 0;
+    virtual std::string effectPath(const std::string& effectId) const = 0;
     virtual bool paramsAreInputAgnostic(const EffectId& effectId) const = 0;
 
     virtual muse::async::Notification effectMetaListChanged() const = 0;

@@ -7,6 +7,9 @@
 #include "framework/global/types/uri.h"
 #include "framework/global/types/val.h"
 
+#include "au3-realtime-effects/RealtimeEffectState.h"
+#include "effectsutils.h"
+
 #include <set>
 
 namespace au::effects {
@@ -17,7 +20,7 @@ void MissingEffectChecker::warnIfEffectsMissing()
         return;
     }
 
-    std::set<std::string> missingEffects;
+    std::set<EffectId> missingEffectIds;
 
     const std::vector<trackedit::TrackId> trackIds = project->trackIdList();
     for (const auto trackId : trackIds) {
@@ -27,22 +30,26 @@ void MissingEffectChecker::warnIfEffectsMissing()
         }
         for (const auto& state : *effectStack) {
             if (!realtimeEffectService()->isAvailable(state)) {
-                const auto name = realtimeEffectService()->effectName(state);
-                if (name) {
-                    missingEffects.insert(*name);
-                }
+                missingEffectIds.insert(EffectId::fromStdString(state->GetID().ToStdString()));
             }
         }
     }
 
-    if (missingEffects.empty()) {
+    if (missingEffectIds.empty()) {
         return;
     }
 
+    // Missing plugins aren't in the scanner registry, so effectsProvider()->meta(id)
+    // returns an empty EffectMeta. Use the id parsers instead, which work for the
+    // missing case. Version isn't part of the id and is therefore unrecoverable here.
     muse::ValList names;
-    names.reserve(missingEffects.size());
-    for (const auto& name : missingEffects) {
-        names.push_back(muse::Val(name));
+    names.reserve(missingEffectIds.size());
+    for (const auto& id : missingEffectIds) {
+        names.push_back(muse::Val { muse::ValMap {
+                                        { "name", muse::Val(utils::parseEffectName(id)) },
+                                        { "vendor", muse::Val(utils::parseEffectVendor(id)) },
+                                        { "path", muse::Val(utils::parseEffectPath(id)) }
+                                    } });
     }
 
     muse::UriQuery query("audacity://effects/missing_plugins");
