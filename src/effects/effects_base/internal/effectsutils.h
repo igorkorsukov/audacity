@@ -10,6 +10,8 @@
 #include "framework/uicomponents/qml/Muse/UiComponents/menuitem.h"
 #include "framework/audio/common/audiotypes.h"
 
+class EffectDefinitionInterface;
+
 namespace au::effects::utils {
 using EffectFilter = std::function<bool (const EffectMeta&)>;
 
@@ -18,6 +20,13 @@ muse::uicomponents::MenuItemList destructiveEffectMenu(EffectMenuOrganization or
 
 muse::uicomponents::MenuItemList realtimeEffectMenu(EffectMenuOrganization organization, EffectMetaList metaList,
                                                     const EffectFilter& filter, IEffectMenuItemFactory& effectMenu);
+
+EffectId effectId(const EffectDefinitionInterface* effect);
+
+std::string parseEffectName(const EffectId& effectId);
+std::string parseEffectVendor(const EffectId& effectId);
+std::string parseEffectFamily(const EffectId& effectId);
+std::string parseEffectPath(const EffectId& effectId);
 
 muse::String effectTypeToString(EffectType type);
 EffectType effectTypeFromString(const muse::String& type);

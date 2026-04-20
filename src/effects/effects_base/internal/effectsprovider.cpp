@@ -217,13 +217,8 @@ bool EffectsProvider::loadEffect(const EffectId& effectId) const
 
 std::string EffectsProvider::effectName(const std::string& effectId) const
 {
-    std::vector<std::string> strings;
-    muse::strings::split(effectId, strings, "_");
-    if (strings.size() == 5) {
-        return strings[3];
-    }
-    assert(false);
-    return {};
+    // Parse rather than querying meta in case the effect is missing
+    return utils::parseEffectName(muse::String::fromStdString(effectId));
 }
 
 std::string EffectsProvider::effectName(const effects::RealtimeEffectState& state) const

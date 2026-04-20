@@ -5,7 +5,6 @@
 
 #include "au3-module-manager/PluginDescriptor.h"
 #include "effects/effects_base/effectstypes.h"
-#include "au3-components/EffectInterface.h"
 
 namespace au::effects {
 constexpr auto toAu4EffectCategory(::EffectGroup group)
@@ -76,6 +75,4 @@ constexpr ::EffectType toAu3EffectType(EffectType type)
 }
 
 EffectMeta toEffectMeta(const ::PluginDescriptor& desc);
-
-::PluginID effectId(const EffectDefinitionInterface* effect);
 }
