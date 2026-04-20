@@ -859,7 +859,7 @@ void RealtimeEffectState::WriteXML(XMLWriter& xmlFile)
     xmlFile.StartTag(XMLTag());
     const auto active = mMainSettings.settings.extra.GetActive();
     xmlFile.WriteAttr(activeAttribute, active);
-    xmlFile.WriteAttr(idAttribute, PluginManager::GetID(mPlugin));
+    xmlFile.WriteAttr(idAttribute, mID);
     xmlFile.WriteAttr(versionAttribute, mPlugin->GetVersion());
 
     CommandParameters cmdParms;
