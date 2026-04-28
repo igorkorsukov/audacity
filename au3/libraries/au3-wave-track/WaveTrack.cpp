@@ -2243,6 +2243,120 @@ void WaveTrack::Disjoin(double t0, double t1)
     }
 }
 
+namespace {
+// Build an envelope for `target` from the visible (play-range)
+// automation points of each clip in `sources`, in order. The audio side
+// of `target` is left untouched; only its envelope is replaced.
+//
+// Boundary preserves are emitted at every clip's play start and play end.
+// At seams between adjacent clips the preserves coincide in time:
+//   - if their values agree (within kSeamValueTolerance), the second
+//     emission is suppressed and a single preserve carries both;
+//   - if their values disagree, the second emission is appended via raw
+//     Envelope::Insert after the first.
+void RebuildJoinedEnvelope(
+    WaveClip& target, const WaveTrack::IntervalHolders& sources, int rate)
+{
+    const auto& templateEnv = target.GetEnvelope();
+    auto rebuilt = std::make_unique<Envelope>(
+        templateEnv.GetExponential(),
+        templateEnv.GetMinValue(),
+        templateEnv.GetMaxValue(),
+        templateEnv.GetDefaultValue());
+    rebuilt->SetOffset(target.GetSequenceStartTime());
+    const double newSeqLen
+        =target.GetSequenceEndTime() - target.GetSequenceStartTime();
+    const double sampleDur = 1.0 / rate;
+    rebuilt->SetTrackLen(newSeqLen, sampleDur);
+
+    const double interiorMargin = sampleDur / 2;
+    // Tolerance for deciding whether two boundary values are the same.
+    // Matches the constant used inside Envelope.cpp.
+    constexpr double kSeamValueTolerance = 0.001;
+    const double offset = rebuilt->GetOffset();
+
+    bool hasLast = false;
+    double lastT = 0.0;
+    double lastV = 0.0;
+
+    auto emit = [&](double absT, double value) {
+        const double relT = absT - offset;
+        if (!hasLast || relT > lastT + interiorMargin) {
+            rebuilt->Insert(relT, value);
+            hasLast = true;
+            lastT = relT;
+            lastV = value;
+            return;
+        }
+        // Coincident in time with the previous emission.
+        if (fabs(value - lastV) <= kSeamValueTolerance) {
+            return; // same point, suppress duplicate
+        }
+        // Genuine seam discontinuity: append a second point at the same
+        // time with the new value. Raw indexed Insert is needed because
+        // InsertOrReplace would overwrite the previous point.
+        rebuilt->Insert(
+            static_cast<int>(rebuilt->GetNumberOfPoints()),
+            EnvPoint { relT, value });
+        lastV = value;
+    };
+
+    // Returns true if the source envelope has an explicit control point at
+    // absT (within interiorMargin). Used to decide whether to keep the
+    // outer boundary points -- we skip them when they were synthesized by
+    // the trim, but preserve them when the user had placed a real point
+    // there before the join.
+    auto hasExplicitPointAt = [&](const Envelope& env, double absT) {
+        const double srcOffset = env.GetOffset();
+        const auto n = env.GetNumberOfPoints();
+        for (size_t j = 0; j < n; ++j) {
+            const double t = srcOffset + env[static_cast<int>(j)].GetT();
+            if (t < absT - interiorMargin) {
+                continue;
+            }
+            if (t > absT + interiorMargin) {
+                break;
+            }
+            return true;
+        }
+        return false;
+    };
+
+    const size_t numSources = sources.size();
+    for (size_t i = 0; i < numSources; ++i) {
+        const auto& clip = sources[i];
+        const auto& srcEnv = clip->GetEnvelope();
+        const double srcOffset = srcEnv.GetOffset();
+        const double playStart = clip->GetPlayStartTime();
+        const double playEnd = clip->GetPlayEndTime();
+        const bool isFirst = (i == 0);
+        const bool isLast = (i + 1 == numSources);
+
+        // Skip the outer boundaries unless the user had already placed an
+        // explicit point exactly at playStart / playEnd before the join.
+        if (!isFirst || hasExplicitPointAt(srcEnv, playStart)) {
+            emit(playStart, srcEnv.GetValue(playStart));
+        }
+
+        const auto n = srcEnv.GetNumberOfPoints();
+        for (size_t j = 0; j < n; ++j) {
+            const auto& p = srcEnv[static_cast<int>(j)];
+            const double absT = srcOffset + p.GetT();
+            if (absT > playStart + interiorMargin
+                && absT < playEnd - interiorMargin) {
+                emit(absT, p.GetVal());
+            }
+        }
+
+        if (!isLast || hasExplicitPointAt(srcEnv, playEnd)) {
+            emit(playEnd, srcEnv.GetValue(playEnd));
+        }
+    }
+
+    target.SetEnvelope(std::move(rebuilt));
+}
+}
+
 /*! @excsafety{Weak} */
 void WaveTrack::Join(
     double t0, double t1, const ProgressReporter& reportProgress)
@@ -2321,6 +2435,8 @@ void WaveTrack::Join(
 
         RemoveClip(FindClip(*clip));
     }
+
+    RebuildJoinedEnvelope(*newClip, clipsToDelete, rate);
 
     InsertInterval(move(newClip), false);
 }
