@@ -38,10 +38,6 @@ void PluginManagerTableViewModel::componentComplete()
     m_initialState = effectsProvider()->effectMetaList();
     rebuildSourceTable(m_initialState);
 
-    effectsProvider()->effectMetaListChanged().onNotify(this, [this]() {
-        rebuildSourceTable(effectsProvider()->effectMetaList());
-    });
-
     // Initial sort: start from least important.
     m_sortFilterProxy->toggleColumnSort(s_enabledDisabledColumnIndex);
     m_sortFilterProxy->toggleColumnSort(s_pathColumnIndex);
@@ -302,6 +298,9 @@ void PluginManagerTableViewModel::handleEdit(int proxyRow, int column)
 
 void PluginManagerTableViewModel::rescanPlugins()
 {
+    // Save changes so far
+    effectsProvider()->save();
+
     if (m_alsoRescanBrokenPlugins) {
         effectsProvider()->forgetPlugins([](const EffectMeta& meta) {
             return !meta.isLoadable;
@@ -312,6 +311,8 @@ void PluginManagerTableViewModel::rescanPlugins()
         return !m_acceptFamily(meta) || !m_acceptType(meta);
     };
     effectsProvider()->rescanPlugins(*interactive(), *registerAudioPluginsScenario(), excludeFromScan);
+
+    rebuildSourceTable(effectsProvider()->effectMetaList());
 }
 
 void PluginManagerTableViewModel::accept()
