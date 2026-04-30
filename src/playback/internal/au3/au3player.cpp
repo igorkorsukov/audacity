@@ -36,8 +36,11 @@ Au3Player::Au3Player(const muse::modularity::ContextPtr& ctx)
 
         if (st != PlaybackStatus::Stopped) {
             m_timer.start();
-        } else if (!AudioIO::Get()->IsStreamActive()) {
-            m_timer.stop();
+        } else {
+            int token = ProjectAudioIO::Get(projectRef()).GetAudioIOToken();
+            if (!AudioIO::Get()->IsStreamActive(token)) {
+                m_timer.stop();
+            }
         }
     });
 
