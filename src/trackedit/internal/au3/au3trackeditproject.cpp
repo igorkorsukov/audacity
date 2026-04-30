@@ -363,12 +363,16 @@ void Au3TrackeditProject::notifyAboutClipRemoved(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemRemoved(clip);
+
+    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutClipAdded(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemAdded(clip);
+
+    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutLabelChanged(const Label& label)
