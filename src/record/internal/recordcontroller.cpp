@@ -69,16 +69,6 @@ bool RecordController::isRecording() const
            || m_currentRecordStatus == RecordStatus::LeadIn;
 }
 
-Channel<muse::secs_t> RecordController::recordPositionChanged() const
-{
-    return record()->recordPositionChanged();
-}
-
-secs_t RecordController::recordPosition() const
-{
-    return record()->recordPosition();
-}
-
 const std::vector<au::trackedit::ClipKey>& RecordController::recordingClipKeys() const
 {
     return record()->recordingClipKeys();

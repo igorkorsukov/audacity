@@ -617,11 +617,6 @@ muse::async::Channel<muse::secs_t> Au3Record::recordPositionChanged() const
     return m_recordPosition.ch;
 }
 
-secs_t Au3Record::recordPosition() const
-{
-    return m_recordPosition.val;
-}
-
 const std::vector<au::trackedit::ClipKey>& Au3Record::recordingClipKeys() const
 {
     return m_recordingClipKeys;

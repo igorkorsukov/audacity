@@ -50,7 +50,6 @@ public:
 
     IAudioInputPtr audioInput() const override;
 
-    muse::secs_t recordPosition() const override;
     muse::async::Channel<muse::secs_t> recordPositionChanged() const override;
 
     const std::vector<trackedit::ClipKey>& recordingClipKeys() const override;
