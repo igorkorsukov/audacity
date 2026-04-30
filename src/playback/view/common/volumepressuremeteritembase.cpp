@@ -110,6 +110,8 @@ void VolumePressureMeterItemBase::setRecentPeakIntervalMilliseconds(int v)
     }
     m_recentPeakIntervalMs = v;
     emit recentPeakIntervalMillisecondsChanged();
+    updateRecentPeak();
+    update();
 }
 
 void VolumePressureMeterItemBase::setClippedColor(const QColor& c)
