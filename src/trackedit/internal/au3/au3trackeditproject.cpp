@@ -291,31 +291,26 @@ std::optional<std::string> Au3TrackeditProject::trackName(const TrackId& trackId
 void Au3TrackeditProject::reload()
 {
     m_tracksChanged.send(trackList());
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutTrackAdded(const Track& track)
 {
     m_trackAdded.send(track);
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutTrackChanged(const Track& track)
 {
     m_trackChanged.send(track);
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutTrackRemoved(const Track& track)
 {
     m_trackRemoved.send(track);
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutTrackInserted(const Track& track, int pos)
 {
     m_trackInserted.send(track, pos);
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutTrackMoved(const Track& track, int pos)
@@ -356,8 +351,6 @@ au::trackedit::Label Au3TrackeditProject::label(const LabelKey& key) const
 void Au3TrackeditProject::notifyAboutTrackClipListChanged(const Track& track)
 {
     m_trackClipListChanged.send(track);
-
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutClipChanged(const Clip& clip)
@@ -370,16 +363,12 @@ void Au3TrackeditProject::notifyAboutClipRemoved(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemRemoved(clip);
-
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutClipAdded(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemAdded(clip);
-
-    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutLabelChanged(const Label& label)
