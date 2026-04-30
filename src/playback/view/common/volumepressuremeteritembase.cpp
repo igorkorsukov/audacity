@@ -103,13 +103,13 @@ void VolumePressureMeterItemBase::setMaxDisplayedVolumePressure(qreal v)
     update();
 }
 
-void VolumePressureMeterItemBase::setRecentPeakIntervalMiliseconds(int v)
+void VolumePressureMeterItemBase::setRecentPeakIntervalMilliseconds(int v)
 {
     if (m_recentPeakIntervalMs == v) {
         return;
     }
     m_recentPeakIntervalMs = v;
-    emit recentPeakIntervalMilisecondsChanged();
+    emit recentPeakIntervalMillisecondsChanged();
 }
 
 void VolumePressureMeterItemBase::setClippedColor(const QColor& c)

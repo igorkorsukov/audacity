@@ -25,8 +25,8 @@ class VolumePressureMeterItemBase : public QQuickPaintedItem
     Q_PROPERTY(qreal maxDisplayedVolumePressure READ maxDisplayedVolumePressure WRITE setMaxDisplayedVolumePressure NOTIFY
                maxDisplayedVolumePressureChanged)
 
-    Q_PROPERTY(int recentPeakIntervalMiliseconds READ recentPeakIntervalMiliseconds WRITE setRecentPeakIntervalMiliseconds NOTIFY
-               recentPeakIntervalMilisecondsChanged)
+    Q_PROPERTY(int recentPeakIntervalMilliseconds READ recentPeakIntervalMilliseconds WRITE setRecentPeakIntervalMilliseconds NOTIFY
+               recentPeakIntervalMillisecondsChanged)
 
     Q_PROPERTY(QColor clippedColor READ clippedColor WRITE setClippedColor NOTIFY clippedColorChanged)
     Q_PROPERTY(QColor noClippedColor READ noClippedColor WRITE setNoClippedColor NOTIFY noClippedColorChanged)
@@ -62,8 +62,8 @@ public:
     qreal maxDisplayedVolumePressure() const { return m_maxDisplayedVolumePressure; }
     void setMaxDisplayedVolumePressure(qreal v);
 
-    int recentPeakIntervalMiliseconds() const { return m_recentPeakIntervalMs; }
-    void setRecentPeakIntervalMiliseconds(int v);
+    int recentPeakIntervalMilliseconds() const { return m_recentPeakIntervalMs; }
+    void setRecentPeakIntervalMilliseconds(int v);
 
     QColor clippedColor() const { return m_clippedColor; }
     void setClippedColor(const QColor& c);
@@ -101,7 +101,7 @@ signals:
     void currentRMSChanged();
     void minDisplayedVolumePressureChanged();
     void maxDisplayedVolumePressureChanged();
-    void recentPeakIntervalMilisecondsChanged();
+    void recentPeakIntervalMillisecondsChanged();
     void clippedColorChanged();
     void noClippedColorChanged();
     void rmsColorChanged();
