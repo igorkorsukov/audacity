@@ -43,3 +43,18 @@ int TrackClipItem::speedPercentage() const
 {
     return qRound(100.0 / m_speed);
 }
+
+bool TrackClipItem::isPitchModified() const
+{
+    return m_pitch != 0;
+}
+
+bool TrackClipItem::isSpeedModified() const
+{
+    return m_speed != 1.0;
+}
+
+double TrackClipItem::speed() const
+{
+    return m_speed;
+}
