@@ -36,6 +36,10 @@ void PluginManagerTableViewModel::componentComplete()
 {
     setHorizontalHeaders(makeHorizontalHeaders());
     m_initialState = effectsProvider()->effectMetaList();
+    m_initialState.erase(std::remove_if(m_initialState.begin(), m_initialState.end(), [](const EffectMeta& meta) {
+        // 3rd-party plugins typically also have instruments (e.g. VSTi) but we don't support them yet.
+        return meta.type == EffectType::Unknown;
+    }), m_initialState.end());
     rebuildSourceTable(m_initialState);
 
     // Initial sort: start from least important.
