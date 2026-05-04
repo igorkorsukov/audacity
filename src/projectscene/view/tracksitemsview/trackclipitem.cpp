@@ -3,6 +3,8 @@
 */
 #include "trackclipitem.h"
 
+#include "framework/global/realfn.h"
+
 using namespace au::projectscene;
 
 TrackClipItem::TrackClipItem(QObject* parent)
@@ -51,7 +53,7 @@ bool TrackClipItem::isPitchModified() const
 
 bool TrackClipItem::isSpeedModified() const
 {
-    return m_speed != 1.0;
+    return !muse::RealIsEqual(m_speed, 1.0);
 }
 
 double TrackClipItem::speed() const
