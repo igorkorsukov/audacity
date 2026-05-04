@@ -55,6 +55,7 @@ static const ActionCode RANGE_SELECTION_DELETE_CODE("clip-delete-selected");
 
 static const ActionCode OPEN_CLIP_AND_SPEED_CODE("clip-pitch-speed-open");
 static const ActionCode CLIP_RENDER_PITCH_AND_SPEED_CODE("clip-render-pitch-speed");
+static const ActionCode CLIP_RESET_PITCH_AND_SPEED_CODE("clip-reset-pitch-speed");
 static const ActionCode TRACK_SPLIT("track-split");
 static const ActionCode TRACK_SPLIT_AT("track-split-at");
 static const ActionCode SPLIT_CLIPS_AT_SILENCES("split-clips-at-silences");
@@ -238,6 +239,7 @@ void TrackeditActionsController::init()
 
     dispatcher()->reg(this, OPEN_CLIP_AND_SPEED_CODE, this, &TrackeditActionsController::openClipPitchAndSpeed);
     dispatcher()->reg(this, CLIP_RENDER_PITCH_AND_SPEED_CODE, this, &TrackeditActionsController::renderClipPitchAndSpeed);
+    dispatcher()->reg(this, CLIP_RESET_PITCH_AND_SPEED_CODE, this, &TrackeditActionsController::resetClipPitchAndSpeed);
     dispatcher()->reg(this, TRACK_SPLIT, this, &TrackeditActionsController::trackSplit);
     dispatcher()->reg(this, TRACK_SPLIT_AT, this, &TrackeditActionsController::tracksSplitAt);
     dispatcher()->reg(this, SPLIT_RANGE_SELECTION_AT_SILENCES, this, &TrackeditActionsController::splitRangeSelectionAtSilences);
@@ -1603,6 +1605,21 @@ void TrackeditActionsController::renderClipPitchAndSpeed(const muse::actions::Ac
     }
 
     trackeditInteraction()->renderClipPitchAndSpeed(clipKey);
+}
+
+void TrackeditActionsController::resetClipPitchAndSpeed(const muse::actions::ActionData& args)
+{
+    IF_ASSERT_FAILED(args.count() == 1) {
+        return;
+    }
+
+    trackedit::ClipKey clipKey = args.arg<trackedit::ClipKey>(0);
+    if (!clipKey.isValid()) {
+        return;
+    }
+
+    trackeditInteraction()->resetClipPitch(clipKey);
+    trackeditInteraction()->resetClipSpeed(clipKey);
 }
 
 void TrackeditActionsController::groupClips()

@@ -41,7 +41,10 @@ void ClipContextMenuModel::load()
     updateStretchEnabledState(*enableStretchItem);
 
     auto renderPitchSpeedItem = makeItemWithArg("clip-render-pitch-speed");
-    updateRenderPitchSpeedEnabledState(*renderPitchSpeedItem);
+    updatePitchSpeedModifiedEnabledState(*renderPitchSpeedItem);
+
+    auto resetPitchSpeedItem = makeItemWithArg("clip-reset-pitch-speed");
+    updatePitchSpeedModifiedEnabledState(*resetPitchSpeedItem);
 
     auto colorItems = makeClipColourItems();
 
@@ -81,6 +84,7 @@ void ClipContextMenuModel::load()
         makeSeparator(),
         enableStretchItem,
         makeItemWithArg("clip-pitch-speed-open"),
+        resetPitchSpeedItem,
         renderPitchSpeedItem,
     };
 
@@ -171,7 +175,7 @@ void ClipContextMenuModel::updateStretchEnabledState(MenuItem& item)
     item.setState(state);
 }
 
-void ClipContextMenuModel::updateRenderPitchSpeedEnabledState(MenuItem& item)
+void ClipContextMenuModel::updatePitchSpeedModifiedEnabledState(MenuItem& item)
 {
     project::IAudacityProjectPtr project = globalContext()->currentProject();
     if (!project) {
