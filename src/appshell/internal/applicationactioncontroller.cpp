@@ -170,9 +170,12 @@ bool ApplicationActionController::eventFilter(QObject* watched, QEvent* event)
             auto provider = multiwindowsProvider();
             auto ctx = iocContext();
             QMetaObject::invokeMethod(qApp, [provider, ctx]() {
+                // during the call the window and the context will be destroyed
+                // do not capture or use anything that is context-dependent here
+                // i.e. dont use Async::call(this instead of invokeMethod
                 provider->quitWindow(ctx);
             }, Qt::QueuedConnection);
-            event->setAccepted(true);
+            event->accept();
             return true;
         }
         const bool accepted = quit();
