@@ -6,6 +6,7 @@
 #include "spectrogram/spectrogramtypes.h"
 #include "trackedit/dom/track.h"
 #include "framework/global/translation.h"
+#include "global/realfn.h"
 
 using namespace au::projectscene;
 using namespace muse::uicomponents;
@@ -38,6 +39,9 @@ void ClipContextMenuModel::load()
 
     auto enableStretchItem = makeItemWithArg(ENABLE_STRETCH_CODE);
     updateStretchEnabledState(*enableStretchItem);
+
+    auto renderPitchSpeedItem = makeItemWithArg("clip-render-pitch-speed");
+    updateRenderPitchSpeedEnabledState(*renderPitchSpeedItem);
 
     auto colorItems = makeClipColourItems();
 
@@ -77,7 +81,7 @@ void ClipContextMenuModel::load()
         makeSeparator(),
         enableStretchItem,
         makeItemWithArg("clip-pitch-speed-open"),
-        makeItemWithArg("clip-render-pitch-speed"),
+        renderPitchSpeedItem,
     };
 
     const auto project = globalContext()->currentProject();
@@ -164,6 +168,23 @@ void ClipContextMenuModel::updateStretchEnabledState(MenuItem& item)
     }
     auto state = item.state();
     state.checked = clip.stretchToMatchTempo;
+    item.setState(state);
+}
+
+void ClipContextMenuModel::updateRenderPitchSpeedEnabledState(MenuItem& item)
+{
+    project::IAudacityProjectPtr project = globalContext()->currentProject();
+    if (!project) {
+        return;
+    }
+    auto clip = project->trackeditProject()->clip(m_clipKey.key);
+    if (!clip.isValid()) {
+        return;
+    }
+
+    const bool hasPitchOrSpeed = clip.pitch != 0 || !muse::RealIsEqual(clip.speed, 1.0);
+    auto state = item.state();
+    state.enabled = hasPitchOrSpeed;
     item.setState(state);
 }
 
