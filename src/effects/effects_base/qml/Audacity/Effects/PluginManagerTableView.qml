@@ -14,7 +14,8 @@ StyledTableView {
 
     model: tableViewModel.sortFilterProxy
     horizontalHeaderNavigationEnabled: true
-    displayTruncatedTextOnHover: true
+    // TODO: https://github.com/audacity/audacity/issues/10852
+    // displayTruncatedTextOnHover: true
 
     sourceComponentCallback: function (type) {
         switch (type) {
@@ -24,9 +25,10 @@ StyledTableView {
         return null
     }
 
-    onHorizontalHeaderClicked: function (column) {
-        tableViewModel.toggleColumnSort(column)
-    }
+    // TODO: https://github.com/audacity/audacity/issues/10852
+    // onHorizontalHeaderClicked: function (column) {
+    //     tableViewModel.toggleColumnSort(column)
+    // }
 
     Component {
         id: enabledComp

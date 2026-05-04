@@ -59,9 +59,10 @@ Rectangle {
 
             model: proxy
 
-            onHorizontalHeaderClicked: function (column) {
-                proxy.toggleColumnSort(column)
-            }
+            // TODO: https://github.com/audacity/audacity/issues/10852
+            // onHorizontalHeaderClicked: function (column) {
+            //     proxy.toggleColumnSort(column)
+            // }
         }
     }
 }
