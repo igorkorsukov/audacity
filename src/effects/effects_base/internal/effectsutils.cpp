@@ -149,7 +149,7 @@ EffectType utils::effectTypeFromString(const muse::String& type)
         return EffectType::Processor;
     } else if (type == "Tool") {
         return EffectType::Tool;
-    } else if (type == "Unknown") {
+    } else if (type.isEmpty() || type == "Unknown") {
         return EffectType::Unknown;
     }
     assert(false);
@@ -194,10 +194,10 @@ bool value<bool>(const muse::String& str)
 }
 
 template<typename T = muse::String>
-T attributeValue(const muse::audio::AudioResourceMeta& meta, const muse::String& key)
+T attributeValue(const muse::audio::AudioResourceMeta& meta, const muse::String& key, bool enabled)
 {
     const auto valStr = meta.attributeVal(key);
-    IF_ASSERT_FAILED(!valStr.empty()) {
+    IF_ASSERT_FAILED(!enabled || !valStr.empty()) {
         return {};
     }
     return value<T>(valStr);
@@ -211,15 +211,15 @@ EffectMeta utils::museToAuEffectMeta(const muse::io::path_t& path, const muse::a
     effectMeta.id = muse::String::fromStdString(meta.id);
     effectMeta.family = fromMuseAudioResourceType(meta.type);
     effectMeta.vendor = muse::String::fromStdString(meta.vendor);
-    effectMeta.type = utils::effectTypeFromString(attributeValue(meta, EFFECT_TYPE_ATTRIBUTE));
-    effectMeta.title = attributeValue(meta, EFFECT_TITLE_ATTRIBUTE);
-    effectMeta.description = effectMeta.title; // TODO use attributeValue(meta, EFFECT_DESCRIPTION_ATTRIBUTE);
-    effectMeta.category = attributeValue(meta, EFFECT_CATEGORY_ATTRIBUTE);
-    effectMeta.isRealtimeCapable = attributeValue<bool>(meta, EFFECT_IS_REALTIME_CAPABLE_ATTRIBUTE);
-    effectMeta.paramsAreInputAgnostic = attributeValue<bool>(meta, EFFECT_PARAMS_ARE_INPUT_AGNOSTIC_ATTRIBUTE);
-    effectMeta.version = attributeValue(meta, EFFECT_VERSION_ATTRIBUTE);
-    effectMeta.module = attributeValue(meta, EFFECT_MODULE_ATTRIBUTE);
-    effectMeta.isActivated = attributeValue<bool>(meta, EFFECT_ACTIVATED_ATTRIBUTE);
+    effectMeta.type = utils::effectTypeFromString(attributeValue(meta, EFFECT_TYPE_ATTRIBUTE, enabled));
+    effectMeta.title = attributeValue(meta, EFFECT_TITLE_ATTRIBUTE, enabled);
+    effectMeta.description = effectMeta.title; // TODO use attributeValue(meta, EFFECT_DESCRIPTION_ATTRIBUTE, enabled);
+    effectMeta.category = attributeValue(meta, EFFECT_CATEGORY_ATTRIBUTE, enabled);
+    effectMeta.isRealtimeCapable = attributeValue<bool>(meta, EFFECT_IS_REALTIME_CAPABLE_ATTRIBUTE, enabled);
+    effectMeta.paramsAreInputAgnostic = attributeValue<bool>(meta, EFFECT_PARAMS_ARE_INPUT_AGNOSTIC_ATTRIBUTE, enabled);
+    effectMeta.version = attributeValue(meta, EFFECT_VERSION_ATTRIBUTE, enabled);
+    effectMeta.module = attributeValue(meta, EFFECT_MODULE_ATTRIBUTE, enabled);
+    effectMeta.isActivated = attributeValue<bool>(meta, EFFECT_ACTIVATED_ATTRIBUTE, enabled);
     effectMeta.isLoadable = enabled;
 
     return effectMeta;
