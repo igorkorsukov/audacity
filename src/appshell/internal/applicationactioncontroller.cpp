@@ -167,8 +167,13 @@ bool ApplicationActionController::eventFilter(QObject* watched, QEvent* event)
                 event->ignore();
                 return true;
             }
-            watched->deleteLater();
-            return false;
+            auto provider = multiwindowsProvider();
+            auto ctx = iocContext();
+            QMetaObject::invokeMethod(qApp, [provider, ctx]() {
+                provider->quitWindow(ctx);
+            }, Qt::QueuedConnection);
+            event->setAccepted(true);
+            return true;
         }
         const bool accepted = quit();
         event->setAccepted(accepted);
