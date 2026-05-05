@@ -2322,6 +2322,16 @@ void RebuildJoinedEnvelope(
         return false;
     };
 
+    // playEnd of clip[i] is held until clip[i+1]'s playStart is known so the
+    // pair can be resolved together: if both are synthesized by the trim
+    // (not explicit user points) and their values match, neither is emitted.
+    struct PendingBoundary {
+        double absT;
+        double value;
+        bool isExplicit;
+    };
+    std::optional<PendingBoundary> pendingEnd;
+
     const size_t numSources = sources.size();
     for (size_t i = 0; i < numSources; ++i) {
         const auto& clip = sources[i];
@@ -2332,10 +2342,37 @@ void RebuildJoinedEnvelope(
         const bool isFirst = (i == 0);
         const bool isLast = (i + 1 == numSources);
 
-        // Skip the outer boundaries unless the user had already placed an
-        // explicit point exactly at playStart / playEnd before the join.
-        if (!isFirst || hasExplicitPointAt(srcEnv, playStart)) {
-            emit(playStart, srcEnv.GetValue(playStart));
+        const double startValue = srcEnv.GetValue(playStart);
+        const bool startExplicit = hasExplicitPointAt(srcEnv, playStart);
+
+        if (isFirst) {
+            // Outer left edge: only keep if the user placed a real point.
+            if (startExplicit) {
+                emit(playStart, startValue);
+            }
+        } else {
+            // Seam: pair pendingEnd from the previous clip with this clip's
+            // playStart.
+            const auto& prev = *pendingEnd;
+            // Allow a 1.5-sample time tolerance
+            const double seamTimeTolerance = 1.5 * sampleDur;
+            const bool sameTime
+                =fabs(prev.absT - playStart) <= seamTimeTolerance;
+            const bool sameValue
+                =fabs(prev.value - startValue) <= kSeamValueTolerance;
+            if (sameTime && sameValue) {
+                if (prev.isExplicit) {
+                    emit(prev.absT, prev.value);
+                } else if (startExplicit) {
+                    emit(playStart, startValue);
+                }
+            } else {
+                // Non-coincident seam, or coincident with different values:
+                // keep both points.
+                emit(prev.absT, prev.value);
+                emit(playStart, startValue);
+            }
+            pendingEnd.reset();
         }
 
         const auto n = srcEnv.GetNumberOfPoints();
@@ -2348,8 +2385,17 @@ void RebuildJoinedEnvelope(
             }
         }
 
-        if (!isLast || hasExplicitPointAt(srcEnv, playEnd)) {
-            emit(playEnd, srcEnv.GetValue(playEnd));
+        const double endValue = srcEnv.GetValue(playEnd);
+        const bool endExplicit = hasExplicitPointAt(srcEnv, playEnd);
+
+        if (isLast) {
+            // Outer right edge: only keep if the user placed a real point.
+            if (endExplicit) {
+                emit(playEnd, endValue);
+            }
+        } else {
+            // Defer; will be resolved against next clip's playStart.
+            pendingEnd = PendingBoundary { playEnd, endValue, endExplicit };
         }
     }
 
