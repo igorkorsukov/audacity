@@ -1619,8 +1619,7 @@ void TrackeditActionsController::resetClipPitchAndSpeed(const muse::actions::Act
         return;
     }
 
-    trackeditInteraction()->resetClipPitch(clipKey);
-    trackeditInteraction()->resetClipSpeed(clipKey);
+    trackeditInteraction()->resetClipPitchAndSpeed(clipKey);
 }
 
 void TrackeditActionsController::groupClips()
