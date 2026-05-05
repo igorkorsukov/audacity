@@ -131,7 +131,7 @@ muse::String utils::effectTypeToString(EffectType type)
     case EffectType::Unknown: return u"Unknown";
     case EffectType::Analyzer: return u"Analyzer";
     case EffectType::Generator: return u"Generator";
-    case EffectType::Processor: return u"Processor";
+    case EffectType::Processor: return u"Effect";
     case EffectType::Tool: return u"Tool";
     default:
         assert(false);
@@ -145,7 +145,7 @@ EffectType utils::effectTypeFromString(const muse::String& type)
         return EffectType::Analyzer;
     } else if (type == "Generator") {
         return EffectType::Generator;
-    } else if (type == "Processor") {
+    } else if (type == "Effect") {
         return EffectType::Processor;
     } else if (type == "Tool") {
         return EffectType::Tool;
