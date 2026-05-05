@@ -188,7 +188,7 @@ void ClipContextMenuModel::updatePitchSpeedModifiedEnabledState(MenuItem& item)
 
     const bool hasPitchOrSpeed = clip.pitch != 0 || !muse::RealIsEqual(clip.speed, 1.0);
     auto state = item.state();
-    state.enabled = hasPitchOrSpeed;
+    state.enabled = state.enabled && hasPitchOrSpeed;
     item.setState(state);
 }
 
