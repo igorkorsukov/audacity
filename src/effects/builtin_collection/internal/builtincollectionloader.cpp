@@ -70,8 +70,6 @@
 #include "changepitch/changepitchviewmodel.h"
 #endif
 
-#include <algorithm>
-
 using namespace au::effects;
 
 void BuiltinCollectionLoader::preInit()
