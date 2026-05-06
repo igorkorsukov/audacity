@@ -191,7 +191,8 @@ EffectMeta EffectsProvider::meta(const EffectId& effectId) const
         }
     }
 
-    LOGE() << "not found meta: " << effectId;
+    // Here we don't log an error but an info, because metas may be queried for non-existent effects.
+    LOGI() << "not found meta: " << effectId;
     return EffectMeta();
 }
 
