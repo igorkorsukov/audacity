@@ -199,8 +199,14 @@ void ProjectActionsController::newProject()
         return;
     }
 
-    createProjectInCurrentWindow();
-    openPageIfNeed(PROJECT_PAGE_URI);
+    auto project = createProjectInCurrentWindow();
+    if (!project) {
+        LOGE() << "Failed to create new project in current window";
+    }
+
+    muse::async::Async::call(this, [this, ok = !!project]() {
+        openPageIfNeed(ok ? PROJECT_PAGE_URI : HOME_PAGE_URI);
+    });
 }
 
 void ProjectActionsController::open(const muse::actions::ActionData& args)
