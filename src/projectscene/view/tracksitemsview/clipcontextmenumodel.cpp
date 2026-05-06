@@ -13,6 +13,9 @@ using namespace muse::uicomponents;
 using namespace muse::actions;
 
 static const ActionCode ENABLE_STRETCH_CODE("stretch-clip-to-match-tempo");
+static const ActionCode RENDER_PITCH_SPEED_CODE("clip-render-pitch-speed");
+static const ActionCode RESET_PITCH_SPEED_CODE("clip-reset-pitch-speed");
+static const ActionCodeList PITCH_SPEED_CODES { RENDER_PITCH_SPEED_CODE, RESET_PITCH_SPEED_CODE };
 
 namespace {
 //! NOTE: can be moved to the framework
@@ -40,10 +43,10 @@ void ClipContextMenuModel::load()
     auto enableStretchItem = makeItemWithArg(ENABLE_STRETCH_CODE);
     updateStretchEnabledState(*enableStretchItem);
 
-    auto renderPitchSpeedItem = makeItemWithArg("clip-render-pitch-speed");
+    auto renderPitchSpeedItem = makeItemWithArg(RENDER_PITCH_SPEED_CODE);
     updatePitchSpeedModifiedEnabledState(*renderPitchSpeedItem);
 
-    auto resetPitchSpeedItem = makeItemWithArg("clip-reset-pitch-speed");
+    auto resetPitchSpeedItem = makeItemWithArg(RESET_PITCH_SPEED_CODE);
     updatePitchSpeedModifiedEnabledState(*resetPitchSpeedItem);
 
     auto colorItems = makeClipColourItems();
@@ -153,6 +156,13 @@ void ClipContextMenuModel::onActionsStateChanges(const muse::actions::ActionCode
     if (containsAction(codes, ENABLE_STRETCH_CODE)) {
         MenuItem& item = findItem(ActionCode(ENABLE_STRETCH_CODE));
         updateStretchEnabledState(item);
+    }
+
+    if (containsAny(codes, PITCH_SPEED_CODES)) {
+        for (const auto& code : PITCH_SPEED_CODES) {
+            MenuItem& item = findItem(ActionCode(code));
+            updatePitchSpeedModifiedEnabledState(item);
+        }
     }
 
     if (containsAny(codes, m_colorChangeActionCodeList)) {
