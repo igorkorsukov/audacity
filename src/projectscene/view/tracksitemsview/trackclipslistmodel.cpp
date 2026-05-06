@@ -639,6 +639,13 @@ bool TrackClipsListModel::stretchLeftClip(const ClipKey& key, bool completed, Cl
         } else {
             newStartTime = m_context->applySnapToItem(newStartTime);
         }
+
+        const double naturalDuration = (item->time().endTime - item->time().startTime) / item->speed();
+        const double originalStartTime = item->time().endTime - naturalDuration;
+        const double snapThreshold = 8.0 / m_context->zoom();
+        if (std::abs(newStartTime - originalStartTime) < snapThreshold) {
+            newStartTime = originalStartTime;
+        }
     }
 
     double minClipTime = MIN_CLIP_WIDTH / m_context->zoom();
@@ -707,6 +714,13 @@ bool TrackClipsListModel::stretchRightClip(const ClipKey& key, bool completed, C
             newEndTime = m_context->applySnapToTime(newEndTime);
         } else {
             newEndTime = m_context->applySnapToItem(newEndTime);
+        }
+
+        const double naturalDuration = (item->time().endTime - item->time().startTime) / item->speed();
+        const double originalEndTime = item->time().startTime + naturalDuration;
+        const double snapThreshold = 8.0 / m_context->zoom();
+        if (std::abs(newEndTime - originalEndTime) < snapThreshold) {
+            newEndTime = originalEndTime;
         }
     }
 
