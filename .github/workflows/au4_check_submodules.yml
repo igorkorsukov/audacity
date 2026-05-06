@@ -8,7 +8,7 @@ jobs:
   check_muse_framework:
     runs-on: ubuntu-latest
     env:
-      EXPECTED_URL: https://github.com/musescore/framework_tmp.git
+      EXPECTED_URL: https://github.com/musescore/muse_framework.git
     steps:
     - name: Clone repository
       uses: actions/checkout@v6
