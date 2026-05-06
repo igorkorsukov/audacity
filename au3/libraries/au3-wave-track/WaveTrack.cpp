@@ -2330,7 +2330,7 @@ void RebuildJoinedEnvelope(
         double value;
         bool isExplicit;
     };
-    std::optional<PendingBoundary> pendingEnd;
+    PendingBoundary pendingEnd {};
 
     const size_t numSources = sources.size();
     for (size_t i = 0; i < numSources; ++i) {
@@ -2353,7 +2353,7 @@ void RebuildJoinedEnvelope(
         } else {
             // Seam: pair pendingEnd from the previous clip with this clip's
             // playStart.
-            const auto& prev = *pendingEnd;
+            const auto& prev = pendingEnd;
             // Allow a 1.5-sample time tolerance
             const double seamTimeTolerance = 1.5 * sampleDur;
             const bool sameTime
@@ -2372,7 +2372,6 @@ void RebuildJoinedEnvelope(
                 emit(prev.absT, prev.value);
                 emit(playStart, startValue);
             }
-            pendingEnd.reset();
         }
 
         const auto n = srcEnv.GetNumberOfPoints();
