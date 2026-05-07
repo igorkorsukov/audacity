@@ -19,8 +19,36 @@ on:
         required: false
         default: ''
 
+  workflow_call:
+    inputs:
+      build_mode:
+        description: 'Build mode (devel_build, nightly_build, testing_build, stable_build)'
+        type: string
+        required: false
+        default: 'devel_build'
+      app_repo:
+        description: 'owner/repo to source Audacity from (default: this repo)'
+        type: string
+        required: false
+        default: ''
+      app_ref:
+        description: 'Audacity ref to check out (default: ref of triggering event)'
+        type: string
+        required: false
+        default: ''
+      framework_repo:
+        description: 'owner/repo to source muse_framework from (default: pinned submodule)'
+        type: string
+        required: false
+        default: ''
+      framework_ref:
+        description: 'Ref to check out into the muse_framework submodule (default: pinned SHA)'
+        type: string
+        required: false
+        default: ''
+
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: au4_build_linux-${{ github.ref }}-${{ inputs.framework_ref || '' }}
   cancel-in-progress: true
 
 env:
@@ -33,7 +61,19 @@ jobs:
     - name: Clone repository
       uses: actions/checkout@v6
       with:
+        repository: ${{ inputs.app_repo || github.repository }}
+        ref: ${{ inputs.app_ref || github.ref }}
         submodules: recursive
+
+    - name: Override muse_framework
+      if: inputs.framework_ref != ''
+      uses: actions/checkout@v6
+      with:
+        repository: ${{ inputs.framework_repo }}
+        ref: ${{ inputs.framework_ref }}
+        path: muse
+        submodules: recursive
+
     - name: "Configure workflow"
       env:
         pull_request_title: ${{ github.event.pull_request.title }}
@@ -46,7 +86,7 @@ jobs:
         if [ "${{ github.event_name }}" == "schedule" ] && [ "${{ github.event.schedule }}" == "0 5 */1 */1 *" ]; then ADD_INFO="_${{ env.CURRENT_RELEASE_BRANCH }}"; fi
         if [ "${{ github.event_name }}" == "pull_request" ]; then ADD_INFO="_${{ github.event.pull_request.number }}_${pull_request_title}"; fi
 
-        BUILD_MODE=${{ github.event.inputs.build_mode }}
+        BUILD_MODE=${{ inputs.build_mode || github.event.inputs.build_mode }}
 
         cmake -DEVENT=${{ github.event_name }} \
               -DBUILD_MODE=${BUILD_MODE} \
