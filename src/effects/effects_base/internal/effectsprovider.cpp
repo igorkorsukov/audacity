@@ -224,7 +224,9 @@ std::string EffectsProvider::effectPath(const std::string& effectId) const
 
 std::string EffectsProvider::effectName(const std::string& effectId) const
 {
-    // Parse rather than querying meta in case the effect is missing
+    if (const auto meta = this->meta(EffectId::fromStdString(effectId)); meta.isValid()) {
+        return meta.title.toStdString();
+    }
     return utils::parseEffectName(muse::String::fromStdString(effectId));
 }
 
