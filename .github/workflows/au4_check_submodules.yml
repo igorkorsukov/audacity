@@ -15,7 +15,7 @@ jobs:
 
     - name: Verify muse_framework submodule URL
       run: |
-        ACTUAL_URL=$(git config -f .gitmodules submodule.muse_framework.url)
+        ACTUAL_URL=$(git config -f .gitmodules submodule.muse.url)
         echo "Expected: ${EXPECTED_URL}"
         echo "Actual:   ${ACTUAL_URL}"
         if [ "${ACTUAL_URL}" != "${EXPECTED_URL}" ]; then
@@ -25,7 +25,7 @@ jobs:
 
     - name: Verify muse_framework commit is in upstream
       run: |
-        SHA=$(git ls-tree HEAD muse_framework | awk '{print $3}')
+        SHA=$(git ls-tree HEAD muse | awk '{print $3}')
         if [ -z "${SHA}" ]; then
           echo "::error::Could not read muse_framework submodule SHA from index"
           exit 1

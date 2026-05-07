@@ -27,7 +27,7 @@ file(MAKE_DIRECTORY ${INSTALL_DIR}/audacity.app/Contents/Resources/Frameworks)
 # Setup keychain for code sign
 set(_secret "$ENV{SIGN_CERTIFICATE_ENCRYPT_SECRET}")
 if(_secret)
-  set(_out_dir  "${CMAKE_SOURCE_DIR}/muse_framework/buildscripts/ci/macos/resources")
+  set(_out_dir  "${CMAKE_SOURCE_DIR}/muse/buildscripts/ci/macos/resources")
   set(_p12_enc  "${_out_dir}/mac_musescore.p12.enc")
   set(_p12      "${_out_dir}/mac_musescore.p12")
   set(_keychain "build.keychain")
