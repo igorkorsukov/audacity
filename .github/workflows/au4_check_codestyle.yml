@@ -15,4 +15,4 @@ jobs:
 
     - name: Test coding style
       run: |
-        cmake -P ./muse_framework/buildscripts/ci/checkcodestyle/checkcodestyle.cmake ./src/
+        cmake -P ./muse/buildscripts/ci/checkcodestyle/checkcodestyle.cmake ./src/
