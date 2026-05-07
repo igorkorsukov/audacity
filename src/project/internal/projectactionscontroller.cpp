@@ -130,6 +130,7 @@ const muse::actions::ActionCodeList& ProjectActionsController::prohibitedActions
         "export-audio",
         "export-labels",
         "export-midi",
+        "file-share-audio",
     };
 
     return PROHIBITED_WHILE_RECORDING;
@@ -151,15 +152,23 @@ bool ProjectActionsController::canReceiveAction(const muse::actions::ActionCode&
         };
 
         return muse::contains(DONT_REQUIRE_OPEN_PROJECT, code);
-    } else if (recordController()->isRecording()) {
-        return !muse::contains(prohibitedActionsWhileRecording(), code);
-    } else if (code == "file-share-audio") {
+    }
+
+    const bool recording = recordController()->isRecording();
+
+    if (code == "file-share-audio") {
         trackedit::ITrackeditProjectPtr prj = globalContext()->currentTrackeditProject();
         if (!prj) {
             return false;
         }
 
-        return prj->hasAudioContent().val;
+        if (!prj->hasAudioContent().val) {
+            return false;
+        }
+    }
+
+    if (recording) {
+        return !muse::contains(prohibitedActionsWhileRecording(), code);
     }
 
     return true;
