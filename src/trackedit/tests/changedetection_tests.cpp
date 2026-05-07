@@ -209,6 +209,8 @@ TEST_F(ChangeDetectionTests, TestTrackNotificationsForRemovingOneTrack)
     after.clips.pop_back();
     after.labels.pop_back();
 
+    const auto removedClips = before.clips[before.tracks.size() - 1].size();
+
     EXPECT_NE(before.tracks.size(), after.tracks.size());
 
     EXPECT_CALL(*m_trackEditProject, trackInserted()).Times(0);
@@ -217,7 +219,7 @@ TEST_F(ChangeDetectionTests, TestTrackNotificationsForRemovingOneTrack)
     EXPECT_CALL(*m_trackEditProject, reload()).Times(0);
 
     EXPECT_CALL(*m_trackEditProject, notifyAboutClipAdded(_)).Times(0);
-    EXPECT_CALL(*m_trackEditProject, notifyAboutClipRemoved(_)).Times(0);
+    EXPECT_CALL(*m_trackEditProject, notifyAboutClipRemoved(_)).Times(static_cast<int>(removedClips));
     EXPECT_CALL(*m_trackEditProject, notifyAboutClipChanged(_)).Times(0);
 
     EXPECT_CALL(*m_trackEditProject, notifyAboutLabelAdded(_)).Times(0);
@@ -240,6 +242,8 @@ TEST_F(ChangeDetectionTests, TestTrackNotificationsForRemovingTwoTracks)
     after.clips.pop_back();
     after.labels.pop_back();
 
+    const auto removedClips = before.clips[before.clips.size() - 1].size() + before.clips[before.clips.size() - 2].size();
+
     EXPECT_NE(before.tracks.size(), after.tracks.size());
 
     EXPECT_CALL(*m_trackEditProject, trackInserted()).Times(0);
@@ -248,7 +252,7 @@ TEST_F(ChangeDetectionTests, TestTrackNotificationsForRemovingTwoTracks)
     EXPECT_CALL(*m_trackEditProject, reload()).Times(0);
 
     EXPECT_CALL(*m_trackEditProject, notifyAboutClipAdded(_)).Times(0);
-    EXPECT_CALL(*m_trackEditProject, notifyAboutClipRemoved(_)).Times(0);
+    EXPECT_CALL(*m_trackEditProject, notifyAboutClipRemoved(_)).Times(static_cast<int>(removedClips));
     EXPECT_CALL(*m_trackEditProject, notifyAboutClipChanged(_)).Times(0);
 
     EXPECT_CALL(*m_trackEditProject, notifyAboutLabelAdded(_)).Times(0);
