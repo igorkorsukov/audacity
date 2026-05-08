@@ -42,18 +42,18 @@ void MissingEffectChecker::warnIfEffectsMissing()
     // Missing plugins aren't in the scanner registry, so effectsProvider()->meta(id)
     // returns an empty EffectMeta. Use the id parsers instead, which work for the
     // missing case. Version isn't part of the id and is therefore unrecoverable here.
-    muse::ValList names;
-    names.reserve(missingEffectIds.size());
+    muse::ValList missingPluginInfos;
+    missingPluginInfos.reserve(missingEffectIds.size());
     for (const auto& id : missingEffectIds) {
-        names.push_back(muse::Val { muse::ValMap {
-                                        { "name", muse::Val(utils::parseEffectName(id)) },
-                                        { "vendor", muse::Val(utils::parseEffectVendor(id)) },
-                                        { "path", muse::Val(utils::parseEffectPath(id)) }
-                                    } });
+        missingPluginInfos.push_back(muse::Val { muse::ValMap {
+                                                     { "name", muse::Val(utils::parseEffectName(id)) },
+                                                     { "vendor", muse::Val(utils::parseEffectVendor(id)) },
+                                                     { "path", muse::Val(utils::parseEffectPath(id)) }
+                                                 } });
     }
 
     muse::UriQuery query("audacity://effects/missing_plugins");
-    query.addParam("missingPlugins", muse::Val(names));
+    query.addParam("missingPlugins", muse::Val(missingPluginInfos));
     interactive()->openSync(query);
 }
 }
