@@ -544,7 +544,7 @@ muse::RetVal<muse::ProgressPtr> Au3AudioComService::openCloudProject(const muse:
 
         auto cancelCheck = [progress](double) -> bool { return !progress->isCanceled(); };
         if (!forceOverwrite && self->isSnapshotUpToDate(dbProjectData, cancelCheck, cancellationContext)) {
-            progress->finish(muse::make_ok());
+            progress->finish(muse::RetVal<muse::Val>::make_ok(muse::Val(muse::io::path_t(dbProjectData->LocalPath))));
             return;
         }
 
@@ -560,7 +560,7 @@ muse::RetVal<muse::ProgressPtr> Au3AudioComService::openCloudProject(const muse:
         }
 
         if (result.Status == sync::ProjectSyncResult::StatusCode::Succeeded) {
-            progress->finish(muse::make_ok());
+            progress->finish(muse::RetVal<muse::Val>::make_ok(muse::Val(muse::io::path_t(result.ProjectPath))));
         } else {
             const auto err = syncResultCodeToErr(result.Result.Code);
             if (err == Err::SyncResultNotFound) {
