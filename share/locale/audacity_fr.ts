@@ -2167,7 +2167,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="44"/>
         <source>privacy policy</source>
-        <translation>Politique de confidentialité</translation>
+        <translation>politique de confidentialité</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="45"/>
@@ -2850,7 +2850,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="399"/>
         <source>Images</source>
-        <translation>images</translation>
+        <translation>Images</translation>
     </message>
 </context>
 <context>
@@ -4315,7 +4315,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="19"/>
         <source>DTMF tones</source>
-        <translation>Tons DTMF</translation>
+        <translation>Tonalités DTMF</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="65"/>
@@ -4325,7 +4325,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="97"/>
         <source>For each tone you wish to generate, enter numbers from 0 to 9, lower case letters from a to z, and the * and # characters.</source>
-        <translation>For each tone you wish to generate, enter numbers from 0 to 9, lower case letters from a to z, and the * and # characters.</translation>
+        <translation>Pour chaque tonalité que vous souhaitez générer, saisissez les chiffres de 0 à 9, les lettres minuscules de a à z, et les caractères * et #.</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="106"/>
@@ -4340,12 +4340,12 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="190"/>
         <source>Tone/silence ratio</source>
-        <translation>Ratio Son / Silence</translation>
+        <translation>Ratio Tonalité / Silence</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="239"/>
         <source>Duty cycle</source>
-        <translation>Duty cycle</translation>
+        <translation>Rapport cyclique</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="243"/>
@@ -4355,7 +4355,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="253"/>
         <source>Tone duration</source>
-        <translation>Tone duration</translation>
+        <translation>Durée de la tonalité</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="257"/>
@@ -4479,12 +4479,12 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="78"/>
         <source>Select a few seconds of isolated noise so Audacity knows what to filter out, then click Get noise profile.</source>
-        <translation>Select a few seconds of isolated noise so Audacity knows what to filter out, then click Get noise profile.</translation>
+        <translation>Sélectionnez quelques secondes de bruit isolé pour qu&apos;Audacity sache ce qu&apos;il faut filtrer, puis cliquez sur Obtenir le profil de bruit.</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="92"/>
         <source>Get noise profile</source>
-        <translation>Get noise profile</translation>
+        <translation>Obtenir le profil de bruit</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="120"/>
@@ -4525,7 +4525,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="265"/>
         <source>Audio with noise removed</source>
-        <translation>Audio with noise removed</translation>
+        <translation>Audio sans bruit</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="280"/>
@@ -4607,7 +4607,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="38"/>
         <source>Room size</source>
-        <translation>taille de la salle</translation>
+        <translation>Taille de la salle</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="47"/>
@@ -4738,7 +4738,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="180"/>
         <source>Truncate to</source>
-        <translation>Truncate to</translation>
+        <translation>Tronquer à</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="185"/>
@@ -4748,22 +4748,22 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="230"/>
         <source>Compress to</source>
-        <translation>Compress to</translation>
+        <translation>Compresser à</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="235"/>
         <source>Compress excess silence</source>
-        <translation>Compresser le silence excessif</translation>
+        <translation>Compresser le silence excédant</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="280"/>
         <source>Truncate tracks independently</source>
-        <translation>Truncate tracks independently</translation>
+        <translation>Tronquer les pistes indépendamment</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="285"/>
         <source>Compress tracks independently</source>
-        <translation>Compress tracks independently</translation>
+        <translation>Compresser les pistes indépendamment</translation>
     </message>
 </context>
 <context>
@@ -4986,7 +4986,7 @@ Leo Wattenberg, Septembre 2024 (Migration vers Transifex)</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="574"/>
         <source>Trim blank space before first clip</source>
-        <translation>Découper l&apos;espace vide avant le premier clip</translation>
+        <translation>Rogner l&apos;espace vide avant le premier clip</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="19"/>
@@ -6841,7 +6841,7 @@ Vous pouvez gérer ce fichier à partir de votre page de projets mis à jour sur
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="628"/>
         <source>Game media files</source>
-        <translation>fichiers multimédias de jeu</translation>
+        <translation>Fichiers multimédias de jeu</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="629"/>
