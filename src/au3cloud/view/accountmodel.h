@@ -21,8 +21,8 @@ class AccountModel : public QObject, public muse::async::Asyncable, public muse:
     muse::ContextInject<muse::actions::IActionsDispatcher> dispatcher { this };
 
     Q_PROPERTY(bool isAuthorized READ isAuthorized NOTIFY isAuthorizedChanged)
-    Q_PROPERTY(QUrl avatarPath READ avatarPath NOTIFY isAuthorizedChanged)
-    Q_PROPERTY(QString displayName READ displayName NOTIFY isAuthorizedChanged)
+    Q_PROPERTY(QUrl avatarPath READ avatarPath NOTIFY accountInfoChanged)
+    Q_PROPERTY(QString displayName READ displayName NOTIFY accountInfoChanged)
 
 public:
     explicit AccountModel(QObject* parent = nullptr);
@@ -38,5 +38,6 @@ public:
 
 signals:
     void isAuthorizedChanged();
+    void accountInfoChanged();
 };
 }

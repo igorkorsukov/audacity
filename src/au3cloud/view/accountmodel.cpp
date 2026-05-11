@@ -18,6 +18,10 @@ void AccountModel::init()
     authorization()->authState().ch.onReceive(this, [this] (const auto&) {
         emit isAuthorizedChanged();
     });
+
+    authorization()->accountInfoChanged().onNotify(this, [this] () {
+        emit accountInfoChanged();
+    });
 }
 
 bool AccountModel::isAuthorized() const
@@ -27,7 +31,14 @@ bool AccountModel::isAuthorized() const
 
 QUrl AccountModel::avatarPath() const
 {
-    return muse::io::path_t{ authorization()->accountInfo().avatarPath }.toQUrl();
+    if (authorization()->accountInfo().avatarPath.empty()) {
+        return QUrl();
+    }
+
+    QUrl url = muse::io::path_t{ authorization()->accountInfo().avatarPath }.toQUrl();
+    url.setQuery(QString::number(QDateTime::currentMSecsSinceEpoch()));
+
+    return url;
 }
 
 QString AccountModel::displayName() const

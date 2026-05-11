@@ -109,7 +109,6 @@ qt_add_qml_module(appshell_qml
 if (AU_BUILD_CLOUD_AUDIOCOM)
     qt_target_qml_sources(appshell_qml
         QML_FILES
-            DevTools/Cloud/CloudTests.qml
             HomePage/AccountPage.qml
     )
 endif()

@@ -183,14 +183,6 @@ DockPage {
     }
 
     Component {
-        id: cloudComp
-
-        Loader {
-            source: "Cloud/CloudTests.qml"
-        }
-    }
-
-    Component {
         id: tableComp
 
         TableTests {}
