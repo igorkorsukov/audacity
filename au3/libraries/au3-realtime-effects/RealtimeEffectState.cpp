@@ -805,7 +805,6 @@ bool RealtimeEffectState::HandleXMLTag(
                 if (!mPlugin) {
                     // TODO - complain!!!!
                 }
-            } else if (attr == versionAttribute) {
             } else if (attr == activeAttribute) {
                 // Updating the EffectSettingsExtra although we haven't yet built
                 // the settings
@@ -852,18 +851,13 @@ XMLTagHandler* RealtimeEffectState::HandleXMLChild(const std::string_view& tag)
 
 void RealtimeEffectState::WriteXML(XMLWriter& xmlFile)
 {
-    if (!mPlugin) {
-        return;
-    }
-
     xmlFile.StartTag(XMLTag());
     const auto active = mMainSettings.settings.extra.GetActive();
     xmlFile.WriteAttr(activeAttribute, active);
     xmlFile.WriteAttr(idAttribute, mID);
-    xmlFile.WriteAttr(versionAttribute, mPlugin->GetVersion());
 
     CommandParameters cmdParms;
-    if (mPlugin->SaveSettings(mMainSettings.settings, cmdParms)) {
+    if (mPlugin && mPlugin->SaveSettings(mMainSettings.settings, cmdParms)) {
         xmlFile.StartTag(parametersAttribute);
 
         wxString entryName;
