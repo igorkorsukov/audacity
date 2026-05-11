@@ -23,6 +23,7 @@ public:
     virtual void signOut() = 0;
 
     virtual const AccountInfo& accountInfo() const = 0;
+    virtual muse::async::Notification accountInfoChanged() const = 0;
 
     virtual muse::ValCh<AuthState> authState() const = 0;
     virtual bool isAuthorized() const = 0;

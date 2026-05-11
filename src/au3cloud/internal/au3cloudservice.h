@@ -7,6 +7,7 @@
 #include "au3-utility/Observer.h"
 
 #include "framework/global/async/asyncable.h"
+#include "framework/global/async/notification.h"
 
 #include "framework/global/modularity/ioc.h"
 #include "framework/interactive/iplatforminteractive.h"
@@ -32,6 +33,7 @@ public:
     void signOut() override;
 
     const AccountInfo& accountInfo() const override;
+    muse::async::Notification accountInfoChanged() const override;
 
     muse::ValCh<AuthState> authState() const override;
     bool isAuthorized() const override;
@@ -51,5 +53,6 @@ private:
     OAuthHttpServerReplyHandler* m_replyHandler;
 
     AccountInfo m_accountInfo;
+    muse::async::Notification m_accountInfoChanged;
 };
 }

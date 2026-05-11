@@ -99,6 +99,7 @@ void Au3CloudService::init()
                 m_authState.set(AuthState(NotAuthorized(NOT_AUTHORIZED.toStdString())));
             }
         }
+        m_accountInfoChanged.notify();
     });
 }
 
@@ -168,6 +169,11 @@ bool Au3CloudService::isAuthorized() const
 const AccountInfo& Au3CloudService::accountInfo() const
 {
     return m_accountInfo;
+}
+
+muse::async::Notification Au3CloudService::accountInfoChanged() const
+{
+    return m_accountInfoChanged;
 }
 
 void Au3CloudService::setSendAnonymousUsageInfo(bool allow)
