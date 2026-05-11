@@ -15,6 +15,19 @@
     </message>
 </context>
 <context>
+    <name>PluginManagerTableView</name>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerTableView.qml" line="48"/>
+        <source>Enabled</source>
+        <translation type="unfinished">Enabled</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerTableView.qml" line="48"/>
+        <source>Disabled</source>
+        <translation type="unfinished">Disabled</translation>
+    </message>
+</context>
+<context>
     <name>action</name>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="46"/>
@@ -515,81 +528,91 @@
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="35"/>
+        <source>Open recent</source>
+        <translation type="unfinished">Open recent</translation>
+    </message>
+    <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="36"/>
+        <source>Open recent project</source>
+        <translation type="unfinished">Open recent project</translation>
+    </message>
+    <message>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="41"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="42"/>
         <source>Open</source>
         <translation type="unfinished">Open</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="41"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="47"/>
         <source>&amp;Clear recent files</source>
         <translation type="unfinished">&amp;Clear recent files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="42"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="48"/>
         <source>Clear recent files</source>
         <translation type="unfinished">Clear recent files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="53"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="59"/>
         <source>&amp;Save project</source>
         <translation type="unfinished">&amp;Save project</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="54"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="60"/>
         <source>Save project</source>
         <translation type="unfinished">Save project</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="59"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="65"/>
         <source>Save &amp;as…</source>
         <translation type="unfinished">Save &amp;as…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="60"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="66"/>
         <source>Save as…</source>
         <translation type="unfinished">Save as…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="65"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="66"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="71"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="72"/>
         <source>Save backup</source>
         <translation type="unfinished">Save backup</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="77"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="83"/>
         <source>&amp;Export labels</source>
         <translation type="unfinished">&amp;Export labels</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="78"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="84"/>
         <source>Export labels</source>
         <translation type="unfinished">Export labels</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="83"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="89"/>
         <source>&amp;Export MIDI</source>
         <translation type="unfinished">&amp;Export MIDI</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="84"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="90"/>
         <source>Export MIDI</source>
         <translation type="unfinished">Export MIDI</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="89"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="95"/>
         <source>&amp;Close project</source>
         <translation type="unfinished">&amp;Close project</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="90"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="96"/>
         <source>Close project</source>
         <translation type="unfinished">Close project</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="97"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="98"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="312"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="313"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="103"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="104"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="318"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="319"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="146"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="147"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="159"/>
@@ -597,130 +620,130 @@
         <translation type="unfinished">Duplicate</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="103"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="104"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="109"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="110"/>
         <source>Insert</source>
         <translation type="unfinished">Insert</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="109"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="110"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="115"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="116"/>
         <source>Rename item</source>
         <translation type="unfinished">Rename item</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="115"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="116"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="121"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="122"/>
         <source>Trim clip</source>
         <translation type="unfinished">Trim clip</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="121"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="122"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="127"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="128"/>
         <source>Split into new track</source>
         <translation type="unfinished">Split into new track</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="127"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="128"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="133"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="134"/>
         <source>Silence audio</source>
         <translation type="unfinished">Silence audio</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="133"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="134"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="139"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="140"/>
         <source>Paste new label</source>
         <translation type="unfinished">Paste new label</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="139"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="140"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="145"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="146"/>
         <source>Manage labels</source>
         <translation type="unfinished">Manage labels</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="145"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="146"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="151"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="152"/>
         <source>Metadata editor</source>
         <translation type="unfinished">Metadata editor</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="153"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="154"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="159"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="160"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="60"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="61"/>
         <source>Select all</source>
         <translation type="unfinished">Select all</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="159"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="160"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="165"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="166"/>
         <source>Select all tracks</source>
         <translation type="unfinished">Select all tracks</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="165"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="166"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="171"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="172"/>
         <source>Left of playback position</source>
         <translation type="unfinished">Left of playback position</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="171"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="172"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="177"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="178"/>
         <source>Right of playback position</source>
         <translation type="unfinished">Right of playback position</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="177"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="178"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="183"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="184"/>
         <source>Track start to cursor</source>
         <translation type="unfinished">Track start to cursor</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="183"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="184"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="189"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="190"/>
         <source>Cursor to track end</source>
         <translation type="unfinished">Cursor to track end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="189"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="190"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="195"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="196"/>
         <source>Track start to end</source>
         <translation type="unfinished">Track start to end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="195"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="196"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="201"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="202"/>
         <source>Previous clip boundary to cursor</source>
         <translation type="unfinished">Previous clip boundary to cursor</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="201"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="202"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="207"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="208"/>
         <source>Cursor to next clip boundary</source>
         <translation type="unfinished">Cursor to next clip boundary</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="207"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="208"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="213"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="214"/>
         <source>Previous clip</source>
         <translation type="unfinished">Previous clip</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="213"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="214"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="219"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="220"/>
         <source>Next clip</source>
         <translation type="unfinished">Next clip</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="219"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="220"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="225"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="226"/>
         <source>Toggle spectral selection</source>
         <translation type="unfinished">Toggle spectral selection</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="225"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="226"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="231"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="232"/>
         <source>Move cursor to closest zero crossing</source>
         <translation type="unfinished">Move cursor to closest zero crossing</translation>
     </message>
@@ -755,386 +778,380 @@
         <translation type="unfinished">Zoom toggle</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="233"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="234"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="239"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="240"/>
         <source>Collapse all tracks</source>
         <translation type="unfinished">Collapse all tracks</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="239"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="240"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="245"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="246"/>
         <source>Expand all tracks</source>
         <translation type="unfinished">Expand all tracks</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="245"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="246"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="251"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="252"/>
         <source>Skip to selection start</source>
         <translation type="unfinished">Skip to selection start</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="251"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="252"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="257"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="258"/>
         <source>Skip to selection end</source>
         <translation type="unfinished">Skip to selection end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="257"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="258"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="263"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="264"/>
         <source>Show effects</source>
         <translation type="unfinished">Show effects</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="264"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="265"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="270"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="271"/>
         <source>Show metadata editor</source>
         <translation type="unfinished">Show metadata editor</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="271"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="272"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="277"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="278"/>
         <source>Show history</source>
         <translation type="unfinished">Show history</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="280"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="281"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="286"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="287"/>
         <source>Record on current track</source>
         <translation type="unfinished">Record on current track</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="286"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="287"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="292"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="293"/>
         <source>Record on new track</source>
         <translation type="unfinished">Record on new track</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="292"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="293"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="298"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="299"/>
         <source>Set up timed recording</source>
         <translation type="unfinished">Set up timed recording</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="298"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="299"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="304"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="305"/>
         <source>Enable sound activating recording</source>
         <translation type="unfinished">Enable sound activating recording</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="304"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="305"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="310"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="311"/>
         <source>Set sound activation level</source>
         <translation type="unfinished">Set sound activation level</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="318"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="319"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="324"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="325"/>
         <source>Remove tracks</source>
         <translation type="unfinished">Remove tracks</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="324"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="325"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="330"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="331"/>
         <source>Mix-down to…</source>
         <translation type="unfinished">Mix-down to…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="330"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="331"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="336"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="337"/>
         <source>Align end to end</source>
         <translation type="unfinished">Align end to end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="336"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="337"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="342"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="343"/>
         <source>Align together</source>
         <translation type="unfinished">Align together</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="342"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="343"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="348"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="349"/>
         <source>Align start to zero</source>
         <translation type="unfinished">Align start to zero</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="348"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="349"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="354"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="355"/>
         <source>Align start to playhead</source>
         <translation type="unfinished">Align start to playhead</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="354"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="355"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="360"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="361"/>
         <source>Align start to selection end</source>
         <translation type="unfinished">Align start to selection end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="360"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="361"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="366"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="367"/>
         <source>Align end to playhead</source>
         <translation type="unfinished">Align end to playhead</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="366"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="367"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="372"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="373"/>
         <source>Align end to selection end</source>
         <translation type="unfinished">Align end to selection end</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="372"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="373"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="378"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="379"/>
         <source>Sort by time</source>
         <translation type="unfinished">Sort by time</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="378"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="379"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="384"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="385"/>
         <source>Sort by name</source>
         <translation type="unfinished">Sort by name</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="392"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="393"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="400"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="401"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="432"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="433"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="452"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="453"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="397"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="398"/>
         <source>Plugin manager</source>
         <translation type="unfinished">Plugin manager</translation>
     </message>
     <message>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="405"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="406"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="407"/>
         <source>Add realtime effects</source>
         <translation type="unfinished">Add realtime effects</translation>
     </message>
     <message>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="411"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="412"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="413"/>
         <source>Fav effect #1</source>
         <translation type="unfinished">Fav effect #1</translation>
     </message>
     <message>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="417"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="418"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="419"/>
         <source>Fav effect #2</source>
         <translation type="unfinished">Fav effect #2</translation>
     </message>
     <message>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="423"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="424"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="425"/>
         <source>Fav effect #3</source>
         <translation type="unfinished">Fav effect #3</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="47"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="48"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="53"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="54"/>
         <source>Import…</source>
         <translation type="unfinished">Import…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="71"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="77"/>
         <source>&amp;Export audio…</source>
         <translation type="unfinished">&amp;Export audio…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="72"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="78"/>
         <source>Export audio…</source>
         <translation type="unfinished">Export audio…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="384"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="385"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="390"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="391"/>
         <source>Keep tracks synchronized</source>
         <translation type="unfinished">Keep tracks synchronized</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="438"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="439"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="431"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="432"/>
         <source>Contrast analyzer</source>
         <translation type="unfinished">Contrast analyzer</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="444"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="445"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="437"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="438"/>
         <source>Plot spectrum</source>
         <translation type="unfinished">Plot spectrum</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="458"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="459"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="445"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="446"/>
         <source>Manage macros</source>
         <translation type="unfinished">Manage macros</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="464"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="465"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="451"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="452"/>
         <source>Apply macros palette</source>
         <translation type="unfinished">Apply macros palette</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="470"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="471"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="457"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="458"/>
         <source>Macro fade ends</source>
         <translation type="unfinished">Macro fade ends</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="476"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="477"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="463"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="464"/>
         <source>Macro MP3 conversion</source>
         <translation type="unfinished">Macro MP3 conversion</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="482"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="483"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="469"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="470"/>
         <source>Nyquist plugin installer</source>
         <translation type="unfinished">Nyquist plugin installer</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="488"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="489"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="475"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="476"/>
         <source>Nyquist prompt</source>
         <translation type="unfinished">Nyquist prompt</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="494"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="495"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="481"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="482"/>
         <source>Sample data export</source>
         <translation type="unfinished">Sample data export</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="500"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="501"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="487"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="488"/>
         <source>Sample data import</source>
         <translation type="unfinished">Sample data import</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="506"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="507"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="493"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="494"/>
         <source>Raw data import</source>
         <translation type="unfinished">Raw data import</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="512"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="513"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="499"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="500"/>
         <source>Reset configuration</source>
         <translation type="unfinished">Reset configuration</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="520"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="521"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="507"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="508"/>
         <source>Previous window</source>
         <translation type="unfinished">Previous window</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="526"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="527"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="513"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="514"/>
         <source>Next window</source>
         <translation type="unfinished">Next window</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="532"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="533"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="519"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="520"/>
         <source>Benchmark</source>
         <translation type="unfinished">Benchmark</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="538"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="539"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="525"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="526"/>
         <source>Regular interval labels</source>
         <translation type="unfinished">Regular interval labels</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="546"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="547"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="533"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="534"/>
         <source>Tutorials</source>
         <translation type="unfinished">Tutorials</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="552"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="553"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="539"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="540"/>
         <source>Device info</source>
         <translation type="unfinished">Device info</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="558"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="559"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="545"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="546"/>
         <source>MIDI device info</source>
         <translation type="unfinished">MIDI device info</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="564"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="565"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="551"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="552"/>
         <source>Log</source>
         <translation type="unfinished">Log</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="570"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="571"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="557"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="558"/>
         <source>Crash report</source>
         <translation type="unfinished">Crash report</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="576"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="577"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="563"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="564"/>
         <source>Raise segfault</source>
         <translation type="unfinished">Raise segfault</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="582"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="583"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="569"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="570"/>
         <source>Throw exception</source>
         <translation type="unfinished">Throw exception</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="588"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="589"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="575"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="576"/>
         <source>Violate assertion</source>
         <translation type="unfinished">Violate assertion</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="594"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="595"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="581"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="582"/>
         <source>Menu tree</source>
         <translation type="unfinished">Menu tree</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="600"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="601"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="587"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="588"/>
         <source>Frame statistics</source>
         <translation type="unfinished">Frame statistics</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="606"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="607"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="593"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="594"/>
         <source>Link account</source>
         <translation type="unfinished">Link account</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="612"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="599"/>
         <source>Save to clo&amp;ud…</source>
         <translation type="unfinished">Save to clo&amp;ud…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="613"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="600"/>
         <source>Save to cloud…</source>
         <translation type="unfinished">Save to cloud…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="619"/>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="620"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="606"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="607"/>
         <source>Share audio</source>
         <translation type="unfinished">Share audio</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="627"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="614"/>
         <source>Project propert&amp;ies…</source>
         <translation type="unfinished">Project propert&amp;ies…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectuiactions.cpp" line="628"/>
+        <location filename="../../src/project/internal/projectuiactions.cpp" line="615"/>
         <source>Project properties…</source>
         <translation type="unfinished">Project properties…</translation>
     </message>
@@ -1550,14 +1567,14 @@
         <translation type="unfinished">Spectrogram</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="453"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="454"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="459"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="460"/>
         <source>Above item</source>
         <translation type="unfinished">Above item</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="459"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="460"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="465"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="466"/>
         <source>Below item</source>
         <translation type="unfinished">Below item</translation>
     </message>
@@ -1630,174 +1647,180 @@
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="327"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="328"/>
-        <source>New mono track</source>
-        <translation type="unfinished">New mono track</translation>
+        <source>Reset pitch and speed</source>
+        <translation type="unfinished">Reset pitch and speed</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="333"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="334"/>
-        <source>New stereo track</source>
-        <translation type="unfinished">New stereo track</translation>
+        <source>New mono track</source>
+        <translation type="unfinished">New mono track</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="339"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="340"/>
-        <source>New label track</source>
-        <translation type="unfinished">New label track</translation>
+        <source>New stereo track</source>
+        <translation type="unfinished">New stereo track</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="345"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="346"/>
-        <source>Add label</source>
-        <translation type="unfinished">Add label</translation>
+        <source>New label track</source>
+        <translation type="unfinished">New label track</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="351"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="352"/>
+        <source>Add label</source>
+        <translation type="unfinished">Add label</translation>
+    </message>
+    <message>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="357"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="358"/>
         <source>Trim</source>
         <translation type="unfinished">Trim</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="358"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="359"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="364"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="365"/>
         <source>Silence</source>
         <translation type="unfinished">Silence</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="365"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="366"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="371"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="372"/>
         <source>Group clips</source>
         <translation type="unfinished">Group clips</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="371"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="372"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="377"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="378"/>
         <source>Ungroup clips</source>
         <translation type="unfinished">Ungroup clips</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="377"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="378"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="383"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="384"/>
         <source>Move item left</source>
         <translation type="unfinished">Move item left</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="383"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="384"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="389"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="390"/>
         <source>Move item right</source>
         <translation type="unfinished">Move item right</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="389"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="390"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="395"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="396"/>
         <source>Extend item left</source>
         <translation type="unfinished">Extend item left</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="395"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="396"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="401"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="402"/>
         <source>Extend item right</source>
         <translation type="unfinished">Extend item right</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="401"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="402"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="407"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="408"/>
         <source>Reduce item left</source>
         <translation type="unfinished">Reduce item left</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="407"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="408"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="413"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="414"/>
         <source>Reduce item right</source>
         <translation type="unfinished">Reduce item right</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="413"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="414"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="419"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="420"/>
         <source>Move item up</source>
         <translation type="unfinished">Move item up</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="419"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="420"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="425"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="426"/>
         <source>Move item down</source>
         <translation type="unfinished">Move item down</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="427"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="428"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="433"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="434"/>
         <source>Next panel</source>
         <translation type="unfinished">Next panel</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="433"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="434"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="439"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="440"/>
         <source>Previous panel</source>
         <translation type="unfinished">Previous panel</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="440"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="441"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="446"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="447"/>
         <source>Next item</source>
         <translation type="unfinished">Next item</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="446"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="447"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="452"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="453"/>
         <source>Previous item</source>
         <translation type="unfinished">Previous item</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="466"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="467"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="472"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="473"/>
         <source>First track</source>
         <translation type="unfinished">First track</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="472"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="473"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="478"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="479"/>
         <source>Last track</source>
         <translation type="unfinished">Last track</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="479"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="480"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="485"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="486"/>
         <source>Select track/track item</source>
         <translation type="unfinished">Select track/track item</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="485"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="486"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="491"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="492"/>
         <source>Track range selection</source>
         <translation type="unfinished">Track range selection</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="491"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="492"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="497"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="498"/>
         <source>Multi track selection previous</source>
         <translation type="unfinished">Multi track selection previous</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="497"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="498"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="503"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="504"/>
         <source>Multi track selection next</source>
         <translation type="unfinished">Multi track selection next</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="504"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="505"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="510"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="511"/>
         <source>Open item’s context menu</source>
         <translation type="unfinished">Open item’s context menu</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="525"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="526"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="531"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="532"/>
         <source>Change track format</source>
         <translation type="unfinished">Change track format</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="538"/>
-        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="539"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="544"/>
+        <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="545"/>
         <source>Change track sample rate</source>
         <translation type="unfinished">Change track sample rate</translation>
     </message>
@@ -1900,12 +1923,12 @@
         <translation type="unfinished">Produce MIDI 2.0 output if supported by the receiver</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="324"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="332"/>
         <source>Are you sure you want to revert to factory settings?</source>
         <translation type="unfinished">Are you sure you want to revert to factory settings?</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="325"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="333"/>
         <source>This action will reset all your app preferences and custom UI configurations. It also deletes your custom workspaces and shortcuts. You will also need to scan all third party plugins again.
 
 This action will not delete any of your projects.</source>
@@ -1914,27 +1937,27 @@ This action will not delete any of your projects.</source>
 This action will not delete any of your projects.</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="337"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="345"/>
         <source>Revert</source>
         <translation type="unfinished">Revert</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="339"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="347"/>
         <source>Revert to factory settings</source>
         <translation type="unfinished">Revert to factory settings</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="351"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="359"/>
         <source>Would you like to restart Audacity now?</source>
         <translation type="unfinished">Would you like to restart Audacity now?</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="352"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="360"/>
         <source>Audacity needs to be restarted for these changes to take effect.</source>
         <translation type="unfinished">Audacity needs to be restarted for these changes to take effect.</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="358"/>
+        <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="366"/>
         <source>Restart</source>
         <translation type="unfinished">Restart</translation>
     </message>
@@ -1944,7 +1967,7 @@ This action will not delete any of your projects.</translation>
         <translation type="unfinished">Loading…‎</translation>
     </message>
     <message>
-        <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="101"/>
+        <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="97"/>
         <source>Version %1</source>
         <translation type="unfinished">Version %1</translation>
     </message>
@@ -1964,27 +1987,27 @@ This action will not delete any of your projects.</translation>
         <translation type="unfinished">Loading project…‎</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="56"/>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="26"/>
         <source>Scanning audio plugins</source>
         <translation type="unfinished">Scanning audio plugins</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="57"/>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="27"/>
         <source>Audacity has found plugins that need to be scanned before use. Would you like to scan them now or skip?</source>
         <translation type="unfinished">Audacity has found plugins that need to be scanned before use. Would you like to scan them now or skip?</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="62"/>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="32"/>
         <source>Skip this time</source>
         <translation type="unfinished">Skip this time</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="65"/>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="35"/>
         <source>Scan plugins</source>
         <translation type="unfinished">Scan plugins</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="69"/>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="39"/>
         <source>Audio plugin scan</source>
         <translation type="unfinished">Audio plugin scan</translation>
     </message>
@@ -3539,6 +3562,19 @@ This action will not delete any of your projects.</translation>
     </message>
 </context>
 <context>
+    <name>audio</name>
+    <message>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="66"/>
+        <source>Audio plugins scan completed</source>
+        <translation type="unfinished">Audio plugins scan completed</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="66"/>
+        <source>All audio plugins are up to date.</source>
+        <translation type="unfinished">All audio plugins are up to date.</translation>
+    </message>
+</context>
+<context>
     <name>audio setup</name>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="50"/>
@@ -3587,52 +3623,52 @@ This action will not delete any of your projects.</translation>
 <context>
     <name>clip</name>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="46"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="56"/>
         <source>Cut and leave gap</source>
         <translation type="unfinished">Cut and leave gap</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="48"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="58"/>
         <source>Cut and close gap on this track</source>
         <translation type="unfinished">Cut and close gap on this track</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="50"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="60"/>
         <source>Cut and close gap on all tracks</source>
         <translation type="unfinished">Cut and close gap on all tracks</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="55"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="65"/>
         <source>Delete and leave gap</source>
         <translation type="unfinished">Delete and leave gap</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="57"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="67"/>
         <source>Delete and close gap on this track</source>
         <translation type="unfinished">Delete and close gap on this track</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="59"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="69"/>
         <source>Delete and close gap on all tracks</source>
         <translation type="unfinished">Delete and close gap on all tracks</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="64"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="74"/>
         <source>Rename clip</source>
         <translation type="unfinished">Rename clip</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="65"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="75"/>
         <source>Clip color</source>
         <translation type="unfinished">Clip color</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="72"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="82"/>
         <source>Cut and…</source>
         <translation type="unfinished">Cut and…</translation>
     </message>
     <message>
-        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="73"/>
+        <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="83"/>
         <source>Delete and…</source>
         <translation type="unfinished">Delete and…</translation>
     </message>
@@ -3749,38 +3785,38 @@ This action will not delete any of your projects.</translation>
         <translation type="unfinished">Sign in successful! You’re good to go back to Audacity.</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="506"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1088"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="511"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1093"/>
         <source>View on audio.com</source>
         <translation type="unfinished">View on audio.com</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1060"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1065"/>
         <source>Track title</source>
         <translation type="unfinished">Track title</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1061"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1066"/>
         <source>Share audio</source>
         <translation type="unfinished">Share audio</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1062"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1067"/>
         <source>Share</source>
         <translation type="unfinished">Share</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1083"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1088"/>
         <source>Audio shared to audio.com</source>
         <translation type="unfinished">Audio shared to audio.com</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1103"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1108"/>
         <source>Sharing audio to audio.com…</source>
         <translation type="unfinished">Sharing audio to audio.com…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1162"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1167"/>
         <source>Downloading audio from cloud…</source>
         <translation type="unfinished">Downloading audio from cloud…</translation>
     </message>
@@ -3834,13 +3870,13 @@ This action will not delete any of your projects.</translation>
         <translation type="unfinished">Chirp</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="299"/>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="295"/>
         <source>Stop preview</source>
         <extracomment>Shown on a button that stops effect preview</extracomment>
         <translation type="unfinished">Stop preview</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="301"/>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="297"/>
         <source>Preview</source>
         <extracomment>Shown on a button that starts effect preview</extracomment>
         <translation type="unfinished">Preview</translation>
@@ -4140,6 +4176,117 @@ This action will not delete any of your projects.</translation>
         <source>No debug output generated.</source>
         <translation type="unfinished">No debug output generated.</translation>
     </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerDialog.qml" line="15"/>
+        <source>Manage plugins</source>
+        <translation type="unfinished">Manage plugins</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerDialog.qml" line="90"/>
+        <source>Rescan plugins</source>
+        <translation type="unfinished">Rescan plugins</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerDialog.qml" line="106"/>
+        <source>Include plugins with errors</source>
+        <translation type="unfinished">Include plugins with errors</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerDialog.qml" line="129"/>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerDialog.qml" line="147"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerTopPanel.qml" line="55"/>
+        <source>Show:</source>
+        <translation type="unfinished">Show:</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerTopPanel.qml" line="61"/>
+        <source>Type:</source>
+        <translation type="unfinished">Type:</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PluginManagerTopPanel.qml" line="67"/>
+        <source>Category:</source>
+        <translation type="unfinished">Category:</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="12"/>
+        <source>Initial tempo change</source>
+        <translation type="unfinished">Initial tempo change</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="13"/>
+        <source>Final tempo change</source>
+        <translation type="unfinished">Final tempo change</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="14"/>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="16"/>
+        <source>Initial pitch shift</source>
+        <translation type="unfinished">Initial pitch shift</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="14"/>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="15"/>
+        <source>semitones</source>
+        <translation type="unfinished">semitones</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="15"/>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/slidingstretchsettingmodel.cpp" line="17"/>
+        <source>Final pitch shift</source>
+        <translation type="unfinished">Final pitch shift</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="95"/>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="130"/>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="159"/>
+        <source>All</source>
+        <translation type="unfinished">All</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="96"/>
+        <source>Disabled</source>
+        <translation type="unfinished">Disabled</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="97"/>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="212"/>
+        <source>Enabled</source>
+        <translation type="unfinished">Enabled</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="215"/>
+        <source>Name</source>
+        <translation type="unfinished">Name</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="217"/>
+        <source>Vendor</source>
+        <translation type="unfinished">Vendor</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="219"/>
+        <source>Path</source>
+        <translation type="unfinished">Path</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="221"/>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/effects_base/view/pluginmanagertableviewmodel.cpp" line="249"/>
+        <source>%1 (broken)</source>
+        <translation type="unfinished">%1 (broken)</translation>
+    </message>
 </context>
 <context>
     <name>effects/amplify</name>
@@ -4415,22 +4562,22 @@ This action will not delete any of your projects.</translation>
         <translation type="unfinished">Perceived loudness</translation>
     </message>
     <message>
-        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="55"/>
+        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="53"/>
         <source>to</source>
         <translation type="unfinished">to</translation>
     </message>
     <message>
-        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="119"/>
+        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="113"/>
         <source>Normalize</source>
         <translation type="unfinished">Normalize</translation>
     </message>
     <message>
-        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="139"/>
+        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="131"/>
         <source>Normalize stereo channels independently</source>
         <translation type="unfinished">Normalize stereo channels independently</translation>
     </message>
     <message>
-        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="144"/>
+        <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="136"/>
         <source>Treat mono as dual mono (recommended)</source>
         <translation type="unfinished">Treat mono as dual mono (recommended)</translation>
     </message>
@@ -4655,6 +4802,44 @@ This action will not delete any of your projects.</translation>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="110"/>
         <source>Stereo width</source>
         <translation type="unfinished">Stereo width</translation>
+    </message>
+</context>
+<context>
+    <name>effects/slidingstretch</name>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchPitchControls.qml" line="29"/>
+        <source>Semitones (%1 → %2)</source>
+        <translation type="unfinished">Semitones (%1 → %2)</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchPitchControls.qml" line="61"/>
+        <source>Percentage change</source>
+        <translation type="unfinished">Percentage change</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchView.qml" line="10"/>
+        <source>Sliding stretch</source>
+        <translation type="unfinished">Sliding stretch</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchView.qml" line="45"/>
+        <source>Initial tempo change</source>
+        <translation type="unfinished">Initial tempo change</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchView.qml" line="58"/>
+        <source>Final tempo change</source>
+        <translation type="unfinished">Final tempo change</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchView.qml" line="72"/>
+        <source>Initial pitch shift</source>
+        <translation type="unfinished">Initial pitch shift</translation>
+    </message>
+    <message>
+        <location filename="../../src/effects/builtin_collection/slidingstretch/SlidingStretchView.qml" line="86"/>
+        <source>Final pitch shift</source>
+        <translation type="unfinished">Final pitch shift</translation>
     </message>
 </context>
 <context>
@@ -5281,7 +5466,7 @@ Master effects will be turned back on after export.</translation>
         <translation type="unfinished">Hz</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="327"/>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="323"/>
         <location filename="../../src/importexport/export/qml/Export/CustomFFmpegDialog.qml" line="131"/>
         <location filename="../../src/importexport/export/qml/Export/CustomMappingDialog.qml" line="94"/>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="620"/>
@@ -5296,7 +5481,7 @@ Master effects will be turned back on after export.</translation>
         <translation type="unfinished">Cancel</translation>
     </message>
     <message>
-        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="344"/>
+        <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="340"/>
         <location filename="../../src/importexport/export/qml/Export/CustomMappingDialog.qml" line="105"/>
         <location filename="../../src/importexport/export/qml/Export/MetadataDialog.qml" line="127"/>
         <location filename="../../src/playback/qml/Audacity/Playback/dialogs/LoopRegionInOut.qml" line="171"/>
@@ -5440,13 +5625,13 @@ Master effects will be turned back on after export.</translation>
         <translation type="unfinished">All files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="499"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1082"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="504"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1087"/>
         <source>Success</source>
         <translation type="unfinished">Success</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1087"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1092"/>
         <source>Dismiss</source>
         <translation type="unfinished">Dismiss</translation>
     </message>
@@ -6740,8 +6925,8 @@ Master effects will be turned back on after export.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="475"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="578"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="625"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="583"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="630"/>
         <source>All supported files</source>
         <translation type="unfinished">All supported files</translation>
     </message>
@@ -6766,38 +6951,38 @@ Master effects will be turned back on after export.</translation>
         <translation type="unfinished">Imported multiple files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="240"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="245"/>
         <source>Error opening file</source>
         <translation type="unfinished">Error opening file</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="241"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="246"/>
         <source>Could not open file: %1</source>
         <translation type="unfinished">Could not open file: %1</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="505"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="510"/>
         <source>Dismiss</source>
         <translation type="unfinished">Dismiss</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="518"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="523"/>
         <source>Upload project to audio.com…</source>
         <translation type="unfinished">Upload project to audio.com…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="579"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="584"/>
         <source>Audacity project files</source>
         <translation type="unfinished">Audacity project files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="580"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="585"/>
         <source>Audacity 3 files</source>
         <translation type="unfinished">Audacity 3 files</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="181"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="581"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="586"/>
         <source>Audacity 4 files</source>
         <translation type="unfinished">Audacity 4 files</translation>
     </message>
@@ -6813,87 +6998,87 @@ Master effects will be turned back on after export.</translation>
         <translation type="unfinished">Load latest</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="500"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="505"/>
         <source>All saved changes will now update to the cloud.
 You can manage this file from your updated projects page on audio.com</source>
         <translation type="unfinished">All saved changes will now update to the cloud.
 You can manage this file from your updated projects page on audio.com</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="582"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="587"/>
         <source>Importable audio and media files</source>
         <translation type="unfinished">Importable audio and media files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="595"/>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="644"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="600"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="649"/>
         <source>Open</source>
         <translation type="unfinished">Open</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="626"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="631"/>
         <source>Audio files</source>
         <translation type="unfinished">Audio files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="627"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="632"/>
         <source>Video files</source>
         <translation type="unfinished">Video files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="628"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="633"/>
         <source>Game media files</source>
         <translation type="unfinished">Game media files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="629"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="634"/>
         <source>Streaming files</source>
         <translation type="unfinished">Streaming files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="630"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="635"/>
         <source>Animation and image files</source>
         <translation type="unfinished">Animation and image files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="631"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="636"/>
         <source>Raw files</source>
         <translation type="unfinished">Raw files</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="660"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="665"/>
         <source>Do you want to save changes to the project before closing?</source>
         <translation type="unfinished">Do you want to save changes to the project before closing?</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="662"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="667"/>
         <source>Do you want to save changes to the project “%1” before closing?</source>
         <translation type="unfinished">Do you want to save changes to the project “%1” before closing?</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="666"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="671"/>
         <source>Your changes will be lost if you don’t save them.</source>
         <translation type="unfinished">Your changes will be lost if you don’t save them.</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="872"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="877"/>
         <source>Resuming sync to audio.com…</source>
         <translation type="unfinished">Resuming sync to audio.com…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="882"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="887"/>
         <source>Syncing project from cloud…</source>
         <translation type="unfinished">Syncing project from cloud…</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1042"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1047"/>
         <location filename="../../src/project/projecterrors.cpp" line="32"/>
         <location filename="../../src/project/projecterrors.cpp" line="51"/>
         <source>Cannot read file %1</source>
         <translation type="unfinished">Cannot read file %1</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1047"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1052"/>
         <source>An error occurred while reading this file.</source>
         <translation type="unfinished">An error occurred while reading this file.</translation>
     </message>
@@ -7049,19 +7234,19 @@ Please remove the write protection by checking the file’s properties, ensuring
         <translation type="unfinished">Continue</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="908"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="913"/>
         <source>Time Track not supported</source>
         <translation type="unfinished">Time Track not supported</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="909"/>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="914"/>
         <source>The project contains a time track, which is not yet supported in Audacity 4, and will need to be removed. This does not affect your original Audacity 3 project.</source>
         <translation type="unfinished">The project contains a time track, which is not yet supported in Audacity 4, and will need to be removed. This does not affect your original Audacity 3 project.</translation>
     </message>
     <message>
-        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="913"/>
-        <source>Ok</source>
-        <translation type="unfinished">Ok</translation>
+        <location filename="../../src/project/internal/projectactionscontroller.cpp" line="918"/>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
     </message>
 </context>
 <context>
@@ -8164,47 +8349,42 @@ This causes any realtime effects to be applied to the waveform and hidden data t
 Do you wish to continue?</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="663"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="697"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="720"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="743"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="774"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="666"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="700"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="723"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="746"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="777"/>
         <source>No audio selected</source>
         <translation type="unfinished">No audio selected</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="664"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="698"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="721"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="744"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="775"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="667"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="701"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="724"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="747"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="778"/>
         <source>Select the audio to delete and try again.</source>
         <translation type="unfinished">Select the audio to delete and try again.</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1139"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1153"/>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1167"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1142"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1156"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1170"/>
         <source>Paste error</source>
         <translation type="unfinished">Paste error</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1606"/>
-        <source>Applying</source>
-        <translation type="unfinished">Applying</translation>
-    </message>
-    <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1847"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1861"/>
         <source>Set rate</source>
         <translation type="unfinished">Set rate</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="2004"/>
+        <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="2018"/>
         <source>Resample</source>
         <translation type="unfinished">Resample</translation>
     </message>
     <message>
-        <location filename="../../src/trackedit/internal/trackeditoperationcontroller.cpp" line="705"/>
+        <location filename="../../src/trackedit/internal/trackeditoperationcontroller.cpp" line="716"/>
         <source>Insert silence</source>
         <translation type="unfinished">Insert silence</translation>
     </message>
