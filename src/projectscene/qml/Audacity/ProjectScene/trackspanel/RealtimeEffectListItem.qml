@@ -308,6 +308,7 @@ ListItemBlank {
             id: effectNameButton
 
             enabled: item && item.isAvailable
+            opacity: 1 // Force opacity to 1 even when disabled to ensure text stays sufficiently legible.
 
             navigation.panel: root.innerNavigationPanel
             navigation.order: bypassButton.navigation.order + 1
