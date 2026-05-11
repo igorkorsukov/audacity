@@ -484,12 +484,12 @@
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="217"/>
         <source>Pan automatically</source>
-        <translation type="unfinished"/>
+        <translation>자동 팬</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="218"/>
         <source>Pan automatically during playback</source>
-        <translation type="unfinished"/>
+        <translation>재생 중 자동 팬</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="23"/>
@@ -738,7 +738,7 @@
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="50"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="51"/>
         <source>Zoom default</source>
-        <translation type="unfinished"/>
+        <translation>기본 확대/축소</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="56"/>
@@ -946,7 +946,7 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="384"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="385"/>
         <source>Keep tracks synchronized</source>
-        <translation type="unfinished"/>
+        <translation>트랙 동기화 유지</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="438"/>
@@ -1417,7 +1417,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="100"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="101"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>삭제하고 갭은 유지</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="107"/>
@@ -1982,7 +1982,7 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="69"/>
         <source>Audio plugin scan</source>
-        <translation type="unfinished"/>
+        <translation>오디오 플러그인 검색</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/startupscenario.cpp" line="282"/>
@@ -3317,12 +3317,12 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="25"/>
         <source>Send anonymous usage info</source>
-        <translation type="unfinished"/>
+        <translation>익명 사용 정보 전송</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="39"/>
         <source>To help us understand how often people use Audacity, we generate a random ID (UUID) for each installation. This ID does not contain any personally identifiable information. Want to know more? Check out our &lt;a href=&quot;%1&quot;&gt;privacy policy&lt;/a&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>사용자들이 Audacity를 얼마나 자주 사용하는지 파악하기 위해 설치 시마다 무작위 ID(UUID)를 생성합니다. 이 ID에는 어떠한 개인 식별 정보도 포함되지 않습니다. 더 자세한 내용을 원하시면 개인정보 처리방침을 확인하&lt;a href=&quot;%1&quot;&gt;십시오&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="14"/>
@@ -3567,22 +3567,22 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="26"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣고 겹치기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="28"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="30"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="35"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣기 및…</translation>
     </message>
 </context>
 <context>
@@ -3595,27 +3595,27 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="48"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="50"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="55"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>삭제하고 갭은 유지</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="57"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="59"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="64"/>
@@ -3630,12 +3630,12 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="72"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>잘라내기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="73"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>삭제 및…</translation>
     </message>
 </context>
 <context>
@@ -5508,42 +5508,42 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="29"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="31"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="36"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣고 겹치기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="38"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="40"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="45"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>삭제하고 갭은 유지</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="47"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="49"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="53"/>
@@ -5553,17 +5553,17 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="59"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>잘라내기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="60"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="61"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>삭제 및…</translation>
     </message>
 </context>
 <context>
@@ -5689,37 +5689,37 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="28"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="35"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>삭제하고 갭은 유지</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="37"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="39"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="47"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>잘라내기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="48"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>삭제 및…</translation>
     </message>
 </context>
 <context>
@@ -6163,7 +6163,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
         <source>High-contrast theme</source>
-        <translation type="unfinished"/>
+        <translation>고대비 테마</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
@@ -6193,17 +6193,17 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="50"/>
         <source>Text and icons</source>
-        <translation type="unfinished"/>
+        <translation>텍스트 및 아이콘</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="51"/>
         <source>Disabled text</source>
-        <translation type="unfinished"/>
+        <translation>비활성 텍스트</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="52"/>
         <source>Border color</source>
-        <translation type="unfinished"/>
+        <translation>테두리 색상</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="31"/>
@@ -6214,12 +6214,12 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="44"/>
         <source>Font face</source>
-        <translation type="unfinished"/>
+        <translation>글꼴 서체</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="59"/>
         <source>Body text size</source>
-        <translation type="unfinished"/>
+        <translation>본문 텍스트 크기</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/PreferencesDialog.qml" line="31"/>
@@ -7678,7 +7678,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/record/internal/au3/au3record.cpp" line="919"/>
         <source>Recorded audio</source>
-        <translation type="unfinished"/>
+        <translation>녹음된 오디오</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="104"/>
@@ -7690,7 +7690,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="154"/>
         <source>Lead-in Recording error</source>
-        <translation type="unfinished"/>
+        <translation>리드인(Lead-in) 녹음 오류</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="35"/>
@@ -7742,32 +7742,32 @@ Error code: %1</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="32"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 잘라내기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="37"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣고 겹치기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="39"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="41"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙에 공간을 만들고 붙여넣기</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="46"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>삭제하고 갭은 유지</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="48"/>
@@ -7777,27 +7777,27 @@ Error code: %1</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="50"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>이 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="52"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>모든 트랙의 간격을 닫고 삭제</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="62"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>잘라내기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="63"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>붙여넣기 및…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="64"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>삭제 및…</translation>
     </message>
 </context>
 <context>

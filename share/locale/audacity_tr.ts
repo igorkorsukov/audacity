@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="tr">
 <context>
     <name>Playback</name>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="65"/>
         <source>Meter style</source>
-        <translation>Mittarin tyyli</translation>
+        <translation>Ölçer biçemi</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="96"/>
         <source>Meter type</source>
-        <translation>Mittarin tyyppi</translation>
+        <translation>Ölçer türü</translation>
     </message>
 </context>
 <context>
@@ -18,107 +18,107 @@
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="46"/>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="47"/>
         <source>Exit</source>
-        <translation>Sulje</translation>
+        <translation>Çık</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="52"/>
         <source>Restart</source>
-        <translation>Käynnistä uudelleen</translation>
+        <translation>Yeniden başlat</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="57"/>
         <source>&amp;Full screen</source>
-        <translation>&amp;Koko näyttö</translation>
+        <translation>&amp;Tam ekran</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="58"/>
         <source>Full screen</source>
-        <translation>Koko näyttö</translation>
+        <translation>Tam ekran</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="69"/>
         <source>About &amp;Qt…</source>
-        <translation>Tietoja &amp;Qt:stä...</translation>
+        <translation>&amp;Qt hakkında…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="74"/>
         <source>Online &amp;handbook</source>
-        <translation>Verkko&amp;käsikirja</translation>
+        <translation>Çevrim içi &amp;rehber</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="75"/>
         <source>Open online handbook</source>
-        <translation>Avaa verkkokäsikirja</translation>
+        <translation>Çevrim içi rehberi aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="80"/>
         <source>As&amp;k for help</source>
-        <translation>Pyydä &amp;apua</translation>
+        <translation>&amp;Yardım iste</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="85"/>
         <source>Revert to &amp;factory settings</source>
-        <translation>Palauta &amp;tehdasasetukset</translation>
+        <translation>&amp;Fabrika ayarlarına dön</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="86"/>
         <source>Revert to factory settings</source>
-        <translation>Palauta tehdasasetukset</translation>
+        <translation>Fabrika ayarlarına dön</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="93"/>
         <source>Restore the &amp;default layout</source>
-        <translation>Palauta &amp;oletusnäkymä</translation>
+        <translation>Ö&amp;n tanımlı yerleşime dön</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="94"/>
         <source>Restore the default layout</source>
-        <translation>Palauta oletusnäkymä</translation>
+        <translation>Ön tanımlı yerleşime dön</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="101"/>
         <source>&amp;Playback controls</source>
-        <translation>&amp;Toiston säätimet</translation>
+        <translation>&amp;Oynatma denetimleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="102"/>
         <source>Show/hide playback controls</source>
-        <translation>Näytä/piilota toistosäätimet</translation>
+        <translation>Oynatma denetimlerini görüntüle/gizle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="109"/>
         <source>&amp;Tracks</source>
-        <translation>&amp;Raidat</translation>
+        <translation>İ&amp;zler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="110"/>
         <source>Show/hide tracks</source>
-        <translation>Näytä/piilota raidat</translation>
+        <translation>İzleri görüntüle/gizle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="64"/>
         <source>&amp;About Audacity…</source>
-        <translation>&amp;Tietoja Audacitystä…</translation>
+        <translation>Audacity &amp;hakkında…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="117"/>
         <source>&amp;Status bar</source>
-        <translation>&amp;Tilarivi</translation>
+        <translation>&amp;Durum çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="118"/>
         <source>Show/hide status bar</source>
-        <translation>Näytä/piilota tilarivi</translation>
+        <translation>Durum çubuğunu görüntüle/gizle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="125"/>
         <source>&amp;Preferences</source>
-        <translation>&amp;Asetukset</translation>
+        <translation>&amp;Ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="126"/>
         <source>Preferences…</source>
-        <translation>Asetukset…</translation>
+        <translation>Ayarlar…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="132"/>
@@ -126,7 +126,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="24"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="25"/>
         <source>Copy</source>
-        <translation>Kopioi</translation>
+        <translation>Kopyala</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="140"/>
@@ -134,51 +134,51 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="31"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="32"/>
         <source>Cut</source>
-        <translation>Leikkaa</translation>
+        <translation>Kes</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="148"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="256"/>
         <source>&amp;Paste</source>
-        <translation>&amp;Liitä</translation>
+        <translation>Ya&amp;pıştır</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="149"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="257"/>
         <source>Paste</source>
-        <translation>Liitä</translation>
+        <translation>Yapıştır</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="156"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="38"/>
         <source>&amp;Undo</source>
-        <translation>&amp;Kumoa</translation>
+        <translation>&amp;Geri al</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="157"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="167"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="39"/>
         <source>Undo</source>
-        <translation>Kumoa</translation>
+        <translation>Geri al</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="164"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="45"/>
         <source>&amp;Redo</source>
-        <translation>Tee &amp;uudelleen</translation>
+        <translation>&amp;Yinele</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="165"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="173"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="46"/>
         <source>Redo</source>
-        <translation>Tee uudelleen</translation>
+        <translation>Yinele</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="172"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="52"/>
         <source>De&amp;lete</source>
-        <translation>&amp;Poista</translation>
+        <translation>Si&amp;l</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="173"/>
@@ -187,106 +187,106 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="53"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="165"/>
         <source>Delete</source>
-        <translation>Poista</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="179"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Peruuta</translation>
+        <translation>İ&amp;ptal</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="180"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="186"/>
         <source>&amp;Trigger</source>
-        <translation>&amp;Liipaisin</translation>
+        <translation>&amp;Tetikle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="187"/>
         <source>Trigger</source>
-        <translation>Liipaisin</translation>
+        <translation>Tetikle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="168"/>
         <source>Undo ‘%1’</source>
-        <translation>Kumoa &quot;%1&quot;</translation>
+        <translation>‘%1’ işlemini geri al</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="174"/>
         <source>Redo ‘%1’</source>
-        <translation>Uudelleen &quot;%1&quot;</translation>
+        <translation>‘%1’ işlemini yinele</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="15"/>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="16"/>
         <source>View project on audio.com</source>
-        <translation>Näytä projekti audio.com-palvelussa</translation>
+        <translation>Projeyi audio.com üzerinde görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="21"/>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="22"/>
         <source>View on audio.com</source>
-        <translation>Katso osoitteessa audio.com</translation>
+        <translation>audio.com üzerinde görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="24"/>
         <source>Repeat last effect</source>
-        <translation>Toista viimeisin tehoste</translation>
+        <translation>Son etkiyi yinele</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="29"/>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="30"/>
         <source>Remove realtime effect</source>
-        <translation>Poista reaaliaikaiset tehosteet</translation>
+        <translation>Gerçek zamanlı etkiyi kaldır</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="35"/>
         <source>&amp;Apply preset</source>
-        <translation>&amp;Käytä esiasetusta</translation>
+        <translation>Hazır ayarı &amp;uygula</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="40"/>
         <source>Save preset as…</source>
-        <translation>Tallenna esiasetus…</translation>
+        <translation>Hazır ayarı farklı kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="45"/>
         <source>&amp;Save preset</source>
-        <translation>&amp;Tallenna esiasetus</translation>
+        <translation>Hazır ayarı &amp;kaydet</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="50"/>
         <source>&amp;Delete preset</source>
-        <translation>&amp;Poista esiasetus</translation>
+        <translation>Hazır ayarı &amp;sil</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="56"/>
         <source>&amp;Import…</source>
-        <translation>&amp;Tuo…</translation>
+        <translation>İçe &amp;aktar…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="57"/>
         <source>Import preset</source>
-        <translation>Tuo esiasetukset</translation>
+        <translation>Hazır ayarı içe aktar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="62"/>
         <source>&amp;Export…</source>
-        <translation>&amp;Vie…</translation>
+        <translation>&amp;Dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="63"/>
         <source>Export preset</source>
-        <translation>Vie esiasetukset</translation>
+        <translation>Hazır ayarı dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="35"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="36"/>
         <source>Play</source>
-        <translation>Toista</translation>
+        <translation>&amp;Oynat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="42"/>
@@ -294,96 +294,96 @@
         <location filename="../../src/record/internal/recorduiactions.cpp" line="36"/>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="37"/>
         <source>Pause</source>
-        <translation>Tauko</translation>
+        <translation>Duraklat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="49"/>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="43"/>
         <source>Stop</source>
-        <translation>Pysäytä</translation>
+        <translation>Durdur</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="50"/>
         <source>Stop playback</source>
-        <translation>Pysäytä toisto</translation>
+        <translation>Oynatmayı durdur</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="56"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="57"/>
         <source>Rewind to start</source>
-        <translation>Kelaa alkuun</translation>
+        <translation>Başa sar</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="63"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="64"/>
         <source>Rewind to end</source>
-        <translation>Kelaa loppuun</translation>
+        <translation>Sona sar</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="70"/>
         <source>Loop playback</source>
-        <translation>Jatkuva toisto</translation>
+        <translation>Yinelemeli oynat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="71"/>
         <source>Toggle ‘Loop playback’</source>
-        <translation>Vaihda &quot;Jatkuvaan toistoon&quot;</translation>
+        <translation>’Yinelemeli oynatmayı’ aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="78"/>
         <source>Audio setup</source>
-        <translation>Ääniasetukset</translation>
+        <translation>Ses ayarları</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="79"/>
         <source>Open audio setup context menu</source>
-        <translation>Avaa ääniasetusten pudotusvalikko</translation>
+        <translation>Ses ayarları sağ tık menüsünü aç</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="85"/>
         <source>Get effects</source>
-        <translation>Hae tehosteita</translation>
+        <translation>Etkileri al</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="86"/>
         <source>Open Get effects dialog</source>
-        <translation>Avaa Hae tehosteita valintaikkuna</translation>
+        <translation>Etkileri al iletişim kutusunu aç</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="92"/>
         <source>Audio settings</source>
-        <translation>Ääniasetukset</translation>
+        <translation>Ses ayarları</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="93"/>
         <source>Open audio setup dialog</source>
-        <translation>Avaa ääniasetusten valintaikkuna</translation>
+        <translation>Ses ayarları iletişim kutusunu aç</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="98"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="99"/>
         <source>Rescan audio devices</source>
-        <translation>&amp;Skannaa äänilaitteet uudelleen</translation>
+        <translation>Ses aygıtlarını yeniden tara</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="104"/>
         <source>Metronome</source>
-        <translation>Metronomi</translation>
+        <translation>Metronom</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="105"/>
         <source>Toggle metronome playback</source>
-        <translation>Vaihda metronomin toisto</translation>
+        <translation>Metronom oynatmayı aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="112"/>
         <source>Timecode</source>
-        <translation>Aikakoodi</translation>
+        <translation>Zaman kodu</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="113"/>
         <source>Set playback time</source>
-        <translation>Aseta toistoaika</translation>
+        <translation>Oynatma süresini ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="119"/>
@@ -393,195 +393,195 @@
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="120"/>
         <source>Set playback tempo</source>
-        <translation>Aseta toiston tempo</translation>
+        <translation>Oynatma temposunu ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="126"/>
         <source>Time signature</source>
-        <translation>Tahtilaji</translation>
+        <translation>Zaman imzası</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="127"/>
         <source>Set playback time signature</source>
-        <translation>Aseta toiston tahtilaji</translation>
+        <translation>Oynatma zaman imzasını ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="133"/>
         <source>Playback level</source>
-        <translation>Toistotaso</translation>
+        <translation>Oynatma düzeyi</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="134"/>
         <source>Set playback level</source>
-        <translation>Aseta toistotaso</translation>
+        <translation>Oynatma düzeyini ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="140"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="141"/>
         <source>Change audio host</source>
-        <translation>Vaihda äänirajapintaa</translation>
+        <translation>Ses sunucunu değiştir</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="147"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="148"/>
         <source>Change playback device</source>
-        <translation>Vaihda toistolaite</translation>
+        <translation>Oynatma aygıtını değiştir</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="154"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="155"/>
         <source>Change recording device</source>
-        <translation>Vaihda äänityslaite</translation>
+        <translation>Kayıt aygıtını değiştir</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="161"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="162"/>
         <source>Change input channels</source>
-        <translation>Vaihda äänityskanava</translation>
+        <translation>Giriş kanallarını değiştir</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="168"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="169"/>
         <source>Toggle loop region</source>
-        <translation>Vaihda jatkuvan toiston aluetta</translation>
+        <translation>Yineleme bölgesini aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="175"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="176"/>
         <source>Clear loop region</source>
-        <translation>Tyhjennä jatkuvan toiston alue</translation>
+        <translation>Yineleme bölgesini temizle</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="181"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="182"/>
         <source>Set loop region to selection</source>
-        <translation>Aseta jatkuva toistoalue valituksi</translation>
+        <translation>Yineleme bölgesini seçime ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="187"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="188"/>
         <source>Set selection to loop</source>
-        <translation>Aseta valinta jatkuvaan toistoon</translation>
+        <translation>Seçimi yinelemeye ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="193"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="194"/>
         <source>Set loop region in out</source>
-        <translation>Aseta jatkuva toistoalue sisään ja ulos</translation>
+        <translation>Yineleme bölgesi giriş çıkış ayarla</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="199"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="200"/>
         <source>Creating a loop also selects audio</source>
-        <translation>Luodessa jatkuvaa toistoa se valitsee myös äänen</translation>
+        <translation>Bir yineleme oluşturulduğunda ses de seçilir</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="209"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="210"/>
         <source>Play repeats</source>
-        <translation>Toista toistuvasti</translation>
+        <translation>Oynatma yinelemeleri</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="217"/>
         <source>Pan automatically</source>
-        <translation>Panoroi automaattisesti</translation>
+        <translation>Otomatik kaydır</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="218"/>
         <source>Pan automatically during playback</source>
-        <translation>Panoroi automaattisesti toiston aikana</translation>
+        <translation>Oynatılırken otomatik kaydır</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="23"/>
         <source>&amp;New…</source>
-        <translation>&amp;Uusi…</translation>
+        <translation>&amp;Yeni…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="24"/>
         <source>New…</source>
-        <translation>Uusi…</translation>
+        <translation>Yeni…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="29"/>
         <source>&amp;Open…</source>
-        <translation>&amp;Avaa…</translation>
+        <translation>&amp;Aç…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="30"/>
         <source>Open…</source>
-        <translation>Avaa…</translation>
+        <translation>Aç…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="35"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="36"/>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="41"/>
         <source>&amp;Clear recent files</source>
-        <translation>&amp;Tyhjennä viimeisimmät tiedostot</translation>
+        <translation>&amp;Son kullanılan dosyaları temizle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="42"/>
         <source>Clear recent files</source>
-        <translation>Tyhjennä viimeisimmät tiedostot</translation>
+        <translation>Son kullanılan dosyaları temizle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="53"/>
         <source>&amp;Save project</source>
-        <translation>&amp;Tallenna projekti</translation>
+        <translation>&amp;Projeyi kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="54"/>
         <source>Save project</source>
-        <translation>Tallenna projekti</translation>
+        <translation>Projeyi kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="59"/>
         <source>Save &amp;as…</source>
-        <translation>Tallenn&amp;a…</translation>
+        <translation>&amp;Farklı kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="60"/>
         <source>Save as…</source>
-        <translation>Tallenna…</translation>
+        <translation>Farklı kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="65"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="66"/>
         <source>Save backup</source>
-        <translation>Tallenna varmuuskopio</translation>
+        <translation>Yedeği kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="77"/>
         <source>&amp;Export labels</source>
-        <translation>Vie mer&amp;kit</translation>
+        <translation>&amp;Etiketleri dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="78"/>
         <source>Export labels</source>
-        <translation>Vie merkit</translation>
+        <translation>Etiketleri dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="83"/>
         <source>&amp;Export MIDI</source>
-        <translation>Vie MI&amp;DI</translation>
+        <translation>&amp;MIDI olarak dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="84"/>
         <source>Export MIDI</source>
-        <translation>Vie MIDI</translation>
+        <translation>MIDI olarak dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="89"/>
         <source>&amp;Close project</source>
-        <translation>&amp;Sulje projekti</translation>
+        <translation>Projeyi &amp;kapat</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="90"/>
         <source>Close project</source>
-        <translation>Sulje projekti</translation>
+        <translation>Projeyi kapat</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="97"/>
@@ -592,55 +592,55 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="147"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="159"/>
         <source>Duplicate</source>
-        <translation>Kahdenna</translation>
+        <translation>Çoğalt</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="103"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="104"/>
         <source>Insert</source>
-        <translation>Lisää</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="109"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="110"/>
         <source>Rename item</source>
-        <translation>Nimeä uudelleen</translation>
+        <translation>Ögeyi yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="115"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="116"/>
         <source>Trim clip</source>
-        <translation>Rajaa leike</translation>
+        <translation>Parçayı buda</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="121"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="122"/>
         <source>Split into new track</source>
-        <translation>Halkaise uuteen raitaan</translation>
+        <translation>Yeni ize ayır</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="127"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="128"/>
         <source>Silence audio</source>
-        <translation>Hiljennä ääni</translation>
+        <translation>Sesi sustur</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="133"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="134"/>
         <source>Paste new label</source>
-        <translation>Liitä uusi merkintä</translation>
+        <translation>Yeni etiket yapıştır</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="139"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="140"/>
         <source>Manage labels</source>
-        <translation>Hallitse merkkejä</translation>
+        <translation>Etiketleri yönet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="145"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="146"/>
         <source>Metadata editor</source>
-        <translation>Metatietoeditori</translation>
+        <translation>Üst veri düzenleyici</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="153"/>
@@ -648,247 +648,247 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="60"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="61"/>
         <source>Select all</source>
-        <translation>Valitse kaikki</translation>
+        <translation>Tümünü seç</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="159"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="160"/>
         <source>Select all tracks</source>
-        <translation>Valitse kaikki raidat</translation>
+        <translation>Tüm izleri seç</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="165"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="166"/>
         <source>Left of playback position</source>
-        <translation>Vasen pää toistokohtaan</translation>
+        <translation>Oynatma konumunun solu</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="171"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="172"/>
         <source>Right of playback position</source>
-        <translation>Oikea pää toistokohtaan</translation>
+        <translation>Oynatma konumunun sağı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="177"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="178"/>
         <source>Track start to cursor</source>
-        <translation>Raidan alusta kohdistimeen</translation>
+        <translation>İz başlangıcından imlece</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="183"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="184"/>
         <source>Cursor to track end</source>
-        <translation>Kohdistin raidan loppuun</translation>
+        <translation>İmleçten iz sonuna</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="189"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="190"/>
         <source>Track start to end</source>
-        <translation>Raidan alusta loppuun</translation>
+        <translation>İz başangıcından sonuna</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="195"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="196"/>
         <source>Previous clip boundary to cursor</source>
-        <translation>Edellisen leikkeen reunasta kohdistimeen</translation>
+        <translation>Önceki parça sınırından imlece</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="201"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="202"/>
         <source>Cursor to next clip boundary</source>
-        <translation>Kohdistimesta seuraavan leikkeen reunaan</translation>
+        <translation>İmleçten sonraki parça sınırına</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="207"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="208"/>
         <source>Previous clip</source>
-        <translation>Edellinen leike</translation>
+        <translation>Önceki parça</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="213"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="214"/>
         <source>Next clip</source>
-        <translation>Seuraava leike</translation>
+        <translation>Sonraki parça</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="219"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="220"/>
         <source>Toggle spectral selection</source>
-        <translation>Vaihda spektrivalinnan tilaa</translation>
+        <translation>Spektral seçimi tersine çevir</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="225"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="226"/>
         <source>Move cursor to closest zero crossing</source>
-        <translation>Siirrä kursori lähimpään nollakohtaan</translation>
+        <translation>İmleci en yakın sıfır geçişine taşı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="36"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="37"/>
         <source>Zoom in</source>
-        <translation>Lähennä</translation>
+        <translation>Yakınlaştır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="43"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="44"/>
         <source>Zoom out</source>
-        <translation>Loitonna</translation>
+        <translation>Uzaklaştır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="50"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="51"/>
         <source>Zoom default</source>
-        <translation>Oletuszoomaus</translation>
+        <translation>Ön tanımlı yakınlaştırma</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="56"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="57"/>
         <source>Zoom to selection</source>
-        <translation>Skaalaa valintaan</translation>
+        <translation>Seçime yakınlaştır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="70"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="71"/>
         <source>Zoom toggle</source>
-        <translation>Skaalauksen vaihto</translation>
+        <translation>Yakınlaştırmayı aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="233"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="234"/>
         <source>Collapse all tracks</source>
-        <translation>Kutista kaikki raidat</translation>
+        <translation>Tüm izleri daralt</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="239"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="240"/>
         <source>Expand all tracks</source>
-        <translation>Laajenna kaikki raidat</translation>
+        <translation>Tüm izleri genişlet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="245"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="246"/>
         <source>Skip to selection start</source>
-        <translation>Hyppää valinnan alkuun</translation>
+        <translation>Seçim başlangıcına atla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="251"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="252"/>
         <source>Skip to selection end</source>
-        <translation>Hyppää valinnan loppuun</translation>
+        <translation>Seçim bitişine atla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="257"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="258"/>
         <source>Show effects</source>
-        <translation>Näytä tehosteet</translation>
+        <translation>Etkileri görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="264"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="265"/>
         <source>Show metadata editor</source>
-        <translation>Näytä metatietoeditori</translation>
+        <translation>Üst veri düzenleyicyi görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="271"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="272"/>
         <source>Show history</source>
-        <translation>Näytä historia</translation>
+        <translation>Geçmişi görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="280"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="281"/>
         <source>Record on current track</source>
-        <translation>Nauhoita nykyiselle raidalle</translation>
+        <translation>Geçerli ize kaydedilsin</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="286"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="287"/>
         <source>Record on new track</source>
-        <translation>Nauhoita uudelle raidalle</translation>
+        <translation>Yeni ize kaydedilsin</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="292"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="293"/>
         <source>Set up timed recording</source>
-        <translation>Määritä ajastettu äänitys</translation>
+        <translation>Zamanlanmış kayıt ayarla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="298"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="299"/>
         <source>Enable sound activating recording</source>
-        <translation>Ota ääniaktivoitu tallennus käyttöön</translation>
+        <translation>Ses etkinleştirmeli kaydı aç</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="304"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="305"/>
         <source>Set sound activation level</source>
-        <translation>Aseta äänen aktivointitaso</translation>
+        <translation>Ses etkinleştirme düzeyini ayarla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="318"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="319"/>
         <source>Remove tracks</source>
-        <translation>Poista raidat</translation>
+        <translation>İzleri kaldır</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="324"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="325"/>
         <source>Mix-down to…</source>
-        <translation>Miksataan…</translation>
+        <translation>Şuna indirge…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="330"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="331"/>
         <source>Align end to end</source>
-        <translation>Asettele peräjälkeen</translation>
+        <translation>Bitişten bitişe hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="336"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="337"/>
         <source>Align together</source>
-        <translation>Kohdista yhteen</translation>
+        <translation>Birlikte hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="342"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="343"/>
         <source>Align start to zero</source>
-        <translation>Tasaa alku nollaan</translation>
+        <translation>Başlangıcı sıfıra hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="348"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="349"/>
         <source>Align start to playhead</source>
-        <translation>Tasaa alku toistopaikkaan</translation>
+        <translation>Başlangıcı oynatma kafasına hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="354"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="355"/>
         <source>Align start to selection end</source>
-        <translation>Tasaa alku valinnan loppuun</translation>
+        <translation>Başlangıcı seçimin bitişine hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="360"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="361"/>
         <source>Align end to playhead</source>
-        <translation>Tasaa loppu toistopaikkaan</translation>
+        <translation>Bitişi oynatma kafasına hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="366"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="367"/>
         <source>Align end to selection end</source>
-        <translation>Tasaa loppu valinnan loppuun</translation>
+        <translation>Bitişi seçimin bitişine hizala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="372"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="373"/>
         <source>Sort by time</source>
-        <translation>Ajan mukaan</translation>
+        <translation>Tarihe göre sırala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="378"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="379"/>
         <source>Sort by name</source>
-        <translation>Nimen mukaan</translation>
+        <translation>Ada göre sırala</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="392"/>
@@ -900,271 +900,271 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="452"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="453"/>
         <source>Plugin manager</source>
-        <translation>Laajennusten hallinta</translation>
+        <translation>Eklenti yönetimi</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="406"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="407"/>
         <source>Add realtime effects</source>
-        <translation>Lisää reaaliaikaisia tehosteita</translation>
+        <translation>Gerçek zamanlı etkiler ekle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="412"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="413"/>
         <source>Fav effect #1</source>
-        <translation>Fav effect #1</translation>
+        <translation>Sık kullanılan etki 1</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="418"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="419"/>
         <source>Fav effect #2</source>
-        <translation>Fav effect #2</translation>
+        <translation>Sık kullanılan etki 2</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="424"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="425"/>
         <source>Fav effect #3</source>
-        <translation>Fav effect #3</translation>
+        <translation>Sık kullanılan etki 3</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="47"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="48"/>
         <source>Import…</source>
-        <translation>Tuo…</translation>
+        <translation>İçe aktar…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="71"/>
         <source>&amp;Export audio…</source>
-        <translation>&amp;Vie ääni…</translation>
+        <translation>&amp;Sesi dışa aktar…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="72"/>
         <source>Export audio…</source>
-        <translation>Vie ääni…</translation>
+        <translation>Sesi dışa aktar…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="384"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="385"/>
         <source>Keep tracks synchronized</source>
-        <translation>Pidä raidat synkronoituina</translation>
+        <translation>İzleri eşitlenmiş tut</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="438"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="439"/>
         <source>Contrast analyzer</source>
-        <translation>Kontrastianalyysi</translation>
+        <translation>Karşıtlık inceleyici</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="444"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="445"/>
         <source>Plot spectrum</source>
-        <translation>Spektrikaavio</translation>
+        <translation>Spektrum çiz</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="458"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="459"/>
         <source>Manage macros</source>
-        <translation>Hallitse makroja</translation>
+        <translation>Makro yönetimi</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="464"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="465"/>
         <source>Apply macros palette</source>
-        <translation>Käytä makropalettia</translation>
+        <translation>Makrolar paletini uygula</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="470"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="471"/>
         <source>Macro fade ends</source>
-        <translation>Makro häivytä loppuun</translation>
+        <translation>Makro kısma bitişi</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="476"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="477"/>
         <source>Macro MP3 conversion</source>
-        <translation>Makro MP3-muunnos</translation>
+        <translation>Makro MP3 dönüştürme</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="482"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="483"/>
         <source>Nyquist plugin installer</source>
-        <translation>Nyquist laajennuksen asentaja</translation>
+        <translation>Nyquist eklentisi kurucu</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="488"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="489"/>
         <source>Nyquist prompt</source>
-        <translation>Nyquist-kehote</translation>
+        <translation>Nyquist komutu</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="494"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="495"/>
         <source>Sample data export</source>
-        <translation>Näytetietojen vienti</translation>
+        <translation>Örnek veri dışa aktarımı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="500"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="501"/>
         <source>Sample data import</source>
-        <translation>Näytetietojen tuonti</translation>
+        <translation>Örnek veri içe aktarımı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="506"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="507"/>
         <source>Raw data import</source>
-        <translation>Raakadatan tuonti</translation>
+        <translation>Ham veri içe aktarımı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="512"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="513"/>
         <source>Reset configuration</source>
-        <translation>Palauta oletukset</translation>
+        <translation>Yapılandırmayı sıfırla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="520"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="521"/>
         <source>Previous window</source>
-        <translation>Edellinen ikkuna</translation>
+        <translation>Önceki pencere</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="526"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="527"/>
         <source>Next window</source>
-        <translation>Seuraava ikkuna</translation>
+        <translation>Sonraki pencere</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="532"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="533"/>
         <source>Benchmark</source>
-        <translation>Vertailuanalyysi</translation>
+        <translation>Hız sınaması</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="538"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="539"/>
         <source>Regular interval labels</source>
-        <translation>Säännölliset välimerkit</translation>
+        <translation>Normal aralık etiketleri</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="546"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="547"/>
         <source>Tutorials</source>
-        <translation>Opastus</translation>
+        <translation>Öğreticiler</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="552"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="553"/>
         <source>Device info</source>
-        <translation>Laitteen tiedot</translation>
+        <translation>Aygıt bilgileri</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="558"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="559"/>
         <source>MIDI device info</source>
-        <translation>MIDI-laitteen tiedot</translation>
+        <translation>MIDI aygıtı bilgileri</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="564"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="565"/>
         <source>Log</source>
-        <translation>Loki</translation>
+        <translation>Günlük</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="570"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="571"/>
         <source>Crash report</source>
-        <translation>Kaatumisraportti</translation>
+        <translation>Çökme bildirimi</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="576"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="577"/>
         <source>Raise segfault</source>
-        <translation>Ohjelma kaatui</translation>
+        <translation>Ayırma hatası</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="582"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="583"/>
         <source>Throw exception</source>
-        <translation>Heitti virheen</translation>
+        <translation>İstisna durumu</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="588"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="589"/>
         <source>Violate assertion</source>
-        <translation>Sisäinen virhe</translation>
+        <translation>İhlal iddiası</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="594"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="595"/>
         <source>Menu tree</source>
-        <translation>Valikkopuu</translation>
+        <translation>Menü ağacı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="600"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="601"/>
         <source>Frame statistics</source>
-        <translation>Kehyksen tiedot</translation>
+        <translation>Kare istatistikleri</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="606"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="607"/>
         <source>Link account</source>
-        <translation>Linkitä tili</translation>
+        <translation>Hesap bağla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="612"/>
         <source>Save to clo&amp;ud…</source>
-        <translation>&amp;Tallenna pilveen…</translation>
+        <translation>&amp;Buluta kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="613"/>
         <source>Save to cloud…</source>
-        <translation>Tallenna pilveen…</translation>
+        <translation>Buluta kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="619"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="620"/>
         <source>Share audio</source>
-        <translation>Jaa ääni</translation>
+        <translation>Ses paylaş</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="627"/>
         <source>Project propert&amp;ies…</source>
-        <translation>Projektin om&amp;inaisuudet…</translation>
+        <translation>Proje ö&amp;zellikleri…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="628"/>
         <source>Project properties…</source>
-        <translation>Projektin ominaisuudet…</translation>
+        <translation>Proje özellikleri…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="22"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="23"/>
         <source>Clip gain</source>
-        <translation>Leikkeen voimakkuus</translation>
+        <translation>Parça kazancı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="29"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="30"/>
         <source>Split tool</source>
-        <translation>Leikkaustyökalu</translation>
+        <translation>Ayırma aracı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="63"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="64"/>
         <source>Zoom to fit project</source>
-        <translation>Sovita projekti ikkunaan</translation>
+        <translation>Projeyi sığdır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="77"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="78"/>
         <source>Center view on playhead</source>
-        <translation>Keskitä näkymä toistokohtaan</translation>
+        <translation>Görüntüyü oynatma kafasına ortala</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="83"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="84"/>
         <source>Toggle spectral view</source>
-        <translation>Vaihda spektrinäkymään</translation>
+        <translation>Spektral görünümü aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="90"/>
@@ -1172,632 +1172,632 @@
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="97"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="98"/>
         <source>Spectral box select</source>
-        <translation>Spektrin ruutuvalinta</translation>
+        <translation>Spektral kutu seçimi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="104"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="105"/>
         <source>Snapping</source>
-        <translation>Kiinnittäminen</translation>
+        <translation>Yapışma</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="111"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="112"/>
         <source>Minutes &amp;&amp; seconds</source>
-        <translation>Minuutit ja sekunnit</translation>
+        <translation>Dakika ve saniye</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="118"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="119"/>
         <source>Beats &amp;&amp; measures</source>
-        <translation>Iskut ja tahdit</translation>
+        <translation>Vuruş ve ölçü</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="125"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="126"/>
         <source>Show vertical rulers</source>
-        <translation>Näytä pystyapuviivat</translation>
+        <translation>Dikey cetvelleri görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="132"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="133"/>
         <source>Show master track</source>
-        <translation>Näytä pääraita</translation>
+        <translation>Ana izi görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="139"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="140"/>
         <source>Update display while playing</source>
-        <translation>Päivitä näyttöä toistettaessa</translation>
+        <translation>Oynatırken ekranı güncelle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="146"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="147"/>
         <source>Pinned play head</source>
-        <translation>Kiinnitetty toistokohta</translation>
+        <translation>Sanitlenmiş oynatma kafası</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="153"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="154"/>
         <source>Click ruler to start playback</source>
-        <translation>Aloita toisto painamalla viivainta</translation>
+        <translation>Oynatmayı başlatmak için cetvele tıklayın</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="161"/>
         <source>Clip properties</source>
-        <translation>Leikkeen ominaisuudet</translation>
+        <translation>Parça özellikleri</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="162"/>
         <source>Show clip properties</source>
-        <translation>Näytä leikkeen ominaisuudet</translation>
+        <translation>Parça özelliklerini görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="167"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="168"/>
         <source>Rename clip</source>
-        <translation>Nimeä leike</translation>
+        <translation>Parçayı yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="182"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="183"/>
         <source>Follow track color</source>
-        <translation>Seuraa raidan väriä</translation>
+        <translation>İz rengini izle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="189"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="190"/>
         <source>Move play cursor left</source>
-        <translation>Siirrä toistokohdistin vasemmalle</translation>
+        <translation>Oynatma imlecini sola taşı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="195"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="196"/>
         <source>Move play cursor right</source>
-        <translation>Siirrä toistokohdistin oikealle</translation>
+        <translation>Oynatma imlecini sağa taşı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="201"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="202"/>
         <source>Extend selection left</source>
-        <translation>Laajenna valintaa vasemmalle</translation>
+        <translation>Seçimi sola genişlet</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="207"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="208"/>
         <source>Extend selection right</source>
-        <translation>Laajenna valintaa oikealle</translation>
+        <translation>Seçimi sağa genişlet</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="213"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="214"/>
         <source>Contract selection from left</source>
-        <translation>Supista valintaa vasemmalta</translation>
+        <translation>Seçimi soldan örtüştür</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="219"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="220"/>
         <source>Contract selection from right</source>
-        <translation>Supista valintaa oikealta</translation>
+        <translation>Seçimi sağdan örtüştür</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="225"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="226"/>
         <source>Pitch and speed</source>
-        <translation>Sävelkorkeus ja nopeus</translation>
+        <translation>Perde ve tempo</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="231"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="232"/>
         <source>Show RMS in waveform</source>
-        <translation>Näytä keskimääräinen taso aaltomuodossa</translation>
+        <translation>Dalga şeklinde RMS görüntülensin</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="238"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="239"/>
         <source>Show clipping in waveform</source>
-        <translation>Näytä leike aaltomuodossa</translation>
+        <translation>Dalga şeklinde kırpılma görüntülensin</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="245"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="246"/>
         <source>Half-wave</source>
-        <translation>Puoliaalto</translation>
+        <translation>Yarım dalga</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="252"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="253"/>
         <source>Show label editor</source>
-        <translation>Näytä merkintäeditori</translation>
+        <translation>Etiket düzenleyiciyi görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="258"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="259"/>
         <source>Move realtime effect up</source>
-        <translation>Siirrä reaaliaikaista tehostetta ylös</translation>
+        <translation>Gerçek zamanlı etkiyi yukarı taşı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="264"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="265"/>
         <source>Move realtime effect down</source>
-        <translation>Siirrä reaaliaikaista tehostetta alas</translation>
+        <translation>Gerçek zamanlı etkiyi aşağı taşı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="289"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="290"/>
         <source>Change clip color</source>
-        <translation>Vaihda leikkeen väriä</translation>
+        <translation>Parça rengini değiştir</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="301"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="302"/>
         <source>Change track color</source>
-        <translation>Vaihda raidan väriä</translation>
+        <translation>İz rengini değiştir</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="29"/>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="30"/>
         <source>Record</source>
-        <translation>Äänitys</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="44"/>
         <source>Stop record</source>
-        <translation>Pysäytä äänitys</translation>
+        <translation>Kaydı durdur</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="50"/>
         <source>Record level</source>
-        <translation>Äänitystaso</translation>
+        <translation>Kayıt düzeyi</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="51"/>
         <source>Set record level</source>
-        <translation>Aseta äänitystaso</translation>
+        <translation>Kayıt düzeyini ayarla</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="57"/>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="58"/>
         <source>Show mic metering</source>
-        <translation>Näytä mikrofonin mitta</translation>
+        <translation>Mikrofon ölçümünü görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="64"/>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="65"/>
         <source>Turn on input monitoring</source>
-        <translation>Tulosignaalin valvonta käyttöön</translation>
+        <translation>Giriş izlemeyi aç</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="71"/>
         <source>Lead-in Recording</source>
-        <translation>Esiäänitys</translation>
+        <translation>Giriş payıyla kayıt</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="72"/>
         <source>Start lead-in recording</source>
-        <translation>Aloita esiäänitys</translation>
+        <translation>Giriş payıyla kaydı başlat</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/internal/spectrogramuiactions.cpp" line="18"/>
         <location filename="../../src/spectrogram/internal/spectrogramuiactions.cpp" line="19"/>
         <source>Spectrogram settings…</source>
-        <translation>Äänen visuaaliset asetukset…</translation>
+        <translation>Spektrogram ayarları…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="66"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="67"/>
         <source>Clear selection</source>
-        <translation>Tyhjennä valinta</translation>
+        <translation>Seçimi temizle</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="72"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="73"/>
         <source>Cut and leave gap</source>
-        <translation>Leikkaa ja jätä väli</translation>
+        <translation>Kes ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="79"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="80"/>
         <source>Cut and close gap (per clip)</source>
-        <translation>Leikkaa ja poista väli (leikekohtaisesti)</translation>
+        <translation>Kes ve boşluğu kapat (her parça)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="86"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="87"/>
         <source>Cut and close gap (per track)</source>
-        <translation>Leikkaa ja poista väli (raitakohtaisesti)</translation>
+        <translation>Kes ve boşluğu kapat (her iz)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="93"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="94"/>
         <source>Cut and close gap (all tracks)</source>
-        <translation>Leikkaa ja poista välit (kaikki raidat)</translation>
+        <translation>Kes ve boşluğu kapat (tüm izler)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="100"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="101"/>
         <source>Delete and leave gap</source>
-        <translation>Poista ja jätä väli</translation>
+        <translation>Sil ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="107"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="108"/>
         <source>Delete and close gap (per clip)</source>
-        <translation>Poista ja täytä väli (leikekohtaisesti)</translation>
+        <translation>Sil ve boşluğu kapat (her parça)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="114"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="115"/>
         <source>Delete and close gap (per track)</source>
-        <translation>Poista ja poista väli (raitakohtaisesti)</translation>
+        <translation>Sil ve boşluğu kapat (her iz)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="121"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="122"/>
         <source>Delete and close gap (all tracks)</source>
-        <translation>Poista ja poista välit (kaikki raidat)</translation>
+        <translation>Sil ve boşluğu kapat (tüm izler)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="128"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="129"/>
         <source>Split</source>
-        <translation>Jako</translation>
+        <translation>Ayır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="134"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="135"/>
         <source>Join selected clips</source>
-        <translation>Yhdistä valitut leikkeet</translation>
+        <translation>Seçilmiş parçaları birleştir</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="140"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="141"/>
         <source>Split clips at silences</source>
-        <translation>Jaa leikkeet hiljaisista kohdista</translation>
+        <translation>Parçaları sessizliklerde ayır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="153"/>
         <source>Rename</source>
-        <translation>Nimeä uudelleen</translation>
+        <translation>Yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="154"/>
         <source>Rename track</source>
-        <translation>Nimeä raita uudelleen</translation>
+        <translation>İzi yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="160"/>
         <source>Duplicate track</source>
-        <translation>Kopioi raita</translation>
+        <translation>İzi çoğalt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="166"/>
         <source>Delete track</source>
-        <translation>Poista raita</translation>
+        <translation>İzi sil</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="171"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="172"/>
         <source>Move track up</source>
-        <translation>Siirrä raita ylös</translation>
+        <translation>İzi yukarı taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="177"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="178"/>
         <source>Move track down</source>
-        <translation>Siirrä raita alas</translation>
+        <translation>İzi aşağı taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="183"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="184"/>
         <source>Move track to top</source>
-        <translation>Siirrä raita ylimmäksi</translation>
+        <translation>İzi en üste taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="189"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="190"/>
         <source>Move track to bottom</source>
-        <translation>Siirrä raita alimmaksi</translation>
+        <translation>İzi en alta taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="195"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="196"/>
         <source>Other…</source>
-        <translation>Muut...</translation>
+        <translation>Diğer…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="202"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="203"/>
         <source>Make stereo track</source>
-        <translation>Luo stereoraita</translation>
+        <translation>İzi çift kanallı yap</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="208"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="209"/>
         <source>Swap stereo channels</source>
-        <translation>Vaihda stereokanavien paikkaa</translation>
+        <translation>Kanalların yerini değiştir</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="214"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="215"/>
         <source>Split stereo to L/R mono</source>
-        <translation>Jaa stereo L/R-monoraidoiksi</translation>
+        <translation>Çift kanallıyı tek kanallıya ayır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="220"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="221"/>
         <source>Split stereo to center mono</source>
-        <translation>Jaa stereo keskimonoraidoiksi</translation>
+        <translation>Çift kanallıyı merkez tek kanallıya ayır</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="226"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="227"/>
         <source>Resample track…</source>
-        <translation>Muuta raidan näytetaajuutta…</translation>
+        <translation>İzi yeniden örnekle…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="232"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="233"/>
         <source>Waveform</source>
-        <translation>Aaltomuoto</translation>
+        <translation>Dalga şekli</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="240"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="241"/>
         <source>Spectrogram</source>
-        <translation>Spektrogrammi</translation>
+        <translation>Spektrogram</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="453"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="454"/>
         <source>Above item</source>
-        <translation>Ylempi kohde</translation>
+        <translation>Ögenin üstünde</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="459"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="460"/>
         <source>Below item</source>
-        <translation>Alempi kohde</translation>
+        <translation>Ögenin altında</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="248"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="249"/>
         <source>Multi-view</source>
-        <translation>Yhdistelmänäkymä</translation>
+        <translation>Çoklu görünüm</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="263"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="264"/>
         <source>Paste (pushes clips on selected track)</source>
-        <translation>Liitä (siirtää valitun raidan leikkeitä)</translation>
+        <translation>Yapıştır (parçaları seçilmiş ize iter)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="270"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="271"/>
         <source>Paste (overlaps other clips)</source>
-        <translation>Liitä (menee muiden leikkeiden päälle)</translation>
+        <translation>Yapıştır (diğer parçalar ile örtüşür)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="277"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="278"/>
         <source>Paste (preserves synchronization on all tracks)</source>
-        <translation>Liitä (säilyttää kaikkien raitojen synkronoinnin)</translation>
+        <translation>Yapıştır (tüm izlerle eşitlemeyi korur)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="284"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="285"/>
         <source>Merge selected clips</source>
-        <translation>Yhdistä valitut leikkeet</translation>
+        <translation>Seçilmiş parçaları birleştir</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="290"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="291"/>
         <source>Duplicate selected</source>
-        <translation>Kopioi valittu</translation>
+        <translation>Seçilmişi çoğalt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="296"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="297"/>
         <source>Duplicate clip</source>
-        <translation>Kopioi leike</translation>
+        <translation>Parçayı çoğalt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="302"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="303"/>
         <source>Export clip</source>
-        <translation>Vie leike</translation>
+        <translation>Parçayı dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="308"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="309"/>
         <source>Stretch with tempo changes</source>
-        <translation>Venytä tempomuutosten mukaan</translation>
+        <translation>Tempo değişiklikleri ile esnet</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="315"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="316"/>
         <source>Open pitch and speed dialog</source>
-        <translation>Avaa korkeuden ja nopeuden säätö</translation>
+        <translation>Perde ve tempo iletişim kutusunu aç</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="321"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="322"/>
         <source>Render pitch and speed</source>
-        <translation>Muunna korkeus ja nopeus</translation>
+        <translation>Oluşturma perdesi ve temposu</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="327"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="328"/>
         <source>New mono track</source>
-        <translation>Uusi monoraita</translation>
+        <translation>Yeni tek kanallı iz</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="333"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="334"/>
         <source>New stereo track</source>
-        <translation>Uusi stereoraita</translation>
+        <translation>Yeni çift kanallı iz</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="339"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="340"/>
         <source>New label track</source>
-        <translation>Uusi merkintäraita</translation>
+        <translation>Yeni etiket izi</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="345"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="346"/>
         <source>Add label</source>
-        <translation>Lisää merkintä</translation>
+        <translation>Etiket ekle</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="351"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="352"/>
         <source>Trim</source>
-        <translation>Rajaa</translation>
+        <translation>Buda</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="358"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="359"/>
         <source>Silence</source>
-        <translation>Hiljaisuus</translation>
+        <translation>Sessizlik</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="365"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="366"/>
         <source>Group clips</source>
-        <translation>Ryhmitä leikkeet</translation>
+        <translation>Parçaları grupla</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="371"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="372"/>
         <source>Ungroup clips</source>
-        <translation>Pura leikkeiden ryhmitys</translation>
+        <translation>Parça grubunu dağıt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="377"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="378"/>
         <source>Move item left</source>
-        <translation>Siirrä kohde vasemmalle</translation>
+        <translation>Ögeyi sola taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="383"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="384"/>
         <source>Move item right</source>
-        <translation>Siirrä kohde oikealle</translation>
+        <translation>Ögeyi sağa taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="389"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="390"/>
         <source>Extend item left</source>
-        <translation>Laajenna kohdetta vasemmalle</translation>
+        <translation>Ögeyi sola uzat</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="395"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="396"/>
         <source>Extend item right</source>
-        <translation>Laajenna kohdetta oikealle</translation>
+        <translation>Ögeyi sağa uzat</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="401"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="402"/>
         <source>Reduce item left</source>
-        <translation>Pienennä vasemmalta</translation>
+        <translation>Ögeyi soldan kısalt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="407"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="408"/>
         <source>Reduce item right</source>
-        <translation>Pienennä oikealta</translation>
+        <translation>Ögeyi sağdan kısalt</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="413"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="414"/>
         <source>Move item up</source>
-        <translation>Siirrä kohde ylös</translation>
+        <translation>Ögeyi yukarı taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="419"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="420"/>
         <source>Move item down</source>
-        <translation>Siirrä kohde alas</translation>
+        <translation>Ögeyi aşağı taşı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="427"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="428"/>
         <source>Next panel</source>
-        <translation>Seuraava paneeli</translation>
+        <translation>Sonraki pano</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="433"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="434"/>
         <source>Previous panel</source>
-        <translation>Edellinen paneeli</translation>
+        <translation>Önceki pano</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="440"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="441"/>
         <source>Next item</source>
-        <translation>Seuraava kohde</translation>
+        <translation>Sonraki öge</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="446"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="447"/>
         <source>Previous item</source>
-        <translation>Edellinen kohde</translation>
+        <translation>Önceki öge</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="466"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="467"/>
         <source>First track</source>
-        <translation>Ensimmäinen raita</translation>
+        <translation>İlk iz</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="472"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="473"/>
         <source>Last track</source>
-        <translation>Viimeinen raita</translation>
+        <translation>Son iz</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="479"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="480"/>
         <source>Select track/track item</source>
-        <translation>Valitse raita tai kohde</translation>
+        <translation>İzi/iz ögesini seçin</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="485"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="486"/>
         <source>Track range selection</source>
-        <translation>Raidan aluevalinta</translation>
+        <translation>İz aralığı seçimi</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="491"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="492"/>
         <source>Multi track selection previous</source>
-        <translation>Moniraitavalinta edelliseen</translation>
+        <translation>Çok iz seçimi önceki</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="497"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="498"/>
         <source>Multi track selection next</source>
-        <translation>Moniraitavalinta seuraavaan</translation>
+        <translation>Çok iz seçimi sonraki</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="504"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="505"/>
         <source>Open item’s context menu</source>
-        <translation>Avaa kohteen pikavalikko</translation>
+        <translation>Ögenin sağ tık menüsünü aç</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="525"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="526"/>
         <source>Change track format</source>
-        <translation>Muuta raidan muotoa</translation>
+        <translation>İz biçimini değiştir</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="538"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="539"/>
         <source>Change track sample rate</source>
-        <translation>Muuta raidan näytetaajuutta</translation>
+        <translation>İzin örnekleme hızını değiştir</translation>
     </message>
 </context>
 <context>
@@ -1806,210 +1806,209 @@
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/AccountPage.qml" line="63"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/HomeMenu.qml" line="64"/>
         <source>Cloud account</source>
-        <translation>Pilvitili</translation>
+        <translation>Bulut hesabı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/HomeMenu.qml" line="54"/>
         <source>Home menu</source>
-        <translation>Aloitusvalikko</translation>
+        <translation>Giriş menüsü</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/HomeMenu.qml" line="94"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/maintoolbarmodel.cpp" line="95"/>
         <source>Project</source>
-        <translation>Projekti</translation>
+        <translation>Proje</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/HomeMenu.qml" line="100"/>
         <source>Learn</source>
-        <translation>Opettelu</translation>
+        <translation>Öğren</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="73"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="97"/>
         <source>Plugins</source>
-        <translation>Lisäosat</translation>
+        <translation>Eklentiler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="110"/>
         <source>Plugins search</source>
-        <translation>Lisäosahaku</translation>
+        <translation>Eklenti arama</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="129"/>
         <source>Category:</source>
-        <translation>Luokka:</translation>
+        <translation>Kategori:</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="137"/>
         <source>All</source>
         <extracomment>The title of an option to display the plugins from all categories.</extracomment>
-        <translation>Kaikki</translation>
+        <translation>Tümü</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/MainToolBar.qml" line="64"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/WindowContent.qml" line="61"/>
         <source>Main toolbar</source>
-        <translation>Päätyökalupalkki</translation>
+        <translation>Ana araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/platform/AppMenuBar.qml" line="71"/>
         <source>Application menu</source>
-        <translation>Sovellusvalikko</translation>
+        <translation>Uygulama menüsü</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="157"/>
         <source>Project toolbar</source>
-        <translation>Projektin työkalupalkki</translation>
+        <translation>Proje araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="180"/>
         <source>Workspaces toolbar</source>
-        <translation>Työtilojen työkalupalkki</translation>
+        <translation>Çalışma alanları araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="203"/>
         <source>Undo/redo toolbar</source>
-        <translation>Kumoa/toista työkalupalkki</translation>
+        <translation>Geri alma/Yineleme araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="225"/>
         <source>Play toolbar</source>
-        <translation>Toiston työkalupalkki</translation>
+        <translation>Oynatma araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="291"/>
         <source>Tracks</source>
-        <translation>Raidat</translation>
+        <translation>İzler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="387"/>
         <source>Playback meter</source>
-        <translation>Toistomittari</translation>
+        <translation>Oynatma ölçer</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/ProjectPage/ProjectPage.qml" line="406"/>
         <source>History</source>
-        <translation>Historia</translation>
+        <translation>Geçmiş</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="81"/>
         <source>Produce MIDI 2.0 output if supported by the receiver</source>
-        <translation>Tuota MIDI 2.0 -lähtöä, jos vastaanottaja tukee sitä</translation>
+        <translation>Alıcı destekliyorsa MIDI 2.0 çıktısı oluşturur</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="324"/>
         <source>Are you sure you want to revert to factory settings?</source>
-        <translation>Haluatko varmasti palauttaa tehdasasetukset?</translation>
+        <translation>Fabrika ayarlarına dönmek istediğinize emin misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="325"/>
         <source>This action will reset all your app preferences and custom UI configurations. It also deletes your custom workspaces and shortcuts. You will also need to scan all third party plugins again.
 
 This action will not delete any of your projects.</source>
-        <translation>Tämä toiminto nollaa kaikki sovelluksen asetukset ja käyttöliittymän mukautukset. Se poistaa myös mukautetut työtilat ja pikanäppäimet. Sinun on myös skannattava kaikki kolmannen osapuolen lisäosat uudelleen. 
-
-Tämä toiminto ei poista projektejasi.</translation>
+        <translation>Bu işlem tüm uygulama ayarlarınızı ve özel kullanıcı arayüzü yapılandırmalarınızı sıfırlar. Ayrıca özel çalışma alanlarınızı ve kısayollarınızı da siler. Tüm üçüncü taraf eklentilerini yeniden taramanız gerekir.
+Bu işlem hiçbir projelerinizi silmez.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="337"/>
         <source>Revert</source>
-        <translation>Palauta</translation>
+        <translation>Geri al</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="339"/>
         <source>Revert to factory settings</source>
-        <translation>Palauta tehdasasetukset</translation>
+        <translation>Fabrika ayarlarına dön</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="351"/>
         <source>Would you like to restart Audacity now?</source>
-        <translation>Haluatko käynnistää Audacityn uudelleen nyt?</translation>
+        <translation>Audacity şimdi yeniden başlatılsın mı?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="352"/>
         <source>Audacity needs to be restarted for these changes to take effect.</source>
-        <translation>Audacity on käynnistettävä uudelleen, jotta nämä muutokset tulevat voimaan.</translation>
+        <translation>Değişikliklerin etkili olması için Audacity yeniden başlatılmalı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="358"/>
         <source>Restart</source>
-        <translation>Käynnistä uudelleen</translation>
+        <translation>Yeniden başlat</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="54"/>
         <source>Loading…‎</source>
-        <translation>Ladataan…‎</translation>
+        <translation>Yükleniyor…‎</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="101"/>
         <source>Version %1</source>
-        <translation>Versio %1</translation>
+        <translation>%1 sürümü</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="41"/>
         <source>Loading new project…‎</source>
-        <translation>Ladataan uutta projektia…‎</translation>
+        <translation>Yeni proje yükleniyor…‎</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="45"/>
         <source>Loading “%1”…‎</source>
-        <translation>Ladataan “%1”…</translation>
+        <translation>“%1” yükleniyor…‎</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="51"/>
         <source>Loading project…‎</source>
-        <translation>Ladataan projektia…‎</translation>
+        <translation>Proje yükleniyor…‎</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="56"/>
         <source>Scanning audio plugins</source>
-        <translation>Haetaan äänilisäosia</translation>
+        <translation>Ses eklentileri aranıyor</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="57"/>
         <source>Audacity has found plugins that need to be scanned before use. Would you like to scan them now or skip?</source>
-        <translation>Audacity on löytänyt lisäosia, jotka on tarkistettava ennen käyttöä. Haluatko tarkistaa ne nyt vai ohittaa vaiheen?</translation>
+        <translation>Audacity, kullanılmadan önce taranması gereken eklentiler buldu. Bunların şimdi taranmasını mı yoksa atlanmasını mı istersiniz?</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="62"/>
         <source>Skip this time</source>
-        <translation>Ohita tällä kertaa</translation>
+        <translation>Şimdilik atla</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="65"/>
         <source>Scan plugins</source>
-        <translation>Hae lisäosia</translation>
+        <translation>Eklentileri tara</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="69"/>
         <source>Audio plugin scan</source>
-        <translation>Audiolisäosien skannaus</translation>
+        <translation>Ses eklentisi taraması</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/startupscenario.cpp" line="282"/>
         <source>The previous session quit unexpectedly.</source>
-        <translation>Edellinen istunto sulkeutui odottamattomasti.</translation>
+        <translation>Önceki oturum beklenmedik şekilde kapatılmış</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/startupscenario.cpp" line="283"/>
         <source>Do you want to restore the session?</source>
-        <translation>Haluatko palauttaa istunnon?</translation>
+        <translation>Önceki oturum geri yüklensin mi?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/maintoolbarmodel.cpp" line="94"/>
         <source>Home</source>
-        <translation>Koti</translation>
+        <translation>Giriş</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/maintoolbarmodel.cpp" line="96"/>
         <source>Publish</source>
-        <translation>Julkaise</translation>
+        <translation>Yayınla</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/maintoolbarmodel.cpp" line="99"/>
         <source>DevTools</source>
-        <translation>DevTools</translation>
+        <translation>Geliştirici araçları</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/mainwindowtitleprovider.cpp" line="101"/>
@@ -2034,22 +2033,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="32"/>
         <source>About MusicXML</source>
-        <translation>Tietoja MusicXML</translation>
+        <translation>MusicXML hakkında</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="59"/>
         <source>MusicXML is an open file format for exchanging digital sheet music, supported by many applications.</source>
-        <translation>MusicXML on avoin tiedostomuoto digitaalisten nuottien vaihtamiseen, ja sitä tukevat monet sovellukset.</translation>
+        <translation>MusicXML, birçok uygulama tarafından desteklenen dijital nota alışverişi için kullanılan açık bir dosya biçimidir.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="71"/>
         <source>Copyright © 2004-2021 the Contributors to the MusicXML Specification, published by the Music Notation Community Group under the W3C Community Final Specification Agreement (FSA):</source>
-        <translation>Copyright © 2004-2021 the Contributors to the MusicXML Specification, published by the Music Notation Community Group under the W3C Community Final Specification Agreement (FSA):</translation>
+        <translation>Telif Hakkı © 2004-2021 W3C Topluluk Son Şartname Anlaşması (FSA) kapsamında Müzik Notasyonu Topluluk Grubu tarafından yayınlanan MusicXML teknik özelliklerine katkıda bulunanlar:</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="95"/>
         <source>A human-readable summary is available:</source>
-        <translation>Selkokielinen tiivistelmä on saatavilla:</translation>
+        <translation>İnsan tarafından okunabilen bir özet kullanılabilir:</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AlphaWelcomePopup.qml" line="14"/>
@@ -2059,17 +2058,17 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/aboutmodel.cpp" line="272"/>
         <source>Unstable prerelease for %1</source>
-        <translation>Epävakaa esijulkaisu %1</translation>
+        <translation>%1 için kararsız yayın öncesi sürümü</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/aboutmodel.cpp" line="338"/>
         <source>translator_credits</source>
-        <translation>Suomennos: Petri Vuorio, Elias Julkunen, Tomi Toivio &amp; Ilkka Mäkelä, upd 05-2020 VeikkoM, Sampo Hippeläinen, Heino Keränen</translation>
+        <translation>çevirmen_kredileri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="15"/>
         <source>About Audacity</source>
-        <translation>Tietoja Audacity</translation>
+        <translation>Audacity hakkında</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="43"/>
@@ -2079,47 +2078,47 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="47"/>
         <source>Legal</source>
-        <translation>Laillisuus</translation>
+        <translation>Yasal</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="28"/>
         <source>Audacity the free, open source, cross-platform software for recording and editing sounds.</source>
-        <translation>Audacity on ilmainen, avoimen lähdekoodin ja monialustainen ohjelmisto äänen tallentamiseen ja muokkaamiseen.</translation>
+        <translation>Audacity özgür, açık kaynaklı ve farklı platformlarda çalışabilen bir ses düzenleme ve kaydetme uygulamasıdır.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="109"/>
         <source>Credits</source>
-        <translation>Tekijät</translation>
+        <translation>Emeği geçenler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="197"/>
         <source>Audacity website: %1</source>
-        <translation>Audacityn verkkosivusto: %1</translation>
+        <translation>Audacity sitesi: %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="207"/>
         <source>&lt;b&gt;Audacity®&lt;/b&gt; software is copyright © 1999-%1 Audacity Team.</source>
-        <translation>&lt;b&gt;Audacity®&lt;/b&gt;-ohjelmiston tekijänoikeus © 1999–%1 Audacity Team.</translation>
+        <translation>&lt;b&gt;Audacity®&lt;/b&gt; yazılımının telif hakkı © 1999-%1 Audacity Ekibi.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="212"/>
         <source>The name &lt;b&gt;Audacity&lt;/b&gt; is a registered trademark.</source>
-        <translation>Nimi &lt;b&gt;Audacity&lt;/b&gt; on rekisteröity tavaramerkki.</translation>
+        <translation>&lt;b&gt;Audacity&lt;/b&gt; adı kayıtlı bir markadır.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="27"/>
         <source>Privacy</source>
-        <translation>Yksityisyys</translation>
+        <translation>Gizlilik</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="28"/>
         <source>App update checking and error reporting require network access. These features are optional.&lt;br&gt;See our %1 for more info.</source>
-        <translation>Sovelluksen päivitystarkistus ja virheraportointi vaativat verkkoyhteyden. Nämä ominaisuudet ovat valinnaisia. &lt;br&gt;Katso lisätietoja %1.</translation>
+        <translation>Uygulama güncelleme denetimi ve hata bildirimi özellikleri için ağ erişimi gereklidir. Bu özelliklerin kullanılması isteğe bağlıdır.&lt;br&gt;Ayrıntılı bilgi almak için %1 bölümüne bakabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="54"/>
         <source>privacy policy</source>
-        <translation>tietosuojakäytäntö</translation>
+        <translation>gizlilik ilkesi</translation>
     </message>
 </context>
 <context>
@@ -2127,53 +2126,53 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="35"/>
         <source>Preferences → Application</source>
-        <translation>Asetukset → Sovellus</translation>
+        <translation>Ayarlar → Uygulama</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="37"/>
         <source>App Updates</source>
-        <translation>Sovelluspäivitykset</translation>
+        <translation>Uygulama güncellemeleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="38"/>
         <source>Audacity notifies you in-app when a new version is available to download.</source>
-        <translation>Audacity ilmoittaa sinulle sovelluksen sisällä, kun uusi versio on ladattavissa.</translation>
+        <translation>Yeni bir sürüm indirilebilir olduğunda Audacity sizi uygulama içinde bilgilendirir.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="40"/>
         <source>You can turn this off anytime in %1.</source>
-        <translation>Voit poistaa tämän käytöstä milloin tahansa kohdasta %1.</translation>
+        <translation>Bunu istediğiniz zaman %1 içinden kapatabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="42"/>
         <source>Usage Info</source>
-        <translation>Käyttötiedot</translation>
+        <translation>Kullanım bilgileri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="44"/>
         <source>privacy policy</source>
-        <translation>tietosuojakäytäntö</translation>
+        <translation>gizlilik ilkesi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="45"/>
         <source>To help us understand how often people use Audacity, we generate a random ID (UUID) for each installation. This ID does not contain any personally identifiable information. Want to know more? Check out our %1.</source>
-        <translation>Jotta ymmärtäisimme paremmin, kuinka usein Audacityä käytetään, luomme jokaiselle asennukselle satunnaisen tunnuksen (UUID). Tämä tunnus ei sisällä mitään henkilökohtaisia tietoja. Haluatko tietää lisää? Lue %1.</translation>
+        <translation>İnsanların Audacity uygulamasını ne sıklıkla kullandığını anlamamıza yardımcı olması amacıyla her kurulum için rastgele bir kimlik (UUID) oluşturuyoruz. Bu kimlikte sizi kişisel olarak tanımlayabilecek herhangi bir bilgi bulunmaz. Ayrıntılı bilgi almak için %1 bölümüne bakabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="47"/>
         <source>You can disable this anytime in %1.</source>
-        <translation>Voit poistaa käytöstä %1 milloin tahansa.</translation>
+        <translation>Bunu istediğiniz zaman kapatabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="49"/>
         <source>Disable UUID</source>
-        <translation>Poista UUID käytöstä</translation>
+        <translation>UUID kullanılmasın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="82"/>
         <source>UpdatesUsage. %1</source>
         <extracomment>%1 is the page title, %2 is the active button title (e.g. &quot;Next&quot; or &quot;Done&quot;)</extracomment>
-        <translation>Päivitysten käyttö. %1</translation>
+        <translation>Güncellemeler kullanımı. %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/DoublePage.qml" line="48"/>
@@ -2197,236 +2196,236 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/PlaybackPage.qml" line="31"/>
         <source>Playback</source>
-        <translation>Toisto</translation>
+        <translation>Oynatma</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/PlaybackPage.qml" line="36"/>
         <source>Watch video</source>
-        <translation>Katso video</translation>
+        <translation>Görüntüyü izle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="14"/>
         <source>Connect to your audio.com account</source>
-        <translation>Yhdistä sinun audio.com tiliin</translation>
+        <translation>audio.com hesabınız ile bağlantı kurun</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="28"/>
         <source>Continue with Google</source>
-        <translation>Jatka Googlella</translation>
+        <translation>Google ile ilerle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="29"/>
         <source>Continue with Facebook</source>
-        <translation>Jatka Facebookilla</translation>
+        <translation>Facebook ile ilerleyin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="30"/>
         <source>Or use email and password</source>
-        <translation>tai käytä sähköpostiosoitetta ja salasanaa</translation>
+        <translation>Ya da e-posta ve parola kullanın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="36"/>
         <source>Email</source>
-        <translation>Sähköposti</translation>
+        <translation>E-posta</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="37"/>
         <source>Password</source>
-        <translation>Salasana</translation>
+        <translation>Parola</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="38"/>
         <source>&lt;a href=&quot;%1&quot;&gt;Forgot your password?&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;Unohditko salasanasi?&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;%1&quot;&gt;Parolamı unuttum&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="40"/>
         <source>Don’t have an account?</source>
-        <translation>Tarvitsetko tilin?</translation>
+        <translation>Bir hesabınız yok mu?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="41"/>
         <source>Create new account</source>
-        <translation>Luo uusi tili</translation>
+        <translation>Yeni hesap açın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="42"/>
         <source>Already have an account?</source>
-        <translation>Onko sinulla jo tili?</translation>
+        <translation>Zaten bir hesabınız var mı? </translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="43"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="47"/>
         <source>Sign in</source>
-        <translation>Kirjaudu sisään</translation>
+        <translation>Oturum aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="46"/>
         <source>Loading…</source>
-        <translation>Ladataan…</translation>
+        <translation>Yükleniyor…‎</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="48"/>
         <source>Create account</source>
-        <translation>Luo tili</translation>
+        <translation>Hesap aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="97"/>
         <source>Social sign-in options</source>
-        <translation>Kirjautumisen vaihtoehdot</translation>
+        <translation>Sosyal ağ ile oturum açma seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="197"/>
         <source>Email field</source>
-        <translation>Sähköpostikenttä</translation>
+        <translation>E-posta alanı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="257"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="264"/>
         <source>Forgot password</source>
-        <translation>Unohditko salasanan?</translation>
+        <translation>Parolamı unuttum</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="295"/>
         <source>Password field</source>
-        <translation>Salasanakenttä</translation>
+        <translation>Parola alanı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="340"/>
         <source>Form action</source>
-        <translation>Lomakkeella</translation>
+        <translation>Form işlemi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="384"/>
         <source>Sign in link</source>
-        <translation>Kirjautumislinkki</translation>
+        <translation>Oturum açma bağlantısı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="384"/>
         <source>Create account link</source>
-        <translation>Luo tililinkki</translation>
+        <translation>Hesap aç bağlantısı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/TutorialsPage.qml" line="31"/>
         <source>Video tutorials</source>
-        <translation>Video-oppaat</translation>
+        <translation>Görüntülü öğreticiler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/TutorialsPage.qml" line="32"/>
         <source>Behind this dialog is the ‘Learn’ section, where you’ll find tutorials to get you started
 (Video tutorials require an internet connection)</source>
-        <translation>Tämän ikkunan takana on &apos;Opastus&apos;-osio, josta löydät aloitusoppaita 
-(Video-oppaat vaativat internetyhteyden)</translation>
+        <translation>Bu iletişim kutusunun arkasında, başlamanıza yarayacak öğreticiler bulacağınız &apos;Öğren&apos; bölümü bulunur.
+(Görüntülü öğreticiler için internet bağlantısı gerekir)</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/UnderConstructionPage.qml" line="12"/>
         <source>Pre-alpha build</source>
-        <translation>Alfa-edeltävä versio</translation>
+        <translation>Ön alfa yapımı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/UnderConstructionPage.qml" line="13"/>
         <source>Many features are currently unavailable, but our team is actively developing and implementing them for future releases.</source>
-        <translation>Monet ominaisuudet eivät ole tällä hetkellä käytettävissä, mutta tiimimme kehittää ja toteuttaa niitä aktiivisesti tulevia julkaisuja varten.</translation>
+        <translation>Birçok özellik şu anda kullanılamıyor, ancak ekibimiz bunları gelecekteki sürümler için geliştiriyor ve ekliyor.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/shared/ThemeSamplesList.qml" line="91"/>
         <source>%1 theme</source>
         <extracomment>%1 is the theme name (e.g. &quot;Light&quot;, &quot;Dark&quot;)</extracomment>
-        <translation>%1 teema</translation>
+        <translation>%1 teması</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/shared/ThemeSamplesList.qml" line="94"/>
         <source>Select %1 theme</source>
         <extracomment>%1 is the theme name (e.g. &quot;Light&quot;, &quot;Dark&quot;)</extracomment>
-        <translation>Valitse %1 teema</translation>
+        <translation>%1 temasını seç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/shared/ThemeSamplesList.qml" line="97"/>
         <source>%1. Currently selected</source>
         <extracomment>%1 is the base description with theme selection</extracomment>
-        <translation>Tällä hetkellä %1 valittuna </translation>
+        <translation>%1. Şu anda seçili</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/SigninAudiocomDialog.qml" line="14"/>
         <source>Sign in to audio.com</source>
-        <translation>Kirjaudu sisään audio.com </translation>
+        <translation>audio.com oturumu aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="26"/>
         <source>Colorful</source>
-        <translation>Värikäs</translation>
+        <translation>Renkli</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="27"/>
         <source>Each track gets a new color</source>
-        <translation>Jokainen raita saa uuden värin</translation>
+        <translation>Her ize yeni bir renk verilir</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="34"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="45"/>
         <source>Classic</source>
-        <translation>Klassinen</translation>
+        <translation>Klasik</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="35"/>
         <source>The clips you know and love</source>
-        <translation>Tuntemasi ja rakastamasi klipit</translation>
+        <translation>Bildiğiniz ve sevdiğiniz parçalar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="85"/>
         <source>Clip visualization</source>
-        <translation>Klippien visualisointi</translation>
+        <translation>Parça görselleştirme</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="90"/>
         <source>Clip visualization options</source>
-        <translation>Klippien visualisointiasetukset</translation>
+        <translation>Parça görselleştirme seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="95"/>
         <source>Choose how audio clips are displayed in the timeline</source>
-        <translation>Valitse, miten ääniklipit näytetään aikajanalla</translation>
+        <translation>Ses parçalarının zaman çizgisinde nasıl görüntüleneceği</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="100"/>
         <source>Select your preferred clip visualization style. Preview is shown on the right.</source>
-        <translation>Valitse leikkeen visualisointityyli. Esikatselu näkyy oikealla.</translation>
+        <translation>Yeğlediğiniz parça görselleştirme biçemini seçin. Sağda ön izlemeyi görebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="105"/>
         <source>Clip visualization preview</source>
-        <translation>Leikkeen visualisoinnin esikatselu</translation>
+        <translation>Parça görselleştirme ön izlemesi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="110"/>
         <source>Preview of how audio clips will appear with the selected visualization style</source>
-        <translation>Katso, miltä äänileikkeet näyttävät valitulla visualisointityylillä</translation>
+        <translation>Ses parçalarının seçilmiş görselleştirme biçemi ile nasıl görüntüleneceğinin ön izlemesi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="115"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="139"/>
         <source>Currently selected</source>
-        <translation>Valittuna </translation>
+        <translation>Şu anda seçili</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="120"/>
         <source>Click to select this style</source>
-        <translation>Valitse tämän tyyli painamalla</translation>
+        <translation>Bu biçemi seçmek için tıklayın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/clipvisualizationpagemodel.cpp" line="125"/>
         <source>Available option</source>
-        <translation>Vaihtoehdot </translation>
+        <translation>Kullanılabilecek seçenek</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="121"/>
         <source>Getting started</source>
-        <translation>Aloitetaan </translation>
+        <translation>Başlayalım</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="139"/>
         <source>Accept &amp; continue</source>
-        <translation>Hyväksy ja jatka</translation>
+        <translation>Kabul edip ilerle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="145"/>
@@ -2437,203 +2436,203 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="164"/>
         <source>Select a theme</source>
-        <translation>Valitse teema</translation>
+        <translation>Bir tema seçin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="169"/>
         <source>Choose your preferred theme, follow system theme option, and accent color</source>
-        <translation>Valitse haluamasi teema, järjestelmän teeman käyttö sekä korostusväri</translation>
+        <translation>Yeğlediğiniz temayı, sistem temasına uygunluğu ve vurgu rengini seçin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="174"/>
         <source>Theme options</source>
-        <translation>Teeman valinnat</translation>
+        <translation>Tema seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="179"/>
         <source>Additional theme configuration options</source>
-        <translation>Teeman lisäasetukset</translation>
+        <translation>Ek tema yapılandırma seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="184"/>
         <source>Theme selection</source>
-        <translation>Teeman valinta </translation>
+        <translation>Tema seçimi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="189"/>
         <source>Choose between light, dark, or system theme</source>
-        <translation>Valitse vaalea, tumma tai tietokoneen teema </translation>
+        <translation>Açık, koyu ya da sistem teması olarak seçin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="194"/>
         <source>Follow system theme</source>
-        <translation>Seuraa tietokoneen teemaa</translation>
+        <translation>Sistem temasına uyulsun</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="199"/>
         <source>When enabled, the theme will automatically match your system’s theme setting</source>
-        <translation>Kun tämä on käytössä, teema noudattaa automaattisesti järjestelmäsi teema-asetusta</translation>
+        <translation>Açıldığında, tema otomatik olarak sisteminizin tema ayarlarına uyar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="204"/>
         <source>Enable high-contrast</source>
-        <translation>Suuri kontrasti käyttöön</translation>
+        <translation>Yüksek karşıtlık kullanılsın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="210"/>
         <source>Enable high contrast mode for better visibility. %1</source>
         <extracomment>here %1 represent the written text for the high contrast preferences hint &quot;Further options for high contrast mode can be found in Preferences&quot;</extracomment>
-        <translation>Käytä suurta kontrastia parempaan näkyvyyteen. %1 </translation>
+        <translation>Açıldığında, daha iyi görünürlük için yüksek karşıtlık kipi kullanılır. %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="220"/>
         <source>Choose an accent color for the interface</source>
-        <translation>Valitse käyttöliittymän korostusväri </translation>
+        <translation>Arayüz için bir vurgu rengi seçin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="225"/>
         <source>Further options for high contrast mode can be found in Preferences</source>
-        <translation>Lisää suuren kontrastin asetuksia löytyy asetuksista. </translation>
+        <translation>Yüksek karşıtlık kipi için diğer seçenekler Ayarlar altında bulunabilir</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="230"/>
         <source>Theme configuration</source>
-        <translation>Teeman määritys</translation>
+        <translation>Tema yapılandırması</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="237"/>
         <source>Light</source>
-        <translation>Vaalea</translation>
+        <translation>Açık</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="239"/>
         <source>Dark</source>
-        <translation>Tumma</translation>
+        <translation>Koyu</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="241"/>
         <source>System</source>
-        <translation>Tietokoneen</translation>
+        <translation>Sistem</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="245"/>
         <source>Current theme: %1</source>
         <extracomment>%1 is the current theme name (Light, Dark, or System)</extracomment>
-        <translation>Teema käytössä: %1 </translation>
+        <translation>Geçerli tema: %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="249"/>
         <source>%1. Following system theme</source>
         <extracomment>%1 is the base description with current theme</extracomment>
-        <translation>%1. Seuraa tietokoneen teemaa </translation>
+        <translation>%1. Sistem temasına uygun</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="254"/>
         <source>%1. High contrast enabled</source>
         <extracomment>%1 is the base description with current theme and system theme status</extracomment>
-        <translation>%1. Suuri kontrasti käytössä</translation>
+        <translation>%1. Yüksek karşıtlık açık</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="257"/>
         <source>%1. Accent color selected</source>
         <extracomment>%1 is the base description with current theme and system theme status</extracomment>
-        <translation>%1. Korostusväri valittu</translation>
+        <translation>%1. Vurgu rengi seçildi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="34"/>
         <source>Modern</source>
-        <translation>Moderni</translation>
+        <translation>Modern</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="35"/>
         <source>A clearer interface. Ideal for new users</source>
-        <translation>Selkeämpi käyttöliittymä. Ihanteellinen uusille käyttäjille</translation>
+        <translation>Daha temiz bir arayüz. Yeni kullanıcılara uygun</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="46"/>
         <source>Closely matches the layout of Audacity 3</source>
-        <translation>Vastaa läheisesti Audacity 3:n asettelua</translation>
+        <translation>Audacity 3 yerleşimine yakından uyar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="99"/>
         <source>What UI layout (workspace) do you want?</source>
-        <translation>Minkä käyttöliittymän asettelun (työtilan) haluat valita?</translation>
+        <translation>Hangi kullanıcı arayüzü yerleşimini (çalışma alanı) istersiniz?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="124"/>
         <source>Workspace layout options</source>
-        <translation>Työtilan asetteluvaihtoehdot</translation>
+        <translation>Çalışma alanı yerleşim seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="129"/>
         <source>Choose your preferred workspace layout for the Audacity interface</source>
-        <translation>Valitse haluamasi työtilan asettelu Audacityn käyttöliittymälle</translation>
+        <translation>Audacity arayüzü için yeğlediğiniz çalışma alanı yerleşimini seçin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="134"/>
         <source>Select a workspace layout that suits your workflow. You can change this later.</source>
-        <translation>Valitse työskentelytapaasi parhaiten sopiva työtilan asettelu. Voit muuttaa tätä myöhemmin.</translation>
+        <translation>İş akışınıza uygun bir çalışma alanı yerleşimi seçin. Daha sonra değiştirebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="144"/>
         <source>Click to select this workspace</source>
-        <translation>Valitse tämä työtila klikkaamalla</translation>
+        <translation>Bu çalışma alanını seçmek için tıklayın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="149"/>
         <source>Available workspace</source>
-        <translation>Käytettävissä oleva työtila</translation>
+        <translation>Kullanılabilecek çalışma alanı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="154"/>
         <source>You can change between these layouts at any time using our new ‘workspaces’ feature.</source>
-        <translation>Voit vaihtaa näiden asettelujen välillä milloin tahansa uuden &apos;työtilat&apos;-ominaisuuden avulla.</translation>
+        <translation>Yeni ‘çalışma alanları’ özelliği ile bu yerleşimi istediğiniz zaman değiştirebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="159"/>
         <source>Additional information</source>
-        <translation>Lisätietoja</translation>
+        <translation>Ek bilgiler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="164"/>
         <source>Workspace layout preview</source>
-        <translation>Työtilan asettelun katselu</translation>
+        <translation>Çalışma alanı yerleşimi ön izlemesi</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="169"/>
         <source>Preview of the selected workspace layout showing the arrangement of interface elements</source>
-        <translation>Valitun työtilan asettelun katselu, joka näyttää käyttöliittymän elementtien järjestyksen</translation>
+        <translation>Seçilmiş çalışma alanı yerleşiminin arayüz bileşenlerinin düzenini gösteren ön izlemesi</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="46"/>
         <source>Authorization failed</source>
-        <translation>Valtuutus epäonnistui</translation>
+        <translation>Kimlik doğrulanamadı</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="57"/>
         <source>No access token</source>
-        <translation>Pääsyvaltuus puuttuu</translation>
+        <translation>Bir erişim kodu bulunamadı</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="98"/>
         <source>Not authorized</source>
-        <translation>Ei valtuutusta</translation>
+        <translation>İzin verilmemiş</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="113"/>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="120"/>
         <source>Registration failed. Please try again.</source>
-        <translation>Rekisteröinti epäonnistui. Yritä uudelleen.</translation>
+        <translation>Kayıt yapılamadı. Lütfen yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="134"/>
         <source>Incorrect email or password. Please try again.</source>
-        <translation>Virheellinen sähköpostiosoite tai salasana. Yritä uudelleen.</translation>
+        <translation>E-posta adresi ya da parola yanlış. Lütfen yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="142"/>
         <source>Authentication failed. Please try again.</source>
-        <translation>Tunnistautuminen epäonnistui. Yritä uudelleen.</translation>
+        <translation>Kimlik doğrulanamadı. Lütfen yeniden deneyin.</translation>
     </message>
 </context>
 <context>
@@ -2641,7 +2640,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="349"/>
         <source>Align content</source>
-        <translation>Tasaa sisältö</translation>
+        <translation>İçeriği hizala</translation>
     </message>
 </context>
 <context>
@@ -2649,7 +2648,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="368"/>
         <source>&amp;Analyze</source>
-        <translation>&amp;Analyysi</translation>
+        <translation>İn&amp;cele</translation>
     </message>
 </context>
 <context>
@@ -2657,12 +2656,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="241"/>
         <source>Clip</source>
-        <translation>Leike</translation>
+        <translation>Parça</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="535"/>
         <source>Rename clip</source>
-        <translation>Nimeä leike</translation>
+        <translation>Parçayı yeniden adlandır</translation>
     </message>
 </context>
 <context>
@@ -2670,7 +2669,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="393"/>
         <source>Cursor</source>
-        <translation>Kohdistin </translation>
+        <translation>İmleç</translation>
     </message>
 </context>
 <context>
@@ -2678,7 +2677,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="387"/>
         <source>Device</source>
-        <translation>Laite </translation>
+        <translation>Aygıt</translation>
     </message>
 </context>
 <context>
@@ -2686,17 +2685,17 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="694"/>
         <source>&amp;System</source>
-        <translation>&amp;Järjestelmä </translation>
+        <translation>&amp;Sistem</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="704"/>
         <source>&amp;Accessibility</source>
-        <translation>&amp;Esteettömyys </translation>
+        <translation>&amp;Erişilebilirlik</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="711"/>
         <source>Test&amp;flow</source>
-        <translation>Testi&amp;työnkulku</translation>
+        <translation>&amp;Deneme akışı</translation>
     </message>
 </context>
 <context>
@@ -2704,37 +2703,37 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="417"/>
         <source>Diagnostics</source>
-        <translation>Diagnostiikka </translation>
+        <translation>Tanılama</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="444"/>
         <source>&amp;System</source>
-        <translation>&amp;Järjestelmä </translation>
+        <translation>&amp;Sistem</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="466"/>
         <source>A&amp;ctions</source>
-        <translation>&amp;Toiminnot</translation>
+        <translation>İş&amp;lemler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="467"/>
         <source>&amp;Accessibility</source>
-        <translation>&amp;Esteettömyys </translation>
+        <translation>&amp;Erişilebilirlik</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="468"/>
         <source>E&amp;xtensions</source>
-        <translation>&amp;Laajennukset</translation>
+        <translation>Eklentile&amp;r</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="469"/>
         <source>Test&amp;flow</source>
-        <translation>Testi&amp;työnkulku</translation>
+        <translation>&amp;Deneme akışı</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="474"/>
         <source>&amp;Diagnostics</source>
-        <translation>&amp;Diagnostiikka</translation>
+        <translation>&amp;Tanılama</translation>
     </message>
 </context>
 <context>
@@ -2742,7 +2741,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="250"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Muokkaa</translation>
+        <translation>Düz&amp;enle</translation>
     </message>
 </context>
 <context>
@@ -2750,7 +2749,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="363"/>
         <source>&amp;Effect</source>
-        <translation>T&amp;ehoste</translation>
+        <translation>&amp;Etki</translation>
     </message>
 </context>
 <context>
@@ -2758,7 +2757,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="211"/>
         <source>&amp;Export other</source>
-        <translation>Vie &amp;muut</translation>
+        <translation>&amp;Başka dışa aktarma</translation>
     </message>
 </context>
 <context>
@@ -2766,7 +2765,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="408"/>
         <source>&amp;Extra</source>
-        <translation>&amp;Extra</translation>
+        <translation>&amp;Ek</translation>
     </message>
 </context>
 <context>
@@ -2774,7 +2773,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="384"/>
         <source>Edit</source>
-        <translation>Muokkaus</translation>
+        <translation>Düzenle</translation>
     </message>
 </context>
 <context>
@@ -2782,7 +2781,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="388"/>
         <source>Select</source>
-        <translation>Valitse</translation>
+        <translation>Seç</translation>
     </message>
 </context>
 <context>
@@ -2790,7 +2789,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="382"/>
         <source>Tools</source>
-        <translation>Työkalut</translation>
+        <translation>Araçlar</translation>
     </message>
 </context>
 <context>
@@ -2798,12 +2797,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="196"/>
         <source>Open &amp;recent</source>
-        <translation>Avaa &amp;viimeisin </translation>
+        <translation>&amp;Son kullanılanları aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="219"/>
         <source>&amp;File</source>
-        <translation>&amp;Tiedosto</translation>
+        <translation>&amp;Dosya</translation>
     </message>
 </context>
 <context>
@@ -2811,7 +2810,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="392"/>
         <source>Focus</source>
-        <translation>Tarkennus</translation>
+        <translation>Odaklan</translation>
     </message>
 </context>
 <context>
@@ -2819,7 +2818,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="358"/>
         <source>&amp;Generate</source>
-        <translation>&amp;Luo</translation>
+        <translation>&amp;Oluştur</translation>
     </message>
 </context>
 <context>
@@ -2827,7 +2826,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="431"/>
         <source>&amp;Help</source>
-        <translation>&amp;Ohje</translation>
+        <translation>&amp;Yardım</translation>
     </message>
 </context>
 <context>
@@ -2835,7 +2834,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="399"/>
         <source>Images</source>
-        <translation>Kuvat </translation>
+        <translation>Görseller</translation>
     </message>
 </context>
 <context>
@@ -2843,7 +2842,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="242"/>
         <source>Label</source>
-        <translation>Merkki</translation>
+        <translation>Etiket</translation>
     </message>
 </context>
 <context>
@@ -2851,7 +2850,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="840"/>
         <source>&amp;Macros</source>
-        <translation>&amp;Makrot</translation>
+        <translation>&amp;Makrolar</translation>
     </message>
 </context>
 <context>
@@ -2859,7 +2858,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="383"/>
         <source>Mixer</source>
-        <translation>Mikseri </translation>
+        <translation>Karıştırıcı</translation>
     </message>
 </context>
 <context>
@@ -2867,7 +2866,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="380"/>
         <source>Play</source>
-        <translation>Toista</translation>
+        <translation>&amp;Oynat</translation>
     </message>
 </context>
 <context>
@@ -2875,7 +2874,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="385"/>
         <source>Play at speed</source>
-        <translation>Toista nopeudella </translation>
+        <translation>Şu hızda oynat</translation>
     </message>
 </context>
 <context>
@@ -2883,7 +2882,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="334"/>
         <source>&amp;Record</source>
-        <translation>&amp;Äänitä</translation>
+        <translation>&amp;Kaydet</translation>
     </message>
 </context>
 <context>
@@ -2891,7 +2890,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="395"/>
         <source>Scriptables1</source>
-        <translation>Skriptiti1 </translation>
+        <translation>Betik tabloları 1</translation>
     </message>
 </context>
 <context>
@@ -2899,7 +2898,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="397"/>
         <source>Scriptables2</source>
-        <translation>Skriptiti2 </translation>
+        <translation>Betik tabloları 2</translation>
     </message>
 </context>
 <context>
@@ -2907,7 +2906,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="381"/>
         <source>Scrubbing</source>
-        <translation>Hakeminen</translation>
+        <translation>Sarma</translation>
     </message>
 </context>
 <context>
@@ -2915,27 +2914,27 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="256"/>
         <source>Audio clips</source>
-        <translation>Äänileike</translation>
+        <translation>Ses parçaları</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="261"/>
         <source>Spectral</source>
-        <translation>Spektri </translation>
+        <translation>Spektral</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="270"/>
         <source>Region</source>
-        <translation>Alue </translation>
+        <translation>Bölge</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="274"/>
         <source>Looping</source>
-        <translation>Jatkuva toisto</translation>
+        <translation>Yineleniyor</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="278"/>
         <source>&amp;Select</source>
-        <translation>&amp;Valinnat</translation>
+        <translation>&amp;Seç</translation>
     </message>
 </context>
 <context>
@@ -2943,7 +2942,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="402"/>
         <source>Settings</source>
-        <translation>Asetukset</translation>
+        <translation>Ayarlar</translation>
     </message>
 </context>
 <context>
@@ -2951,7 +2950,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="292"/>
         <source>Skip to</source>
-        <translation>Hyppää </translation>
+        <translation>Şuraya atla</translation>
     </message>
 </context>
 <context>
@@ -2959,7 +2958,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="350"/>
         <source>Sort tracks</source>
-        <translation>Lajittele raidat</translation>
+        <translation>İzleri sırala</translation>
     </message>
 </context>
 <context>
@@ -2967,7 +2966,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="373"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Työkalut</translation>
+        <translation>&amp;Araçlar</translation>
     </message>
 </context>
 <context>
@@ -2975,7 +2974,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="394"/>
         <source>Track</source>
-        <translation>Raita</translation>
+        <translation>İz</translation>
     </message>
 </context>
 <context>
@@ -2983,7 +2982,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="353"/>
         <source>&amp;Tracks</source>
-        <translation>&amp;Raidat</translation>
+        <translation>İ&amp;zler</translation>
     </message>
 </context>
 <context>
@@ -2991,12 +2990,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="306"/>
         <source>W&amp;orkspaces</source>
-        <translation>T&amp;yötilat</translation>
+        <translation>Ç&amp;alışma alanları</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="319"/>
         <source>&amp;View</source>
-        <translation>&amp;Näytä</translation>
+        <translation>&amp;Görünüm</translation>
     </message>
 </context>
 <context>
@@ -3004,7 +3003,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="291"/>
         <source>Zoom</source>
-        <translation>Zoomaus</translation>
+        <translation>Yakınlaştır</translation>
     </message>
 </context>
 <context>
@@ -3012,17 +3011,17 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="604"/>
         <source>Edit metadata</source>
-        <translation>Muokkaa metadataa</translation>
+        <translation>Üst verileri düzenle</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="261"/>
         <source>Use LPC</source>
-        <translation>Käytä LPC</translation>
+        <translation>LPC kullanılsın</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="234"/>
         <source>Bit reservoir</source>
-        <translation>Bittisäilö</translation>
+        <translation>Bit deposu</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="246"/>
@@ -3032,103 +3031,103 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioEngineSection.qml" line="33"/>
         <source>Audio engine</source>
-        <translation>Äänimoottori </translation>
+        <translation>Ses işleyici</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioEngineSection.qml" line="36"/>
         <source>Restart audio and MIDI devices</source>
-        <translation>Käynnistä äänilaitteet ja midi uudelleen </translation>
+        <translation>Ses ve MIDI aygıtlarını yeniden başlat</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutomaticUpdateSection.qml" line="32"/>
         <source>Automatic update check</source>
-        <translation>Automaattinen päivitysten tarkistus</translation>
+        <translation>Otomatik güncelleme denetimi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutomaticUpdateSection.qml" line="44"/>
         <source>Check to see if a new version of Audacity is available</source>
-        <translation>Tarkista, onko Audacitysta saatavilla uusi versio</translation>
+        <translation>Yeni bir Audacity sürümü olup olmadığını denetleyin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutomaticUpdateSection.qml" line="60"/>
         <source>Update checking requires network access. In order to protect your privacy, Audacity does not store any personal information. See our &lt;a href=&quot;%1&quot;&gt;privacy policy&lt;/a&gt; for more info.</source>
-        <translation>Päivitysten tarkistaminen vaatii verkkoyhteyden. Yksityisyytesi suojaamiseksi Audacity ei tallenna henkilötietoja. Katso lisätietoja &lt;a href=&quot;%1&quot;&gt;tietosuojaselosteestamme&lt;/a&gt;.</translation>
+        <translation>Güncelleme denetimi için ağ erişimi gereklidir. Gizliliğinizi korumak için Audacity hiçbir kişisel bilgiyi saklamaz. Asyrıntılı bilgi almak için gizlilik ilkemize bakabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutoSaveSection.qml" line="32"/>
         <source>Auto save</source>
-        <translation>Automaattinen tallennus</translation>
+        <translation>Otomatik kayıt</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutoSaveSection.qml" line="51"/>
         <source>Auto save every</source>
-        <translation>Automaattisen tallennuksen väli</translation>
+        <translation>Otomatik kayıt sıklığı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CharsetsSection.qml" line="31"/>
         <source>Character set used when importing binary files</source>
-        <translation>Merkistö binääritiedostojen tuonnissa</translation>
+        <translation>Binary dosyalar içe aktarılırken kullanılacak karakter kümesi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CharsetsSection.qml" line="39"/>
         <source>Overture import character set:</source>
-        <translation>Overture-tuonnin merkistö:</translation>
+        <translation>Girişte içe aktarılacak karakter kümesi:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ColorAndWallpaperSection.qml" line="64"/>
         <source>Color:</source>
-        <translation>Väri:</translation>
+        <translation>Renk:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ColorAndWallpaperSection.qml" line="97"/>
         <source>Wallpaper:</source>
-        <translation>Taustakuva:</translation>
+        <translation>Duvar kağıdı:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/DefaultFilesSection.qml" line="33"/>
         <source>Default files</source>
-        <translation>Oletustiedostot</translation>
+        <translation>Ön tanımlı dosyalar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FoldersSection.qml" line="33"/>
         <source>Folders</source>
-        <translation>Kansiot</translation>
+        <translation>Klasörler</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FoldersSection.qml" line="65"/>
         <source>Choose %1 folder</source>
-        <translation>Valitse %1 -kansio</translation>
+        <translation>%1 klasörünü seçin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="32"/>
         <source>Style used for import</source>
-        <translation>Tuonnissa käytetty tyyli</translation>
+        <translation>İçe aktarılacak biçem</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="53"/>
         <source>Built-in style</source>
-        <translation>Sisäänrakennettu tyyli</translation>
+        <translation>Hazır biçem</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="77"/>
         <source>Use style file:</source>
-        <translation>Käytä tyylitiedostoa:</translation>
+        <translation>Şu biçem dosyası kullanılsın:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/KeyboardLayoutsSection.qml" line="33"/>
         <source>Keyboard layout</source>
-        <translation>Näppäimistöasettelu</translation>
+        <translation>Klavye yerleşimi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MeiSection.qml" line="32"/>
         <source>MEI</source>
         <extracomment>MEI refers to a file format that can be imported and exported in MuseScore. It stands for Music Encoding Initiative.</extracomment>
-        <translation>MEI (Music Encoding Initiative)</translation>
+        <translation>MEI</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MeiSection.qml" line="42"/>
         <source>Import MEI layout</source>
-        <translation>Tuo MEI-asettelu</translation>
+        <translation>MEI yerleşimini içe aktar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="44"/>
@@ -3139,37 +3138,37 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="49"/>
         <source>MIDI input</source>
-        <translation>MIDI-tulo</translation>
+        <translation>MIDI girişi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="65"/>
         <source>MIDI output</source>
-        <translation>MIDI-lähtö</translation>
+        <translation>MIDI çıkışı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiSection.qml" line="41"/>
         <source>Shortest note:</source>
-        <translation>Lyhin nuotti:</translation>
+        <translation>En kısa nota:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MiscellaneousSection.qml" line="32"/>
         <source>Miscellaneous</source>
-        <translation>Sekalaista</translation>
+        <translation>Diğer</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MiscellaneousSection.qml" line="41"/>
         <source>Proximity for selecting elements:</source>
-        <translation>Elementtien valinnan etäisyys:</translation>
+        <translation>Bileşenleri seçme yakınlığı:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MixerSection.qml" line="34"/>
         <source>Mixer</source>
-        <translation>Mikseri </translation>
+        <translation>Karıştırıcı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MixerSection.qml" line="45"/>
         <source>Toggle track mute by showing/hiding instruments in the Instruments panel</source>
-        <translation>Vaimenna raita näyttämällä tai piilottamalla soittimia Soittimet-paneelissa</translation>
+        <translation>Göstergeler panosunda enstrümanları göstererek/gizleyerek izin sesini aç/kapat</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="31"/>
@@ -3179,247 +3178,247 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="45"/>
         <source>Import layout</source>
-        <translation>Tuo asettelu</translation>
+        <translation>Yerleşimi içe aktar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="60"/>
         <source>Import system and page breaks</source>
-        <translation>Tuo järjestelmä ja sivunvaihdot</translation>
+        <translation>Sistem ve sayfa sonlarını içe aktar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="75"/>
         <source>Apply default typeface (Edwin) to imported projects</source>
-        <translation>Käytä oletusfonttia (Edwin) tuotuihin projekteihin</translation>
+        <translation>İçe aktarılan projelere ön tanımlı yazı tipi (Edwin) uygulansın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="46"/>
         <source>Play notes when editing</source>
-        <translation>Toista nuotit muokattaessa</translation>
+        <translation>Düzenlerken notalar çalınsın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="61"/>
         <source>Default duration:</source>
-        <translation>Oletuskesto:</translation>
+        <translation>Ön tanımlı süre:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="84"/>
         <source>Play chord when editing</source>
-        <translation>Toista soinnut muokattaessa</translation>
+        <translation>Düzenlerken akor çalınsın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="101"/>
         <source>Play chord symbol when editing</source>
-        <translation>Toista sointumerkit muokattaessa</translation>
+        <translation>Düzenlerken akor simgesi çalınsın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="33"/>
         <source>Note input</source>
-        <translation>Nuottien syöttö</translation>
+        <translation>Nota girişi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="49"/>
         <source>Advance to next note on key release (MIDI)</source>
-        <translation>Siirry seuraavaan nuottiin, kun kosketin vapautetaan (MIDI)</translation>
+        <translation>Tuş bırakıldığında sonraki notaya ilerlensin (MIDI)</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="64"/>
         <source>Color notes outside of usable pitch range</source>
-        <translation>Väritä käyttöalueen ulkopuoliset nuotit</translation>
+        <translation>Kullanılabilecek perde aralığı dışındaki notalar renklendirilsin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="79"/>
         <source>Color guitar bends outside of playable range</source>
-        <translation>Väritä soittoalueen ulkopuoliset kitarataivutukset</translation>
+        <translation>Çalınabilecek aralık dışındaki gitar teli germeleri renklendirilsin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="93"/>
         <source>Delay between notes in automatic real time mode:</source>
-        <translation>Nuottien välinen viive automaattisessa reaaliaikatilassa:</translation>
+        <translation>Otomatik gerçek zamanlı kipte notalar arasındaki gecikme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PreferencesButtonsPanel.qml" line="50"/>
         <source>Reset preferences</source>
-        <translation>Palauta asetukset</translation>
+        <translation>Ayarları sıfırla</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ProgramStartSection.qml" line="32"/>
         <source>Program start</source>
-        <translation>Ohjelman aloitus</translation>
+        <translation>Program başlangıcı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ProgramStartSection.qml" line="81"/>
         <source>Choose starting project</source>
-        <translation>Valitse aloitusprojekti</translation>
+        <translation>Başlangıçtaki projeyi seçin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RemoteControlSection.qml" line="33"/>
         <source>OSC remote control</source>
-        <translation>OSC-ohjaus verkon yli</translation>
+        <translation>OSC uzaktan kumanda</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RemoteControlSection.qml" line="52"/>
         <source>Port number:</source>
-        <translation>Porttinumero:</translation>
+        <translation>Bağlantı noktası:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SaveToCloudSection.qml" line="33"/>
         <source>Save to cloud</source>
-        <translation>Tallenna pilveen</translation>
+        <translation>Buluta kaydet</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SaveToCloudSection.qml" line="43"/>
         <source>Generate MP3 audio for private cloud projects</source>
-        <translation>Luo MP3-ääntä yksityisiin pilviprojekteihin</translation>
+        <translation>Gizli bulut projeleri için MP3 sesi oluştur</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ScrollPagesSection.qml" line="32"/>
         <source>Scroll pages</source>
-        <translation>Vieritä suvuja</translation>
+        <translation>Sayfaları kaydır</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ScrollPagesSection.qml" line="50"/>
         <source>Horizontal</source>
-        <translation>Vaakasuora</translation>
+        <translation>Yatay</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ScrollPagesSection.qml" line="51"/>
         <source>Vertical</source>
-        <translation>Pystysuora</translation>
+        <translation>Dikey</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ScrollPagesSection.qml" line="82"/>
         <source>Limit scroll area to page borders</source>
-        <translation>Rajoita vieritysalue sivun reunoihin</translation>
+        <translation>Kaydırma alanı sayfa kenarlıkları ile sınırlansın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomSection.qml" line="32"/>
         <source>Zoom</source>
-        <translation>Zoomaus</translation>
+        <translation>Yakınlaştır</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomSection.qml" line="50"/>
         <source>Default zoom:</source>
-        <translation>Oletuszoomaus:</translation>
+        <translation>Ön tanımlı yakınlaştırma:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomSection.qml" line="96"/>
         <source>Mouse zoom precision:</source>
-        <translation>Hiiren zoomaustarkkuus:</translation>
+        <translation>Fare ile yakınlaştırma duyarlılığı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AccentColorsSection.qml" line="64"/>
         <source>Accent color</source>
-        <translation>Korostusväri</translation>
+        <translation>Vurgu rengi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="14"/>
         <source>Usage info</source>
-        <translation>Käyttötiedot</translation>
+        <translation>Kullanım bilgileri</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="25"/>
         <source>Send anonymous usage info</source>
-        <translation>Lähetä nimettömiä käyttötietoja</translation>
+        <translation>Anonim kullanım bilgileri gönderilsin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="39"/>
         <source>To help us understand how often people use Audacity, we generate a random ID (UUID) for each installation. This ID does not contain any personally identifiable information. Want to know more? Check out our &lt;a href=&quot;%1&quot;&gt;privacy policy&lt;/a&gt;.</source>
-        <translation>Jotta ymmärtäisimme paremmin, kuinka usein Audacityä käytetään, luomme jokaiselle asennukselle satunnaisen tunnisteen (UUID). Tämä tunniste ei sisällä mitään henkilökohtaisesti tunnistettavia tietoja. Haluatko tietää lisää? Lue lisää &lt;a href=&quot;%1&quot;&gt;tietosuojaselosteestamme&lt;/a&gt;.</translation>
+        <translation>İnsanların Audacity uygulamasını ne sıklıkla kullandığını anlamamıza yardımcı olması amacıyla her kurulum için rastgele bir kimlik (UUID) oluşturuyoruz. Bu kimlikte sizi kişisel olarak tanımlayabilecek herhangi bir bilgi bulunmaz. Ayrıntılı bilgi almak için &lt;a href=&quot;%1&quot;&gt;gizlilik ilkesi&lt;/a&gt; bölümüne bakabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="14"/>
         <source>Zoom toggle (magnifying glass)</source>
-        <translation>Zoomauksen vaihto (suurennuslasi)</translation>
+        <translation>Yakınlaştırmayı değiştir (büyüteç)</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="26"/>
         <source>A special tool in the top bar that toggles between two different zoom states.</source>
-        <translation>Yläpalkin erikoistyökalu, joka vaihtaa kahden eri zoomaustason välillä.</translation>
+        <translation>Üst çubukta iki farklı yakınlaştırma durumu arasında geçiş yapan özel bir araç.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="34"/>
         <source>Zoom state 1:</source>
-        <translation>Zoomaustaso 1:</translation>
+        <translation>Yakınlaştırma durumu 1</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="55"/>
         <source>Zoom state 2:</source>
-        <translation>Zoomaustaso 2:</translation>
+        <translation>Yakınlaştırma durumu 2</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="246"/>
         <source>Fit to Width</source>
-        <translation>Sovita leveyteen</translation>
+        <translation>Genişliğe sığdır</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="247"/>
         <source>Zoom to Selection</source>
-        <translation>Zoomaa valintaan</translation>
+        <translation>Seçimi yakınlaştır</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="248"/>
         <source>Zoom Default</source>
-        <translation>Zoomausoletus</translation>
+        <translation>Ön tanımlı yakınlaştırma</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="249"/>
         <source>Minutes</source>
-        <translation>Minuuttia</translation>
+        <translation>Dakika</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="250"/>
         <source>Seconds</source>
-        <translation>Sekuntia</translation>
+        <translation>Saniye</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="251"/>
         <source>5ths of Seconds</source>
-        <translation>1/5 sekuntia</translation>
+        <translation>5. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="252"/>
         <source>10ths of Seconds</source>
-        <translation>1/10 sekuntia</translation>
+        <translation>10. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="253"/>
         <source>20ths of Seconds</source>
-        <translation>1/20 sekuntia</translation>
+        <translation>20. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="254"/>
         <source>50ths of Seconds</source>
-        <translation>1/50 sekuntia</translation>
+        <translation>50. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="255"/>
         <source>100ths of Seconds</source>
-        <translation>1/100 sekuntia</translation>
+        <translation>100. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="256"/>
         <source>500ths of Seconds</source>
-        <translation>1/500 sekuntia</translation>
+        <translation>500. saniyede</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="257"/>
         <source>MilliSeconds</source>
-        <translation>Millisekuntia</translation>
+        <translation>Milisaniye</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="258"/>
         <source>Samples</source>
-        <translation>Näytteet</translation>
+        <translation>Örnekler</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="259"/>
         <source>4 Pixels per Sample</source>
-        <translation>4 pikseliä näytettä kohden</translation>
+        <translation>Örnek başına 4 piksel</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="260"/>
         <source>Max Zoom</source>
-        <translation>Maksimi zoomaus</translation>
+        <translation>En fazla yakınlaştırma</translation>
     </message>
 </context>
 <context>
@@ -3427,22 +3426,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramAlgorithmSection.qml" line="14"/>
         <source>Algorithm</source>
-        <translation>Algoritmi</translation>
+        <translation>Algoritma</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramColorsSection.qml" line="14"/>
         <source>Colors</source>
-        <translation>Värit</translation>
+        <translation>Renkler</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramScaleSection.qml" line="14"/>
         <source>Scale</source>
-        <translation>Skaalaus</translation>
+        <translation>Ölçek</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramSelectionSection.qml" line="21"/>
         <source>Use global settings</source>
-        <translation>Käytä yleisiä asetuksia</translation>
+        <translation>Genel ayarlar kullanılsın</translation>
     </message>
 </context>
 <context>
@@ -3450,82 +3449,82 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/WelcomeDialog.qml" line="34"/>
         <source>Welcome</source>
-        <translation>Tervetuloa</translation>
+        <translation>Hoş geldiniz</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/WelcomeDialog.qml" line="115"/>
         <source>Previous item</source>
-        <translation>Edellinen kohde</translation>
+        <translation>Önceki öge</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/WelcomeDialog.qml" line="165"/>
         <source>Next item</source>
-        <translation>Seuraava kohde</translation>
+        <translation>Sonraki öge</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/WelcomeDialog.qml" line="256"/>
         <source>Don’t show welcome dialog on startup</source>
-        <translation>Älä näytä tervetuloikkunaa käynnistyksessä</translation>
+        <translation>Açılışta karşılama iletişim kutusu görüntülenmesin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="46"/>
         <source>Tutorial: what’s different in Audacity 4?</source>
-        <translation>Opastus: mikä on erilaista Audacity 4:ssä?</translation>
+        <translation>Öğretici: Audacity 4 sürümünde neler farklı?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="48"/>
         <source>In this video, we walk you through the most important differences between version 3 and version 4.</source>
-        <translation>Tässä videossa käymme läpi tärkeimmät erot versioiden 3 ja 4 välillä.</translation>
+        <translation>Bu görüntülü öğretici ile, sürüm 3 ile sürüm 4 arasındaki en önemli farkları gösteriyoruz.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="50"/>
         <source>Watch video</source>
-        <translation>Katso video</translation>
+        <translation>Görüntüyü izle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="56"/>
         <source>Complete your Audacity cloud setup with Audio.com</source>
-        <translation>Viimeistele Audacity-pilvipalvelusi asennus Audio.comissa</translation>
+        <translation>Audacity bulut kurulumunuzu audio.com ile tamamlayın</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="58"/>
         <source>This integration allows you to save and access your Audacity projects on any device</source>
-        <translation>Tämän integraation avulla voit tallentaa ja käyttää Audacity-projektejasi millä tahansa laitteella.</translation>
+        <translation>Bu bütünleştirme, Audacity projelerinizi herhangi bir aygıttan kaydetmenizi ve erişmenizi sağlar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="60"/>
         <source>Continue</source>
-        <translation>Jatka</translation>
+        <translation>İlerle</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="69"/>
         <source>Explore free plugins for sculpting your audio</source>
-        <translation>Selaa ilmaisia lisäosia äänen muokkaamista varten</translation>
+        <translation>Sesinizi şekillendirmek için ücretsiz eklentileri keşfedin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="71"/>
         <source>There are tons of powerful plugins available that you can install for free on MuseHub</source>
-        <translation>MuseHubissa on paljon tehokkaita lisäosia, jotka voit asentaa ilmaiseksi</translation>
+        <translation>MuseHub üzerinde ücretsiz olarak kurabileceğiniz tonlarca güçlü eklenti var</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="73"/>
         <source>View free plugins</source>
-        <translation>Näytä ilmaiset lisäosat</translation>
+        <translation>Ücretsiz eklentileri görüntüleyin</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="79"/>
         <source>Get 25th anniversary merchandise!</source>
-        <translation>Hanki 25-vuotisjuhlatuotteita!</translation>
+        <translation>25. yıl ürünlerini alın!</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="81"/>
         <source>A collection of merchandise that commemorates Audacity’s original appearance and branding</source>
-        <translation>Kokoelma tuotteita, jotka kunnioittavat Audacityn alkuperäistä ulkoasua ja brändiä</translation>
+        <translation>Özgün Audacity görünümünü ve markasını yansıtan ürünler</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="83"/>
         <source>Visit now</source>
-        <translation>Käy nyt</translation>
+        <translation>Ziyaret edin</translation>
     </message>
 </context>
 <context>
@@ -3533,12 +3532,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/uicomponents/qml/Audacity/UiComponents/components/BPM.qml" line="47"/>
         <source>Up</source>
-        <translation>Ylös</translation>
+        <translation>Yukarı</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/qml/Audacity/UiComponents/components/BPM.qml" line="66"/>
         <source>Down</source>
-        <translation>Alas</translation>
+        <translation>Aşağı</translation>
     </message>
 </context>
 <context>
@@ -3546,22 +3545,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="50"/>
         <source>Host</source>
-        <translation>Isäntä</translation>
+        <translation>Sunucu</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="51"/>
         <source>Playback device</source>
-        <translation>Toistolaite</translation>
+        <translation>Oynatma aygıtı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="52"/>
         <source>Recording device</source>
-        <translation>Tallennuslaite</translation>
+        <translation>Kaydetme aygıtı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="53"/>
         <source>Recording channels</source>
-        <translation>Tallennuskanavat</translation>
+        <translation>Kaydetme kanalları</translation>
     </message>
 </context>
 <context>
@@ -3569,22 +3568,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="26"/>
         <source>Paste and overlap</source>
-        <translation>Liitä ja limitä</translation>
+        <translation>Yapıştır ve örtüştür</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="28"/>
         <source>Paste and make room on this track</source>
-        <translation>Liitä ja tee tilaa tälle raidalle</translation>
+        <translation>Yapıştır ve bu izde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="30"/>
         <source>Paste and make room on all tracks</source>
-        <translation>Liitä ja tee tilaa kaikille raidoille</translation>
+        <translation>Yapıştır ve tüm izlerde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="35"/>
         <source>Paste and…</source>
-        <translation>Liitä ja...</translation>
+        <translation>Yapıştır ve…</translation>
     </message>
 </context>
 <context>
@@ -3592,52 +3591,52 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="46"/>
         <source>Cut and leave gap</source>
-        <translation>Leikkaa ja jätä väli</translation>
+        <translation>Kes ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="48"/>
         <source>Cut and close gap on this track</source>
-        <translation>Leikkaa ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Kes ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="50"/>
         <source>Cut and close gap on all tracks</source>
-        <translation>Leikkaa ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Kes ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="55"/>
         <source>Delete and leave gap</source>
-        <translation>Poista ja jätä väli</translation>
+        <translation>Sil ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="57"/>
         <source>Delete and close gap on this track</source>
-        <translation>Poista ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Sil ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="59"/>
         <source>Delete and close gap on all tracks</source>
-        <translation>Poista ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Sil ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="64"/>
         <source>Rename clip</source>
-        <translation>Nimeä leike</translation>
+        <translation>Parçayı yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="65"/>
         <source>Clip color</source>
-        <translation>Klipsin väri</translation>
+        <translation>Parça rengi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="72"/>
         <source>Cut and…</source>
-        <translation>Leikkaa ja...</translation>
+        <translation>Kes ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="73"/>
         <source>Delete and…</source>
-        <translation>Poista ja...</translation>
+        <translation>Sil ve…</translation>
     </message>
 </context>
 <context>
@@ -3645,12 +3644,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/ClipItem.qml" line="1068"/>
         <source>Select</source>
-        <translation>Valitse</translation>
+        <translation>Seç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/ClipItem.qml" line="1068"/>
         <source>Deselect</source>
-        <translation>Poista valinta</translation>
+        <translation>Bırak</translation>
     </message>
 </context>
 <context>
@@ -3658,142 +3657,142 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/AccountPage.qml" line="18"/>
         <source>Audio.com</source>
-        <translation>Audio.com</translation>
+        <translation>audio.com</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="55"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="111"/>
         <source>Not signed in</source>
-        <translation>Ei kirjaudu sisään</translation>
+        <translation>Oturum açılmamış</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="141"/>
         <source>My profile</source>
-        <translation>Profiilini</translation>
+        <translation>Profilim</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="141"/>
         <source>Sign in</source>
-        <translation>Kirjaudu sisään</translation>
+        <translation>Oturum aç</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="169"/>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="29"/>
         <source>Sign out</source>
-        <translation>Kirjaudu ulos</translation>
+        <translation>Oturumu kapat</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="169"/>
         <source>Create account</source>
-        <translation>Luo tili</translation>
+        <translation>Hesap aç</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="21"/>
         <source>Project name</source>
-        <translation>Projektin nimi</translation>
+        <translation>Proje adı</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="22"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="604"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="724"/>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="36"/>
         <source>You are not signed in</source>
-        <translation>Et ole kirjautunut sisään</translation>
+        <translation>Oturum açmamışsınız</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="269"/>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="274"/>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="295"/>
         <source>Invalid project</source>
-        <translation>Virheellinen projekti</translation>
+        <translation>Proje geçersiz</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="283"/>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="584"/>
         <source>Service destroyed</source>
-        <translation>Palvelu tuhottu</translation>
+        <translation>Hizmet bozulmuş</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="288"/>
         <source>Project was closed before upload started</source>
-        <translation>Projekti suljettiin ennen latauksen alkamista</translation>
+        <translation>Proje yükleme başlatılmadan önce kapatılmış</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="452"/>
         <source>Invalid audio ID</source>
-        <translation>Virheellinen äänitunniste</translation>
+        <translation>Audio kimliği geçersiz</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="514"/>
         <source>Project not found in cloud database</source>
-        <translation>Projektia ei löydy pilvitietokannasta</translation>
+        <translation>Proje bulut veri tabanında bulunamadı</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="596"/>
         <source>No valid current project</source>
-        <translation>Ei kelvollinen projektiin</translation>
+        <translation>Geçerli bir proje yok</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="659"/>
         <source>Upload succeeded but payload is missing</source>
-        <translation>Lataus onnistui, mutta lasti puuttuu</translation>
+        <translation>Yükleme tamamlandı ancak veriler eksik</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/oauthhttpserverreplyhandler.cpp" line="155"/>
         <source>Sign in successful! You’re good to go back to Audacity.</source>
-        <translation>Kirjautuminen onnistui! Voit nyt siirtyä Audacityyn.</translation>
+        <translation>Oturum açıldı! Audacity uygulamasına dönebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="506"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1088"/>
         <source>View on audio.com</source>
-        <translation>Katso osoitteessa audio.com</translation>
+        <translation>audio.com üzerinde görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1060"/>
         <source>Track title</source>
-        <translation>Raidan otsikko</translation>
+        <translation>İz başlığı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1061"/>
         <source>Share audio</source>
-        <translation>Jaa ääni</translation>
+        <translation>Ses paylaş</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1062"/>
         <source>Share</source>
-        <translation>Jaa</translation>
+        <translation>Paylaş</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1083"/>
         <source>Audio shared to audio.com</source>
-        <translation>Ääni jaettu sivustolla audio.com</translation>
+        <translation>Ses audio.com ile paylaşıldı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1103"/>
         <source>Sharing audio to audio.com…</source>
-        <translation>Ääni jaetaan audio.com…</translation>
+        <translation>Ses audio.com ile paylaşılıyor…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1162"/>
         <source>Downloading audio from cloud…</source>
-        <translation>Ladataan ääntä pilvestä…</translation>
+        <translation>Ses buluttan indiriliyor…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="599"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="706"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="719"/>
         <source>Save to audio.com</source>
-        <translation>Tallenna sivustolle audio.com</translation>
+        <translation>audio.com üzerine kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="808"/>
         <source>Open audio from cloud</source>
-        <translation>Avaa ääntä pilvestä</translation>
+        <translation>Buluttan ses aç</translation>
     </message>
 </context>
 <context>
@@ -3801,7 +3800,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="16"/>
         <source>Save to audio.com</source>
-        <translation>Tallenna sivustolle audio.com</translation>
+        <translation>audio.com üzerine kaydet</translation>
     </message>
 </context>
 <context>
@@ -3809,77 +3808,77 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/NoiseView.qml" line="18"/>
         <source>Noise</source>
-        <translation>Kohina</translation>
+        <translation>Gürültü</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="17"/>
         <source>Chirp</source>
-        <translation>Viserrys</translation>
+        <translation>Cıvıldama</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="299"/>
         <source>Stop preview</source>
         <extracomment>Shown on a button that stops effect preview</extracomment>
-        <translation>Pysäytä esikuuntelu</translation>
+        <translation>Ön izlemeyi durdur</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="301"/>
         <source>Preview</source>
         <extracomment>Shown on a button that starts effect preview</extracomment>
-        <translation>Esikuuntelu</translation>
+        <translation>Ön izleme</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/EffectPresetsBar.qml" line="101"/>
         <source>Select preset</source>
-        <translation>Valitse esiasetus</translation>
+        <translation>Hazır ayar seçin</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/ParameterControl.qml" line="387"/>
         <source>Unknown parameter type: %1</source>
-        <translation>Tuntematon parametrityyppi: %1</translation>
+        <translation>Parametre türü bilinmiyor: %1</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PresetNameDialog.qml" line="13"/>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="48"/>
         <source>Save preset</source>
-        <translation>Tallenna esiasetus</translation>
+        <translation>Hazır ayarı kaydet</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PresetNameDialog.qml" line="44"/>
         <source>Preset name</source>
-        <translation>Esiasetetun nimi</translation>
+        <translation>Hazır ayar adı</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="63"/>
         <source>Enter Nyquist command:</source>
-        <translation>Kirjoita Nyquist-komento:</translation>
+        <translation>Nyquist komutunu yazın: </translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="69"/>
         <source>Debug</source>
-        <translation>Virheenkorjaus</translation>
+        <translation>Hata ayıklama</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="93"/>
         <source>Enter Nyquist code here…</source>
-        <translation>Syötä Nyquist-koodi tähän…</translation>
+        <translation>Nyquist kodunu buraya yazın…</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="106"/>
         <source>Load</source>
-        <translation>Lataa</translation>
+        <translation>Yükle</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="117"/>
         <location filename="../../src/effects/effects_base/view/effectsavecontextmenu.cpp" line="76"/>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="13"/>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/limitersettingmodel.cpp" line="14"/>
         <source>Threshold</source>
-        <translation>Kynnysarvo</translation>
+        <translation>Eşik</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="13"/>
@@ -3894,24 +3893,24 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="14"/>
         <source>Make-up gain</source>
-        <translation>Tasoitusvahvistus</translation>
+        <translation>Düzeltme kazancı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="15"/>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/limitersettingmodel.cpp" line="16"/>
         <source>Knee width</source>
-        <translation>Polven leveys</translation>
+        <translation>Diz genişliği</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="16"/>
         <source>Ratio</source>
-        <translation>Suhde</translation>
+        <translation>Oran</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="17"/>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/limitersettingmodel.cpp" line="17"/>
         <source>Lookahead</source>
-        <translation>Ennakointi</translation>
+        <translation>Öne bakma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="17"/>
@@ -3925,203 +3924,203 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="18"/>
         <source>Attack</source>
-        <translation>Syttyminen</translation>
+        <translation>Kalkma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/compressorsettingmodel.cpp" line="19"/>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/limitersettingmodel.cpp" line="18"/>
         <source>Release</source>
-        <translation>Palautuminen</translation>
+        <translation>Bırakma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/limitersettingmodel.cpp" line="15"/>
         <source>Output</source>
-        <translation>Tuloste</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="39"/>
         <source>Effect load failed</source>
-        <translation>Tehosteen lataaminen epäonnistui</translation>
+        <translation>Etki yüklenemedi</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="41"/>
         <source>Internal error</source>
-        <translation>Sisäinen virhe</translation>
+        <translation>İç sorun</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="43"/>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>Hata bilinmiyor</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="45"/>
         <source>Effect not found</source>
-        <translation>Tehostetta ei löytynyt</translation>
+        <translation>Etki bulunamadı</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="47"/>
         <source>No audio selected</source>
-        <translation>Ei valittua ääntä</translation>
+        <translation>Herhangi bir ses seçilmemiş</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="49"/>
         <source>Multiple-clip selection not supported</source>
-        <translation>Usean leikkeen valintaa ei tueta</translation>
+        <translation>Birden çok parçanın seçiilmesi desteklenmiyor</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="51"/>
         <source>Applying effect failed</source>
-        <translation>Tehosteen suorittaminen epäonnistui</translation>
+        <translation>Etki uygulanamadı</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="53"/>
         <source>Not valid presets file</source>
-        <translation>Virheellinen esiasetustiedosto</translation>
+        <translation>Hazır ayarlar dosyası geçersiz</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="55"/>
         <source>Preset mismatch</source>
-        <translation>Esiasetusten yhteensopimattomuus</translation>
+        <translation>Hazır ayar eşleşmiyor</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="385"/>
         <source>Applied effect: %1</source>
-        <translation>Käytetty tehoste: %1</translation>
+        <translation>Uygulanmış etki: %1</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="49"/>
         <source>Preset “%1” already exists, replace?</source>
-        <translation>Esiasetus ”%1” on jo olemassa, korvataanko se?</translation>
+        <translation>“%1” hazır ayarı zaten var. Değiştirilsin mi?</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="89"/>
         <source>Delete preset</source>
-        <translation>Poista esiasetus</translation>
+        <translation>Hazır ayarı sil</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="90"/>
         <source>Are you sure you want to delete “%1”?</source>
-        <translation>Haluatko varmasti poistaa kohteen “%1”?</translation>
+        <translation>“%1” silinecek, emin misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="107"/>
         <source>Presets</source>
-        <translation>Esiasetukset</translation>
+        <translation>Hazır ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="117"/>
         <source>Import effect parameters</source>
-        <translation>Tuo efektin parametrit</translation>
+        <translation>Etki parametrelerini içe aktar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="148"/>
         <source>Export effect parameters</source>
-        <translation>Vie efektin parametrit</translation>
+        <translation>Etki parametrelerini dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="133"/>
         <source>%1: is not a valid presets file.</source>
-        <translation>%1: ei ole kelvollinen esiasetustiedosto.</translation>
+        <translation>%1: Geçerli bir hazır ayar dosyası değil.</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="135"/>
         <source>%1: is for a different Effect, Generator or Analyzer.</source>
-        <translation>%1: kuuluu eri tehosteelle, generaattorille tai analyysityökalulle.</translation>
+        <translation>%1: Başka bir etki, oluşturucu veya inceleyici için.</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="622"/>
         <source>Generating %1…</source>
-        <translation>Luodaan %1…</translation>
+        <translation>%1 oluşturuluyor …</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="622"/>
         <source>Applying %1…</source>
-        <translation>Suoritetaan %1…</translation>
+        <translation>%1 uygulanıyor…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="68"/>
         <source>Use vendor UI</source>
-        <translation>Käytä toimittajan käyttöliittymää</translation>
+        <translation>Üretici arayüzü kullanılsın</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="69"/>
         <source>Toggle between vendor UI and fallback UI</source>
-        <translation>Vaihda toimittajan käyttöliittymän ja varaliittymän välillä</translation>
+        <translation>Üretici arayüzü ile ön tanımlı arayüz arasında geçiş yapar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/realtimeeffectservice.cpp" line="233"/>
         <source>Master</source>
-        <translation>Pääraita</translation>
+        <translation>Ana</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/effectpresetsbarmodel.cpp" line="104"/>
         <location filename="../../src/effects/effects_base/view/effectpresetsbarmodel.cpp" line="106"/>
         <source>Default preset</source>
-        <translation>Oletusasetus</translation>
+        <translation>Ön tanımlı hazır ayar</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/effectpresetsbarmodel.cpp" line="574"/>
         <source>custom</source>
-        <translation>mukautettu</translation>
+        <translation>özel</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/effectsavecontextmenu.cpp" line="86"/>
         <source>Save as…</source>
-        <translation>Tallenna…</translation>
+        <translation>Farklı kaydet…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/generatedeffectviewermodel.cpp" line="54"/>
         <source>Unknown effect</source>
-        <translation>Tuntematon tehote</translation>
+        <translation>Bilinmeyen etki</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/generatedeffectviewermodel.cpp" line="70"/>
         <source>No parameters available for this effect</source>
-        <translation>Tehosteelle ei ole parametreja</translation>
+        <translation>Bu etki için kullanılabilecek bir parametre yok</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="42"/>
         <source>Nyquist prompt</source>
-        <translation>Nyquist-kehote</translation>
+        <translation>Nyquist komutu</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="48"/>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="101"/>
         <source>Nyquist scripts</source>
-        <translation>Nyquist-skriptit</translation>
+        <translation>Nyquist betikleri</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="49"/>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="102"/>
         <source>Lisp scripts</source>
-        <translation>Lisp-skriptit</translation>
+        <translation>Lisp betikleri</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="50"/>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="103"/>
         <source>All files</source>
-        <translation>Kaikki tiedostot</translation>
+        <translation>Tüm dosyalar</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="58"/>
         <source>Load Nyquist script</source>
-        <translation>Lataa Nyquist-skripti</translation>
+        <translation>Nyquist betiği yükle</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="111"/>
         <source>Save Nyquist script</source>
-        <translation>Tallenna Nyquist-skripti</translation>
+        <translation>Nyquist betiğini kaydet</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="163"/>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="168"/>
         <source>Nyquist debug output</source>
-        <translation>Nyquist-vianmääritystuloste</translation>
+        <translation>Nyquist hata ayıklama çıktısı</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="169"/>
         <source>No debug output generated.</source>
-        <translation>Virhetulostetta ei luotu.</translation>
+        <translation>Herhangi bir hata ayıklama çıktısı üretilmemiş.</translation>
     </message>
 </context>
 <context>
@@ -4129,22 +4128,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/amplify/amplifyviewmodel.cpp" line="50"/>
         <source>Amplify</source>
-        <translation>Vahvista</translation>
+        <translation>Yükseltici</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/amplify/amplifyviewmodel.cpp" line="55"/>
         <source>Amplification</source>
-        <translation>Vahvistus</translation>
+        <translation>Yükseltme</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/amplify/amplifyviewmodel.cpp" line="103"/>
         <source>New peak amplitude</source>
-        <translation>Uusi huippuamplitudi</translation>
+        <translation>Yeni tepe genliği</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/amplify/amplifyviewmodel.cpp" line="156"/>
         <source>Allow clipping</source>
-        <translation>Salli leikkautuminen</translation>
+        <translation>Kırıpılabilsin</translation>
     </message>
 </context>
 <context>
@@ -4152,53 +4151,53 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="22"/>
         <source>Change pitch</source>
-        <translation>Muuta sävelkorkeutta</translation>
+        <translation>Perdeyi değiştir</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="34"/>
         <source>Estimated start pitch: %1%2 (%3 Hz)</source>
         <extracomment>%1 = pitch name (e.g. C), %2 = octave number, %3 = frequency in Hz</extracomment>
-        <translation>Arvioitu sävelkorkeus alussa: %1%2 (%3 Hz)</translation>
+        <translation>Başlangıç perdesi kestirimi: %1%2 (%3 Hz)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="43"/>
         <source>From pitch</source>
-        <translation>Sävelkorkeudesta</translation>
+        <translation>Başlangıç perdesi</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="213"/>
         <source>To pitch</source>
-        <translation>Sävelkorkeuteen</translation>
+        <translation>Bitiş perdesi</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="323"/>
         <source>Semitones</source>
-        <translation>Puolisävelaskel</translation>
+        <translation>Yarım tonlar</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="406"/>
         <source>Cents</source>
-        <translation>Sentit</translation>
+        <translation>Komalar</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="451"/>
         <source>From frequency</source>
-        <translation>Taajuudesta</translation>
+        <translation>Başlangıç frekansı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="537"/>
         <source>To frequency</source>
-        <translation>Taajuuteen</translation>
+        <translation>Bitiş frekansı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="619"/>
         <source>Percentage change</source>
-        <translation>Muutosprosentti</translation>
+        <translation>Yüzde değişim</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="684"/>
         <source>Use high quality stretching (slow)</source>
-        <translation>Käytä laadukasta venytystä (hidas)</translation>
+        <translation>Yüksek kaliteli esnetme kullanılsın (yavaş)</translation>
     </message>
 </context>
 <context>
@@ -4206,47 +4205,47 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="74"/>
         <source>Waveform</source>
-        <translation>Aaltomuoto</translation>
+        <translation>Dalga şekli</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="118"/>
         <source>Frequency sweep</source>
-        <translation>Taajuuspyyhkäisy</translation>
+        <translation>Frekans taraması</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="128"/>
         <source>Linear</source>
-        <translation>Lineaarinen</translation>
+        <translation>Doğrusal</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="144"/>
         <source>Logarithmic</source>
-        <translation>Logaritminen</translation>
+        <translation>Logaritmik</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="173"/>
         <source>Start frequency</source>
-        <translation>Aloitustaajuus</translation>
+        <translation>Başlangıç frekansı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="194"/>
         <source>End frequency</source>
-        <translation>Lopputaajuus</translation>
+        <translation>Bitiş frekansı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="243"/>
         <source>Start amplitude (0-1)</source>
-        <translation>Alkuamplitudi (0-1)</translation>
+        <translation>Başlangıç genliği (0-1)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="267"/>
         <source>End amplitude (0-1)</source>
-        <translation>Loppuamplitudi (0-1)</translation>
+        <translation>Bitiş genliği (0-1)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ChirpView.qml" line="293"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
 </context>
 <context>
@@ -4254,17 +4253,17 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/clickremoval/clickremovalviewmodel.cpp" line="18"/>
         <source>Click removal</source>
-        <translation>Naksahdusten poisto</translation>
+        <translation>Tıkırtı kaldırma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/clickremoval/clickremovalviewmodel.cpp" line="23"/>
         <source>Threshold (lower is more sensitive)</source>
-        <translation>Kynnysarvo (pienempi arvo on herkempi)</translation>
+        <translation>Eşik (daha alçak daha duyarlıdır)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/clickremoval/clickremovalviewmodel.cpp" line="63"/>
         <source>Max spike width (higher is more sensitive)</source>
-        <translation>Piikin maksimileveys (suurempi arvo on herkempi)</translation>
+        <translation>En büyük iğne genişliği (daha yüksek daha duyarlıdır)</translation>
     </message>
 </context>
 <context>
@@ -4272,27 +4271,27 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/compressor/CompressorView.qml" line="17"/>
         <source>Compressor</source>
-        <translation>Kompressori</translation>
+        <translation>Sıkıştırıcı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="117"/>
         <source>Show:</source>
-        <translation>Näytä:</translation>
+        <translation>Görüntüle:</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="126"/>
         <source>Input</source>
-        <translation>Syöte</translation>
+        <translation>Giriş</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="131"/>
         <source>Output</source>
-        <translation>Tuloste</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="136"/>
         <source>Compression</source>
-        <translation>Pakkaus</translation>
+        <translation>Sıkıştırma</translation>
     </message>
 </context>
 <context>
@@ -4300,37 +4299,37 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="19"/>
         <source>DTMF tones</source>
-        <translation>DTMF-äänet</translation>
+        <translation>DTMF tonları</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="65"/>
         <source>DTMF sequence</source>
-        <translation>DTMF-sarja</translation>
+        <translation>DTMF sırası</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="97"/>
         <source>For each tone you wish to generate, enter numbers from 0 to 9, lower case letters from a to z, and the * and # characters.</source>
-        <translation>Kirjoita kutakin luotavaa ääntä kohden numeroita väliltä 0–9, pieniä kirjaimia väliltä a–z sekä merkkejä * ja #.</translation>
+        <translation>Oluşturmak istediğiniz her ton için 0 ile 9 arasında sayılar, a ile z arasında küçük harfler ve * ile # karakterleri yazın.</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="106"/>
         <source>Amplitude (0-1)</source>
-        <translation>Amplitudi (0-1)</translation>
+        <translation>Genlik (0-1)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="129"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="190"/>
         <source>Tone/silence ratio</source>
-        <translation>Ääni/hiljaisuus -suhde</translation>
+        <translation>Ton/sessizlik oranı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="239"/>
         <source>Duty cycle</source>
-        <translation>Pulssisuhde</translation>
+        <translation>Doluluk oranı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="243"/>
@@ -4340,7 +4339,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="253"/>
         <source>Tone duration</source>
-        <translation>Äänen kesto</translation>
+        <translation>Ton süresi</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="257"/>
@@ -4351,7 +4350,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dtmfgen/DtmfView.qml" line="267"/>
         <source>Silence duration</source>
-        <translation>Hiljaisuuden kesto</translation>
+        <translation>Sessizlik süresi</translation>
     </message>
 </context>
 <context>
@@ -4359,17 +4358,17 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/graphiceq/GraphicEqView.qml" line="12"/>
         <source>Graphic EQ</source>
-        <translation>Palkkitaajuuskorjain</translation>
+        <translation>Grafik dengeleyici</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/graphiceq/GraphicEqView.qml" line="82"/>
         <source>Flatten</source>
-        <translation>Suorista</translation>
+        <translation>Düzleştir</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/graphiceq/GraphicEqView.qml" line="96"/>
         <source>Invert</source>
-        <translation>Käännä vaihe</translation>
+        <translation>Evir</translation>
     </message>
 </context>
 <context>
@@ -4377,7 +4376,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/limiter/LimiterView.qml" line="18"/>
         <source>Limiter</source>
-        <translation>Rajoitin</translation>
+        <translation>Sınırlayıcı</translation>
     </message>
 </context>
 <context>
@@ -4385,37 +4384,37 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="27"/>
         <source>Normalize loudness</source>
-        <translation>Normalisoi äänekkyys</translation>
+        <translation>Güçlendirmeyi normalleştir</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="33"/>
         <source>RMS</source>
-        <translation>RMS (Root Mean Squre)</translation>
+        <translation>RMS</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="34"/>
         <source>Perceived loudness</source>
-        <translation>Havaittu äänekkyys</translation>
+        <translation>Algılanan ses yüksekliği</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="55"/>
         <source>to</source>
-        <translation>uusi</translation>
+        <translation>şuna</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="119"/>
         <source>Normalize</source>
-        <translation>Normalisoi</translation>
+        <translation>Normalleştir</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="139"/>
         <source>Normalize stereo channels independently</source>
-        <translation>Normalisoi stereokanavat toisistaan riippumatta</translation>
+        <translation>Çift kanal birbirinden bağımsız normalleştirilsin</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/loudness/normalizeloudnessviewmodel.cpp" line="144"/>
         <source>Treat mono as dual mono (recommended)</source>
-        <translation>Käsittele monoraita kaksoismonona (suositus)</translation>
+        <translation>Tek kanal çift tek kanal gibi değerlendirilsin (önerilir)</translation>
     </message>
 </context>
 <context>
@@ -4423,35 +4422,35 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/NoiseView.qml" line="46"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/NoiseView.qml" line="67"/>
         <source>Amplitude (0-1)</source>
-        <translation>Amplitudi (0-1)</translation>
+        <translation>Genlik (0-1)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/NoiseView.qml" line="90"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/noiseviewmodel.cpp" line="26"/>
         <source>White</source>
         <comment>not a color, but 'white noise' having a uniform spectrum</comment>
-        <translation>Valkoinen</translation>
+        <translation>Beyaz</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/noiseviewmodel.cpp" line="31"/>
         <source>Pink</source>
         <comment>not a color, but 'pink noise' having a spectrum with more power in low frequencies</comment>
-        <translation>Pinkki</translation>
+        <translation>Pembe</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisegen/noiseviewmodel.cpp" line="35"/>
         <source>Brownian</source>
         <comment>a kind of noise spectrum also known as 'red' or 'brown'</comment>
-        <translation>Brownin kohina</translation>
+        <translation>Kahverengi</translation>
     </message>
 </context>
 <context>
@@ -4459,73 +4458,73 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="68"/>
         <source>Step 1</source>
-        <translation>Vaihe 1</translation>
+        <translation>1. adım</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="78"/>
         <source>Select a few seconds of isolated noise so Audacity knows what to filter out, then click Get noise profile.</source>
-        <translation>Valitse muutama sekunti pelkkää kohinaa, jotta Audacity tietää, mitä pitää suodattaa pois ja paina sitten &quot;Luo kohinaprofiili&quot;.</translation>
+        <translation>Audacity tarafından neyin süzüleceğinin bilinmesi için birkaç saniyelik yalıtılmış gürültü seçin, ardından Gürültü profilini al üzerine tıklayın.</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="92"/>
         <source>Get noise profile</source>
-        <translation>Luo kohinaprofiili</translation>
+        <translation>Gürültü profilini al</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="120"/>
         <source>Step 2</source>
-        <translation>Vaihe 2</translation>
+        <translation>2. adım</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="131"/>
         <source>Select all of the audio you want filtered, choose how much noise you want filtered out, and then click “Apply” to reduce noise.</source>
-        <translation>Valitse kaikki suodatettavat äänet, valitse poistettavan kohinamäärän ja napsauta sitten &quot;Käytä&quot; vähentääksesi kohinaa.</translation>
+        <translation>Süzülmesini istediğiniz tüm sesi seçin, ne kadar gürültünün süzülmesini istediğinizi seçin ve ardından gürültüyü azaltmak için &quot;Uygula&quot; üzerine tıklayın.</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="13"/>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="141"/>
         <source>Noise reduction</source>
-        <translation>Kohinan vaimennus</translation>
+        <translation>Gürültü azaltma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="171"/>
         <source>Sensitivity</source>
-        <translation>Herkkyys</translation>
+        <translation>Duyarlılık</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="200"/>
         <source>Frequency smoothing</source>
-        <translation>Taajuuden pehmennys</translation>
+        <translation>Frekans düzeltme</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="219"/>
         <source>bands</source>
-        <translation>kaistat</translation>
+        <translation>bantlar</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="238"/>
         <source>Output</source>
-        <translation>Tuloste</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="265"/>
         <source>Audio with noise removed</source>
-        <translation>Ääni josta kohina on poistettu</translation>
+        <translation>Gürültüsü kaldırılmış ses</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="280"/>
         <source>Noise only</source>
-        <translation>Vain kohinaa</translation>
+        <translation>Yalnızca gürültü</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/noisereductionviewmodel.cpp" line="150"/>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation>Uyarı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/noisereductionviewmodel.cpp" line="151"/>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Sorun</translation>
     </message>
 </context>
 <context>
@@ -4533,22 +4532,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="11"/>
         <source>Normalize</source>
-        <translation>Normalisoi</translation>
+        <translation>Normalleştir</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="41"/>
         <source>Remove DC offset (center on 0.0 vertically)</source>
-        <translation>Poista DC-offset (keskitä pystysuunnassa 0.0-tasoon)</translation>
+        <translation>DC kaymayı kaldır (dikeyde 0.0 üzerine ortala)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="62"/>
         <source>Normalize peak amplitude to</source>
-        <translation>Normalisoi huippuamplitudi arvoon</translation>
+        <translation>Tepe genliğini şuna normalleştir </translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="98"/>
         <source>Normalize stereo channels independently</source>
-        <translation>Normalisoi stereokanavat toisistaan riippumatta</translation>
+        <translation>Çift kanalı birbirinden bağımsız normalleştir</translation>
     </message>
 </context>
 <context>
@@ -4556,7 +4555,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="17"/>
         <source>Nyquist prompt</source>
-        <translation>Nyquist-kehote</translation>
+        <translation>Nyquist komutu</translation>
     </message>
 </context>
 <context>
@@ -4569,12 +4568,12 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/paulstretchviewmodel.cpp" line="62"/>
         <source>Stretch factor</source>
-        <translation>Venytyskerroin</translation>
+        <translation>Esnetme çarpanı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/paulstretchviewmodel.cpp" line="87"/>
         <source>Time resolution</source>
-        <translation>Aikaresoluutio</translation>
+        <translation>Zaman çözünürlüğü</translation>
     </message>
 </context>
 <context>
@@ -4582,22 +4581,22 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/ReverbView.qml" line="13"/>
         <source>Reverb</source>
-        <translation>Jälkikaiku</translation>
+        <translation>Yankı</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/ReverbView.qml" line="272"/>
         <source>Wet only</source>
-        <translation>Vain märkä</translation>
+        <translation>Yalnızca ıslak</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="38"/>
         <source>Room size</source>
-        <translation>Huonekoko</translation>
+        <translation>Oda boyutu</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="47"/>
         <source>Pre-delay</source>
-        <translation>Esiviive</translation>
+        <translation>Ön gecikme</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="48"/>
@@ -4607,37 +4606,37 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="56"/>
         <source>Reverberance</source>
-        <translation>Kaikuisuus</translation>
+        <translation>Yankılanma</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="65"/>
         <source>Damping</source>
-        <translation>Vaimennus</translation>
+        <translation>Sönümlenme</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="74"/>
         <source>Low tone</source>
-        <translation>Matala sävy</translation>
+        <translation>Alçak ton</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="83"/>
         <source>High tone</source>
-        <translation>Korkea sävy</translation>
+        <translation>Yüksek ton</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="92"/>
         <source>Wet gain</source>
-        <translation>Märkä vahvistus</translation>
+        <translation>Islak kazanç</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="101"/>
         <source>Dry gain</source>
-        <translation>Kuiva vahvistus</translation>
+        <translation>Kuru kazanç</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="110"/>
         <source>Stereo width</source>
-        <translation>Stereoleveys</translation>
+        <translation>Çift kanal genişliği</translation>
     </message>
 </context>
 <context>
@@ -4645,52 +4644,52 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ToneView.qml" line="18"/>
         <source>Tone</source>
-        <translation>Sävel</translation>
+        <translation>Ton</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ToneView.qml" line="54"/>
         <source>Waveform</source>
-        <translation>Aaltomuoto</translation>
+        <translation>Dalga şekli</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ToneView.qml" line="78"/>
         <source>Frequency</source>
-        <translation>Taajuus</translation>
+        <translation>Frekans</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ToneView.qml" line="102"/>
         <source>Amplitude (0-1)</source>
-        <translation>Amplitudi (0-1)</translation>
+        <translation>Genlik (0-1)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/ToneView.qml" line="125"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/toneviewmodel.cpp" line="35"/>
         <source>Sine</source>
-        <translation>Sini</translation>
+        <translation>Sinüs</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/toneviewmodel.cpp" line="35"/>
         <source>Square</source>
-        <translation>Kantti</translation>
+        <translation>Kare</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/toneviewmodel.cpp" line="35"/>
         <source>Sawtooth</source>
-        <translation>Sahalaita</translation>
+        <translation>Testere dişi</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/toneviewmodel.cpp" line="35"/>
         <source>Square, no alias</source>
-        <translation>Kantti, laskostumaton</translation>
+        <translation>Kare, örtüşmesiz</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/tonegen/toneviewmodel.cpp" line="36"/>
         <source>Triangle</source>
-        <translation>Kolmio</translation>
+        <translation>Üçgen</translation>
     </message>
 </context>
 <context>
@@ -4698,57 +4697,57 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="20"/>
         <source>Truncate silence</source>
-        <translation>Hiljaisuuden tiivistäminen</translation>
+        <translation>Sessizliği buda</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="25"/>
         <source>Detect silence</source>
-        <translation>Tunnista hiljaisuus</translation>
+        <translation>Sessizliği algıla</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="30"/>
         <source>Threshold</source>
-        <translation>Kynnysarvo</translation>
+        <translation>Eşik</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="75"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="120"/>
         <source>Action</source>
-        <translation>Toimenpide</translation>
+        <translation>İşlem</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="180"/>
         <source>Truncate to</source>
-        <translation>Lyhennä pituuteen</translation>
+        <translation>Şuna buda</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="185"/>
         <source>Truncate detected silence</source>
-        <translation>Lyhennä tunnistettu hiljaisuus</translation>
+        <translation>Algılanan sessizliği buda</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="230"/>
         <source>Compress to</source>
-        <translation>Pakkaa arvoon</translation>
+        <translation>Şuna sıkıştır</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="235"/>
         <source>Compress excess silence</source>
-        <translation>Pakkaa liika hiljaisuus</translation>
+        <translation>Aşırı sessizliği sıkıştır</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="280"/>
         <source>Truncate tracks independently</source>
-        <translation>Lyhennä raidat itsenäisesti</translation>
+        <translation>İzleri bağımsız olarak buda</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="285"/>
         <source>Compress tracks independently</source>
-        <translation>Pakkaa raidat itsenäisesti</translation>
+        <translation>İzleri bağımsız olarak sıkıştır</translation>
     </message>
 </context>
 <context>
@@ -4762,7 +4761,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="37"/>
         <source>seconds</source>
-        <translation>sekuntia</translation>
+        <translation>saniye</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="45"/>
@@ -4773,13 +4772,13 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="46"/>
         <source>milliseconds</source>
-        <translation>millisekuntia</translation>
+        <translation>milisaniye</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="53"/>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="54"/>
         <source>samples</source>
-        <translation>näytteet</translation>
+        <translation>örnekler</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="63"/>
@@ -4790,7 +4789,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="64"/>
         <source>hertz</source>
-        <translation>hertsiä</translation>
+        <translation>hertz</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="72"/>
@@ -4801,7 +4800,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="73"/>
         <source>kilohertz</source>
-        <translation>kilohertsiä</translation>
+        <translation>kilohertz</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="82"/>
@@ -4812,7 +4811,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="83"/>
         <source>decibels</source>
-        <translation>desibeliä</translation>
+        <translation>desibel</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="92"/>
@@ -4823,13 +4822,13 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="93"/>
         <source>percent</source>
-        <translation>prosenttia</translation>
+        <translation>yüzde</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="101"/>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="102"/>
         <source>semitones</source>
-        <translation>puolisävelaskeleet</translation>
+        <translation>yarım tonlar</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="111"/>
@@ -4840,7 +4839,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="112"/>
         <source>beats per minute</source>
-        <translation>iskua minuutissa</translation>
+        <translation>dakikadaki vuruş</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="121"/>
@@ -4851,7 +4850,7 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="122"/>
         <source>degrees</source>
-        <translation>astetta</translation>
+        <translation>derece</translation>
     </message>
 </context>
 <context>
@@ -4859,129 +4858,129 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/CustomFFmpegDialog.qml" line="16"/>
         <source>Custom FFmpeg options</source>
-        <translation>Mukautetut FFmpeg-asetukset</translation>
+        <translation>Özel FFmpeg seçenekleri</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/CustomMappingDialog.qml" line="16"/>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="355"/>
         <source>Edit mapping</source>
-        <translation>Muokaa karttaa</translation>
+        <translation>Eşleştirmeyi düzenle</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/CustomMappingDialog.qml" line="48"/>
         <source>Channel count</source>
-        <translation>Kanavien määrä</translation>
+        <translation>Kanal sayısı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="19"/>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="465"/>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="597"/>
         <source>Export audio</source>
-        <translation>Vie ääni</translation>
+        <translation>Sesi dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="76"/>
         <source>Export</source>
-        <translation>Vie</translation>
+        <translation>Dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="91"/>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="128"/>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="65"/>
         <source>File</source>
-        <translation>Tiedosto</translation>
+        <translation>Dosya</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="142"/>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="76"/>
         <source>File name</source>
-        <translation>Tiedostonimi</translation>
+        <translation>Dosya adı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="176"/>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="143"/>
         <source>Folder</source>
-        <translation>Kansio</translation>
+        <translation>Klasör</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="212"/>
         <source>Format</source>
-        <translation>Formaatti</translation>
+        <translation>Biçim</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="249"/>
         <source>Audio options</source>
-        <translation>Ääniasetuksia</translation>
+        <translation>Ses ayarları</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="266"/>
         <source>Channels</source>
-        <translation>Kanavat</translation>
+        <translation>Kanallar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="291"/>
         <source>Mono</source>
-        <translation>Mono</translation>
+        <translation>Tek</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="309"/>
         <source>Stereo</source>
-        <translation>Stereo</translation>
+        <translation>Çift</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="326"/>
         <source>Custom mapping</source>
-        <translation>Mukautettu kartoitus</translation>
+        <translation>Özel eşleştirme</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="373"/>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="183"/>
         <source>Sample rate</source>
-        <translation>Näytetaajuus</translation>
+        <translation>Örnekleme hızı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="418"/>
         <source>Open custom FFmpeg format options</source>
-        <translation>Avaa FFmpeg-muokkausvalinnat</translation>
+        <translation>Özel FFmpeg biçimlendirme ayarlarını aç</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="439"/>
         <source>Format:</source>
-        <translation>Muoto:</translation>
+        <translation>Biçim:</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="463"/>
         <source>Codec:</source>
-        <translation>Koodekki:</translation>
+        <translation>Kodlayıcı/Çözücü:</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="554"/>
         <source>Effective bit rate may vary</source>
-        <translation>Todellinen bittivirta voi vaihdella</translation>
+        <translation>Etkin bit hızı değişebilir</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="564"/>
         <source>Rendering</source>
-        <translation>Renderöinti</translation>
+        <translation>Oluşturma</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="574"/>
         <source>Trim blank space before first clip</source>
-        <translation>Leikkaa tyhjä tila ennen ensimmäistä leikettä</translation>
+        <translation>İlk parçadan önceki boşluk kırpılsın</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="19"/>
         <source>FLAC options</source>
-        <translation>FLAC-valinnat</translation>
+        <translation>FLAC ayarları</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="37"/>
         <source>Compression</source>
-        <translation>Pakkaus</translation>
+        <translation>Sıkıştırma</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="65"/>
@@ -4991,78 +4990,78 @@ Tämä toiminto ei poista projektejasi.</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="93"/>
         <source>Min. PdO</source>
-        <translation>Min. PdO</translation>
+        <translation>En düşük ÖS (PdO)</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="121"/>
         <source>Min. PtO</source>
-        <translation>Min. PtO</translation>
+        <translation>En düşük BS</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="160"/>
         <source>Frame</source>
-        <translation>Kehys</translation>
+        <translation>Kare</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="186"/>
         <source>PdO method</source>
-        <translation>PdO-menetelmä</translation>
+        <translation>ÖS (PdO) yöntemi</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="208"/>
         <source>Max. PdO</source>
-        <translation>Max. PdO</translation>
+        <translation>En yüksek ÖS (PdO)</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="233"/>
         <source>Max. PtO</source>
-        <translation>Max. PtO</translation>
+        <translation>En yüksek BS (PtO)</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FormatAndCodecSection.qml" line="34"/>
         <source>Formats</source>
-        <translation>Formaatit</translation>
+        <translation>Biçimler</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FormatAndCodecSection.qml" line="40"/>
         <location filename="../../src/importexport/export/qml/Export/internal/FormatAndCodecSection.qml" line="100"/>
         <source>Show all</source>
-        <translation>Näytä kaikki</translation>
+        <translation>Tümünü görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FormatAndCodecSection.qml" line="94"/>
         <source>Codecs</source>
-        <translation>Koodekit</translation>
+        <translation>Kodlayıcı/Çözücüler</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="20"/>
         <source>General options</source>
-        <translation>Yleiset asetukset</translation>
+        <translation>Genel ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="39"/>
         <source>Language</source>
-        <translation>Kieli</translation>
+        <translation>Dil</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="62"/>
         <source>Tag</source>
-        <translation>Tunniste</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="84"/>
         <source>Quality</source>
-        <translation>Laatu</translation>
+        <translation>Kalite</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="112"/>
         <source>Cutoff</source>
-        <translation>Taajuusleikkaus</translation>
+        <translation>Kesim</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="151"/>
         <source>Bit rate</source>
-        <translation>Bittinopeus</translation>
+        <translation>Bit hızı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="176"/>
@@ -5070,160 +5069,159 @@ Tämä toiminto ei poista projektejasi.</translation>
 Some codecs may only accept specific values (128k, 192k, 256k, etc.)
 0 - automatic
 192000 - recommended</source>
-        <translation>Bittivirta (bittiä/sekunti) – vaikuttaa tiedostokokoon ja laatuun 
-Jotkin koodekit saattavat hyväksyä vain tiettyjä arvoja (128k, 192k, 256k jne.) 
-0 – automaattinen 
-192000 – suositus</translation>
+        <translation>Bit hızı (bit/saniye) - Ortaya çıkan dosya boyutunu ve kalitesini etkiler
+Bazı kodlayıcı/çözücüler yalnızca belirli değerleri kabul edebilir (128k, 192k, 256k gibi.)
+0 - Otomatik
+192000 - Önerilir</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="208"/>
         <source>Profile</source>
-        <translation>Profiili</translation>
+        <translation>Profil</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="30"/>
         <location filename="../../src/importexport/export/qml/Export/MetadataDialog.qml" line="17"/>
         <source>Metadata editor</source>
-        <translation>Metatietoeditori</translation>
+        <translation>Üst veri düzenleyici</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="46"/>
         <source>Load template</source>
-        <translation>Lataa mallipohja</translation>
+        <translation>Kalıbı yükle</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="61"/>
         <source>Save template</source>
-        <translation>Tallenna mallipohja</translation>
+        <translation>Kalıbı kaydet</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="76"/>
         <source>Set as default</source>
-        <translation>Aseta oletukseksi</translation>
+        <translation>Ön tanımlı olarak ayarla</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="95"/>
         <source>Delete</source>
-        <translation>Poista</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MetadataControlPanel.qml" line="110"/>
         <source>Add tag</source>
-        <translation>Lisää tunniste</translation>
+        <translation>Etiket ekle</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MPEGOptionsSection.qml" line="19"/>
         <source>MPEG container options</source>
-        <translation>MPEG-säiliön valinnat</translation>
+        <translation>MPEG paketi ayarları</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MPEGOptionsSection.qml" line="36"/>
         <source>Mux rate</source>
-        <translation>Mux-nopeus</translation>
+        <translation>Çoklayıcı hızı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/MPEGOptionsSection.qml" line="74"/>
         <source>Packet size</source>
-        <translation>Pakettikoko</translation>
+        <translation>Paket boyutu</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="21"/>
         <source>Export labels</source>
-        <translation>Vie merkit</translation>
+        <translation>Etiketleri dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="108"/>
         <source>File type</source>
-        <translation>Tiedostotyyppi</translation>
+        <translation>Dosya türü</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="182"/>
         <source>Label tracks</source>
-        <translation>Merkintäraidat</translation>
+        <translation>Etiket izleri</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="191"/>
         <source>Included label tracks</source>
-        <translation>Sisällytetyt merkintäraidat</translation>
+        <translation>Katılan etiket izleri</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="58"/>
         <source>Download FFmpeg</source>
-        <translation>Lataa FFmpeg</translation>
+        <translation>FFmpeg indir</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="71"/>
         <source>Locate existing installation</source>
-        <translation>Paikanna olemassa oleva asennus</translation>
+        <translation>Var olan kurulumu bul</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/internal/au3/au3exporter.cpp" line="229"/>
         <source>All selected audio is muted</source>
-        <translation>Kaikki valitut äänet on mykistetty</translation>
+        <translation>Seçilmiş tüm sesler kapatıldı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="38"/>
         <source>Export full project audio</source>
-        <translation>Vie koko projektin ääni</translation>
+        <translation>Tüm proje seslerini dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="39"/>
         <source>Export selected audio</source>
-        <translation>Vie valittu ääni</translation>
+        <translation>Seçilmiş sesleri dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="40"/>
         <source>Export audio in loop region</source>
-        <translation>Vie ääni jatkuvaan toistoon</translation>
+        <translation>Yineleme bölgesindeki sesi dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="171"/>
         <source>No loop region</source>
-        <translation>Ei jatkuvaa toistoaluetta</translation>
+        <translation>Bir yineleme bölgesi yok</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="172"/>
         <source>Export audio in loop region requires a loop in the project. Please go back, create a loop and try again.</source>
-        <translation>Äänen vienti vaatii jatkuvan toistoalueen projektissa. Palaa takaisin, luo sellainen ja yritä uudelleen.</translation>
+        <translation>Yineleme bölgesindeki sesi dışa aktarmak için projede bir yineleme bulunmalıdır. Lütfen geri dönün, bir yineleme oluşturun ve yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="183"/>
         <source>No selected audio</source>
-        <translation>Ei valittua äänitiedostoa</translation>
+        <translation>Seçilmiş bir ses yok</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="184"/>
         <source>Export selected audio requires a selection of audio data in the project. Please return to the project, make a selection and then try again.</source>
-        <translation>Valitun äänitiedoston vienti edellyttää äänidatan valintaa projektissa. Palaa projektiin, tee valinta ja yritä uudelleen.</translation>
+        <translation>Seçilmiş sesi dışa aktarmak için, projede bir ses verisi seçilmesi gerekir. Lütfen projeye geri dönün, bir seçim yapın ve yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="465"/>
         <source>Unable to create destination folder</source>
-        <translation>Kohdekansiota ei voi luoda</translation>
+        <translation>Hedef klasör oluşturulamadı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="521"/>
         <source>Do you want to overwrite?</source>
-        <translation>Haluatko korvata tiedoston?</translation>
+        <translation>Üzerine yazılmasını ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="522"/>
         <source>Overwrite</source>
-        <translation>Korvaa</translation>
+        <translation>Üzerine yaz</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="534"/>
         <source>Export error</source>
-        <translation>Vientivirhe</translation>
+        <translation>Dışa aktarma sorunu</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="598"/>
         <source>To export with custom channel mapping, master effects must be turned off temporarily.
 
 Master effects will be turned back on after export.</source>
-        <translation>Master-efektit on poistettava tilapäisesti käytöstä, jotta vienti voidaan tehdä mukautetulla kanavamäärityksellä. 
-
-Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
+        <translation>Özel kanal eşleştirmesi ile dışa aktarmak için ana etkiler geçici olarak kapatılmalıdır.
+Ana etkiler dışa aktarmadan sonra yeniden açılır.</translation>
     </message>
 </context>
 <context>
@@ -5231,7 +5229,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="162"/>
         <source>Reload plugins</source>
-        <translation>Lataa lisäosat uudelleen</translation>
+        <translation>Eklentileri yeniden yükle</translation>
     </message>
 </context>
 <context>
@@ -5242,7 +5240,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/importexport/export/qml/Export/CustomFFmpegDialog.qml" line="143"/>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="100"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Tamam</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="160"/>
@@ -5276,7 +5274,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="549"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="651"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/DestructiveEffectsViewerDialog.qml" line="344"/>
@@ -5285,36 +5283,36 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/playback/qml/Audacity/Playback/dialogs/LoopRegionInOut.qml" line="171"/>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingDialog.qml" line="93"/>
         <source>Apply</source>
-        <translation>Käytä</translation>
+        <translation>Uygula</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="637"/>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="255"/>
         <source>Export</source>
-        <translation>Vie</translation>
+        <translation>Dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="80"/>
         <location filename="../../src/importexport/export/qml/Export/MetadataDialog.qml" line="115"/>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="266"/>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/internal/LabelTracksSelectionView.qml" line="114"/>
         <source>Select all</source>
-        <translation>Valitse kaikki</translation>
+        <translation>Tümünü seç</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/internal/LabelTracksSelectionView.qml" line="128"/>
         <source>Clear</source>
-        <translation>Tyhjennä</translation>
+        <translation>Temizle</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutoSaveSection.qml" line="75"/>
         <source>min</source>
         <comment>abbreviation of minutes</comment>
-        <translation>min</translation>
+        <translation>dk</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/BufferAndLatencySection.qml" line="64"/>
@@ -5331,7 +5329,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CursorSection.qml" line="51"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="35"/>
         <source>seconds</source>
-        <translation>sekuntia</translation>
+        <translation>saniye</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="67"/>
@@ -5342,7 +5340,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="127"/>
         <source>Don’t show again</source>
-        <translation>Älä näytä uudelleen</translation>
+        <translation>Bu bir daha görüntülenmesin</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/TitleListView.qml" line="123"/>
@@ -5350,13 +5348,13 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsGridView.qml" line="208"/>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsListView.qml" line="294"/>
         <source>No results found</source>
-        <translation>Tuloksia ei löytynyt</translation>
+        <translation>Herhangi bir sonuç bulunamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="216"/>
         <source>Duration</source>
         <comment>file duration</comment>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="237"/>
@@ -5364,7 +5362,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="236"/>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/RecentProjectsView.qml" line="171"/>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation>Bilinmiyor</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="254"/>
@@ -5372,40 +5370,40 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/RecentProjectsView.qml" line="150"/>
         <source>Size</source>
         <comment>file size</comment>
-        <translation>Koko</translation>
+        <translation>Boyut</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="342"/>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="270"/>
         <source>Please check your internet connection or try again later.</source>
-        <translation>Tarkista internetyhteytesi tai yritä myöhemmin uudelleen.</translation>
+        <translation>Lütfen internet bağlantınızı denetleyin ya da bir süre sonra yeniden deneyin</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/NewProjectDialog.qml" line="127"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="126"/>
         <source>Back</source>
-        <translation>Takaisin</translation>
+        <translation>Geri</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/NewProjectDialog.qml" line="138"/>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="139"/>
         <source>Next</source>
-        <translation>Seuraava</translation>
+        <translation>İleri</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/NewProjectDialog.qml" line="150"/>
         <source>Done</source>
-        <translation>Tehty</translation>
+        <translation>Tamam</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="108"/>
         <source>Success!</source>
-        <translation>Hienoa!</translation>
+        <translation>Tamamlandı!</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="136"/>
         <source>Skip</source>
-        <translation>Ohita</translation>
+        <translation>Atla</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/reverb/reverbviewmodel.cpp" line="39"/>
@@ -5420,28 +5418,28 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="108"/>
         <source>All files</source>
-        <translation>Kaikki tiedostot</translation>
+        <translation>Tüm dosyalar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="499"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1082"/>
         <source>Success</source>
-        <translation>Onnistui</translation>
+        <translation>Başarılı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1087"/>
         <source>Dismiss</source>
-        <translation>Hylkää</translation>
+        <translation>Yok say</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="621"/>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="635"/>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/paulstretchviewmodel.cpp" line="112"/>
@@ -5455,34 +5453,34 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="134"/>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="168"/>
         <source>Loop tempo detected at %1 BPM. What would you like to do?</source>
-        <translation>Silmukan tempoksi tunnistettiin %1 BPM. Mitä haluat tehdä?</translation>
+        <translation>Yineleme temposu %1 BPM olarak algılandı. Ne yapmak istersiniz?</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="138"/>
         <source>Match project tempo to loop</source>
-        <translation>Sovita projektin tempo silmukkaan</translation>
+        <translation>Proje temposu yinelemeye uydurulsun</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="139"/>
         <source>Match loop to project tempo</source>
-        <translation>Sovita silmukka projektin tempoon</translation>
+        <translation>Yineleme proje temposuna uydurulsun</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="140"/>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="173"/>
         <source>Do nothing</source>
-        <translation>Älä tee mitään</translation>
+        <translation>Hiç bir şey yapılmasın</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="144"/>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="177"/>
         <source>Loop Tempo Detected</source>
-        <translation>Silmukan tempo havaittu</translation>
+        <translation>Yineleme temposu algılandı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="172"/>
         <source>Stretch loop to project tempo</source>
-        <translation>Venytä silmukka projektin tempoon</translation>
+        <translation>Yineleme proje temposuna göre esnetilsin</translation>
     </message>
 </context>
 <context>
@@ -5490,17 +5488,17 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/importexport/labels/internal/labelsconfiguration.cpp" line="23"/>
         <source>Text file (*.txt)</source>
-        <translation>Tekstitiedosto (*.txt)</translation>
+        <translation>Yazı dosyası (*.txt)</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/internal/labelsconfiguration.cpp" line="24"/>
         <source>SubRip text file (*.srt)</source>
-        <translation>SubRip-tekstitiedosto (*.srt)</translation>
+        <translation>SubRip yazı dosyası (*.srt)</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/internal/labelsconfiguration.cpp" line="25"/>
         <source>WebVTT file (*.vtt)</source>
-        <translation>WebVTT-tiedosto (*.vtt)</translation>
+        <translation>WebVTT dosyası (*.vtt)</translation>
     </message>
 </context>
 <context>
@@ -5508,67 +5506,67 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="27"/>
         <source>Cut and leave gap</source>
-        <translation>Leikkaa ja jätä väli</translation>
+        <translation>Kes ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="29"/>
         <source>Cut and close gap on this track</source>
-        <translation>Leikkaa ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Kes ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="31"/>
         <source>Cut and close gap on all tracks</source>
-        <translation>Leikkaa ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Kes ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="36"/>
         <source>Paste and overlap</source>
-        <translation>Liitä ja limitä</translation>
+        <translation>Yapıştır ve örtüştür</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="38"/>
         <source>Paste and make room on this track</source>
-        <translation>Liitä ja tee tilaa tälle raidalle</translation>
+        <translation>Yapıştır ve bu izde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="40"/>
         <source>Paste and make room on all tracks</source>
-        <translation>Liitä ja tee tilaa kaikille raidoille</translation>
+        <translation>Yapıştır ve tüm izlerde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="45"/>
         <source>Delete and leave gap</source>
-        <translation>Poista ja jätä väli</translation>
+        <translation>Sil ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="47"/>
         <source>Delete and close gap on this track</source>
-        <translation>Poista ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Sil ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="49"/>
         <source>Delete and close gap on all tracks</source>
-        <translation>Poista ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Sil ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="53"/>
         <source>Rename label</source>
-        <translation>Nimeä merkintä uudelleen</translation>
+        <translation>Etiketi yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="59"/>
         <source>Cut and…</source>
-        <translation>Leikkaa ja...</translation>
+        <translation>Kes ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="60"/>
         <source>Paste and…</source>
-        <translation>Liitä ja...</translation>
+        <translation>Yapıştır ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="61"/>
         <source>Delete and…</source>
-        <translation>Poista ja...</translation>
+        <translation>Sil ve…</translation>
     </message>
 </context>
 <context>
@@ -5576,112 +5574,112 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/MetadataDialog.qml" line="70"/>
         <source>tag</source>
-        <translation>tunniste</translation>
+        <translation>etiket</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/MetadataDialog.qml" line="72"/>
         <source>value</source>
-        <translation>arvo</translation>
+        <translation>değer</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="121"/>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="150"/>
         <source>XML files</source>
-        <translation>XML-tiedostot</translation>
+        <translation>XML dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="133"/>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="162"/>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="166"/>
         <source>Error saving template</source>
-        <translation>Virhe tallennettaessa mallia</translation>
+        <translation>Kalıp kaydedilirken sorun çıktı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.cpp" line="167"/>
         <source>Unable to save metadata template into given file.</source>
-        <translation>Metatietomallia ei voitu tallentaa annettuun tiedostoon.</translation>
+        <translation>Üst veri kalıbı belirtilen dosyaya kaydedilemedi.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="67"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="37"/>
         <source>TITLE</source>
-        <translation>OTSIKKO</translation>
+        <translation>AD</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="68"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="38"/>
         <source>ARTIST</source>
-        <translation>ARTISTI</translation>
+        <translation>SANATÇI</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="69"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="39"/>
         <source>ALBUM</source>
-        <translation>ALBUMI</translation>
+        <translation>ALBÜM</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="70"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="40"/>
         <source>TRACKNUMBER</source>
-        <translation>RAITANUMERO</translation>
+        <translation>İZNUMARASI</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="71"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="41"/>
         <source>YEAR</source>
-        <translation>VUOSI</translation>
+        <translation>YIL</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/metadatamodel.h" line="73"/>
         <location filename="../../src/project/internal/au3/au3metadata.h" line="43"/>
         <source>COMMENTS</source>
-        <translation>KOMMENTIT</translation>
+        <translation>AÇIKLAMA</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/au3/au3metadata.cpp" line="132"/>
         <location filename="../../src/project/internal/au3/au3metadata.cpp" line="171"/>
         <source>Error loading template</source>
-        <translation>Virhe ladattaessa mallia</translation>
+        <translation>Kalıp yüklenirken sorun çıktı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/au3/au3metadata.cpp" line="133"/>
         <location filename="../../src/project/internal/au3/au3metadata.cpp" line="172"/>
         <source>Unable to load metadata template from given file.</source>
-        <translation>Metatietomallin lataaminen annetusta tiedostosta ei onnistu.</translation>
+        <translation>Belirtilen dosyadan üst veri kalıbı yüklenemedi.</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="98"/>
         <source>Artist name</source>
-        <translation>Artistin nimi</translation>
+        <translation>Sanatçı adı</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="99"/>
         <source>Track title</source>
-        <translation>Raidan otsikko</translation>
+        <translation>İz adı</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="100"/>
         <source>Album title</source>
-        <translation>Albumin nimi</translation>
+        <translation>Albüm adı</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="101"/>
         <source>Track number</source>
-        <translation>Raidan numero</translation>
+        <translation>İz numarası</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="103"/>
         <source>Year</source>
-        <translation>Vuosi</translation>
+        <translation>Yıl</translation>
     </message>
     <message>
         <location filename="../../src/project/types/projectmeta.h" line="104"/>
         <source>Comments</source>
-        <translation>Kommentit</translation>
+        <translation>Açıklamalar</translation>
     </message>
 </context>
 <context>
@@ -5689,42 +5687,42 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="26"/>
         <source>Cut and leave gap</source>
-        <translation>Leikkaa ja jätä väli</translation>
+        <translation>Kes ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="28"/>
         <source>Cut and close gap on this track</source>
-        <translation>Leikkaa ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Kes ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on all tracks</source>
-        <translation>Leikkaa ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Kes ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="35"/>
         <source>Delete and leave gap</source>
-        <translation>Poista ja jätä väli</translation>
+        <translation>Sil ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="37"/>
         <source>Delete and close gap on this track</source>
-        <translation>Poista ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Sil ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="39"/>
         <source>Delete and close gap on all tracks</source>
-        <translation>Poista ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Sil ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="47"/>
         <source>Cut and…</source>
-        <translation>Leikkaa ja...</translation>
+        <translation>Kes ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="48"/>
         <source>Delete and…</source>
-        <translation>Poista ja...</translation>
+        <translation>Sil ve…</translation>
     </message>
 </context>
 <context>
@@ -5732,117 +5730,117 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="32"/>
         <source>Position</source>
-        <translation>Paikka</translation>
+        <translation>Konum</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="40"/>
         <source>Top bar (horizontal)</source>
-        <translation>Yläpalkki (vaakasuora)</translation>
+        <translation>Üst çubuk (yatay)</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="44"/>
         <source>Side bar (vertical)</source>
-        <translation>Sivupalkki (pystysuora)</translation>
+        <translation>Yan çubuk (dikey)</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="73"/>
         <source>Default</source>
-        <translation>Oletus</translation>
+        <translation>Ön tanımlı</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="77"/>
         <source>RMS</source>
-        <translation>RMS (Root Mean Squre)</translation>
+        <translation>RMS</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="81"/>
         <source>Gradient</source>
-        <translation>Väriasteikko</translation>
+        <translation>Değişim</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="104"/>
         <source>Logarithmic (dB)</source>
-        <translation>Logaritminen (dB)</translation>
+        <translation>Logaritmik (dB)</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="108"/>
         <source>Linear (dB)</source>
-        <translation>Lineaarinen (dB)</translation>
+        <translation>Doğrusal (dB)</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="112"/>
         <source>Linear (amp)</source>
-        <translation>Lineaarinen (amp)</translation>
+        <translation>Doğrusal (genlik)</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/toolbars/PlaybackMeterCustomisePopup.qml" line="132"/>
         <source>dB range</source>
-        <translation>dB-alue</translation>
+        <translation>dB aralığı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="20"/>
         <source>Low quality</source>
-        <translation>Matala laatu</translation>
+        <translation>Düşük kalite</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="21"/>
         <source>Medium quality</source>
-        <translation>Keskitaso laatu</translation>
+        <translation>Orta kalite</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="22"/>
         <source>High quality</source>
-        <translation>Korkea laatu</translation>
+        <translation>Yüksek kalite</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="23"/>
         <source>Best quality</source>
-        <translation>Paras laatu</translation>
+        <translation>En iyi kalite</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="27"/>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation>Yok</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="28"/>
         <source>Rectangle</source>
-        <translation>Suorakulmio</translation>
+        <translation>Dikdörtgen</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="29"/>
         <source>Triangle</source>
-        <translation>Kolmio</translation>
+        <translation>Üçgen</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="30"/>
         <source>Shaped</source>
-        <translation>Muotoiltu</translation>
+        <translation>Şekilli</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/qml/Audacity/UiComponents/components/internal/TimeSignaturePopup.qml" line="44"/>
         <source>Time signature</source>
-        <translation>Tahtilaji</translation>
+        <translation>Zaman imzası</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/au3/au3trackplaybackcontrol.cpp" line="41"/>
         <source>Moved volume slider</source>
-        <translation>Äänenvoimakkuuden liukusäädintä siirretty</translation>
+        <translation>Ses düzeyi kaydırıcısı ayarlandı</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/au3/au3trackplaybackcontrol.cpp" line="42"/>
         <source>Volume</source>
-        <translation>Äänenvoimakkuus</translation>
+        <translation>Ses düzeyi</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/au3/au3trackplaybackcontrol.cpp" line="68"/>
         <source>Moved pan dial</source>
-        <translation>Säädetty panorointia</translation>
+        <translation>Pan düğmesi ayarlandı</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/au3/au3trackplaybackcontrol.cpp" line="69"/>
         <source>Pan</source>
-        <translation>Panorointi</translation>
+        <translation>Pan</translation>
     </message>
 </context>
 <context>
@@ -5850,12 +5848,12 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/dialogs/LoopRegionInOut.qml" line="64"/>
         <source>Loop in</source>
-        <translation>Jatkuva toisto sisään</translation>
+        <translation>Yineleme girişi</translation>
     </message>
     <message>
         <location filename="../../src/playback/qml/Audacity/Playback/dialogs/LoopRegionInOut.qml" line="110"/>
         <source>Loop out</source>
-        <translation>Jatkuva toisto ulos</translation>
+        <translation>Yineleme çıkışı</translation>
     </message>
 </context>
 <context>
@@ -5863,448 +5861,448 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/AdvancedPreferencesPage.qml" line="72"/>
         <source>Preference</source>
-        <translation>Asetus</translation>
+        <translation>Ayar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/AdvancedPreferencesPage.qml" line="74"/>
         <source>Value</source>
-        <translation>Arvo</translation>
+        <translation>Değer</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AdvancedTopSection.qml" line="46"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemeAdditionalOptionsSection.qml" line="52"/>
         <source>Reset to default</source>
-        <translation>Palauta oletusarvot</translation>
+        <translation>Ön tanımlıya sıfırla</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AdvancedTopSection.qml" line="69"/>
         <source>Search advanced</source>
         <extracomment>Search advanced preferences</extracomment>
-        <translation>Haun lisäasetukset</translation>
+        <translation>Gelişmiş arama</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="16"/>
         <source>Asymmetric stereo heights</source>
-        <translation>Epäsymmetriset stereokorkeudet</translation>
+        <translation>Asimetrik çift kanal yükseklikleri</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="55"/>
         <source>Dragging on the center line may adjust the height of the channel:</source>
-        <translation>Keskiviivaa vetämällä voidaan säätää kanavan korkeutta:</translation>
+        <translation>Merkez çizgide sürüklemek kanalın yüksekliğini ayarlayabilir:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="73"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="61"/>
         <source>Always</source>
-        <translation>Aina</translation>
+        <translation>Her zaman</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="88"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="76"/>
         <source>Depending on workspace</source>
-        <translation>Työtilasta riippuen</translation>
+        <translation>Çalışma alanına göre</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="114"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="102"/>
         <source>Never</source>
-        <translation>Ei koskaan</translation>
+        <translation>Asla</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioApiSection.qml" line="32"/>
         <source>Inputs and outputs</source>
-        <translation>Tulot ja lähdöt</translation>
+        <translation>Girişler ve çıkışlar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioApiSection.qml" line="58"/>
         <source>Host</source>
-        <translation>Isäntä</translation>
+        <translation>Sunucu</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/BufferAndLatencySection.qml" line="33"/>
         <source>Buffer and latency</source>
-        <translation>Puskuri ja viive</translation>
+        <translation>Ara bellek ve gecikme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/BufferAndLatencySection.qml" line="54"/>
         <source>Buffer length</source>
-        <translation>Puskurin pituus</translation>
+        <translation>Ara bellek boyutu</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/BufferAndLatencySection.qml" line="82"/>
         <source>Latency compensation</source>
-        <translation>Viiveenkorjaus</translation>
+        <translation>Gecikme dengelemesi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/BufferAndLatencySection.qml" line="116"/>
         <source>Automatic</source>
-        <translation>Automaattinen</translation>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ClipStyleSection.qml" line="39"/>
         <source>Clip style</source>
-        <translation>Leikkeen tyyli</translation>
+        <translation>Parça biçemi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ClipStyleSection.qml" line="70"/>
         <source>Colorful</source>
-        <translation>Värikäs</translation>
+        <translation>Renkli</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ClipStyleSection.qml" line="101"/>
         <source>Classic</source>
-        <translation>Klassinen</translation>
+        <translation>Klasik</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioApiSection.qml" line="101"/>
         <source>Playback device</source>
-        <translation>Toistolaite</translation>
+        <translation>Oynatma aygıtı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioApiSection.qml" line="77"/>
         <source>Recording device</source>
-        <translation>Tallennuslaite</translation>
+        <translation>Kaydetme aygıtı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AudioApiSection.qml" line="120"/>
         <source>Recording channels</source>
-        <translation>Tallennuskanavat</translation>
+        <translation>Kaydetme kanalları</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CursorSection.qml" line="15"/>
         <source>Move cursor along the timeline during playback</source>
-        <translation>Siirrä kohdistinta aikajanalla toiston aikana</translation>
+        <translation>Oynatma sırasında imlec zaman çizgisi boyunca hareket etsin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CursorSection.qml" line="23"/>
         <source>Short skip</source>
-        <translation>Lyhyt hyppy</translation>
+        <translation>Kısa atlama</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CursorSection.qml" line="43"/>
         <source>Long skip</source>
-        <translation>Pitkä hyppy</translation>
+        <translation>Uzun atlama</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/EffectBehaviorSection.qml" line="14"/>
         <source>Effect behavior</source>
-        <translation>Tehosteen toiminta</translation>
+        <translation>Etki davranışı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/EffectBehaviorSection.qml" line="29"/>
         <source>Apply effects to all audio when no selection is made</source>
-        <translation>Käytä tehosteita kaikkiin ääniin, kun valintaa ei ole tehty</translation>
+        <translation>Bir seçim yapılmadığında etkiler tüm sese uygulansın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/EffectOptionsSection.qml" line="14"/>
         <source>Effect menu organization</source>
-        <translation>Tehostevalikon organisointi</translation>
+        <translation>Etki menüsü düzeni</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/EffectOptionsSection.qml" line="34"/>
         <source>Group effects</source>
-        <translation>Ryhmittele tehosteet</translation>
+        <translation>Etkiler gruplansın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/EffectOptionsSection.qml" line="47"/>
         <source>Display effects in one flat list</source>
-        <translation>Näytä tehosteet yhdessä luettelossa</translation>
+        <translation>Etkiler düz bir listede görüntülensin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="26"/>
         <source>FFmpeg library version:</source>
-        <translation>FFmpeg-kirjastoversio:</translation>
+        <translation>FFmpeg kitaplığı sürümü:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="42"/>
         <source>FFmpeg library not found</source>
-        <translation>FFmpeg-kirjastoa ei löytynyt</translation>
+        <translation>FFmpeg kitaplığı bulunamadı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FreeSpaceSection.qml" line="40"/>
         <source>Free space</source>
-        <translation>Vapaa tila</translation>
+        <translation>Boş alan</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LanguagesSection.qml" line="52"/>
         <source>Language</source>
-        <translation>Kieli</translation>
+        <translation>Dil</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LanguagesSection.qml" line="79"/>
         <source>Restart required</source>
-        <translation>Uudelleenkäynnistys tarvitaan</translation>
+        <translation>Yeniden başlatma gerekli</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MeterDbRangeSection.qml" line="15"/>
         <source>Meter dB range</source>
-        <translation>Mittarin dB-alue</translation>
+        <translation>Ölçer dB aralığı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MeterDbRangeSection.qml" line="27"/>
         <source>dB range</source>
-        <translation>dB-alue</translation>
+        <translation>dB aralığı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MonoStereoConversionSection.qml" line="12"/>
         <source>Mono &amp; stereo conversion</source>
-        <translation>Mono- ja stereomuunnos</translation>
+        <translation>Tek kanal ve çift kanal dönüşümü </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MonoStereoConversionSection.qml" line="27"/>
         <source>Always convert to mono without prompt</source>
-        <translation>Muunna aina monoksi ilman kehotetta</translation>
+        <translation>Her zaman sormadan tek kanala dönüştür</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NumberFormatSection.qml" line="44"/>
         <source>Number format</source>
-        <translation>Numeromuoto</translation>
+        <translation>Sayı biçimi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NumberFormatSection.qml" line="69"/>
         <source>Example: 1,000,000.99</source>
-        <translation>Esimerkki: 1,000,000.99</translation>
+        <translation>Örnek: 1.000.000,99</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PasteBehaviorSection.qml" line="58"/>
         <source>Always paste audio as a new clip</source>
-        <translation>Liitä ääni aina uutena leikkeenä</translation>
+        <translation>Ses her zaman yeni parça olarak yapıştırılsın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="14"/>
         <source>Playback performance</source>
-        <translation>Toiston suorituskyky</translation>
+        <translation>Oynatma başarımı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="34"/>
         <source>Playback quality</source>
-        <translation>Toiston laatu</translation>
+        <translation>Oynatma kalitesi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="50"/>
         <source>Dithering</source>
-        <translation>Ditheröinti</translation>
+        <translation>Titreme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RecordingBehaviorSection.qml" line="14"/>
         <source>Recording behavior</source>
-        <translation>Tallennuksen toiminta</translation>
+        <translation>Kaydetme davranışı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RecordingBehaviorSection.qml" line="27"/>
         <source>Turn on input monitoring (hear yourself while recording)</source>
-        <translation>Ota käyttöön syötteen monitorointi (kuulet itsesi tallennuksen aikana)</translation>
+        <translation>Giriş izlemeyi aç (kayıt sırasında kendinizi duyun)</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RecordingBehaviorSection.qml" line="45"/>
         <source>Show mic metering when not recording</source>
-        <translation>Näytä mikrofonin mittaus, kun ei äänitetä</translation>
+        <translation>Kayıt yapılmıyorken mikrofon ölçeri görüntülensin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="33"/>
         <source>Sample rate</source>
-        <translation>Näytetaajuus</translation>
+        <translation>Örnekleme hızı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="50"/>
         <source>Default sample rate</source>
-        <translation>Oletus näytetaajuus</translation>
+        <translation>Ön tanımlı örnekleme hızı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="69"/>
         <source>Default sample format</source>
-        <translation>Oletusnäytemuoto</translation>
+        <translation>Ön tanımlı örnekleme biçimi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="93"/>
         <source>Custom sample rate</source>
-        <translation>Mukautettu näytteenottotaajuus</translation>
+        <translation>Özel örnekleme hızı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="116"/>
         <source>Default sample rates and formats apply to newly created tracks only. Recording into existing tracks will use the track’s sample rate and format instead.</source>
-        <translation>Oletusarvoiset näytteenottotaajuudet ja muodot koskevat vain uusia raitoja. Tallennettaessa olemassa oleville raidoille käytetään kyseisen raidan näytteenottotaajuutta ja muotoa.</translation>
+        <translation>Ön tanımlı örnekleme hızları ve biçimleri yalnızca yeni oluşturulan parçalar için geçerlidir. Var olan parçalara yapılan kayıtlarda, bunlar yerine parçanın örnekleme hızı ve biçimi kullanılır.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="15"/>
         <source>Solo button behavior</source>
-        <translation>Soolo-painikkeen toiminta</translation>
+        <translation>Solo düğmesi davranışı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="40"/>
         <source>Solo can be activated for multiple tracks at the same time</source>
-        <translation>Soolo voidaan aktivoida useille raidoille samanaikaisesti</translation>
+        <translation>Solo aynı anda birden fazla iz için etkinleştirilebilir</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="55"/>
         <source>When solo is activated, it deactivates solo for all other tracks</source>
-        <translation>Kun soolo aktivoidaan, se poistaa soolon kaikilta muilta raidoilta</translation>
+        <translation>Solo etkinleştirildiğinde, diğer tüm izler için solo etkisizleştirilir</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramSelectionSection.qml" line="17"/>
         <source>Selection</source>
-        <translation>Valinta</translation>
+        <translation>Seçim</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TemporaryFilesSection.qml" line="46"/>
         <source>Temporary files location</source>
-        <translation>Väliaikaisten tiedostojen sijainti</translation>
+        <translation>Geçici dosyalar konumu</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TemporaryFilesSection.qml" line="57"/>
         <source>Choose temporary files location</source>
-        <translation>Valitse väliaikaisten tiedostojen sijainti</translation>
+        <translation>Geçici dosyalar konumunu seçin</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TemporaryFilesSection.qml" line="73"/>
         <source>Folder in which unsaved projects and other data are kept</source>
-        <translation>Kansio, jossa tallentamattomat projektit ja muut tiedot säilytetään</translation>
+        <translation>Kaydedilmemiş projelerin ve diğer verilerin tutulduğu klasör</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemeAdditionalOptionsSection.qml" line="40"/>
         <source>Invert project</source>
-        <translation>Käännä projekti</translation>
+        <translation>Projeyi evir</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
         <source>High-contrast theme</source>
-        <translation>Suuren kontrastin teema</translation>
+        <translation>Yüksek karşıtlık teması</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
         <source>Theme</source>
-        <translation>Teema</translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="80"/>
         <source>Follow system theme</source>
-        <translation>Seuraa tietokoneen teemaa</translation>
+        <translation>Sistem temasına uyulsun</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="95"/>
         <source>Enable high-contrast</source>
-        <translation>Suuri kontrasti käyttöön</translation>
+        <translation>Yüksek karşıtlık kullanılsın</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="34"/>
         <source>UI colors</source>
-        <translation>Käyttöliittymän värit</translation>
+        <translation>Arayüz renkleri</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="49"/>
         <source>Accent color</source>
-        <translation>Korostusväri</translation>
+        <translation>Vurgu rengi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="50"/>
         <source>Text and icons</source>
-        <translation>Teksti ja kuvakkeet</translation>
+        <translation>Yazılar ve simgeler</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="51"/>
         <source>Disabled text</source>
-        <translation>Käytöstä poistettu teksti</translation>
+        <translation>Etkisizleştirilmiş yazı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="52"/>
         <source>Border color</source>
-        <translation>Reunan väri</translation>
+        <translation>Kenarlık rengi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="31"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="160"/>
         <source>Appearance</source>
-        <translation>Ulkoasu</translation>
+        <translation>Görünüm</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="44"/>
         <source>Font face</source>
-        <translation>Kirjasinlaji</translation>
+        <translation>Yazı görünümü</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="59"/>
         <source>Body text size</source>
-        <translation>Leipätekstin koko</translation>
+        <translation>İçerik yazı boyutu</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/PreferencesDialog.qml" line="31"/>
         <source>Preferences</source>
-        <translation>Asetukset</translation>
+        <translation>Ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="129"/>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="137"/>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Sorun</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="130"/>
         <source>The selected path does not exist.</source>
-        <translation>Valittua polkua ei ole olemassa.</translation>
+        <translation>Seçilmiş yol bulunamadı.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="138"/>
         <source>Please select a path that contains %1</source>
-        <translation>Valitse polku, joka sisältää %1</translation>
+        <translation>Lütfen %1 bulunan bir yol seçin</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="145"/>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="153"/>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="193"/>
         <source>Success</source>
-        <translation>Onnistui</translation>
+        <translation>Başarılı</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="146"/>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="194"/>
         <source>Please restart the application for the changes to take effect.</source>
-        <translation>Käynnistä sovellus uudelleen, jotta muutokset tulevat voimaan.</translation>
+        <translation>Değişikliklerin etkili olması için uygulamayı yeniden başlatın.</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="154"/>
         <source>Audacity already has detected a valid FFmpeg version. Do you want to choose another FFmpeg installation instead?</source>
-        <translation>Audacity on jo havainnut kelvollisen FFmpeg-version. Haluatko valita toisen FFmpeg-asennuksen?</translation>
+        <translation>Audacity zaten geçerli bir FFmpeg sürümü bulmuş. Bunun yerine başka bir FFmpeg kurulumu seçmek istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="159"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="162"/>
         <source>Change FFmpeg</source>
-        <translation>Vaihda FFmpeg</translation>
+        <translation>FFmpeg değiştir</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="183"/>
         <source>Locate %1</source>
-        <translation>Paikanna %1</translation>
+        <translation>%1 konumunu bul</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="42"/>
         <source>%1 (Mono) Recording channel</source>
-        <translation>%1 (Mono) Tallennuskanava</translation>
+        <translation>%1 (Tek) kayıt kanalı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="44"/>
         <source>%1 (Stereo) Recording channels</source>
-        <translation>%1 (Stereo) Tallennuskanavat</translation>
+        <translation>%1 (Çift) kayıt kanalları</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="236"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="249"/>
         <source>Other</source>
-        <translation>Muut</translation>
+        <translation>Diğer</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="67"/>
         <source>Your version of %1 is up to date.</source>
-        <translation>Versiosi sovelluksesta %1 on ajan tasalla.</translation>
+        <translation>%1 sürümünüz güncel.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="100"/>
         <source>System default</source>
-        <translation>Järjestelmän oletusarvo</translation>
+        <translation>Sistem ön tanımlı değeri</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="183"/>
@@ -6314,97 +6312,97 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="203"/>
         <source>Temp directory update</source>
-        <translation>Väliaikaishakemiston päivitys</translation>
+        <translation>Geçici klasör güncelleme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="204"/>
         <source>Changes to temporary directory will not take effect until Audacity is restarted</source>
-        <translation>Väliaikaiskansion muutos tulee voimaan vasta, kun Audacity käynnistetään uudelleen</translation>
+        <translation>Geçici klasör değişikliğinin geçerli olması için Audacity yeniden başlatılmalı</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="157"/>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation>Genel</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="163"/>
         <source>Audio settings</source>
-        <translation>Ääniasetukset</translation>
+        <translation>Ses ayarları</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="166"/>
         <source>Audio editing</source>
-        <translation>Äänenmuokkaus</translation>
+        <translation>Ses düzenleme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="169"/>
         <source>Playback/Recording</source>
-        <translation>Toisto/Tallennus</translation>
+        <translation>Oynatma/Kaydetme</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="173"/>
         <source>Spectral display</source>
-        <translation>Spektrinäyttö</translation>
+        <translation>Spektral görünüm</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="177"/>
         <source>Music</source>
-        <translation>Musiikki</translation>
+        <translation>Müzik</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="180"/>
         <source>Cloud</source>
-        <translation>Pilvi</translation>
+        <translation>Bulut</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="182"/>
         <source>Shortcuts</source>
-        <translation>Pikanäppäimet</translation>
+        <translation>Kısa yollar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="185"/>
         <source>Plugins</source>
-        <translation>Lisäosat</translation>
+        <translation>Eklentiler</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/preferencesmodel.cpp" line="188"/>
         <source>Advanced options</source>
-        <translation>Lisäasetukset</translation>
+        <translation>Gelişmiş ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="14"/>
         <source>Recording lead-in time</source>
-        <translation>Tallennuksen esiviive</translation>
+        <translation>Kayıt giriş payı süresi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="22"/>
         <source>Lead-in time before recording starts</source>
-        <translation>Esiviive ennen tallennuksen alkua</translation>
+        <translation>Kayda başlamadan önce geçecek giriş payı süresi</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="47"/>
         <source>Crossfade</source>
-        <translation>Ristihäivytys</translation>
+        <translation>Çapraz geçiş</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="29"/>
         <source>Music imports</source>
-        <translation>Musiikin tuonti</translation>
+        <translation>Müzik içe aktarmaları</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="45"/>
         <source>Detect tempo in imported files:</source>
-        <translation>Tunnista tempo tuoduista tiedostoista:</translation>
+        <translation>İçe aktarılan dosyaların temposu algılansın:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="121"/>
         <source>When Audacity detects music in imported file</source>
-        <translation>Kun Audacity tunnistaa musiikkia tuodusta tiedostosta</translation>
+        <translation>Audacity, içe aktarılan dosyada müzik algıladığında</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="135"/>
         <source>Ask me each time</source>
-        <translation>Kysy joka kerta</translation>
+        <translation>Her defasında sorulsun</translation>
     </message>
 </context>
 <context>
@@ -6412,22 +6410,22 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramAlgorithmSection.qml" line="15"/>
         <source>Algorithm</source>
-        <translation>Algoritmi</translation>
+        <translation>Algoritma</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramColorsSection.qml" line="15"/>
         <source>Colors</source>
-        <translation>Värit</translation>
+        <translation>Renkler</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramScaleSection.qml" line="15"/>
         <source>Scale</source>
-        <translation>Skaalaus</translation>
+        <translation>Ölçek</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramSelectionSection.qml" line="22"/>
         <source>Enable spectral selection</source>
-        <translation>Ota spektrivalinta käyttöön</translation>
+        <translation>Spektral seçim kullanılsın</translation>
     </message>
 </context>
 <context>
@@ -6435,7 +6433,7 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramScaleSection.qml" line="26"/>
         <source>Scale</source>
-        <translation>Skaalaus</translation>
+        <translation>Ölçek</translation>
     </message>
 </context>
 <context>
@@ -6443,45 +6441,45 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="68"/>
         <source>Title</source>
-        <translation>Nimi</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="70"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="17"/>
         <source>Untitled project</source>
-        <translation>Nimetön projekti</translation>
+        <translation>Adlandırılmamış proje</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="82"/>
         <source>Composer</source>
-        <translation>Säveltäjä</translation>
+        <translation>Besteci</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="84"/>
         <source>Composer / arranger</source>
-        <translation>Säveltäjä / sovittaja</translation>
+        <translation>Besteci / düzenleyen</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="108"/>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="110"/>
         <source>Subtitle</source>
-        <translation>Alaotsikko</translation>
+        <translation>Alt yazı</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="123"/>
         <source>Lyricist</source>
-        <translation>Sanoittaja</translation>
+        <translation>Söz yazarı</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="137"/>
         <source>Copyright</source>
         <extracomment>The caption of a field to specify copyright information</extracomment>
-        <translation>Copyright</translation>
+        <translation>Telif hakkı</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="142"/>
         <source>Cloud audio files grid</source>
-        <translation>Pilviäänitiedostojen ruudukko</translation>
+        <translation>Bulut ses dosyaları ızgarası</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="178"/>
@@ -6489,250 +6487,250 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/RecentProjectsView.qml" line="112"/>
         <source>Modified</source>
         <extracomment>Stands for &quot;Last time that this project was modified&quot;. Used as the header of this column in the scores list.</extracomment>
-        <translation>Muokattu</translation>
+        <translation>Değiştirildi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="341"/>
         <source>Unable to load online files</source>
-        <translation>Verkkotiedostojen lataaminen epäonnistui</translation>
+        <translation>Çevrim içi dosyalar yüklenemedi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="361"/>
         <source>You don’t have any online files yet</source>
-        <translation>Sinulla ei ole vielä yhtään verkkotiedostoa</translation>
+        <translation>Henüz bir çevri içi dosyanız yok</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="362"/>
         <source>Files will appear here when you save a file to the cloud, or publish a project</source>
-        <translation>Tiedostot näkyvät tässä, kun tallennat tiedoston pilveen tai julkaiset projektin</translation>
+        <translation>Bir dosyayı buluta kaydettiğinizde veya bir proje yayınladığınızda dosyalar burada görüntülenir</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="381"/>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="309"/>
         <source>You are not signed in</source>
-        <translation>Et ole kirjautunut sisään</translation>
+        <translation>Oturum açmamışsınız</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudAudioFilesView.qml" line="382"/>
         <source>Please sign in to view your online files</source>
-        <translation>Kirjaudu sisään nähdäksesi online-tiedostosi</translation>
+        <translation>Çevrim içi dosyalarınızı görüntülemek için oturum açın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectIndicatorButton.qml" line="44"/>
         <source>Stop download</source>
-        <translation>Lopeta lataus</translation>
+        <translation>İndirmeyi durdur</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectIndicatorButton.qml" line="44"/>
         <source>Download project</source>
-        <translation>Lataa projekti</translation>
+        <translation>Projeyi indir</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="138"/>
         <source>Cloud projects grid</source>
-        <translation>Pilviprojektien ruudukko</translation>
+        <translation>Bulut projeleri ızgarası</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="165"/>
         <source>Cloud projects list</source>
-        <translation>Pilviprojektien luettelo</translation>
+        <translation>Bulut projeleri listesi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="269"/>
         <source>Unable to load online projects</source>
-        <translation>Verkkoprojekteja ei voida ladata</translation>
+        <translation>Çevrim içi projeler yüklenemedi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="289"/>
         <source>You don’t have any online projects yet</source>
-        <translation>Sinulla ei ole vielä verkkoprojekteja</translation>
+        <translation>Henüz bir çevri içi projeniz yok</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="290"/>
         <source>Projects will appear here when you publish a project</source>
-        <translation>Projektit näkyvät täällä, kun julkaiset projektin</translation>
+        <translation>Yayınladığınız projeler burada görüntülenir</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/CloudProjectsView.qml" line="310"/>
         <source>Please sign in to view your online projects</source>
-        <translation>Kirjaudu sisään nähdäksesi verkkoprojektisi</translation>
+        <translation>Çevrim içi projelerinizi görüntülemek için oturum açın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/RecentProjectsView.qml" line="57"/>
         <source>Recent projects grid</source>
-        <translation>Viimeisimpien projektien ruudukko</translation>
+        <translation>Son projeler ızgarası</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/ProjectsPage/RecentProjectsView.qml" line="92"/>
         <source>Recent projects list</source>
-        <translation>Viimeaikaisten projektien luettelo</translation>
+        <translation>Son projeler listesi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/NewProjectDialog.qml" line="34"/>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsListView.qml" line="113"/>
         <location filename="../../src/project/view/recentprojectsmodel.cpp" line="66"/>
         <source>New project</source>
-        <translation>Uusi projekti</translation>
+        <translation>Yeni proje</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectPropertiesDialog.qml" line="112"/>
         <source>New property</source>
-        <translation>Uusi ominaisuus</translation>
+        <translation>Yeni özellik</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsGridView.qml" line="85"/>
         <source>Projects grid</source>
-        <translation>Projektiruudukko</translation>
+        <translation>Projeler ızgarası</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsListView.qml" line="85"/>
         <source>Projects list</source>
-        <translation>Projektiluettelo</translation>
+        <translation>Projeler listesi</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsListView.qml" line="161"/>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="88"/>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="95"/>
         <source>Projects</source>
-        <translation>Projektit</translation>
+        <translation>Projeler</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="108"/>
         <source>Search recent projects</source>
-        <translation>Hae viimeaikaisia ​​projekteja</translation>
+        <translation>Son projelerde ara</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="143"/>
         <source>Projects tab bar</source>
-        <translation>Projektit-välilehti</translation>
+        <translation>Projeler sekme çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="154"/>
         <source>New &amp; recent</source>
-        <translation>Uusi ja viimeaikainen</translation>
+        <translation>Yeni ve son kullanılan</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="162"/>
         <source>Cloud projects</source>
-        <translation>Pilviprojektit</translation>
+        <translation>Bulut projeleri</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="171"/>
         <source>Cloud audio files</source>
-        <translation>Pilviäänitiedostot</translation>
+        <translation>Bulut ses dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="187"/>
         <source>View buttons</source>
-        <translation>Näkymäpainikkeet</translation>
+        <translation>Düğmeleri görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="199"/>
         <source>Refresh</source>
-        <translation>Päivitä</translation>
+        <translation>Yenile</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="213"/>
         <source>Grid view</source>
-        <translation>Ruudukkonäkymä</translation>
+        <translation>Izgara görünümü</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="218"/>
         <source>List view</source>
-        <translation>Luettelonäkymä</translation>
+        <translation>Liste görünümü</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="384"/>
         <source>Projects actions</source>
         <extracomment>accessibility name for the panel at the bottom of the &quot;Projects&quot; page</extracomment>
-        <translation>Projektitoiminnot</translation>
+        <translation>Proje işlemleri</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="399"/>
         <source>Project manager (online)</source>
-        <translation>Projektien hallinta (verkossa)</translation>
+        <translation>Proje yöneticisi (çevrim içi)</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="418"/>
         <source>New</source>
-        <translation>Uusi</translation>
+        <translation>Yeni</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="430"/>
         <source>Open other…</source>
-        <translation>Avaa toinen…</translation>
+        <translation>Başka aç…</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="120"/>
         <source>All saved changes will now update to the cloud</source>
-        <translation>Kaikki tallennetut muutokset päivittyvät nyt pilveen</translation>
+        <translation>Kaydedilen tüm değişiklikler bulut üzerinde güncellenecek</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="162"/>
         <source>Publish your finished projects on Audio.com</source>
-        <translation>Julkaise valmiit projektisi Audio.comissa</translation>
+        <translation>Tamamlanmış projelerinizi audio.com üzerinde yayınlayın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="187"/>
         <source>Create a portfolio to showcase your music</source>
-        <translation>Luo portfolio musiikkisi esittelyä varten</translation>
+        <translation>Müziğinizi sergilemek için bir portföy oluşturun</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="188"/>
         <source>Gain followers and receive project comments and ratings</source>
-        <translation>Hanki seuraajia ja vastaanota projektikommentteja ja arvioita</translation>
+        <translation>Takipçi kazanın ve projeleriniz ile ilgili yorum ve değerlendirmeler alın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="189"/>
         <source>Share your projects and collaborate with other musicians</source>
-        <translation>Jaa projektejasi ja tee yhteistyötä muiden muusikoiden kanssa</translation>
+        <translation>Projelerinizi paylaşın ve diğer müzisyenler ile birlikte çalışın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="223"/>
         <source>Watch video</source>
-        <translation>Katso video</translation>
+        <translation>Görüntüyü izle</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="251"/>
         <source>View project online</source>
-        <translation>Näytä projekti verkossa</translation>
+        <translation>Projeyi çevrim içi görüntüle</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/UploadProgressDialog.qml" line="48"/>
         <source>Saving online…</source>
-        <translation>Tallennetaan verkkoon…</translation>
+        <translation>Çevrim içi kaydediliyor…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="215"/>
         <source>Accent color</source>
-        <translation>Korostusväri</translation>
+        <translation>Vurgu rengi</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="378"/>
         <source>Could not save project locally</source>
-        <translation>Projektia ei voitu tallentaa paikallisesti</translation>
+        <translation>Proje yerel olarak kaydedilemedi</translation>
     </message>
     <message>
         <location filename="../../src/au3wrap/internal/au3project.cpp" line="151"/>
         <source>Project loading failed</source>
-        <translation>Projektin lataus epäonnistui</translation>
+        <translation>Proje yüklenemedi</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="475"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="578"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="625"/>
         <source>All supported files</source>
-        <translation>Kaikki tuetut tiedostot</translation>
+        <translation>Tüm desteklenen dosyalar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/audacityproject.cpp" line="72"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="104"/>
         <source>Imported file “%1”?</source>
-        <translation>Tuotu tiedosto ”%1”?</translation>
+        <translation>“%1” dosya içe aktarıldı mı?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/audacityproject.cpp" line="76"/>
@@ -6740,145 +6738,144 @@ Master-efektit palautetaan käyttöön viennin jälkeen.</translation>
         <location filename="../../src/project/internal/audacityproject.cpp" line="108"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="122"/>
         <source>Import</source>
-        <translation>Tuo</translation>
+        <translation>İçe aktar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/audacityproject.cpp" line="97"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="122"/>
         <source>Imported multiple files</source>
-        <translation>Tuotiin useita tiedostoja</translation>
+        <translation>Birkaç dosya içe aktarıldı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="240"/>
         <source>Error opening file</source>
-        <translation>Virhe tiedoston avauksessa</translation>
+        <translation>Dosya açılırken sorun çıktı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="241"/>
         <source>Could not open file: %1</source>
-        <translation>Ei voitu avata tiedostoa: %1</translation>
+        <translation>Dosya açılamadı: %1</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="505"/>
         <source>Dismiss</source>
-        <translation>Hylkää</translation>
+        <translation>Yok say</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="518"/>
         <source>Upload project to audio.com…</source>
-        <translation>Lähetä projekti audio.comiin…</translation>
+        <translation>Projeyi audio.com üzerine yükle…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="579"/>
         <source>Audacity project files</source>
-        <translation>Audacity-projektitiedostot</translation>
+        <translation>Audacity proje dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="580"/>
         <source>Audacity 3 files</source>
-        <translation>Audacity 3 -tiedostot</translation>
+        <translation>Audacity 3 dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="181"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="581"/>
         <source>Audacity 4 files</source>
-        <translation>Audacity 4 -tiedostot</translation>
+        <translation>Audacity 4 dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="652"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="670"/>
         <source>Visit audio.com</source>
-        <translation>Käy osoitteessa audio.com</translation>
+        <translation>audio.com sitesine git</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="654"/>
         <source>Load latest</source>
-        <translation>Lataa viimeisin</translation>
+        <translation>Son sürümü yükle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="500"/>
         <source>All saved changes will now update to the cloud.
 You can manage this file from your updated projects page on audio.com</source>
-        <translation>Kaikki tallennetut muutokset päivitetään nyt pilveen. 
-Voit hallita tätä tiedostoa päivitetyltä projektisivultasi osoitteessa audio.com</translation>
+        <translation>Kaydedilmiş tüm değişiklikler artık bulutta güncellenecek. Bu dosyayı audio.com üzerinde güncellediğiniz projeler sayfasından yönetebilirsiniz</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="582"/>
         <source>Importable audio and media files</source>
-        <translation>Tuotavat ääni- ja mediatiedostot</translation>
+        <translation>İçe aktarılabilecek ses ve ortam dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="595"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="644"/>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="626"/>
         <source>Audio files</source>
-        <translation>Äänitiedostot</translation>
+        <translation>Ses dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="627"/>
         <source>Video files</source>
-        <translation>Videotiedostot</translation>
+        <translation>Görüntü dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="628"/>
         <source>Game media files</source>
-        <translation>Pelin mediatiedostot</translation>
+        <translation>Oyun ortam dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="629"/>
         <source>Streaming files</source>
-        <translation>Suoratoistotiedostot</translation>
+        <translation>Yayın akışı dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="630"/>
         <source>Animation and image files</source>
-        <translation>Animaatio- ja kuvatiedostot</translation>
+        <translation>Canlandırma ve görsel dosyaları</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="631"/>
         <source>Raw files</source>
-        <translation>Raakatiedostot</translation>
+        <translation>Ham dosyalar</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="660"/>
         <source>Do you want to save changes to the project before closing?</source>
-        <translation>Haluatko tallentaa muutokset projektiin ennen sulkemista?</translation>
+        <translation>Projeyi kapatmadan önce değişiklikleri kaydetmek ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="662"/>
         <source>Do you want to save changes to the project “%1” before closing?</source>
-        <translation>Haluatko tallentaa muutokset ennen sulkemista projektiin “%1” ?</translation>
+        <translation>“%1” projesini kapatmadan önce değişiklikleri kaydetmek ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="666"/>
         <source>Your changes will be lost if you don’t save them.</source>
-        <translation>Muutoksesi menetetään, jos et tallenna niitä.</translation>
+        <translation>Kaydetmezseniz değişiklikleriniz kaybolacak.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="872"/>
         <source>Resuming sync to audio.com…</source>
-        <translation>Jatketaan synkronointia audio.com-sivustolle…</translation>
+        <translation>audio.com ile eşitleme sürdürülüyor…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="882"/>
         <source>Syncing project from cloud…</source>
-        <translation>Synkronoidaan projektia pilvestä…</translation>
+        <translation>Proje bulut ile eşitleniyor…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1042"/>
         <location filename="../../src/project/projecterrors.cpp" line="32"/>
         <location filename="../../src/project/projecterrors.cpp" line="51"/>
         <source>Cannot read file %1</source>
-        <translation>Ei voitu lukea tiedostoa %1 </translation>
+        <translation>%1 dosyası okunamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1047"/>
         <source>An error occurred while reading this file.</source>
-        <translation>Tämän tiedoston lukemisessa tapahtui virhe.</translation>
+        <translation>Bu dosya okunurken bir sorun çıktı.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="597"/>
@@ -6886,73 +6883,73 @@ Voit hallita tätä tiedostoa päivitetyltä projektisivultasi osoitteessa audio
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="717"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="756"/>
         <source>Save to computer</source>
-        <translation>Tallenna tietokoneelle</translation>
+        <translation>Bilgisayara kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectconfiguration.cpp" line="172"/>
         <source>Untitled</source>
-        <translation>Nimetön</translation>
+        <translation>Adlandırılmamış</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="40"/>
         <source>Audacity exception occurred</source>
-        <translation>Audacity-ohjelmassa tapahtui poikkeus</translation>
+        <translation>Audacity sorunu çıktı</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="41"/>
         <source>An Audacity exception occurred while trying to open the project file:
 “%1”</source>
-        <translation>Tapahtui Audacity-poikkeus yritettäessä avata projektitiedostoa: 
-”%1”</translation>
+        <translation>Proje dosyası açılırken bir Audacity sorunu çıktı:
+“%1”</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="45"/>
         <source>Database error</source>
-        <translation>Tietokantavirhe</translation>
+        <translation>Veri tabanı sorunu</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="46"/>
         <source>An error occurred while trying to access the project database.
 Failed to load project: “%1”</source>
-        <translation>Projektitietokannan käyttämisessä tapahtui virhe. 
-Projektin: “%1” lataus epäonnistui.</translation>
+        <translation>Proje veri tabanına erişilirken bir sorun çıktı.
+Proje yüklenemedi: “%1”</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="52"/>
         <source>The file:
 “%1”
 Cannot be found or accessed at this location. If it’s stored on an external or cloud drive, please verify that the drive is connected and syncing properly.</source>
-        <translation>Tiedostoa: 
-“%1” 
-ei löydy tai sitä ei voida käyttää tästä sijainnista. Jos se on tallennettu ulkoiselle asemalle tai pilviasemalle, varmista, että asema on kytketty ja synkronoituu oikein.</translation>
+        <translation>Dosya:
+“%1”
+Bu konumda bulunamadı ya da erişilemedi. Bu dosya bir dış sürücüde ya da bulut sürücüsünde ise, sürücünün bağlı olduğundan ve düzgün eşitlendiğinden emin olun.</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="57"/>
         <source>This file cannot be opened due to access restrictions</source>
-        <translation>Tätä tiedostoa ei voida avata käyttöoikeusrajoitusten vuoksi</translation>
+        <translation>Dosya erişim sınırlamaları nedeniyle açılamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="58"/>
         <source>To open this file:
 “%1”
 Please check the file’s properties and permissions, ensure it is not stored on a drive or folder with restricted access, or try running Audacity as an administrator.</source>
-        <translation>Jotta voit avata tämän tiedoston: 
-“%1” 
-tarkista tiedoston ominaisuudet ja käyttöoikeudet. Varmista, ettei tiedostoa ole tallennettu asemaan tai kansioon, jolla on rajoitettu käyttöoikeus, tai yritä suorittaa Audacity järjestelmänvalvojana.</translation>
+        <translation>Bu dosyayı açmak için::
+“%1”
+Dosyanın özelliklerini ve izinlerini denetleyin, erişimi sınırlanmış bir sürücü ya da klasörde bulunmadığından emin olun ya da Audacity uygulamasını yönetici olarak çalıştırmayı deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="63"/>
         <source>This file is write-protected and cannot be opened</source>
-        <translation>Tämä tiedosto on kirjoitussuojattu eikä sitä voida avata</translation>
+        <translation>Bu dosya yazmaya karşı korunmuş olduğundan açılamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="65"/>
         <source>To open this file:
 “%1”
 Please remove the write protection by checking the file’s properties, ensuring it is not stored on a write-protected drive or folder, or by running Audacity as an administrator.</source>
-        <translation>Jotta voit avata tämän tiedoston: 
-“%1” 
-poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, ettei tiedosto ole kirjoitussuojatulla asemalla tai kansiossa, tai suorittamalla Audacityn järjestelmänvalvojana.</translation>
+        <translation>Bu dosyayı açmak için:
+“%1”
+Dosya özelliklerini denetleyerek yazma korumasını kaldırın, yazmaya karşı korunan bir sürücüde veya klasörde bulunmadığından emin olun ya da Audacity uygulamasını yönetici olarak çalıştırın.</translation>
     </message>
 </context>
 <context>
@@ -6960,22 +6957,22 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="117"/>
         <source>Would you also like to share your music on Audio.com?</source>
-        <translation>Haluaisitko jakaa musiikkiasi myös osoitteessa Audio.com?</translation>
+        <translation>Müziğinizi audio.com üzerinde de paylaşmak ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="126"/>
         <source>Share your project’s audio with millions of listeners on this free streaming platform</source>
-        <translation>Jaa projektisi audio miljoonien kuuntelijoiden kanssa tällä ilmaisella suoratoistoalustalla</translation>
+        <translation>Projenizin sesini ücretsiz yayın akışı platformunda milyonlarca dinleyici ile paylaşın</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="145"/>
         <source>You can change this setting in Preferences at any time.</source>
-        <translation>Voit muuttaa tätä asetusta milloin tahansa asetuksissa.</translation>
+        <translation>Bunu istediğiniz zaman Ayarlar bölümünden değiştirebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="165"/>
         <source>Remember my choice</source>
-        <translation>Muista valintani</translation>
+        <translation>Seçimimi hatırla</translation>
     </message>
 </context>
 <context>
@@ -6983,7 +6980,7 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/projectscene/view/historypanel/historypanelmodel.cpp" line="76"/>
         <source>File opened</source>
-        <translation>Tiedosto avattiin</translation>
+        <translation>Dosya açıldı</translation>
     </message>
 </context>
 <context>
@@ -6991,12 +6988,12 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="48"/>
         <source>General project info</source>
-        <translation>Yleistä tietoa projektista</translation>
+        <translation>Genel proje bilgileri</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/ProjectInfoPage.qml" line="67"/>
         <source>Additional project information</source>
-        <translation>Lisätietoja projektista</translation>
+        <translation>Ek proje bilgileri</translation>
     </message>
 </context>
 <context>
@@ -7004,47 +7001,47 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="480"/>
         <source>Legacy project file</source>
-        <translation>Vanha projektitiedosto</translation>
+        <translation>Eski proje dosyası</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="481"/>
         <source>You have opened an Audacity 3 project. It must be converted before you can use it in Audacity 4.</source>
-        <translation>Olet avannut Audacity 3 -projektin. Se on muunnettava Audacity 4:ssä ennen kuin voit käyttää sitä.</translation>
+        <translation>Bir Audacity 3 projesi açtınız. Bu proje Audacity 4 ile kullanılmadan önce dönüştürülmelidir. </translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="486"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="489"/>
         <source>Save as new project</source>
-        <translation>Tallenna uutena projektina</translation>
+        <translation>Yeni proje olarak kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="516"/>
         <source>The project was saved as “%1”</source>
-        <translation>Projekti tallennettiin nimellä “%1”</translation>
+        <translation>Proje “%1” olarak kaydedildi</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="519"/>
         <source>Continue</source>
-        <translation>Jatka</translation>
+        <translation>İlerle</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="908"/>
         <source>Time Track not supported</source>
-        <translation>Aikaraitaa ei tueta</translation>
+        <translation>Zaman izi desteklenmiyor</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="909"/>
         <source>The project contains a time track, which is not yet supported in Audacity 4, and will need to be removed. This does not affect your original Audacity 3 project.</source>
-        <translation>Projekti sisältää aikaradan, jota Audacity 4 ei vielä tue, ja se on poistettava. Tämä ei vaikuta alkuperäiseen Audacity 3 -projektiisi.</translation>
+        <translation>Projede, henüz Audacity 4 tarafından desteklenmeyen bir zaman izi var ve kaldırılması gerekiyor. Bu işlem özgün Audacity 3 projenizi etkilemez.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="913"/>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
@@ -7052,37 +7049,37 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="51"/>
         <source>File path:</source>
-        <translation>Tiedostopolku:</translation>
+        <translation>Dosya yolu:</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="81"/>
         <source>Audacity version:</source>
-        <translation>Audacityn versio:</translation>
+        <translation>Audacity sürümü:</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="90"/>
         <source>Revision:</source>
-        <translation>Julkaisu: </translation>
+        <translation>Yapım:</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="104"/>
         <source>API-Level:</source>
-        <translation>API-taso:</translation>
+        <translation>API düzeyi:</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/PropertyItem.qml" line="67"/>
         <source>Property</source>
-        <translation>Ominaisuus</translation>
+        <translation>Özellik</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/PropertyItem.qml" line="87"/>
         <source>Value</source>
-        <translation>Arvo</translation>
+        <translation>Değer</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectPropertiesDialog.qml" line="34"/>
         <source>Project properties</source>
-        <translation>Projektin ominaisuudet</translation>
+        <translation>Proje özellikleri</translation>
     </message>
 </context>
 <context>
@@ -7090,100 +7087,100 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="60"/>
         <source>How would you like to save?</source>
-        <translation>Miten haluaisit tallentaa?</translation>
+        <translation>Nasıl kaydetmek istersiniz?</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="79"/>
         <source>Your project is backed up privately on audio.com. You can access your work from any device and collaborate on your project with others. Cloud saving is free for a limited number of projects.</source>
-        <translation>Projektisi on turvattu yksityisesti sivustollaaudio.com. Pääset käsiksi työhösi millä tahansa laitteella ja voit tehdä yhteistyötä projektissasi muiden kanssa. Pilvitallennus on ilmainen rajoitetulle määrälle projekteja.</translation>
+        <translation>Projeniz audio.com üzerinde gizli olarak yedekleniyor. Çalışmanıza herhangi bir aygıt üzerinden erişebilir ve projeniz üzerinde başkalarıyla iş birliği yapabilirsiniz. Buluta kaydetme özelliği sınırlı sayıda proje için ücretsizdir.</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="80"/>
         <source>Save to cloud</source>
-        <translation>Tallenna pilveen</translation>
+        <translation>Buluta kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="78"/>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="86"/>
         <source>Save to the cloud (free)</source>
-        <translation>Tallenna pilveen (ilmainen)</translation>
+        <translation>Buluta kaydet (ücretsiz)</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="95"/>
         <source>On your computer</source>
-        <translation>Tietokoneellesi</translation>
+        <translation>Bilgisayarınızda</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="96"/>
         <source>If you prefer to save your files on your computer, you can do that here.</source>
-        <translation>Jos haluat mieluummin tallentaa tiedostosi tietokoneellesi, voit tehdä sen täällä.</translation>
+        <translation>Dosyalarınızı bilgisayarınıza kaydetmek isterseniz buradan yapabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="97"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="550"/>
         <source>Save to computer</source>
-        <translation>Tallenna tietokoneelle</translation>
+        <translation>Bilgisayara kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="103"/>
         <source>Save on your computer</source>
-        <translation>Tallenna tietokoneellesi</translation>
+        <translation>Bilgisayarınıza kaydedin</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="167"/>
         <source>Save project</source>
-        <translation>Tallenna projekti</translation>
+        <translation>Projeyi kaydet</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="172"/>
         <source>copy</source>
         <comment>a copy of a file</comment>
         <extracomment>used to form a filename suggestion, like &quot;originalFile - copy&quot;</extracomment>
-        <translation>kopio</translation>
+        <translation>kopya</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="175"/>
         <source>selection</source>
         <extracomment>used to form a filename suggestion, like &quot;originalFile - selection&quot;</extracomment>
-        <translation>valinta</translation>
+        <translation>seçim</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="264"/>
         <source>Log in or create a new account on Audio.com to share your music.</source>
-        <translation>Kirjaudu sisään tai luo uusi tili osoitteessa Audio.com niin voit jakaa musiikkiasi.</translation>
+        <translation>Müziğinizi paylaşmak için audio.com üzerinde hesap ya da oturum açın.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="528"/>
         <source>Publish</source>
-        <translation>Julkaise</translation>
+        <translation>Yayınla</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="532"/>
         <source>Publish changes online?</source>
-        <translation>Julkaistaanko muutokset verkossa?</translation>
+        <translation>Değişiklikler çevrim içi yayınlansın mı?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="533"/>
         <source>Your saved changes will be publicly visible. We will also need to generate a new MP3 for public playback.</source>
-        <translation>Tallennetut muutoksesi näkyvät julkisesti. Meidän on myös luotava uusi MP3-tiedosto julkista toistoa varten.</translation>
+        <translation>Kaydedilmiş değişiklikleriniz herkese açık olarak görülebilir. Herkese açık olarak çalınması için ayrıca yeni bir MP3 oluşturacağız.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="544"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="554"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="568"/>
         <source>Please check your internet connection or try again later.</source>
-        <translation>Tarkista internetyhteytesi tai yritä myöhemmin uudelleen.</translation>
+        <translation>Lütfen internet bağlantınızı denetleyin ya da bir süre sonra yeniden deneyin</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="543"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="553"/>
         <source>Unable to connect to the cloud</source>
-        <translation>Yhteyden muodostaminen pilveen ei onnistu</translation>
+        <translation>Bulut ile bağlantı kurulamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="567"/>
         <source>Unable to connect to Audio.com</source>
-        <translation>Yhteyden muodostaminen sivustoon Audio.com ei onnistu</translation>
+        <translation>audio.com ile bağlantı kurulamadı</translation>
     </message>
 </context>
 <context>
@@ -7191,34 +7188,34 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="817"/>
         <source>Your audio could not be shared</source>
-        <translation>Audiotasi ei voitu jakaa</translation>
+        <translation>Sesiniz paylaşılamadı</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="825"/>
         <source>Your audio.com account needs to be verified first. Please activate your account via the link in the activation email.</source>
-        <translation>Audio.com-tilisi on ensin vahvistettava. Aktivoi tilisi aktivointisähköpostissa olevan linkin kautta.</translation>
+        <translation>audio.com hesabınızın doğrulanması gerekiyor. Lütfen etkinleştirme e-postasındaki bağlantıyı kullanarak hesabınızı etkinleştirin.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="831"/>
         <source>Audio.com returned an unknown error code: %1.</source>
         <extracomment>%1 will be replaced with the error code that audio.com returned, which is a number.</extracomment>
-        <translation>Audio.com palautti tuntemattoman virhekoodin: %1.</translation>
+        <translation>audio.com bilinmeyen bir hata kodu ile yanıt verdi: %1.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="834"/>
         <source>Audio.com returned an unknown error code.</source>
-        <translation>Audio.com palautti tuntemattoman virhekoodin.</translation>
+        <translation>audio.com bilinmeyen bir hata kodu ile yanıt verdi.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="836"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="843"/>
         <source>Please try again later, or get help for this problem on audio.com.</source>
-        <translation>Yritä myöhemmin uudelleen tai hae apua tähän ongelmaan osoitteesta audio.com.</translation>
+        <translation>Lütfen bir süre sonra yeniden deneyin ya da bu sorun ile ilgili olarak audio.com üzerinden yardım isteyin.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="839"/>
         <source>Could not connect to audio.com. Please check your internet connection or try again later.</source>
-        <translation>Yhteyden muodostaminen sivustoon audio.com ei onnistu. Tarkista internetyhteytesi tai yritä myöhemmin uudelleen.</translation>
+        <translation>audio.com ile bağlantı kurulamadı. Lütfen internet bağlantınızı denetleyin ya da bir süre sonra yeniden deneyin</translation>
     </message>
 </context>
 <context>
@@ -7226,7 +7223,7 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/projectscene/view/trackspanel/realtimeeffectlistmodel.cpp" line="286"/>
         <source>Master</source>
-        <translation>Pääraita</translation>
+        <translation>Ana</translation>
     </message>
 </context>
 <context>
@@ -7234,258 +7231,258 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="28"/>
         <source>Selection</source>
-        <translation>Valinta</translation>
+        <translation>Seçim</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="50"/>
         <source>Selection start</source>
-        <translation>Valinnan alku</translation>
+        <translation>Seçim başlangıcı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="51"/>
         <source>Selection end</source>
-        <translation>Valinnan loppu</translation>
+        <translation>Seçin bitişi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="71"/>
         <source>Duration</source>
-        <translation>Kesto</translation>
+        <translation>Süre</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/EffectCard.qml" line="127"/>
         <source>Get it on MuseHub</source>
-        <translation>Hanki se MuseHubista</translation>
+        <translation>MuseHub üzerinden al</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="13"/>
         <source>Get effects</source>
-        <translation>Hanki tehosteita</translation>
+        <translation>Etkileri al</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="96"/>
         <source>Please wait…</source>
-        <translation>Odota hetki…</translation>
+        <translation>Lütfen bekleyin…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="109"/>
         <source>Connection error</source>
-        <translation>Yhteysvirhe</translation>
+        <translation>Bağlantı hatası</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="116"/>
         <source>Audacity is unable to connect to MuseHub.com. Please check your connection and try again.</source>
-        <translation>Audacity ei voi muodostaa yhteyttä MuseHub.com-sivustoon. Tarkista yhteys ja yritä uudelleen.</translation>
+        <translation>Audacity, MuseHub.com ile bağlantı kuramadı. Lütfen bağlantınızı denetleyin ve yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="123"/>
         <source>Try again</source>
-        <translation>Yritä uudelleen</translation>
+        <translation>Yeniden dene</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="176"/>
         <source>Become a partner</source>
-        <translation>Ryhdy kumppaniksi</translation>
+        <translation>İş ortağı olun</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/internal/PlaybackToolBarCustomisePopup.qml" line="43"/>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/PlaybackToolBar.qml" line="334"/>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/PlaybackToolBar.qml" line="341"/>
         <source>Customize toolbar</source>
-        <translation>Mukauta työkalupalkkia</translation>
+        <translation>Araç çubuğunu özelleştir</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/PlaybackToolBar.qml" line="44"/>
         <source>Playback toolbar</source>
-        <translation>Toistotyökalupalkki</translation>
+        <translation>Oynatma araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/PlaybackToolBar.qml" line="301"/>
         <source>Snap</source>
-        <translation>Kiinnitys</translation>
+        <translation>Yapış</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/PlaybackToolBar.qml" line="335"/>
         <source>Show/hide toolbar buttons</source>
-        <translation>Näytä/piilota työkalupalkin painikkeet</translation>
+        <translation>Araç çubuğ düğmelerini görüntüle/gizle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/ProjectToolBar.qml" line="16"/>
         <source>Project toolbar</source>
-        <translation>Projektin työkalupalkki</translation>
+        <translation>Proje araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/UndoRedoToolBar.qml" line="14"/>
         <source>Undo/redo toolbar</source>
-        <translation>Kumoa/toista työkalupalkki</translation>
+        <translation>Geri alma/Yineleme araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/WorkspacesToolBar.qml" line="21"/>
         <source>Workspaces toolbar</source>
-        <translation>Työtilojen työkalupalkki</translation>
+        <translation>Çalışma alanları araç çubuğu</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/WorkspacesToolBar.qml" line="59"/>
         <source>Workspace</source>
-        <translation>Työtila</translation>
+        <translation>Çalışma alanı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/AddNewLabelTrackDialog.qml" line="15"/>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="434"/>
         <source>New label track</source>
-        <translation>Uusi merkintäraita</translation>
+        <translation>Yeni etiket izi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/AddNewLabelTrackDialog.qml" line="63"/>
         <source>Label track name</source>
-        <translation>Merkintäraidan nimi</translation>
+        <translation>Etiket izi adı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/AddNewLabelTrackDialog.qml" line="109"/>
         <source>Confirm</source>
-        <translation>Vahvista</translation>
+        <translation>Onayla</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorDialog.qml" line="15"/>
         <source>Label editor</source>
-        <translation>Merkintäeditori</translation>
+        <translation>Etiket düzenleyici</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="58"/>
         <source>Labels</source>
-        <translation>Merkit</translation>
+        <translation>Etiketler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="71"/>
         <source>Import</source>
-        <translation>Tuo</translation>
+        <translation>İçe aktar</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="89"/>
         <source>Export</source>
-        <translation>Vie</translation>
+        <translation>Dışa aktar</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="108"/>
         <source>Delete</source>
-        <translation>Poista</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="125"/>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/LabelTrackItem.qml" line="20"/>
         <source>Add label</source>
-        <translation>Lisää merkintä</translation>
+        <translation>Etiket ekle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/GeneralSection.qml" line="33"/>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation>Genel</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/GeneralSection.qml" line="41"/>
         <source>Optimize for voice</source>
-        <translation>Optimoi äänelle</translation>
+        <translation>Ses için iyileştir</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/PitchAndSpeedChangeDialog.qml" line="17"/>
         <source>Pitch and speed</source>
-        <translation>Sävelkorkeus ja nopeus</translation>
+        <translation>Perde ve tempo</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/PitchSection.qml" line="46"/>
         <source>Clip pitch</source>
-        <translation>Leikkeen sävelkorkeus</translation>
+        <translation>Parça perdesi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/PitchSection.qml" line="61"/>
         <source>Semitones</source>
-        <translation>Puolisävelaskel</translation>
+        <translation>Yarım tonlar</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/PitchSection.qml" line="109"/>
         <source>Cents</source>
-        <translation>Sentit</translation>
+        <translation>Komalar</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/SpeedSection.qml" line="38"/>
         <source>Clip speed</source>
-        <translation>Leikkeen nopeus</translation>
+        <translation>Parça hızı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/pitchandspeed/SpeedSection.qml" line="48"/>
         <source>Speed</source>
-        <translation>Nopeus</translation>
+        <translation>Hız</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/AddNewTrackPopup.qml" line="46"/>
         <source>Mono</source>
-        <translation>Mono</translation>
+        <translation>Tek</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/AddNewTrackPopup.qml" line="47"/>
         <source>Stereo</source>
-        <translation>Stereo</translation>
+        <translation>Çift</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/AddNewTrackPopup.qml" line="48"/>
         <source>Label</source>
-        <translation>Merkki</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/audio/PanTooltip.qml" line="20"/>
         <source>Pan: 100R</source>
-        <translation>Panorointi: 100 O</translation>
+        <translation>Pan: 100R</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/audio/PanTooltip.qml" line="33"/>
         <source>Pan:</source>
-        <translation>Panorointi:</translation>
+        <translation>Pan:</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TrackEffectsSection.qml" line="127"/>
         <source>Add effect</source>
-        <translation>Lisää tehoste</translation>
+        <translation>Etki ekle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TrackEffectsSection.qml" line="153"/>
         <source>Realtime effects are non-destructive and can be changed at any time.</source>
-        <translation>Reaaliaikaiset tehosteet ovat tuhoamattomia ja niitä voidaan muuttaa milloin tahansa.</translation>
+        <translation>Gerçek zamanlı etkiler yapıyı bozmaz ve istenildiği an değiştirilebilir.</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TrackEffectsSection.qml" line="154"/>
         <source>&lt;a href=&quot;https://www.audacityteam.org/realtime-video&quot;&gt;Watch video&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://www.audacityteam.org/realtime-video&quot;&gt;Katso video&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;https://www.audacityteam.org/realtime-video&quot;&gt;Görüntüyü izle&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TracksTitleBar.qml" line="57"/>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TracksTitleBar.qml" line="72"/>
         <source>Realtime effects</source>
-        <translation>Reaaliaikaiset tehosteet</translation>
+        <translation>Gerçek zamanlı etkiler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TracksTitleBar.qml" line="127"/>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TracksTitleBar.qml" line="155"/>
         <source>Add track</source>
-        <translation>Lisää raita</translation>
+        <translation>İz ekle</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TracksTitleBar.qml" line="135"/>
         <source>Tracks</source>
-        <translation>Raidat</translation>
+        <translation>İzler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/WaveTrackItem.qml" line="91"/>
         <source>Effects</source>
-        <translation>Tehosteet</translation>
+        <translation>Etkiler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/playbacktoolbarcustomisemodel.cpp" line="231"/>
         <source>Separator line</source>
-        <translation>Erotinviiva</translation>
+        <translation>Ayraç çizgisi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="52"/>
         <source>Bar</source>
-        <translation>Tahti</translation>
+        <translation>Çubuk</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="53"/>
@@ -7525,107 +7522,107 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="61"/>
         <source>Enable triplets</source>
-        <translation>Ota triolit käyttöön</translation>
+        <translation>Üçlüler kullanılsın</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="217"/>
         <source>Seconds</source>
-        <translation>Sekuntia</translation>
+        <translation>Saniye</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="218"/>
         <source>Deciseconds</source>
-        <translation>Desisekuntia</translation>
+        <translation>Desisaniye</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="219"/>
         <source>Centiseconds</source>
-        <translation>Senttisekuntia</translation>
+        <translation>Santisaniye</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="220"/>
         <source>Milliseconds</source>
-        <translation>Millisekuntia</translation>
+        <translation>Milisaniye</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="221"/>
         <source>Samples</source>
-        <translation>Näytteet</translation>
+        <translation>Örnekler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="224"/>
         <source>Seconds &amp; samples</source>
-        <translation>Sekunnit ja näytteet</translation>
+        <translation>Saniyeler ve örnekler</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="230"/>
         <source>Video frames (24 fps)</source>
-        <translation>Videoruudut (24 fps)</translation>
+        <translation>Görüntü kareleri (24 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="231"/>
         <source>NTSC frames (29.97 fps)</source>
-        <translation>NTSC-kehykset (29.97 fps)</translation>
+        <translation>NTSC kareleri (29.97 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="232"/>
         <source>NTSC frames (30 fps)</source>
-        <translation>NTSC-kehykset (30 fps)</translation>
+        <translation>NTSC kareleri (30 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="233"/>
         <source>PAL frames (25 fps)</source>
-        <translation>PAL-kehykset (25/sek)</translation>
+        <translation>PAL kareleri (25 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="242"/>
         <source>CDDA frames (75 fps)</source>
-        <translation>CDDA-kehykset (75/sek)</translation>
+        <translation>CDDA kareleri (75 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="236"/>
         <source>Video frames</source>
-        <translation>Videoruudut</translation>
+        <translation>Görüntü kareleri</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="245"/>
         <source>CD frames</source>
-        <translation>CD-ruudut</translation>
+        <translation>CD kareleri</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="67"/>
         <source>Track</source>
-        <translation>Raita</translation>
+        <translation>İz</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="70"/>
         <source>Label text</source>
-        <translation>Merkinnän teksti</translation>
+        <translation>Etiket yazısı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="76"/>
         <source>Start time</source>
-        <translation>Aloitusaika</translation>
+        <translation>Başlangıç zamanı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="88"/>
         <source>End time</source>
-        <translation>Lopetusaika</translation>
+        <translation>Bitiş zamanı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="99"/>
         <source>Low frequency</source>
-        <translation>Matala taajuus</translation>
+        <translation>Alçak frekans</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labeleditor/labelstableviewmodel.cpp" line="111"/>
         <source>High frequency</source>
-        <translation>Korkea taajuus</translation>
+        <translation>Yüksek frekans</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/trackspanel/realtimeeffectlistitemmenumodel.cpp" line="29"/>
         <source>Remove effect</source>
-        <translation>Poista tehoste</translation>
+        <translation>Etkiyi kaldır</translation>
     </message>
 </context>
 <context>
@@ -7633,12 +7630,12 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/effects/builtin_collection/silencegen/SilenceView.qml" line="15"/>
         <source>Silence</source>
-        <translation>Hiljaisuus</translation>
+        <translation>Sessizlik</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/silencegen/SilenceView.qml" line="41"/>
         <source>Duration:</source>
-        <translation>Kesto:</translation>
+        <translation>Süre:</translation>
     </message>
 </context>
 <context>
@@ -7646,12 +7643,12 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="150"/>
         <source>%1 (Mono) Recording channel</source>
-        <translation>%1 (Mono) Tallennuskanava</translation>
+        <translation>%1 (Tek) kayıt kanalı</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="152"/>
         <source>%1 (Stereo) Recording channels</source>
-        <translation>%1 (Stereo) Tallennettavat kanavat</translation>
+        <translation>%1 (Çift) kayıt kanalları</translation>
     </message>
 </context>
 <context>
@@ -7659,79 +7656,79 @@ poista kirjoitussuojaus tarkistamalla tiedoston ominaisuudet ja varmistamalla, e
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="85"/>
         <source>Microphone level</source>
-        <translation>Mikrofonin taso</translation>
+        <translation>Mikrofon düzeyi</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="184"/>
         <source>Note: this control is tied to your computer’s main mic volume</source>
-        <translation>Huomautus: tämä säädin on sidottu tietokoneesi päämikrofonin äänenvoimakkuuteen</translation>
+        <translation>Not: Bu denetim bilgisayarınızın ana mikrofon ses düzeyine bağlıdır</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="212"/>
         <source>Turn on input monitoring (hear yourself while recording)</source>
-        <translation>Ota käyttöön syötteen monitorointi (kuulet itsesi tallennuksen aikana)</translation>
+        <translation>Giriş izlemeyi aç (kayıt sırasında kendinizi duyun)</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="229"/>
         <source>Show mic metering when not recording</source>
-        <translation>Näytä mikrofonin mittaus, kun ei äänitetä</translation>
+        <translation>Kayıt yapılmıyorken mikrofon ölçeri görüntülensin</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/au3/au3record.cpp" line="919"/>
         <source>Record</source>
-        <translation>Äänitys</translation>
+        <translation>Kayıt</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/au3/au3record.cpp" line="919"/>
         <source>Recorded audio</source>
-        <translation>Tallennettu ääni</translation>
+        <translation>Kaydedilmiş ses</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="104"/>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="119"/>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="134"/>
         <source>Recording error</source>
-        <translation>Äänitysvirhe</translation>
+        <translation>Kayıt sorunu</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="154"/>
         <source>Lead-in Recording error</source>
-        <translation>Esiäänitysvirhe</translation>
+        <translation>Giriş payıyla kayıt hatası</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="35"/>
         <source>Error opening recording device.
 Error code: %1</source>
-        <translation>Virhe avattaessa äänityslaitetta.
-Virhekoodi: %1</translation>
+        <translation>Kayıt aygıtı açılırken sorun çıktı:
+Hata kodu: %1</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="36"/>
         <source>Cannot stop recording</source>
-        <translation>Äänitystä ei voi pysäyttää</translation>
+        <translation>Kayıt durdurulamadı</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="38"/>
         <source>The tracks selected for recording must all have the same sampling rate</source>
-        <translation>Kaikilla äänitystä varten valituilla raidoilla tulee olla sama näytteenottotaajuus</translation>
+        <translation>Kayıt için seçilmiş izlerin tümünün örnekleme hızı aynı olmalıdır</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="41"/>
         <source>Too few tracks are selected for recording at this sample rate.
 (Audacity requires two channels at the same sample rate foreach stereo track)</source>
-        <translation>Liian vähän raitoja on valittu äänitettäväksi tällä näytetaajuudella
-(Audacity vaatii kaksi kanavaa samalla taajuudella kutakin
-stereoraitaa kohden)</translation>
+        <translation>Bu örnekleme hızında kayıt için çok az sayıda iz seçilmiş.
+(Audacity, her çift kanallı iz için aynı örnekleme hızında
+iki kanal ister)</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="45"/>
         <source>Please select a time within a clip.</source>
-        <translation>Valitse aika leikkeen sisällä.</translation>
+        <translation>Lütfen bir parça içinden bir zaman seçin.</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="48"/>
         <source>Please select a track for lead-in recording.</source>
-        <translation>Valitse raita eriäänitystä varten.</translation>
+        <translation>Giriş payıyla kayıt için bir iz seçin.</translation>
     </message>
 </context>
 <context>
@@ -7739,72 +7736,72 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="26"/>
         <source>Cut and leave gap</source>
-        <translation>Leikkaa ja jätä väli</translation>
+        <translation>Kes ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="28"/>
         <source>Cut and close gap</source>
-        <translation>Leikkaa ja poista väli</translation>
+        <translation>Kes ve boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on this track</source>
-        <translation>Leikkaa ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Kes ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="32"/>
         <source>Cut and close gap on all tracks</source>
-        <translation>Leikkaa ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Kes ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="37"/>
         <source>Paste and overlap</source>
-        <translation>Liitä ja limitä</translation>
+        <translation>Yapıştır ve örtüştür</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="39"/>
         <source>Paste and make room on this track</source>
-        <translation>Liitä ja tee tilaa tälle raidalle</translation>
+        <translation>Yapıştır ve bu izde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="41"/>
         <source>Paste and make room on all tracks</source>
-        <translation>Liitä ja tee tilaa kaikille raidoille</translation>
+        <translation>Yapıştır ve tüm izlerde yer aç</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="46"/>
         <source>Delete and leave gap</source>
-        <translation>Poista ja jätä väli</translation>
+        <translation>Sil ve boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="48"/>
         <source>Delete and close gap</source>
-        <translation>Poista ja poista tyhjä tila</translation>
+        <translation>Sil ve boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="50"/>
         <source>Delete and close gap on this track</source>
-        <translation>Poista ja poista tyhjä tila tältä raidalta</translation>
+        <translation>Sil ve bu izde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="52"/>
         <source>Delete and close gap on all tracks</source>
-        <translation>Poista ja poista tyhjä tila kaikilta raidoilta</translation>
+        <translation>Sil ve tüm izlerde boşluğu kapat</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="62"/>
         <source>Cut and…</source>
-        <translation>Leikkaa ja...</translation>
+        <translation>Kes ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="63"/>
         <source>Paste and…</source>
-        <translation>Liitä ja...</translation>
+        <translation>Yapıştır ve…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="64"/>
         <source>Delete and…</source>
-        <translation>Poista ja...</translation>
+        <translation>Sil ve…</translation>
     </message>
 </context>
 <context>
@@ -7812,17 +7809,17 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/SpectrogramRulerCustomizePopup.qml" line="108"/>
         <source>Reset</source>
-        <translation>Palauta</translation>
+        <translation>Sıfırla</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/SpectrogramRulerCustomizePopup.qml" line="124"/>
         <source>Scale</source>
-        <translation>Skaalaus</translation>
+        <translation>Ölçek</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/SpectrogramRulerCustomizePopup.qml" line="157"/>
         <source>Frequency range</source>
-        <translation>Taajuusalue</translation>
+        <translation>Frekans aralığı</translation>
     </message>
 </context>
 <context>
@@ -7835,33 +7832,33 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="38"/>
         <source>Classic</source>
-        <translation>Klassinen</translation>
+        <translation>Klasik</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="40"/>
         <source>Grayscale</source>
-        <translation>Harmaasävy</translation>
+        <translation>Gri tonlamalı</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="42"/>
         <source>Inverse grayscale</source>
-        <translation>Käänteinen harmaa</translation>
+        <translation>Ters gri tonlamalı</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="45"/>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="77"/>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation>Bilinmiyor</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="64"/>
         <source>Linear</source>
-        <translation>Lineaarinen</translation>
+        <translation>Doğrusal</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="66"/>
         <source>Logarithmic</source>
-        <translation>Logaritminen</translation>
+        <translation>Logaritmik</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="68"/>
@@ -7876,32 +7873,32 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="72"/>
         <source>ERB</source>
-        <translation>ERB</translation>
+        <translation>ERB (eşdeğer dikdörtgen bant genişliği)</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/abstractspectrogramsettingsmodel.cpp" line="74"/>
         <source>Period</source>
-        <translation>Aikaväli</translation>
+        <translation>Aralık</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="18"/>
         <source>Frequencies</source>
-        <translation>Taajuudet</translation>
+        <translation>Frekanslar</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="19"/>
         <source>Reassignment</source>
-        <translation>Uudelleenmääritys</translation>
+        <translation>Yeniden atama</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="20"/>
         <source>Pitch</source>
-        <translation>Sävelkorkeus</translation>
+        <translation>Perde</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="24"/>
         <source>Rectangular</source>
-        <translation>Suorakulmainen</translation>
+        <translation>Dikdörtgensel</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="25"/>
@@ -7936,62 +7933,62 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="31"/>
         <source>Gaussian (a=0.25)</source>
-        <translation>Gaussian (a=0.25)</translation>
+        <translation>Gauss (a=0.25)</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="32"/>
         <source>Gaussian (a=0.35)</source>
-        <translation>Gaussian (a=0.35)</translation>
+        <translation>Gauss (a=0.35)</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="33"/>
         <source>Gaussian (a=0.45)</source>
-        <translation>Gaussian (a=0.45)</translation>
+        <translation>Gauss (a=0.45)</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="37"/>
         <source>8 - most wideband</source>
-        <translation>8 - laajin kaista</translation>
+        <translation>8 - En geniş bant</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="49"/>
         <source>32768 - most narrowband</source>
-        <translation>32768 - kapein kaista</translation>
+        <translation>32768 - En dar bant</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="107"/>
         <source>Algorithm</source>
-        <translation>Algoritmi</translation>
+        <translation>Algoritma</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="109"/>
         <source>Window size</source>
-        <translation>Ikkunan koko</translation>
+        <translation>Pencere boyutu</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="111"/>
         <source>Window type</source>
-        <translation>Ikkunan tyyppi</translation>
+        <translation>Pencere türü</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/algorithmsectionparameterlistmodel.cpp" line="113"/>
         <source>Zero padding factor</source>
-        <translation>Nollatäyttökerroin</translation>
+        <translation>Sıfır aralık çarpanı</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/colorsectionparameterlistmodel.cpp" line="93"/>
         <source>Gain</source>
-        <translation>Vahvistus</translation>
+        <translation>Kazanç</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/colorsectionparameterlistmodel.cpp" line="95"/>
         <source>Range</source>
-        <translation>Alue</translation>
+        <translation>Aralık</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/colorsectionparameterlistmodel.cpp" line="97"/>
         <source>High boost</source>
-        <translation>Korkeiden korostus</translation>
+        <translation>Yüksek güçlendirme</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="51"/>
@@ -8001,22 +7998,22 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="77"/>
         <source>Max frequency</source>
-        <translation>Maksimitaajuus</translation>
+        <translation>En yüksek frekans</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="79"/>
         <source>Min frequency</source>
-        <translation>Minimitaajuus</translation>
+        <translation>En alçak frekans</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="90"/>
         <source>Max</source>
-        <translation>Maksimi</translation>
+        <translation>En az</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="92"/>
         <source>Min</source>
-        <translation>Minimi</translation>
+        <translation>En fazla</translation>
     </message>
 </context>
 <context>
@@ -8024,12 +8021,12 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramSettingsDialog.qml" line="113"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramSettingsDialog.qml" line="132"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
@@ -8038,12 +8035,12 @@ stereoraitaa kohden)</translation>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramColorsSection.qml" line="62"/>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramColorsSection.qml" line="72"/>
         <source>Scheme</source>
-        <translation>Ulkoasu</translation>
+        <translation>Şema</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramScaleSection.qml" line="25"/>
         <source>Scale</source>
-        <translation>Skaalaus</translation>
+        <translation>Ölçek</translation>
     </message>
 </context>
 <context>
@@ -8051,32 +8048,32 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="51"/>
         <source>1 hour remaining</source>
-        <translation>1 h jäljellä</translation>
+        <translation>1 saat kaldı</translation>
     </message>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="51"/>
         <source>%1 hours remaining</source>
-        <translation>%1 h jäljellä</translation>
+        <translation>%1 saat kaldı</translation>
     </message>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="54"/>
         <source>1 minute remaining</source>
-        <translation>1 min jäljellä</translation>
+        <translation>1 dakika kaldı</translation>
     </message>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="54"/>
         <source>%1 minutes remaining</source>
-        <translation>%1 min jäljellä</translation>
+        <translation>%1 dakika kaldı</translation>
     </message>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="57"/>
         <source>1 second remaining</source>
-        <translation>1 s jäljellä</translation>
+        <translation>1 saniye kaldı</translation>
     </message>
     <message>
         <location filename="../../src/toast/qml/Audacity/Toast/ToastProgressBar.qml" line="57"/>
         <source>%1 seconds remaining</source>
-        <translation>%1 s jäljellä</translation>
+        <translation>%1 saniye kaldı</translation>
     </message>
 </context>
 <context>
@@ -8084,55 +8081,55 @@ stereoraitaa kohden)</translation>
     <message>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="191"/>
         <source>Added enveloped point</source>
-        <translation>Lisättiin voimakkuuspiste</translation>
+        <translation>Zarflanmış nokta eklendi</translation>
     </message>
     <message>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="191"/>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="224"/>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="345"/>
         <source>Clip envelope edit</source>
-        <translation>Leikkeen voimakkuuskäyrän muokkaus</translation>
+        <translation>Parça zarfını düzenle</translation>
     </message>
     <message>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="224"/>
         <source>Removed enveloped point</source>
-        <translation>Poistettiin voimakkuuspiste</translation>
+        <translation>Zarflanmış nokta kaldırıldı</translation>
     </message>
     <message>
         <location filename="../../src/automation/internal/au3/au3clipgaininteraction.cpp" line="345"/>
         <source>Dragged enveloped point</source>
-        <translation>Siirrettiin voimakkuuspiste</translation>
+        <translation>Zarflanmış nokta sürüklendi</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackcontroller.cpp" line="631"/>
         <source>Set looping region in/out</source>
-        <translation>Aseta jatkuva toistoalue sisään/ulos</translation>
+        <translation>Yineleme bölgesi girişini/çıkışını ayarlayın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="41"/>
         <location filename="../../src/trackedit/internal/au3/au3tracksinteraction.cpp" line="46"/>
         <source>Mixing down to mono…</source>
-        <translation>Miksaus monoksi…</translation>
+        <translation>Tek kanala indirgeniyor…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="264"/>
         <source>Rendering pitch and speed…</source>
-        <translation>Renderöintikorkeus ja -nopeus…</translation>
+        <translation>Perde ve hız oluşturuluyor…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="1395"/>
         <source>Mix down to mono</source>
-        <translation>Miksaus monoki</translation>
+        <translation>Tek kanala indirge</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="1396"/>
         <source>This action requires one or more clips to be converted to mono. Would you like to proceed?</source>
-        <translation>Toiminto vaatii yhden tai useamman leikkeen muuntamisen monoääneksi. Haluatko jatkaa?</translation>
+        <translation>Bu işlem, bir ya da birkaç parçanın tek kanala dönüştürülmesini gerektirir. İlerlemek istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3tracksinteraction.cpp" line="1412"/>
         <source>Combine mono tracks to stereo</source>
-        <translation>Yhdistä monoraidat stereoksi</translation>
+        <translation>Tek kanallı izleri çift kanallı olarak birleştir</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3tracksinteraction.cpp" line="1413"/>
@@ -8141,11 +8138,11 @@ stereoraitaa kohden)</translation>
 This causes any realtime effects to be applied to the waveform and hidden data to be removed. Additionally, the entire track will become one large clip.
 
 Do you wish to continue?</source>
-        <translation>Raidat, joita yrität yhdistää stereoraidaksi, sisältävät eri kohdissa olevia tai muuten yhteensopimattomia leikkeitä. Yhdistäminen renderöi raidat. 
+        <translation>Çift kanal ile birleştirmeye çalıştığınız izler, farklı konumlardaki parçalardan veya uyumsuz parçalardan oluşuyor. Bunları birleştirmek izleri oluşturacak.
 
-Tämä tarkoittaa, että mahdolliset reaaliaikaiset tehosteet toteutetaan suoraan aaltomuotoon ja piilotettu data poistetaan. Lisäksi koko raidasta tulee yksi suuri leike. 
+Bu işlem, herhangi bir gerçek zamanlı etkinin dalga şekline uygulanmasına ve gizli verilerin kaldırılmasına neden olur. Ek olarak, tüm parça tek büyük bir parça olur.
 
-Haluatko jatkaa?</translation>
+İlerlemek istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="663"/>
@@ -8154,7 +8151,7 @@ Haluatko jatkaa?</translation>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="743"/>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="774"/>
         <source>No audio selected</source>
-        <translation>Ei valittua ääntä</translation>
+        <translation>Herhangi bir ses seçilmemiş</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="664"/>
@@ -8163,39 +8160,39 @@ Haluatko jatkaa?</translation>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="744"/>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="775"/>
         <source>Select the audio to delete and try again.</source>
-        <translation>Valitse poistettava äänitiedosto ja yritä uudelleen.</translation>
+        <translation>Silinecek sesi seçip yeniden deneyin.</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1139"/>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1153"/>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1167"/>
         <source>Paste error</source>
-        <translation>Liittämisvirhe</translation>
+        <translation>Yapıştırma sorunu</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1606"/>
         <source>Applying</source>
-        <translation>Suoritetaan</translation>
+        <translation>Uygulanıyor</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1847"/>
         <source>Set rate</source>
-        <translation>Aseta taajuus</translation>
+        <translation>Hızı ayarla</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="2004"/>
         <source>Resample</source>
-        <translation>Muuta näytetaajuutta</translation>
+        <translation>Yeniden örnekle</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditoperationcontroller.cpp" line="705"/>
         <source>Insert silence</source>
-        <translation>Lisää hiljaisuus</translation>
+        <translation>Sessizlik ekle</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/trackediterrors.h" line="41"/>
         <source>Not enough space to paste clip into</source>
-        <translation>Ei tarpeeksi tilaa leikkeen liittämiseen</translation>
+        <translation>Parçanın yapıştırılacağı yeterli boşluk yok</translation>
     </message>
 </context>
 <context>
@@ -8203,107 +8200,107 @@ Haluatko jatkaa?</translation>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramSettingsDialog.qml" line="19"/>
         <source>Spectrogram settings</source>
-        <translation>Äänen visuaaliset asetukset</translation>
+        <translation>Spektrogram ayarları</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/qml/Audacity/Spectrogram/TrackSpectrogramSettingsDialog.qml" line="21"/>
         <source>Spectrogram settings - %1</source>
-        <translation>Äänen visuaalinen asetus - %1</translation>
+        <translation>Spektrogram ayarları - %1</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="23"/>
         <source>Delete preference</source>
-        <translation>Poista asetus</translation>
+        <translation>Silme ayarı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="45"/>
         <source>Your delete behavior has been set</source>
-        <translation>Poistotapasi on asetettu</translation>
+        <translation>Silme davranışınız ayarlandı</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="57"/>
         <source>Preferences</source>
-        <translation>Asetukset</translation>
+        <translation>Ayarlar</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="58"/>
         <source>You can change this at any time in %1.</source>
-        <translation>Voit muuttaa tätä milloin tahansa %1.</translation>
+        <translation>Bunu istediğiniz zaman değiştirebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="60"/>
         <source>Shortcuts</source>
-        <translation>Pikanäppäimet</translation>
+        <translation>Kısa yollar</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="61"/>
         <source>There are also a variety of new shortcuts that let you quickly access different delete behaviors. Go to %2 to learn more.</source>
-        <translation>Käytettävissä on myös useita uusia pikanäppäimiä, joilla voit käyttää nopeasti eri poistotapoja. Lue lisää kohdasta %2.</translation>
+        <translation>Farklı silme davranışlarına hızlı erişmenizi sağlayan çeşitli yeni kısayollar da var. Ayrıntılı bilgi almak için %2 bölümüne gidin.</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorPanel.qml" line="15"/>
         <source>Choose behavior when deleting a portion of a clip</source>
-        <translation>Valitse toiminta poistettaessa osaa leikkeestä</translation>
+        <translation>Bir parçanın bir bölümünü silme davranışını seçin</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorPanel.qml" line="82"/>
         <source>When closing the gap, do the following</source>
-        <translation>Kun suljet rakoa, tee seuraavaa</translation>
+        <translation>Boşluk kapatılırken şu yapılsın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/PasteBehaviorPanel.qml" line="15"/>
         <source>Choose behavior when pasting audio</source>
-        <translation>Valitse toiminta äänen liittämiseen</translation>
+        <translation>Ses yapıştırma davranışını seçin</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/PasteBehaviorPanel.qml" line="82"/>
         <source>When making room for pasted audio, do the following</source>
-        <translation>Kun teet tilaa liitetylle äänelle, toimi seuraavasti</translation>
+        <translation>Yapıştırılan ses için yer açılırken şu yapılsın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/deletebehaviorpanelmodel.cpp" line="61"/>
         <source>The selected clip moves back to fill the gap</source>
-        <translation>Valittu leike siirtyy taaksepäin täyttääkseen aukon</translation>
+        <translation>Seçilmiş parça boşluğu doldurmak için geriye taşınsın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/deletebehaviorpanelmodel.cpp" line="63"/>
         <source>All clips on the same track move back to fill the gap</source>
-        <translation>Kaikki samalla raidalla olevat leikkeet siirtyvät taaksepäin täyttääkseen aukon</translation>
+        <translation>Aynı izdeki tüm parçalar boşluğu doldurmak için geriye taşınsın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/deletebehaviorpanelmodel.cpp" line="65"/>
         <source>All clips on all tracks move back to fill the gap</source>
-        <translation>Kaikkien raitojen kaikki leikkeet siirtyvät taaksepäin täyttääkseen aukon</translation>
+        <translation>Tüm izlerdeki tüm parçalar boşluğu doldurmak için geriye taşınsın</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/deletebehaviorpanelmodel.cpp" line="76"/>
         <source>Leave gap</source>
-        <translation>Jätä aukko</translation>
+        <translation>Boşluk bırak</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/deletebehaviorpanelmodel.cpp" line="79"/>
         <source>Close gap (ripple)</source>
-        <translation>Sulje aukko (ripple siirto)</translation>
+        <translation>Boşluğu kapat (ripple)</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/pastebehaviorpanelmodel.cpp" line="61"/>
         <source>Pasting audio pushes other clips on the same track</source>
-        <translation>Liittäminen siirtää muita leikkeitä samalla raidalla</translation>
+        <translation>Ses yapıştırmak aynı izdeki diğer parçaları ötelesin</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/pastebehaviorpanelmodel.cpp" line="63"/>
         <source>Pasting audio pushes all clips on all tracks</source>
-        <translation>Liittäminen siirtää kaikki leikkeet kaikilla raidoilla</translation>
+        <translation>Ses yapıştırmak tüm izlerdeki tüm parçaları ötelesin</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/pastebehaviorpanelmodel.cpp" line="74"/>
         <source>Paste overlaps other clips</source>
-        <translation>Liittäminen päällekkäin muiden leikkeiden kanssa</translation>
+        <translation>Yapıştırma diğer parçalar ile örtüşsün</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/view/pastebehaviorpanelmodel.cpp" line="77"/>
         <source>Paste pushes other clips</source>
-        <translation>Liitäminen työntää muita leikkeitä</translation>
+        <translation>Yapıştırma diğer parçaları ötelesin</translation>
     </message>
 </context>
 <context>
@@ -8311,7 +8308,7 @@ Haluatko jatkaa?</translation>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/CustomRateDialog.qml" line="47"/>
         <source>New sample rate (Hz):</source>
-        <translation>Uusi näytetaajuus (Hz):</translation>
+        <translation>Yeni örnekleme hızı (Hz):</translation>
     </message>
 </context>
 <context>
@@ -8319,7 +8316,7 @@ Haluatko jatkaa?</translation>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/CustomTimeDialog.qml" line="40"/>
         <source>Position:</source>
-        <translation>Paikka:</translation>
+        <translation>Konum:</translation>
     </message>
 </context>
 <context>
@@ -8327,17 +8324,17 @@ Haluatko jatkaa?</translation>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackruler/TrackRulerCustomizePopup.qml" line="107"/>
         <source>Reset</source>
-        <translation>Palauta</translation>
+        <translation>Sıfırla</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackruler/TrackRulerCustomizePopup.qml" line="121"/>
         <source>Ruler format</source>
-        <translation>Viivaimen formaatti</translation>
+        <translation>Cetvel biçimi</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackruler/TrackRulerCustomizePopup.qml" line="137"/>
         <source>Half wave</source>
-        <translation>Puoliaalto</translation>
+        <translation>Yarım dalga</translation>
     </message>
 </context>
 <context>
@@ -8355,107 +8352,107 @@ Haluatko jatkaa?</translation>
     <message>
         <location filename="../../src/uicomponents/components/internal/numeric/beatsformatter.cpp" line="44"/>
         <source>bar</source>
-        <translation>tahti</translation>
+        <translation>bar</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/internal/numeric/beatsformatter.cpp" line="49"/>
         <source>beat</source>
-        <translation>isku</translation>
+        <translation>vuruş</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="18"/>
         <source>seconds</source>
-        <translation>sekuntia</translation>
+        <translation>saniye</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="19"/>
         <source>seconds + milliseconds</source>
-        <translation>sekuntia + millisekuntia</translation>
+        <translation>saniye + milisaniye</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="21"/>
         <source>hh:mm:ss</source>
-        <translation>tt:mm:ss</translation>
+        <translation>sa:dd:ss</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="22"/>
         <source>dd:hh:mm:ss</source>
-        <translation>pp:tt:mm:ss</translation>
+        <translation>gg:sa:dd:ss</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="25"/>
         <source>hh:mm:ss + hundredths</source>
-        <translation>tt:mm:ss + sadasosat</translation>
+        <translation>sa:dd:ss + yüzdelik</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="27"/>
         <source>hh:mm:ss + milliseconds</source>
-        <translation>tt:mm:ss + millisekunnit</translation>
+        <translation>sa:dd:ss + milisaniye</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="30"/>
         <source>hh:mm:ss + samples</source>
-        <translation>tt:mm:ss + näytteet</translation>
+        <translation>sa:dd:ss + örnekler</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="32"/>
         <source>samples</source>
-        <translation>näytteet</translation>
+        <translation>örnekler</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="35"/>
         <source>hh:mm:ss + film frames (24 fps)</source>
-        <translation>tt:mm:ss + filmiruudut (24/sek)</translation>
+        <translation>sa:dd:ss + film kareleri (24 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="38"/>
         <source>Film frames (24 fps)</source>
-        <translation>Kuvakehykset (24 fps)</translation>
+        <translation>Film kareleri (24 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="41"/>
         <source>hh:mm:ss + NTSC drop frames</source>
-        <translation>tt:mm:ss + NTSC-pudotuskehykset</translation>
+        <translation>sa:dd:ss + NTSC düşük kareleri</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="44"/>
         <source>hh:mm:ss + NTSC non-drop frames</source>
-        <translation>tt:mm:ss + NTSC-pudotamattomat kehykset</translation>
+        <translation>sa:dd:ss + NTSC düşük dışı kareler</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="47"/>
         <source>NTSC frames</source>
-        <translation>NTSC-kehykset</translation>
+        <translation>NTSC kareleri</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="50"/>
         <source>hh:mm:ss + PAL frames (25 fps)</source>
-        <translation>tt:mm:ss + PAL-kehykset (25/sek)</translation>
+        <translation>sa:dd:ss + PAL kareleri (25 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="53"/>
         <source>PAL frames (25 fps)</source>
-        <translation>PAL-kehykset (25/sek)</translation>
+        <translation>PAL kareleri (25 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="56"/>
         <source>hh:mm:ss + CDDA frames (25 fps)</source>
-        <translation>tt:mm:ss + CDDA-kehykset (25 fps)</translation>
+        <translation>ss:dd:ss + CDDA kareleri (25 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="59"/>
         <source>CDDA frames (75 fps)</source>
-        <translation>CDDA-kehykset (75/sek)</translation>
+        <translation>CDDA kareleri (75 kare/sn)</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="62"/>
         <source>bar:beat</source>
-        <translation>tahti:isku</translation>
+        <translation>bar:vuruş</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="63"/>
         <source>bar:beat:tick</source>
-        <translation>tahti:isku:sivuisku</translation>
+        <translation>bar:vuruş:tik</translation>
     </message>
 </context>
 </TS>

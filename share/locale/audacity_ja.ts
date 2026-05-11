@@ -28,17 +28,17 @@
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="57"/>
         <source>&amp;Full screen</source>
-        <translation>フルスクリーン(&amp;F)</translation>
+        <translation>フルスクリーンにする(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="58"/>
         <source>Full screen</source>
-        <translation>フルスクリーン</translation>
+        <translation>フルスクリーンにする</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="69"/>
         <source>About &amp;Qt…</source>
-        <translation>Qtについて(&amp;Q)...</translation>
+        <translation>Qtについて(&amp;Q)…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="74"/>
@@ -98,7 +98,7 @@
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="64"/>
         <source>&amp;About Audacity…</source>
-        <translation type="unfinished"/>
+        <translation>Audacityについて(&amp;A)…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="117"/>
@@ -118,7 +118,7 @@
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="126"/>
         <source>Preferences…</source>
-        <translation>設定...</translation>
+        <translation>設定…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationuiactions.cpp" line="132"/>
@@ -212,24 +212,24 @@
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="168"/>
         <source>Undo ‘%1’</source>
-        <translation>「%1」を取り消す</translation>
+        <translation>‘%1’ を取り消す</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="174"/>
         <source>Redo ‘%1’</source>
-        <translation>「%1」をやり直す</translation>
+        <translation>‘%1’ をやり直す</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="15"/>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="16"/>
         <source>View project on audio.com</source>
-        <translation type="unfinished"/>
+        <translation>audio.comでプロジェクトを確認</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="21"/>
         <location filename="../../src/au3cloud/internal/clouduiactions.cpp" line="22"/>
         <source>View on audio.com</source>
-        <translation>Audio.comで表示</translation>
+        <translation>audio.comで表示</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="24"/>
@@ -250,37 +250,37 @@
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="40"/>
         <source>Save preset as…</source>
-        <translation>プリセットを別名で保存...</translation>
+        <translation>プリセットを別名で保存…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="45"/>
         <source>&amp;Save preset</source>
-        <translation>プリセットを保存</translation>
+        <translation>プリセットを保存(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="50"/>
         <source>&amp;Delete preset</source>
-        <translation>プリセットを削除</translation>
+        <translation>プリセットを削除(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="56"/>
         <source>&amp;Import…</source>
-        <translation>インポート(&amp;I)...</translation>
+        <translation>読み込む(&amp;I)…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="57"/>
         <source>Import preset</source>
-        <translation>プリセットをインポート</translation>
+        <translation>プリセットを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="62"/>
         <source>&amp;Export…</source>
-        <translation>エクスポート(&amp;E)...</translation>
+        <translation>書き出す(&amp;E)…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="63"/>
         <source>Export preset</source>
-        <translation>プリセットをエクスポート</translation>
+        <translation>プリセットを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="35"/>
@@ -327,7 +327,7 @@
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="71"/>
         <source>Toggle ‘Loop playback’</source>
-        <translation>「ループ再生」を切り替え</translation>
+        <translation>‘ループ再生’ を切り替え</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="78"/>
@@ -455,7 +455,7 @@
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="181"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="182"/>
         <source>Set loop region to selection</source>
-        <translation>ループ領域を選択</translation>
+        <translation>選択部分をループ領域に設定</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="187"/>
@@ -479,37 +479,37 @@
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="209"/>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="210"/>
         <source>Play repeats</source>
-        <translation>繰り返し回数</translation>
+        <translation>再生を繰り返す</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="217"/>
         <source>Pan automatically</source>
-        <translation type="unfinished"/>
+        <translation>自動的にパン</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="218"/>
         <source>Pan automatically during playback</source>
-        <translation type="unfinished"/>
+        <translation>再生中に自動的にパン</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="23"/>
         <source>&amp;New…</source>
-        <translation>新規(&amp;N)...</translation>
+        <translation>新規(&amp;N)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="24"/>
         <source>New…</source>
-        <translation>新規...</translation>
+        <translation>新規…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="29"/>
         <source>&amp;Open…</source>
-        <translation>開く(&amp;O)...</translation>
+        <translation>開く(&amp;O)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="30"/>
         <source>Open…</source>
-        <translation>開く...</translation>
+        <translation>開く…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="35"/>
@@ -540,12 +540,12 @@
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="59"/>
         <source>Save &amp;as…</source>
-        <translation>別名で保存(&amp;A)...</translation>
+        <translation>別名で保存(&amp;A)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="60"/>
         <source>Save as…</source>
-        <translation>別名で保存...</translation>
+        <translation>別名で保存…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="65"/>
@@ -556,22 +556,22 @@
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="77"/>
         <source>&amp;Export labels</source>
-        <translation>ラベルをエクスポート(&amp;E)</translation>
+        <translation>ラベルを書き出す(&amp;E)</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="78"/>
         <source>Export labels</source>
-        <translation>ラベルをエクスポート</translation>
+        <translation>ラベルを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="83"/>
         <source>&amp;Export MIDI</source>
-        <translation>MIDIをエクスポート(&amp;E)</translation>
+        <translation>MIDIを書き出す(&amp;E)</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="84"/>
         <source>Export MIDI</source>
-        <translation>MIDIをエクスポート</translation>
+        <translation>MIDIを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="89"/>
@@ -634,7 +634,7 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="139"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="140"/>
         <source>Manage labels</source>
-        <translation>ラベル領域を管理</translation>
+        <translation>ラベルを管理</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="145"/>
@@ -672,31 +672,31 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="177"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="178"/>
         <source>Track start to cursor</source>
-        <translation>トラック先頭からカーソル位置</translation>
+        <translation>トラック先頭位置からカーソル位置</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="183"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="184"/>
         <source>Cursor to track end</source>
-        <translation>カーソルからトラック末尾</translation>
+        <translation>カーソル位置からトラック終了位置</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="189"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="190"/>
         <source>Track start to end</source>
-        <translation>トラック先頭から末尾</translation>
+        <translation>トラック先頭位置から終了位置</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="195"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="196"/>
         <source>Previous clip boundary to cursor</source>
-        <translation>前のクリップ境界からカーソル</translation>
+        <translation>前のクリップ境界からカーソル位置</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="201"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="202"/>
         <source>Cursor to next clip boundary</source>
-        <translation>カーソルから次のクリップ境界</translation>
+        <translation>カーソル位置から次のクリップ境界</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="207"/>
@@ -720,7 +720,7 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="225"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="226"/>
         <source>Move cursor to closest zero crossing</source>
-        <translation>ゼロ交差付近にカーソルを移動</translation>
+        <translation>ゼロ交差位置にカーソルを移動</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="36"/>
@@ -738,13 +738,13 @@
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="50"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="51"/>
         <source>Zoom default</source>
-        <translation type="unfinished"/>
+        <translation>デフォルト倍率</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="56"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="57"/>
         <source>Zoom to selection</source>
-        <translation>選択部分に合わせて拡大</translation>
+        <translation>選択部分に合わせて拡大/縮小</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="70"/>
@@ -768,13 +768,13 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="245"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="246"/>
         <source>Skip to selection start</source>
-        <translation>選択部分の先頭へスキップ</translation>
+        <translation>選択部分の先頭位置へスキップ</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="251"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="252"/>
         <source>Skip to selection end</source>
-        <translation>選択部分の末尾へスキップ</translation>
+        <translation>選択部分の終了位置へスキップ</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="257"/>
@@ -816,7 +816,7 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="298"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="299"/>
         <source>Enable sound activating recording</source>
-        <translation>サウンドによるアクティベート録音を有効化</translation>
+        <translation>サウンドによるアクティベート録音を有効にする</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="304"/>
@@ -834,13 +834,13 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="324"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="325"/>
         <source>Mix-down to…</source>
-        <translation>ミックスダウン...</translation>
+        <translation>ミックスダウン…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="330"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="331"/>
         <source>Align end to end</source>
-        <translation>一列に整列</translation>
+        <translation>末尾で整列</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="336"/>
@@ -930,23 +930,23 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="47"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="48"/>
         <source>Import…</source>
-        <translation type="unfinished"/>
+        <translation>読み込む…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="71"/>
         <source>&amp;Export audio…</source>
-        <translation type="unfinished"/>
+        <translation>オーディオを書き出す(&amp;E)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="72"/>
         <source>Export audio…</source>
-        <translation type="unfinished"/>
+        <translation>オーディオを書き出す…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="384"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="385"/>
         <source>Keep tracks synchronized</source>
-        <translation type="unfinished"/>
+        <translation>トラック間の同期を保つ</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="438"/>
@@ -1000,19 +1000,19 @@
         <location filename="../../src/project/internal/projectuiactions.cpp" line="494"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="495"/>
         <source>Sample data export</source>
-        <translation>サンプルデータをエクスポート</translation>
+        <translation>サンプルデータを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="500"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="501"/>
         <source>Sample data import</source>
-        <translation>サンプルデータをインポート</translation>
+        <translation>サンプルデータを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="506"/>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="507"/>
         <source>Raw data import</source>
-        <translation>Rawデータをインポート</translation>
+        <translation>Rawデータを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="512"/>
@@ -1113,12 +1113,12 @@
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="612"/>
         <source>Save to clo&amp;ud…</source>
-        <translation>クラウドに保存(&amp;U)...</translation>
+        <translation>クラウドに保存(&amp;U)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="613"/>
         <source>Save to cloud…</source>
-        <translation>クラウドに保存...</translation>
+        <translation>クラウドに保存…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="619"/>
@@ -1129,12 +1129,12 @@
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="627"/>
         <source>Project propert&amp;ies…</source>
-        <translation>プロジェクトのプロパティ...</translation>
+        <translation>プロジェクトのプロパティ(&amp;I)…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectuiactions.cpp" line="628"/>
         <source>Project properties…</source>
-        <translation>プロジェクトのプロパティ...</translation>
+        <translation>プロジェクトのプロパティ…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="22"/>
@@ -1260,25 +1260,25 @@
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="201"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="202"/>
         <source>Extend selection left</source>
-        <translation type="unfinished"/>
+        <translation>選択部分の左側を拡大</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="207"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="208"/>
         <source>Extend selection right</source>
-        <translation type="unfinished"/>
+        <translation>選択部分の右側を拡大</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="213"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="214"/>
         <source>Contract selection from left</source>
-        <translation type="unfinished"/>
+        <translation>選択部分の左側を縮小</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="219"/>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="220"/>
         <source>Contract selection from right</source>
-        <translation type="unfinished"/>
+        <translation>選択部分の右側を縮小</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/internal/projectsceneuiactions.cpp" line="225"/>
@@ -1370,18 +1370,18 @@
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="71"/>
         <source>Lead-in Recording</source>
-        <translation type="unfinished"/>
+        <translation>リードイン録音</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recorduiactions.cpp" line="72"/>
         <source>Start lead-in recording</source>
-        <translation type="unfinished"/>
+        <translation>リードイン録音を開始</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/internal/spectrogramuiactions.cpp" line="18"/>
         <location filename="../../src/spectrogram/internal/spectrogramuiactions.cpp" line="19"/>
         <source>Spectrogram settings…</source>
-        <translation>スペクトログラム設定...</translation>
+        <translation>スペクトログラム設定…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="66"/>
@@ -1393,7 +1393,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="72"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="73"/>
         <source>Cut and leave gap</source>
-        <translation>切り取り（ギャップを残す）</translation>
+        <translation>カットしてギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="79"/>
@@ -1417,13 +1417,13 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="100"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="101"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="107"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="108"/>
         <source>Delete and close gap (per clip)</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを閉じる（クリップ単位）</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="114"/>
@@ -1503,7 +1503,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="195"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="196"/>
         <source>Other…</source>
-        <translation>その他...</translation>
+        <translation>その他…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="202"/>
@@ -1551,13 +1551,13 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="453"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="454"/>
         <source>Above item</source>
-        <translation type="unfinished"/>
+        <translation>項目の上</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="459"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="460"/>
         <source>Below item</source>
-        <translation type="unfinished"/>
+        <translation>項目の下</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="248"/>
@@ -1569,7 +1569,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="263"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="264"/>
         <source>Paste (pushes clips on selected track)</source>
-        <translation>ペースト（選択トラックにクリップを配置）</translation>
+        <translation>ペースト（選択トラックにクリップを押し出す）</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="270"/>
@@ -1605,7 +1605,7 @@
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="302"/>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="303"/>
         <source>Export clip</source>
-        <translation>クリップをエクスポート</translation>
+        <translation>クリップを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackedituiactions.cpp" line="308"/>
@@ -1838,7 +1838,7 @@
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="129"/>
         <source>Category:</source>
-        <translation>カテゴリ：</translation>
+        <translation>カテゴリ: </translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/PluginsPage.qml" line="137"/>
@@ -1907,7 +1907,9 @@
         <source>This action will reset all your app preferences and custom UI configurations. It also deletes your custom workspaces and shortcuts. You will also need to scan all third party plugins again.
 
 This action will not delete any of your projects.</source>
-        <translation type="unfinished"/>
+        <translation>この操作を行うと、アプリの設定およびカスタムUIの設定がすべてリセットされます。また、カスタムワークスペースやショートカットも削除されます。さらに、すべてのサードパーティ製プラグインを再度スキャンする必要があります。
+
+この操作でプロジェクトが削除されることはありません。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/applicationactioncontroller.cpp" line="337"/>
@@ -1937,7 +1939,7 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="54"/>
         <source>Loading…‎</source>
-        <translation>読み込み中...</translation>
+        <translation>読み込み中…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/loadingscreenview.cpp" line="101"/>
@@ -1947,17 +1949,17 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="41"/>
         <source>Loading new project…‎</source>
-        <translation>新規プロジェクトを読み込み中...</translation>
+        <translation>新規プロジェクトを読み込み中…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="45"/>
         <source>Loading “%1”…‎</source>
-        <translation>「%1」を読み込み中...‎</translation>
+        <translation>“%1” を読み込み中…‎</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/splashscreen/newinstanceloadingscreenview.cpp" line="51"/>
         <source>Loading project…‎</source>
-        <translation>プロジェクトを読み込み中...</translation>
+        <translation>プロジェクトを読み込み中…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="56"/>
@@ -1982,7 +1984,7 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsprovider.cpp" line="69"/>
         <source>Audio plugin scan</source>
-        <translation type="unfinished"/>
+        <translation>オーディオプラグインをスキャン</translation>
     </message>
     <message>
         <location filename="../../src/appshell/internal/startupscenario.cpp" line="282"/>
@@ -1992,7 +1994,7 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/internal/startupscenario.cpp" line="283"/>
         <source>Do you want to restore the session?</source>
-        <translation>このセッションを復元しますか?</translation>
+        <translation>このセッションを復元してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/maintoolbarmodel.cpp" line="94"/>
@@ -2018,7 +2020,7 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/mainwindowtitleprovider.cpp" line="111"/>
         <source>%1 %2- Audacity 4</source>
-        <translation type="unfinished"/>
+        <translation>%1 %2- Audacity 4</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/Main.wasm.qml" line="36"/>
@@ -2042,12 +2044,12 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="71"/>
         <source>Copyright © 2004-2021 the Contributors to the MusicXML Specification, published by the Music Notation Community Group under the W3C Community Final Specification Agreement (FSA):</source>
-        <translation>著作権所有© 2004-2021 MusicXML仕様書貢献者、W3Cコミュニティ最終仕様アグリーメント（FSA）に基づき、Music Notation Community Groupが公開：</translation>
+        <translation>著作権所有© 2004-2021 MusicXML仕様書貢献者、W3Cコミュニティ最終仕様アグリーメント（FSA）に基づき、Music Notation Community Groupが公開: </translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutMusicXMLDialog.qml" line="95"/>
         <source>A human-readable summary is available:</source>
-        <translation>分かりやすい要約が利用可能です：</translation>
+        <translation>分かりやすい要約が利用可能です: </translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AlphaWelcomePopup.qml" line="14"/>
@@ -2062,12 +2064,12 @@ This action will not delete any of your projects.</source>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/aboutmodel.cpp" line="338"/>
         <source>translator_credits</source>
-        <translation>日本語訳:&lt;br&gt;
+        <translation>日本語訳: &lt;br&gt;
 Atsushi Yoshida -2015&lt;br&gt;
 Phroneris 2018-2022&lt;br&gt;
-SakiPapa 2022-2025&lt;br&gt;
-Akira Nishimura 2023-2025&lt;br&gt;
-Shinki Nishikori 2024-2025</translation>
+SakiPapa 2022-2026&lt;br&gt;
+Akira Nishimura 2023-2026&lt;br&gt;
+Shinki Nishikori 2024-2026</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="15"/>
@@ -2087,7 +2089,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="28"/>
         <source>Audacity the free, open source, cross-platform software for recording and editing sounds.</source>
-        <translation type="unfinished"/>
+        <translation>Audacityは音声の録音と編集を行うための、無料でオープンソース、クロスプラットフォームのソフトウェアです。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="109"/>
@@ -2097,27 +2099,27 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="197"/>
         <source>Audacity website: %1</source>
-        <translation type="unfinished"/>
+        <translation>Audacityのwebサイト: %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="207"/>
         <source>&lt;b&gt;Audacity®&lt;/b&gt; software is copyright © 1999-%1 Audacity Team.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Audacity®&lt;/b&gt; ソフトウェア © 1999-%1 Audacityチーム著作権所有。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogAudacityTab.qml" line="212"/>
         <source>The name &lt;b&gt;Audacity&lt;/b&gt; is a registered trademark.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Audacity&lt;/b&gt;の名称は登録商標です。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="27"/>
         <source>Privacy</source>
-        <translation type="unfinished"/>
+        <translation>プライバシー</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="28"/>
         <source>App update checking and error reporting require network access. These features are optional.&lt;br&gt;See our %1 for more info.</source>
-        <translation type="unfinished"/>
+        <translation>アプリのアップデート確認とエラーの報告には、ネットワーク接続が必要です。これらの機能はオプションです。&lt;br&gt;詳しくは%1をご覧ください。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialogPrivacyTab.qml" line="54"/>
@@ -2145,7 +2147,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="40"/>
         <source>You can turn this off anytime in %1.</source>
-        <translation>%1からいつでもオフにすることができます。</translation>
+        <translation>%1でいつでもオフにすることができます。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="42"/>
@@ -2160,17 +2162,17 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="45"/>
         <source>To help us understand how often people use Audacity, we generate a random ID (UUID) for each installation. This ID does not contain any personally identifiable information. Want to know more? Check out our %1.</source>
-        <translation>利用状況を把握するため、インストールごとにランダムなID（UUID）を生成します。このIDには個人を特定できる情報は一切含まれません。詳細については%1を参照してください。</translation>
+        <translation>利用状況を把握するため、インストールごとにランダムなID（UUID）を生成します。このIDには個人を特定できる情報は一切含まれません。詳しくは%1をご覧ください。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="47"/>
         <source>You can disable this anytime in %1.</source>
-        <translation>%1からいつでも無効にすることができます。</translation>
+        <translation>%1でいつでも無効にすることができます。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="49"/>
         <source>Disable UUID</source>
-        <translation>UUIDを無効化</translation>
+        <translation>UUIDを無効にする</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/AppUpdatesAndUsageInfoPage.qml" line="82"/>
@@ -2225,12 +2227,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="30"/>
         <source>Or use email and password</source>
-        <translation>または電子メールとパスワードを使用</translation>
+        <translation>またはメールとパスワードを使用</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="36"/>
         <source>Email</source>
-        <translation>電子メール</translation>
+        <translation>メール</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="37"/>
@@ -2240,7 +2242,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="38"/>
         <source>&lt;a href=&quot;%1&quot;&gt;Forgot your password?&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;パスワードを消去してよろしいですか?&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;%1&quot;&gt;パスワードを消去してもよろしいですか?&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="40"/>
@@ -2266,7 +2268,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="46"/>
         <source>Loading…</source>
-        <translation>読み込み中...</translation>
+        <translation>読み込み中…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="48"/>
@@ -2281,7 +2283,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="197"/>
         <source>Email field</source>
-        <translation>電子メール</translation>
+        <translation>メールフィールド</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/SigninAudiocomPage.qml" line="257"/>
@@ -2318,7 +2320,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/TutorialsPage.qml" line="32"/>
         <source>Behind this dialog is the ‘Learn’ section, where you’ll find tutorials to get you started
 (Video tutorials require an internet connection)</source>
-        <translation>このダイアログには「学習」セクションがあり、使い方を学ぶためのチュートリアルが用意されています。
+        <translation>このダイアログには ‘学習’ セクションがあり、使い方を学ぶためのチュートリアルが用意されています。
 （チュートリアルビデオの視聴にはインターネット接続が必要です）</translation>
     </message>
     <message>
@@ -2347,7 +2349,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/appshell/qml/Audacity/AppShell/shared/ThemeSamplesList.qml" line="97"/>
         <source>%1. Currently selected</source>
         <extracomment>%1 is the base description with theme selection</extracomment>
-        <translation>%1 - 現在選択中</translation>
+        <translation>%1. 現在選択中</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/SigninAudiocomDialog.qml" line="14"/>
@@ -2435,7 +2437,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/firstlaunchsetupmodel.cpp" line="145"/>
         <source>%1 of %2</source>
         <extracomment>%1 is the current page number, %2 is the total number of pages</extracomment>
-        <translation>%1（%2中）</translation>
+        <translation>%1/%2</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="164"/>
@@ -2455,7 +2457,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="179"/>
         <source>Additional theme configuration options</source>
-        <translation>テーマ構成オプションの詳細</translation>
+        <translation>追加のテーマ構成オプション</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="184"/>
@@ -2475,18 +2477,18 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="199"/>
         <source>When enabled, the theme will automatically match your system’s theme setting</source>
-        <translation>有効化した場合は、システムのテーマ設定と同じテーマが自動選択</translation>
+        <translation>有効にした場合は、システムのテーマ設定と同じテーマが自動選択</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="204"/>
         <source>Enable high-contrast</source>
-        <translation>高コントラストを有効化</translation>
+        <translation>高コントラストを有効にする</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="210"/>
         <source>Enable high contrast mode for better visibility. %1</source>
         <extracomment>here %1 represent the written text for the high contrast preferences hint &quot;Further options for high contrast mode can be found in Preferences&quot;</extracomment>
-        <translation>視認性を高める高コントラストモードを有効化。%1</translation>
+        <translation>視認性を高める高コントラストモードを有効にします。%1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="220"/>
@@ -2496,7 +2498,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="225"/>
         <source>Further options for high contrast mode can be found in Preferences</source>
-        <translation>高コントラストモード用の詳細オプションが設定にあります</translation>
+        <translation>高コントラストモード用の詳細オプションが、設定にあります</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="230"/>
@@ -2522,25 +2524,25 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="245"/>
         <source>Current theme: %1</source>
         <extracomment>%1 is the current theme name (Light, Dark, or System)</extracomment>
-        <translation>現在のテーマ：%1</translation>
+        <translation>現在のテーマ: %1</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="249"/>
         <source>%1. Following system theme</source>
         <extracomment>%1 is the base description with current theme</extracomment>
-        <translation>%1。システムのテーマに合わせる</translation>
+        <translation>%1. システムのテーマに合わせる</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="254"/>
         <source>%1. High contrast enabled</source>
         <extracomment>%1 is the base description with current theme and system theme status</extracomment>
-        <translation>%1。高コントラストを有効化</translation>
+        <translation>%1. 高コントラストを有効にする</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="257"/>
         <source>%1. Accent color selected</source>
         <extracomment>%1 is the base description with current theme and system theme status</extracomment>
-        <translation>%1。アクセントカラーを選択</translation>
+        <translation>%1. アクセントカラーを選択中</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="34"/>
@@ -2590,7 +2592,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="154"/>
         <source>You can change between these layouts at any time using our new ‘workspaces’ feature.</source>
-        <translation>新しい「ワークスペース」機能を使えば、いつでもこれらのレイアウトを変更できます。</translation>
+        <translation>新しい ‘ワークスペース’ 機能を使えば、いつでもこれらのレイアウトを変更できます。</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/workspacelayoutpagemodel.cpp" line="159"/>
@@ -2631,7 +2633,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="134"/>
         <source>Incorrect email or password. Please try again.</source>
-        <translation>電子メールまたはパスワードが違います。もう一度やり直してください。</translation>
+        <translation>メールアドレスまたはパスワードが違います。もう一度やり直してください。</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3cloudservice.cpp" line="142"/>
@@ -2699,7 +2701,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="711"/>
         <source>Test&amp;flow</source>
-        <translation type="unfinished"/>
+        <translation>テストフロー(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -2717,7 +2719,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="466"/>
         <source>A&amp;ctions</source>
-        <translation>アクション(&amp;A)</translation>
+        <translation>アクション(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="467"/>
@@ -2732,7 +2734,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="469"/>
         <source>Test&amp;flow</source>
-        <translation type="unfinished"/>
+        <translation>テストフロー(&amp;F)</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="474"/>
@@ -2761,7 +2763,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="211"/>
         <source>&amp;Export other</source>
-        <translation>ほかをエクスポート(&amp;E)</translation>
+        <translation>ほかを書き出す(&amp;E)</translation>
     </message>
 </context>
 <context>
@@ -2954,7 +2956,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/appmenumodel.cpp" line="292"/>
         <source>Skip to</source>
-        <translation>ここへスキップ：</translation>
+        <translation>ここへスキップ: </translation>
     </message>
 </context>
 <context>
@@ -3050,12 +3052,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutomaticUpdateSection.qml" line="44"/>
         <source>Check to see if a new version of Audacity is available</source>
-        <translation type="unfinished"/>
+        <translation>Audacityの新しいバージョンがリリースされているかを確認</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutomaticUpdateSection.qml" line="60"/>
         <source>Update checking requires network access. In order to protect your privacy, Audacity does not store any personal information. See our &lt;a href=&quot;%1&quot;&gt;privacy policy&lt;/a&gt; for more info.</source>
-        <translation type="unfinished"/>
+        <translation>アップデートの確認にはネットワーク接続が必要です。プライバシーを保護するため、Audacityは個人情報を一切保存しません。詳細については、&lt;a href=&quot;%1&quot;&gt;プライバシーポリシー&lt;/a&gt;を参照してください。</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutoSaveSection.qml" line="32"/>
@@ -3065,27 +3067,27 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AutoSaveSection.qml" line="51"/>
         <source>Auto save every</source>
-        <translation type="unfinished"/>
+        <translation>自動保存 毎</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CharsetsSection.qml" line="31"/>
         <source>Character set used when importing binary files</source>
-        <translation>バイナリファイルのインポート時の文字セット</translation>
+        <translation>バイナリファイルを読み込むときの文字セット</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/CharsetsSection.qml" line="39"/>
         <source>Overture import character set:</source>
-        <translation>Overtureインポート時の文字セット：</translation>
+        <translation>Overtureを読み込むときの文字セット: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ColorAndWallpaperSection.qml" line="64"/>
         <source>Color:</source>
-        <translation>カラー：</translation>
+        <translation>カラー: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ColorAndWallpaperSection.qml" line="97"/>
         <source>Wallpaper:</source>
-        <translation>壁紙：</translation>
+        <translation>壁紙: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/DefaultFilesSection.qml" line="33"/>
@@ -3105,7 +3107,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="32"/>
         <source>Style used for import</source>
-        <translation>インポートに使用するスタイル</translation>
+        <translation>読み込み時に使用するスタイル</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="53"/>
@@ -3115,7 +3117,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ImportStyleSection.qml" line="77"/>
         <source>Use style file:</source>
-        <translation>このスタイルファイル：</translation>
+        <translation>このスタイルファイル: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/KeyboardLayoutsSection.qml" line="33"/>
@@ -3131,7 +3133,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MeiSection.qml" line="42"/>
         <source>Import MEI layout</source>
-        <translation>MEIレイアウトをインポート</translation>
+        <translation>MEIレイアウトを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="44"/>
@@ -3142,17 +3144,17 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="49"/>
         <source>MIDI input</source>
-        <translation type="unfinished"/>
+        <translation>MIDI入力</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiDevicesSection.qml" line="65"/>
         <source>MIDI output</source>
-        <translation type="unfinished"/>
+        <translation>MIDI出力</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MidiSection.qml" line="41"/>
         <source>Shortest note:</source>
-        <translation>最も短い音符：</translation>
+        <translation>最も短い音符: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MiscellaneousSection.qml" line="32"/>
@@ -3162,7 +3164,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MiscellaneousSection.qml" line="41"/>
         <source>Proximity for selecting elements:</source>
-        <translation>要素を選択するための近接条件：</translation>
+        <translation>要素を選択するための近接条件: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MixerSection.qml" line="34"/>
@@ -3172,7 +3174,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MixerSection.qml" line="45"/>
         <source>Toggle track mute by showing/hiding instruments in the Instruments panel</source>
-        <translation>楽器パネルで楽器を表示/非表示にすることで、トラックのミュートを切り替えます</translation>
+        <translation>楽器パネルで楽器を表示/非表示にすることで、トラックのミュートを切り替える</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="31"/>
@@ -3182,17 +3184,17 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="45"/>
         <source>Import layout</source>
-        <translation>レイアウトをインポート</translation>
+        <translation>レイアウトを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="60"/>
         <source>Import system and page breaks</source>
-        <translation>システムおよび改ページをインポート</translation>
+        <translation>システムおよび改ページを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/MusicXmlSection.qml" line="75"/>
         <source>Apply default typeface (Edwin) to imported projects</source>
-        <translation>インポートしたプロジェクトにデフォルトのタイプフェイス（Edwin）を適用</translation>
+        <translation>読み込んだプロジェクトにデフォルトのタイプフェイス（Edwin）を適用</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="46"/>
@@ -3202,7 +3204,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="61"/>
         <source>Default duration:</source>
-        <translation>デフォルトの継続時間：</translation>
+        <translation>デフォルトの継続時間: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputPlaySection.qml" line="84"/>
@@ -3237,7 +3239,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NoteInputSection.qml" line="93"/>
         <source>Delay between notes in automatic real time mode:</source>
-        <translation>自動リアルタイムモードでの音符間のディレイ：</translation>
+        <translation>自動リアルタイムモードでの音符間のディレイ: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PreferencesButtonsPanel.qml" line="50"/>
@@ -3262,7 +3264,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RemoteControlSection.qml" line="52"/>
         <source>Port number:</source>
-        <translation>ポート番号：</translation>
+        <translation>ポート番号: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SaveToCloudSection.qml" line="33"/>
@@ -3302,12 +3304,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomSection.qml" line="50"/>
         <source>Default zoom:</source>
-        <translation>デフォルトの拡大/縮小率：</translation>
+        <translation>デフォルトの拡大/縮小率: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomSection.qml" line="96"/>
         <source>Mouse zoom precision:</source>
-        <translation>マウスの拡大/縮小精度</translation>
+        <translation>マウスの拡大/縮小精度:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AccentColorsSection.qml" line="64"/>
@@ -3322,32 +3324,32 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="25"/>
         <source>Send anonymous usage info</source>
-        <translation type="unfinished"/>
+        <translation>利用に関する匿名情報を送る</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UsageInfoSection.qml" line="39"/>
         <source>To help us understand how often people use Audacity, we generate a random ID (UUID) for each installation. This ID does not contain any personally identifiable information. Want to know more? Check out our &lt;a href=&quot;%1&quot;&gt;privacy policy&lt;/a&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Audacityの利用状況を把握するため、インストールごとにランダムなID（UUID）を生成します。このIDには、個人を特定できる情報は一切含まれていません。詳細については、&lt;a href=&quot;%1&quot;&gt;プライバシーポリシー&lt;/a&gt;を参照してください。</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="14"/>
         <source>Zoom toggle (magnifying glass)</source>
-        <translation type="unfinished"/>
+        <translation>拡大/縮小を切り替え（虫眼鏡）</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="26"/>
         <source>A special tool in the top bar that toggles between two different zoom states.</source>
-        <translation type="unfinished"/>
+        <translation>2種類の拡大/縮小状態を切り替える、トップバーの特別ツールです。</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="34"/>
         <source>Zoom state 1:</source>
-        <translation type="unfinished"/>
+        <translation>拡大/縮小状態1:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ZoomToggleSection.qml" line="55"/>
         <source>Zoom state 2:</source>
-        <translation type="unfinished"/>
+        <translation>拡大/縮小状態2:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="246"/>
@@ -3357,12 +3359,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="247"/>
         <source>Zoom to Selection</source>
-        <translation>選択範囲を拡大</translation>
+        <translation>選択部分に合わせて拡大</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="248"/>
         <source>Zoom Default</source>
-        <translation>デフォルト倍率</translation>
+        <translation>デフォルト拡大/縮小率</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="249"/>
@@ -3377,32 +3379,32 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="251"/>
         <source>5ths of Seconds</source>
-        <translation>1/5 秒</translation>
+        <translation>1/5秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="252"/>
         <source>10ths of Seconds</source>
-        <translation>1/10 秒</translation>
+        <translation>1/10秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="253"/>
         <source>20ths of Seconds</source>
-        <translation>1/20 秒</translation>
+        <translation>1/20秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="254"/>
         <source>50ths of Seconds</source>
-        <translation>1/50 秒</translation>
+        <translation>1/50秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="255"/>
         <source>100ths of Seconds</source>
-        <translation>1/100 秒</translation>
+        <translation>1/100秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="256"/>
         <source>500ths of Seconds</source>
-        <translation>1/500 秒</translation>
+        <translation>1/500秒</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="257"/>
@@ -3417,12 +3419,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="259"/>
         <source>4 Pixels per Sample</source>
-        <translation>サンプルあたり 4 ピクセル</translation>
+        <translation>4ピクセル/サンプル</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/editpreferencesmodel.cpp" line="260"/>
         <source>Max Zoom</source>
-        <translation>最大</translation>
+        <translation>最大拡大率</translation>
     </message>
 </context>
 <context>
@@ -3473,7 +3475,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="46"/>
         <source>Tutorial: what’s different in Audacity 4?</source>
-        <translation>チュートリアル：Audacity 4の変更内容は?</translation>
+        <translation>チュートリアル: Audacity 4の変更内容は?</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="48"/>
@@ -3488,7 +3490,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="56"/>
         <source>Complete your Audacity cloud setup with Audio.com</source>
-        <translation>Audio.comでAudacityクラウドの設定を完了</translation>
+        <translation>audio.comでAudacityクラウドの設定を完了</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/welcomedialogmodel.cpp" line="58"/>
@@ -3572,22 +3574,22 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="26"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、オーバーラップさせる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="28"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="30"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/canvascontextmenumodel.cpp" line="35"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして…</translation>
     </message>
 </context>
 <context>
@@ -3600,27 +3602,27 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="48"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="50"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="55"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="57"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="59"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="64"/>
@@ -3635,12 +3637,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="72"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>カットして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/clipcontextmenumodel.cpp" line="73"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>削除して…</translation>
     </message>
 </context>
 <context>
@@ -3661,7 +3663,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/AccountPage.qml" line="18"/>
         <source>Audio.com</source>
-        <translation>Audio.com</translation>
+        <translation>audio.com</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/HomePage/CloudItem.qml" line="55"/>
@@ -3718,7 +3720,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="283"/>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="584"/>
         <source>Service destroyed</source>
-        <translation type="unfinished"/>
+        <translation>サービスが停止しました</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="288"/>
@@ -3728,7 +3730,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="452"/>
         <source>Invalid audio ID</source>
-        <translation type="unfinished"/>
+        <translation>無効なオーディオID</translation>
     </message>
     <message>
         <location filename="../../src/au3cloud/internal/au3audiocomservice.cpp" line="514"/>
@@ -3754,7 +3756,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="506"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1088"/>
         <source>View on audio.com</source>
-        <translation>Audio.comで表示</translation>
+        <translation>audio.comで表示</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1060"/>
@@ -3774,29 +3776,29 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1083"/>
         <source>Audio shared to audio.com</source>
-        <translation>Audio.comで共有したオーディオ</translation>
+        <translation>audio.comで共有したオーディオ</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1103"/>
         <source>Sharing audio to audio.com…</source>
-        <translation>Audio.comでオーディオを共有中...</translation>
+        <translation>audio.comでオーディオを共有中…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1162"/>
         <source>Downloading audio from cloud…</source>
-        <translation type="unfinished"/>
+        <translation>クラウドからオーディオをダウンロード中…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="599"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="706"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="719"/>
         <source>Save to audio.com</source>
-        <translation>Audio.comに保存</translation>
+        <translation>audio.comに保存</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="808"/>
         <source>Open audio from cloud</source>
-        <translation type="unfinished"/>
+        <translation>クラウドのオーディオを開く</translation>
     </message>
 </context>
 <context>
@@ -3804,7 +3806,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/SaveToCloudDialog.qml" line="16"/>
         <source>Save to audio.com</source>
-        <translation>Audio.comに保存</translation>
+        <translation>audio.comに保存</translation>
     </message>
 </context>
 <context>
@@ -3839,13 +3841,13 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/ParameterControl.qml" line="387"/>
         <source>Unknown parameter type: %1</source>
-        <translation>不明なパラメータタイプ：%1</translation>
+        <translation>不明なパラメータタイプ: %1</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PresetNameDialog.qml" line="13"/>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="48"/>
         <source>Save preset</source>
-        <translation type="unfinished"/>
+        <translation>プリセットを保存</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/qml/Audacity/Effects/PresetNameDialog.qml" line="44"/>
@@ -3855,7 +3857,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="63"/>
         <source>Enter Nyquist command:</source>
-        <translation type="unfinished"/>
+        <translation>Nyquistコマンドを入力:</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="69"/>
@@ -3865,7 +3867,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="93"/>
         <source>Enter Nyquist code here…</source>
-        <translation>Nyquistコードを入力...</translation>
+        <translation>Nyquistコードを入力…</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/NyquistPromptView.qml" line="106"/>
@@ -3944,7 +3946,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="39"/>
         <source>Effect load failed</source>
-        <translation>エフェクトの初期化に失敗しました</translation>
+        <translation>エフェクトを読み込めませんでした</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/effecterrors.h" line="41"/>
@@ -3989,22 +3991,22 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="385"/>
         <source>Applied effect: %1</source>
-        <translation>適用済エフェクト：%1</translation>
+        <translation>適用済エフェクト: %1</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="49"/>
         <source>Preset “%1” already exists, replace?</source>
-        <translation>プリセット「%1」がすでにありますが、置き換えますか?</translation>
+        <translation>プリセット “%1” がすでにありますが、置き換えますか?</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="89"/>
         <source>Delete preset</source>
-        <translation type="unfinished"/>
+        <translation>プリセットを削除</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="90"/>
         <source>Are you sure you want to delete “%1”?</source>
-        <translation>「%1」</translation>
+        <translation>“%1” を消去してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="107"/>
@@ -4014,32 +4016,32 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="117"/>
         <source>Import effect parameters</source>
-        <translation type="unfinished"/>
+        <translation>エフェクトパラメータを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="148"/>
         <source>Export effect parameters</source>
-        <translation type="unfinished"/>
+        <translation>エフェクトのパラメータを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="133"/>
         <source>%1: is not a valid presets file.</source>
-        <translation>「%1」：無効なプリセットファイルです。</translation>
+        <translation>%1: 無効なプリセットファイルです。</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectpresetsscenario.cpp" line="135"/>
         <source>%1: is for a different Effect, Generator or Analyzer.</source>
-        <translation>「%1」：異なるエフェクトまたはジェネレータ、アナライザ用です。</translation>
+        <translation>%1: 異なるエフェクトまたはジェネレータ、アナライザ用です。</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="622"/>
         <source>Generating %1…</source>
-        <translation>%1を生成中...</translation>
+        <translation>%1を生成中…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectexecutionscenario.cpp" line="622"/>
         <source>Applying %1…</source>
-        <translation>%1を適用中...</translation>
+        <translation>%1を適用中…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/internal/effectsuiactions.cpp" line="68"/>
@@ -4070,12 +4072,12 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/effects_base/view/effectsavecontextmenu.cpp" line="86"/>
         <source>Save as…</source>
-        <translation>別名で保存...</translation>
+        <translation>別名で保存…</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/generatedeffectviewermodel.cpp" line="54"/>
         <source>Unknown effect</source>
-        <translation type="unfinished"/>
+        <translation>不明なエフェクト</translation>
     </message>
     <message>
         <location filename="../../src/effects/effects_base/view/generatedeffectviewermodel.cpp" line="70"/>
@@ -4119,7 +4121,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="163"/>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="168"/>
         <source>Nyquist debug output</source>
-        <translation type="unfinished"/>
+        <translation>Nyquistデバッグ出力</translation>
     </message>
     <message>
         <location filename="../../src/effects/nyquist/nyquistprompt/nyquistpromptviewmodel.cpp" line="169"/>
@@ -4161,7 +4163,7 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="34"/>
         <source>Estimated start pitch: %1%2 (%3 Hz)</source>
         <extracomment>%1 = pitch name (e.g. C), %2 = octave number, %3 = frequency in Hz</extracomment>
-        <translation>予想される開始ピッチ：%1%2 (%3 Hz)</translation>
+        <translation>予想される開始ピッチ: %1%2 (%3 Hz)</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/changepitch/changepitchviewmodel.cpp" line="43"/>
@@ -4280,7 +4282,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="117"/>
         <source>Show:</source>
-        <translation>表示：</translation>
+        <translation>表示: </translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/dynamics/timeline/DynamicsPanel.qml" line="126"/>
@@ -4467,7 +4469,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="78"/>
         <source>Select a few seconds of isolated noise so Audacity knows what to filter out, then click Get noise profile.</source>
-        <translation>除去すべきノイズを判断するためめ、ノイズ部分を数秒分選択し、「ノイズプロファイルを取得」をクリックしてください。</translation>
+        <translation>除去すべきノイズを判断するためめ、ノイズ部分を数秒分選択し、”ノイズプロファイルを取得” をクリックしてください。</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="92"/>
@@ -4482,7 +4484,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="131"/>
         <source>Select all of the audio you want filtered, choose how much noise you want filtered out, and then click “Apply” to reduce noise.</source>
-        <translation>ノイズを除去したいオーディオをすべて選択し、除去したいノイズ量を選択してから「適用」をクリックしてノイズを除去します。</translation>
+        <translation>ノイズを除去したいオーディオをすべて選択し、除去したいノイズ量を選択してから “適用” をクリックしてノイズを除去します。</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/noisereduction/NoiseReductionView.qml" line="13"/>
@@ -4546,7 +4548,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="62"/>
         <source>Normalize peak amplitude to</source>
-        <translation>最大振幅を次までノーマライズ：</translation>
+        <translation>最大振幅を次までノーマライズ: </translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/normalize/NormalizeView.qml" line="98"/>
@@ -4567,17 +4569,17 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/PaulstretchView.qml" line="11"/>
         <source>Paulstretch</source>
-        <translation>Paul ストレッチ</translation>
+        <translation>Paulストレッチ</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/paulstretchviewmodel.cpp" line="62"/>
         <source>Stretch factor</source>
-        <translation type="unfinished"/>
+        <translation>ストレッチ倍率</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/paulstretch/paulstretchviewmodel.cpp" line="87"/>
         <source>Time resolution</source>
-        <translation type="unfinished"/>
+        <translation>時間分解能</translation>
     </message>
 </context>
 <context>
@@ -4726,7 +4728,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="180"/>
         <source>Truncate to</source>
-        <translation>次まで切り詰め：</translation>
+        <translation>次まで切り詰め: </translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="185"/>
@@ -4736,7 +4738,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="230"/>
         <source>Compress to</source>
-        <translation>次まで圧縮：</translation>
+        <translation>次まで圧縮: </translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/truncatesilence/truncatesilenceviewmodel.cpp" line="235"/>
@@ -4843,7 +4845,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="112"/>
         <source>beats per minute</source>
-        <translation>1分間のビート数</translation>
+        <translation>ビート数/分</translation>
     </message>
     <message>
         <location filename="../../src/effects/builtin_collection/common/measureunits.h" line="121"/>
@@ -4880,12 +4882,12 @@ Shinki Nishikori 2024-2025</translation>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="465"/>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="597"/>
         <source>Export audio</source>
-        <translation>オーディオをエクスポート</translation>
+        <translation>オーディオを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="76"/>
         <source>Export</source>
-        <translation>エクスポート</translation>
+        <translation>書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="91"/>
@@ -4954,7 +4956,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="439"/>
         <source>Format:</source>
-        <translation>フォーマット：</translation>
+        <translation>フォーマット: </translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="463"/>
@@ -4964,7 +4966,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="554"/>
         <source>Effective bit rate may vary</source>
-        <translation type="unfinished"/>
+        <translation>実行ビットレートは異なる場合があります</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="564"/>
@@ -4974,7 +4976,7 @@ Shinki Nishikori 2024-2025</translation>
     <message>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="574"/>
         <source>Trim blank space before first clip</source>
-        <translation>1番目のクリップ以前の空白をトリミング</translation>
+        <translation>最初のクリップより前の空白をトリミング</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/FLACOptionsSection.qml" line="19"/>
@@ -5073,7 +5075,10 @@ Shinki Nishikori 2024-2025</translation>
 Some codecs may only accept specific values (128k, 192k, 256k, etc.)
 0 - automatic
 192000 - recommended</source>
-        <translation type="unfinished"/>
+        <translation>ビットレート（ビット/秒）- 出力ファイルのサイズと品質に影響します
+コーデックによっては、特定の値（128K、192K、256Kなど）しか指定できない場合があります。
+0 - 自動
+192000 - 推奨</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/qml/Export/internal/GeneralOptionsSection.qml" line="208"/>
@@ -5129,7 +5134,7 @@ Some codecs may only accept specific values (128k, 192k, 256k, etc.)
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="21"/>
         <source>Export labels</source>
-        <translation>ラベルをエクスポート</translation>
+        <translation>ラベルを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="108"/>
@@ -5164,17 +5169,17 @@ Some codecs may only accept specific values (128k, 192k, 256k, etc.)
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="38"/>
         <source>Export full project audio</source>
-        <translation>プロジェクトのオーディオ全体をエクスポート</translation>
+        <translation>プロジェクトのオーディオ全体を書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="39"/>
         <source>Export selected audio</source>
-        <translation>選択したオーディオをエクスポート</translation>
+        <translation>選択したオーディオを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="40"/>
         <source>Export audio in loop region</source>
-        <translation>ループ領域のオーディオをエクスポート</translation>
+        <translation>ループ領域のオーディオを書き出す</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="171"/>
@@ -5184,7 +5189,7 @@ Some codecs may only accept specific values (128k, 192k, 256k, etc.)
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="172"/>
         <source>Export audio in loop region requires a loop in the project. Please go back, create a loop and try again.</source>
-        <translation>ループ領域のオーディオをエクスポートするには、プロジェクト内にループが必要です。ループを作成してやり直してください。</translation>
+        <translation>ループ領域のオーディオを書き出すには、プロジェクト内にループが必要です。ループを作成してやり直してください。</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="183"/>
@@ -5194,7 +5199,7 @@ Some codecs may only accept specific values (128k, 192k, 256k, etc.)
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="184"/>
         <source>Export selected audio requires a selection of audio data in the project. Please return to the project, make a selection and then try again.</source>
-        <translation>選択したオーディオをエクスポートするには、プロジェクト内でオーディオデータを選択する必要があります。プロジェクトに戻ってオーディオデータを選択し、やり直してください。</translation>
+        <translation>選択したオーディオを書き出すには、プロジェクト内でオーディオデータを選択する必要があります。プロジェクトに戻ってオーディオデータを選択し、やり直してください。</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="465"/>
@@ -5214,16 +5219,16 @@ Some codecs may only accept specific values (128k, 192k, 256k, etc.)
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="534"/>
         <source>Export error</source>
-        <translation>エクスポートエラー</translation>
+        <translation>書き出しエラー</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="598"/>
         <source>To export with custom channel mapping, master effects must be turned off temporarily.
 
 Master effects will be turned back on after export.</source>
-        <translation>カスタムチャンネルマッピングを使用してエクスポートする場合は、マスターエフェクトを一時的にオフにしてください。
+        <translation>カスタムチャンネルマッピングを使用して書き出す場合は、マスターエフェクトを一時的にオフにしてください。
 
-エクスポート完了後、マスターエフェクトはオンに戻ります。</translation>
+書き出し後、マスターエフェクトはオンに戻ります。</translation>
     </message>
 </context>
 <context>
@@ -5291,7 +5296,7 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/importexport/export/qml/Export/ExportDialog.qml" line="637"/>
         <location filename="../../src/importexport/labels/qml/Export/ExportLabelsDialog.qml" line="255"/>
         <source>Export</source>
-        <translation>エクスポート</translation>
+        <translation>書き出す</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/AboutDialog.qml" line="80"/>
@@ -5455,17 +5460,17 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="134"/>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="168"/>
         <source>Loop tempo detected at %1 BPM. What would you like to do?</source>
-        <translation type="unfinished"/>
+        <translation>ループテンポは%1 BPMと検出されました。どの操作を行いますか?</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="138"/>
         <source>Match project tempo to loop</source>
-        <translation type="unfinished"/>
+        <translation>プロジェクトのテンポをループに一致させる</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="139"/>
         <source>Match loop to project tempo</source>
-        <translation type="unfinished"/>
+        <translation>ループをプロジェクトのテンポに一致させる</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="140"/>
@@ -5477,12 +5482,12 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="144"/>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="177"/>
         <source>Loop Tempo Detected</source>
-        <translation type="unfinished"/>
+        <translation>ループテンポを検出しました</translation>
     </message>
     <message>
         <location filename="../../src/importexport/import/internal/au3/tempodetection.cpp" line="172"/>
         <source>Stretch loop to project tempo</source>
-        <translation type="unfinished"/>
+        <translation>ループをプロジェクトのテンポにストレッチ</translation>
     </message>
 </context>
 <context>
@@ -5513,42 +5518,42 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="29"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="31"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="36"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、オーバーラップさせる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="38"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="40"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="45"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="47"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="49"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="53"/>
@@ -5558,17 +5563,17 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="59"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>カットして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="60"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/labelcontextmenumodel.cpp" line="61"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>削除して…</translation>
     </message>
 </context>
 <context>
@@ -5694,37 +5699,37 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="28"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="35"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="37"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="39"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="47"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>カットして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/multiclipcontextmenumodel.cpp" line="48"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>削除して…</translation>
     </message>
 </context>
 <context>
@@ -5812,7 +5817,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="29"/>
         <source>Triangle</source>
-        <translation>三角</translation>
+        <translation>三角波</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PlaybackPerformanceSection.qml" line="30"/>
@@ -5890,7 +5895,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="55"/>
         <source>Dragging on the center line may adjust the height of the channel:</source>
-        <translation>中央線をドラッグするとチャンネルの高さが調整される場合があります：</translation>
+        <translation>中央線をドラッグするとチャンネルの高さが調整される場合があります: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/AsymmetricStereoHeightsSection.qml" line="73"/>
@@ -6013,7 +6018,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="26"/>
         <source>FFmpeg library version:</source>
-        <translation>FFmpegライブラリバージョン：</translation>
+        <translation>FFmpegライブラリバージョン: </translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/FFmpegLibrarySection.qml" line="42"/>
@@ -6063,7 +6068,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/NumberFormatSection.qml" line="69"/>
         <source>Example: 1,000,000.99</source>
-        <translation>例：1,000,000.99</translation>
+        <translation>例: 1,000,000.99</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/PasteBehaviorSection.qml" line="58"/>
@@ -6093,7 +6098,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RecordingBehaviorSection.qml" line="27"/>
         <source>Turn on input monitoring (hear yourself while recording)</source>
-        <translation>入力モニタリングを有効化（録音中に音声を再生）</translation>
+        <translation>入力モニタリングをオンにする（録音中に音声を再生します）</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/RecordingBehaviorSection.qml" line="45"/>
@@ -6118,12 +6123,12 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="93"/>
         <source>Custom sample rate</source>
-        <translation type="unfinished"/>
+        <translation>カスタムサンプルレート</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SampleRateSection.qml" line="116"/>
         <source>Default sample rates and formats apply to newly created tracks only. Recording into existing tracks will use the track’s sample rate and format instead.</source>
-        <translation type="unfinished"/>
+        <translation>デフォルトのサンプルレートとフォーマットは、新しく作成されたトラックにのみ適用されます。既存のトラックへの録音には、そのトラックのサンプルレートとフォーマットを使用します。</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="15"/>
@@ -6133,12 +6138,12 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="40"/>
         <source>Solo can be activated for multiple tracks at the same time</source>
-        <translation>ソロは複数トラックに対して同時に有効化が可能</translation>
+        <translation>ソロは複数トラックに対して同時に有効にすることが可能</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoloButtonSection.qml" line="55"/>
         <source>When solo is activated, it deactivates solo for all other tracks</source>
-        <translation>ソロを有効化した場合に、ほかのすべてのトラックのソロを無効化</translation>
+        <translation>ソロを有効にした場合に、ほかのすべてのトラックのソロを無効にする</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramSelectionSection.qml" line="17"/>
@@ -6168,7 +6173,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
         <source>High-contrast theme</source>
-        <translation type="unfinished"/>
+        <translation>ハイコントラストのテーマ</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="34"/>
@@ -6183,7 +6188,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/ThemesSection.qml" line="95"/>
         <source>Enable high-contrast</source>
-        <translation>高コントラストを有効化</translation>
+        <translation>高コントラストを有効にする</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="34"/>
@@ -6198,17 +6203,17 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="50"/>
         <source>Text and icons</source>
-        <translation type="unfinished"/>
+        <translation>テキストとアイコン</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="51"/>
         <source>Disabled text</source>
-        <translation type="unfinished"/>
+        <translation>無効なテキスト</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiColorsSection.qml" line="52"/>
         <source>Border color</source>
-        <translation type="unfinished"/>
+        <translation>枠のカラー</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="31"/>
@@ -6219,12 +6224,12 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="44"/>
         <source>Font face</source>
-        <translation type="unfinished"/>
+        <translation>フォントフェイス</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/UiFontSection.qml" line="59"/>
         <source>Body text size</source>
-        <translation type="unfinished"/>
+        <translation>本文のテキストサイズ</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/PreferencesDialog.qml" line="31"/>
@@ -6263,7 +6268,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="154"/>
         <source>Audacity already has detected a valid FFmpeg version. Do you want to choose another FFmpeg installation instead?</source>
-        <translation>Audacityはすでに有効なFFmpegのバージョンを検出しています。それでもほかのFFmpegをインストールしますか。</translation>
+        <translation>Audacityはすでに有効なFFmpegのバージョンを検出しています。ほかのFFmpegをインストールしてもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/customffmpegpreferencesmodel.cpp" line="159"/>
@@ -6294,7 +6299,7 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="236"/>
         <location filename="../../src/preferences/qml/Audacity/Preferences/commonaudioapiconfigurationmodel.cpp" line="249"/>
         <source>Other</source>
-        <translation>その他...</translation>
+        <translation>その他…</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/generalpreferencesmodel.cpp" line="67"/>
@@ -6374,37 +6379,37 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="14"/>
         <source>Recording lead-in time</source>
-        <translation type="unfinished"/>
+        <translation>リードインを録音中</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="22"/>
         <source>Lead-in time before recording starts</source>
-        <translation type="unfinished"/>
+        <translation>録音開始までのリードイン時間</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/LeadInRecordingSection.qml" line="47"/>
         <source>Crossfade</source>
-        <translation type="unfinished"/>
+        <translation>クロスフェード</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="29"/>
         <source>Music imports</source>
-        <translation type="unfinished"/>
+        <translation>ミュージックを読み込む</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="45"/>
         <source>Detect tempo in imported files:</source>
-        <translation type="unfinished"/>
+        <translation>読み込んだ次のファイルからテンポを検出:</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="121"/>
         <source>When Audacity detects music in imported file</source>
-        <translation type="unfinished"/>
+        <translation>読み込んだファイルにミュージックを検出したとき</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/MusicPreferencesPage.qml" line="135"/>
         <source>Ask me each time</source>
-        <translation type="unfinished"/>
+        <translation>毎回尋ねる</translation>
     </message>
 </context>
 <context>
@@ -6427,7 +6432,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SpectrogramSelectionSection.qml" line="22"/>
         <source>Enable spectral selection</source>
-        <translation>スペクトル選択を有効化</translation>
+        <translation>スペクトル選択を有効にする</translation>
     </message>
 </context>
 <context>
@@ -6449,7 +6454,7 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="70"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="17"/>
         <source>Untitled project</source>
-        <translation>名称未設定プロジェクト</translation>
+        <translation>名称未設定のプロジェクト</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/NewProject/GeneralInfoView.qml" line="82"/>
@@ -6664,7 +6669,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectsPage.qml" line="430"/>
         <source>Open other…</source>
-        <translation>その他を開く...</translation>
+        <translation>その他を開く…</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="120"/>
@@ -6674,12 +6679,12 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="162"/>
         <source>Publish your finished projects on Audio.com</source>
-        <translation>完了したプロジェクトをAudio.comで公開</translation>
+        <translation>完了したプロジェクトをaudio.comで公開</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="187"/>
         <source>Create a portfolio to showcase your music</source>
-        <translation>音楽を紹介するためのポートフォリオを作成</translation>
+        <translation>ミュージックを紹介するためのポートフォリオを作成</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/ProjectUploadedDialog.qml" line="188"/>
@@ -6704,7 +6709,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/UploadProgressDialog.qml" line="48"/>
         <source>Saving online…</source>
-        <translation>オンラインに保存...</translation>
+        <translation>オンラインに保存…</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/Audacity/AppShell/FirstLaunchSetup/themespagemodel.cpp" line="215"/>
@@ -6719,7 +6724,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/au3wrap/internal/au3project.cpp" line="151"/>
         <source>Project loading failed</source>
-        <translation>プロジェクトの読み込みに失敗しました</translation>
+        <translation>プロジェクトを読み込めませんでした</translation>
     </message>
     <message>
         <location filename="../../src/importexport/export/view/exportpreferencesmodel.cpp" line="475"/>
@@ -6732,7 +6737,7 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/project/internal/audacityproject.cpp" line="72"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="104"/>
         <source>Imported file “%1”?</source>
-        <translation>インポートしたのは「%1」ですか?</translation>
+        <translation>読み込んだファイルは “%1” ですか?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/audacityproject.cpp" line="76"/>
@@ -6740,13 +6745,13 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/project/internal/audacityproject.cpp" line="108"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="122"/>
         <source>Import</source>
-        <translation>インポート</translation>
+        <translation>読み込む</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/audacityproject.cpp" line="97"/>
         <location filename="../../src/project/internal/audacityproject.cpp" line="122"/>
         <source>Imported multiple files</source>
-        <translation>複数のファイルをインポートしました</translation>
+        <translation>複数のファイルを読み込みました</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="240"/>
@@ -6756,7 +6761,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="241"/>
         <source>Could not open file: %1</source>
-        <translation>このファイルを開けません：%1</translation>
+        <translation>このファイルを開けません: %1</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="505"/>
@@ -6766,7 +6771,7 @@ Master effects will be turned back on after export.</source>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="518"/>
         <source>Upload project to audio.com…</source>
-        <translation>audio.comへプロジェクトをアップロード...</translation>
+        <translation>audio.comへプロジェクトをアップロード…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="579"/>
@@ -6799,12 +6804,13 @@ Master effects will be turned back on after export.</source>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="500"/>
         <source>All saved changes will now update to the cloud.
 You can manage this file from your updated projects page on audio.com</source>
-        <translation type="unfinished"/>
+        <translation>保存された変更内容はすべてクラウドに反映されます。
+audio.comのアップデートされたプロジェクトページで、このファイルを管理できます。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="582"/>
         <source>Importable audio and media files</source>
-        <translation>インポート可能なオーディオやメディアファイル</translation>
+        <translation>読み込み可能なオーディオやメディアファイル</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="595"/>
@@ -6845,12 +6851,12 @@ You can manage this file from your updated projects page on audio.com</source>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="660"/>
         <source>Do you want to save changes to the project before closing?</source>
-        <translation type="unfinished"/>
+        <translation>プロジェクトを閉じる前に、変更を保存してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="662"/>
         <source>Do you want to save changes to the project “%1” before closing?</source>
-        <translation>プロジェクト「%1」を閉じる前に、変更内容を保存しますか?</translation>
+        <translation>プロジェクト “%1” を閉じる前に、変更内容を保存してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="666"/>
@@ -6860,12 +6866,12 @@ You can manage this file from your updated projects page on audio.com</source>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="872"/>
         <source>Resuming sync to audio.com…</source>
-        <translation>Audio.comとの同期を再開中...</translation>
+        <translation>audio.comとの同期を再開中…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="882"/>
         <source>Syncing project from cloud…</source>
-        <translation>クラウドからプロジェクトを同期中...</translation>
+        <translation>クラウドからプロジェクトを同期中…</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1042"/>
@@ -6902,7 +6908,7 @@ You can manage this file from your updated projects page on audio.com</source>
         <source>An Audacity exception occurred while trying to open the project file:
 “%1”</source>
         <translation>次のプロジェクトファイルを開く際に、Audacityの例外処理が発生しました。
-「％1」</translation>
+“％1”</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="45"/>
@@ -6914,15 +6920,15 @@ You can manage this file from your updated projects page on audio.com</source>
         <source>An error occurred while trying to access the project database.
 Failed to load project: “%1”</source>
         <translation>プロジェクトデータベースへのアクセス時にエラーが発生しました。
-読み込みに失敗したプロジェクト：「%1」</translation>
+読み込みに失敗したプロジェクト: “%1”</translation>
     </message>
     <message>
         <location filename="../../src/project/projecterrors.cpp" line="52"/>
         <source>The file:
 “%1”
 Cannot be found or accessed at this location. If it’s stored on an external or cloud drive, please verify that the drive is connected and syncing properly.</source>
-        <translation>ファイル：
-「%1」
+        <translation>ファイル: 
+“%1”
 この場所にファイルが見つからないか、アクセスできません。外部ドライブやクラウドドライブに保存している場合は、ドライブが接続され、正常に同期されているか確認してください。</translation>
     </message>
     <message>
@@ -6935,8 +6941,8 @@ Cannot be found or accessed at this location. If it’s stored on an external or
         <source>To open this file:
 “%1”
 Please check the file’s properties and permissions, ensure it is not stored on a drive or folder with restricted access, or try running Audacity as an administrator.</source>
-        <translation>このファイルを開く場合は：
-「%1」
+        <translation>このファイルを開く場合は: 
+“%1”
 ファイルのプロパティとアクセス権を確認し、アクセスが制限されているドライブやフォルダに保存していないかを確認してください。また、管理者としてAudacityを実行してください。</translation>
     </message>
     <message>
@@ -6949,8 +6955,8 @@ Please check the file’s properties and permissions, ensure it is not stored on
         <source>To open this file:
 “%1”
 Please remove the write protection by checking the file’s properties, ensuring it is not stored on a write-protected drive or folder, or by running Audacity as an administrator.</source>
-        <translation>このファイルを開く場合は：
-「%1」
+        <translation>このファイルを開く場合は: 
+“%1”
 ファイルのプロパティを確認し、書き込み保護を解除するか、書き込み保護されていないドライブやフォルダに保存されていることを確認するか、管理者としてAudacityを実行してください。</translation>
     </message>
 </context>
@@ -6959,7 +6965,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="117"/>
         <source>Would you also like to share your music on Audio.com?</source>
-        <translation>ミュージックをAudio.comで共有してみませんか?</translation>
+        <translation>ミュージックをaudio.comで共有してみませんか?</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="126"/>
@@ -6969,7 +6975,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="145"/>
         <source>You can change this setting in Preferences at any time.</source>
-        <translation>設定からいつでもこれを変更することができます。</translation>
+        <translation>設定でいつでも変更することができます。</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AlsoShareAudioComDialog.qml" line="165"/>
@@ -7018,12 +7024,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="489"/>
         <source>Save as new project</source>
-        <translation>新規プロジェクトして保存</translation>
+        <translation>新規プロジェクトとして保存</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="516"/>
         <source>The project was saved as “%1”</source>
-        <translation>プロジェクトを「%1」に保存しました</translation>
+        <translation>プロジェクトを “%1” に保存しました</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="519"/>
@@ -7033,12 +7039,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="908"/>
         <source>Time Track not supported</source>
-        <translation type="unfinished"/>
+        <translation>タイムトラックには対応していません</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="909"/>
         <source>The project contains a time track, which is not yet supported in Audacity 4, and will need to be removed. This does not affect your original Audacity 3 project.</source>
-        <translation type="unfinished"/>
+        <translation>このプロジェクトはタイムトラックを含んでいます。Audacity 4はまだ対応していないため、削除する必要があります。元のAudacity 3プロジェクトには影響しません。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="913"/>
@@ -7051,22 +7057,22 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="51"/>
         <source>File path:</source>
-        <translation>ファイルパス：</translation>
+        <translation>ファイルパス: </translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="81"/>
         <source>Audacity version:</source>
-        <translation>Audacityバージョン：</translation>
+        <translation>Audacityバージョン: </translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="90"/>
         <source>Revision:</source>
-        <translation>リビジョン：</translation>
+        <translation>リビジョン: </translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/ProjectPropertiesFileInfoPanel.qml" line="104"/>
         <source>API-Level:</source>
-        <translation>APIレベル：</translation>
+        <translation>APIレベル: </translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/internal/Properties/PropertyItem.qml" line="67"/>
@@ -7094,7 +7100,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="79"/>
         <source>Your project is backed up privately on audio.com. You can access your work from any device and collaborate on your project with others. Cloud saving is free for a limited number of projects.</source>
-        <translation>プロジェクトはAudio.comに非公開でバックアップされます。どのデバイスからでも自分の作品にアクセスしたり、プロジェクトの共同作業を行ったりできます。無料でクラウドに保存できるプロジェクト数には制限があります。</translation>
+        <translation>プロジェクトはaudio.comに非公開でバックアップされます。どのデバイスからでも自分の作品にアクセスしたり、プロジェクトの共同作業を行ったりできます。無料でクラウドに保存できるプロジェクト数には制限があります。</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/Audacity/Project/AskSaveLocationTypeDialog.qml" line="80"/>
@@ -7149,7 +7155,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="264"/>
         <source>Log in or create a new account on Audio.com to share your music.</source>
-        <translation>ミュージックを共有する場合はAudio.comにサインインするか新規アカウントを作成してください。</translation>
+        <translation>ミュージックを共有する場合はaudio.comにサインインするか新規アカウントを作成してください。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="528"/>
@@ -7182,7 +7188,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="567"/>
         <source>Unable to connect to Audio.com</source>
-        <translation>Audio.comに接続できません</translation>
+        <translation>audio.comに接続できません</translation>
     </message>
 </context>
 <context>
@@ -7195,29 +7201,29 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="825"/>
         <source>Your audio.com account needs to be verified first. Please activate your account via the link in the activation email.</source>
-        <translation>Audio.comのアカウントを認証する必要があります。メールに記載されているリンクから、アカウントをアクティベートしてください。</translation>
+        <translation>audio.comのアカウントを認証する必要があります。メールに記載されているリンクから、アカウントをアクティベートしてください。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="831"/>
         <source>Audio.com returned an unknown error code: %1.</source>
         <extracomment>%1 will be replaced with the error code that audio.com returned, which is a number.</extracomment>
-        <translation>Audio.comは不明なエラーコードを返しました：%1。</translation>
+        <translation>audio.comは不明なエラーコードを返しました: %1。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="834"/>
         <source>Audio.com returned an unknown error code.</source>
-        <translation>Audio.comは不明なエラーコードを返しました。</translation>
+        <translation>audio.comは不明なエラーコードを返しました。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="836"/>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="843"/>
         <source>Please try again later, or get help for this problem on audio.com.</source>
-        <translation>あとでやり直すか、Audio.comにこの問題の助けを求めてください。</translation>
+        <translation>あとでやり直すか、audio.comにこの問題の助けを求めてください。</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/opensaveprojectscenario.cpp" line="839"/>
         <source>Could not connect to audio.com. Please check your internet connection or try again later.</source>
-        <translation>Audio.comに接続できません。インターネット接続を確認するか、あとでやり直してください。</translation>
+        <translation>audio.comに接続できません。インターネット接続を確認するか、あとでやり直してください。</translation>
     </message>
 </context>
 <context>
@@ -7238,12 +7244,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="50"/>
         <source>Selection start</source>
-        <translation type="unfinished"/>
+        <translation>選択開始</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="51"/>
         <source>Selection end</source>
-        <translation type="unfinished"/>
+        <translation>選択終了</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/statusbar/SelectionStatus.qml" line="71"/>
@@ -7263,7 +7269,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="96"/>
         <source>Please wait…</source>
-        <translation>お待ちください...</translation>
+        <translation>お待ちください…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/toolbars/GetEffectsDialog.qml" line="109"/>
@@ -7356,12 +7362,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="71"/>
         <source>Import</source>
-        <translation>インポート</translation>
+        <translation>読み込む</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="89"/>
         <source>Export</source>
-        <translation>エクスポート</translation>
+        <translation>書き出す</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/labeleditor/LabelEditorTopPanel.qml" line="108"/>
@@ -7432,12 +7438,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/audio/PanTooltip.qml" line="20"/>
         <source>Pan: 100R</source>
-        <translation>パン：100R</translation>
+        <translation>パン: 100R</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/audio/PanTooltip.qml" line="33"/>
         <source>Pan:</source>
-        <translation>パン：</translation>
+        <translation>パン: </translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/TrackEffectsSection.qml" line="127"/>
@@ -7524,7 +7530,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="61"/>
         <source>Enable triplets</source>
-        <translation>3連符を有効化</translation>
+        <translation>3連符を有効にする</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="217"/>
@@ -7559,7 +7565,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="230"/>
         <source>Video frames (24 fps)</source>
-        <translation type="unfinished"/>
+        <translation>ビデオフレーム（24 fps）</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/snaptoolbaritem.cpp" line="231"/>
@@ -7637,7 +7643,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/effects/builtin_collection/silencegen/SilenceView.qml" line="41"/>
         <source>Duration:</source>
-        <translation>録音時間：</translation>
+        <translation>録音時間: </translation>
     </message>
 </context>
 <context>
@@ -7645,12 +7651,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="150"/>
         <source>%1 (Mono) Recording channel</source>
-        <translation>1（モノラル）録音チャンネル</translation>
+        <translation>%1（モノラル）録音チャンネル</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/toolbars/audiosetupcontextmenumodel.cpp" line="152"/>
         <source>%1 (Stereo) Recording channels</source>
-        <translation>2（ステレオ）録音チャンネル</translation>
+        <translation>%1（ステレオ）録音チャンネル</translation>
     </message>
 </context>
 <context>
@@ -7663,12 +7669,12 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="184"/>
         <source>Note: this control is tied to your computer’s main mic volume</source>
-        <translation>注意：このコントロールはコンピュータの主マイク音量に連動しています</translation>
+        <translation>注意: このコントロールはコンピュータの主マイク音量に連動しています</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="212"/>
         <source>Turn on input monitoring (hear yourself while recording)</source>
-        <translation>入力モニタリングをオン（録音中に自分の音が聞こえます）</translation>
+        <translation>入力モニタリングをオンにする（録音中に音声を再生します）</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/internal/RecordLevelPopup.qml" line="229"/>
@@ -7683,7 +7689,7 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/record/internal/au3/au3record.cpp" line="919"/>
         <source>Recorded audio</source>
-        <translation type="unfinished"/>
+        <translation>録音されたオーディオ</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="104"/>
@@ -7695,14 +7701,14 @@ Please remove the write protection by checking the file’s properties, ensuring
     <message>
         <location filename="../../src/record/internal/recordcontroller.cpp" line="154"/>
         <source>Lead-in Recording error</source>
-        <translation type="unfinished"/>
+        <translation>リードイン録音エラー</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="35"/>
         <source>Error opening recording device.
 Error code: %1</source>
         <translation>録音デバイスを開く際にエラーが起きました。
-エラーコード：%1</translation>
+エラーコード: %1</translation>
     </message>
     <message>
         <location filename="../../src/record/recorderrors.h" line="36"/>
@@ -7729,7 +7735,7 @@ Error code: %1</source>
     <message>
         <location filename="../../src/record/recorderrors.h" line="48"/>
         <source>Please select a track for lead-in recording.</source>
-        <translation type="unfinished"/>
+        <translation>リードイン録音するトラックを選択してください。</translation>
     </message>
 </context>
 <context>
@@ -7742,67 +7748,67 @@ Error code: %1</source>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="28"/>
         <source>Cut and close gap</source>
-        <translation type="unfinished"/>
+        <translation>ギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="30"/>
         <source>Cut and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="32"/>
         <source>Cut and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックのギャップをカットして閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="37"/>
         <source>Paste and overlap</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、オーバーラップさせる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="39"/>
         <source>Paste and make room on this track</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="41"/>
         <source>Paste and make room on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして、すべてのトラックで空き領域を確保する</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="46"/>
         <source>Delete and leave gap</source>
-        <translation type="unfinished"/>
+        <translation>削除してギャップを残す</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="48"/>
         <source>Delete and close gap</source>
-        <translation type="unfinished"/>
+        <translation>削除しギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="50"/>
         <source>Delete and close gap on this track</source>
-        <translation type="unfinished"/>
+        <translation>このトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="52"/>
         <source>Delete and close gap on all tracks</source>
-        <translation type="unfinished"/>
+        <translation>すべてのトラックで削除してギャップを閉じる</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="62"/>
         <source>Cut and…</source>
-        <translation type="unfinished"/>
+        <translation>カットして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="63"/>
         <source>Paste and…</source>
-        <translation type="unfinished"/>
+        <translation>ペーストして…</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/view/tracksitemsview/selectioncontextmenumodel.cpp" line="64"/>
         <source>Delete and…</source>
-        <translation type="unfinished"/>
+        <translation>削除して…</translation>
     </message>
 </context>
 <context>
@@ -7989,7 +7995,7 @@ Error code: %1</source>
     <message>
         <location filename="../../src/spectrogram/view/colorsectionparameterlistmodel.cpp" line="97"/>
         <source>High boost</source>
-        <translation type="unfinished"/>
+        <translation>高音域を増強</translation>
     </message>
     <message>
         <location filename="../../src/spectrogram/view/scalesectionparameterlistmodel.cpp" line="51"/>
@@ -8110,12 +8116,12 @@ Error code: %1</source>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="41"/>
         <location filename="../../src/trackedit/internal/au3/au3tracksinteraction.cpp" line="46"/>
         <source>Mixing down to mono…</source>
-        <translation>モノラルにミックスダウン...</translation>
+        <translation>モノラルにミックスダウン…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="264"/>
         <source>Rendering pitch and speed…</source>
-        <translation>ピッチと速度をレンダリング...</translation>
+        <translation>ピッチと速度をレンダリング…</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/au3/au3clipsinteraction.cpp" line="1395"/>
@@ -8143,7 +8149,7 @@ Do you wish to continue?</source>
 
 これにより、波形にリアルタイムエフェクトが適用され、非表示のデータが削除されます。さらに、トラック全体が1つの大きなクリップになります。
 
-続行しますか？</translation>
+続行してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="663"/>
@@ -8161,7 +8167,7 @@ Do you wish to continue?</source>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="744"/>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="775"/>
         <source>Select the audio to delete and try again.</source>
-        <translation type="unfinished"/>
+        <translation>削除するオーディオを選択して、やり直してください。</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/internal/trackeditactionscontroller.cpp" line="1139"/>
@@ -8216,7 +8222,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="45"/>
         <source>Your delete behavior has been set</source>
-        <translation type="unfinished"/>
+        <translation>削除動作を設定しました</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="57"/>
@@ -8226,7 +8232,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="58"/>
         <source>You can change this at any time in %1.</source>
-        <translation>%1からいつでも変更することができます。</translation>
+        <translation>%1でいつでも変更することができます。</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="60"/>
@@ -8236,7 +8242,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorOnboardingFollowupDialog.qml" line="61"/>
         <source>There are also a variety of new shortcuts that let you quickly access different delete behaviors. Go to %2 to learn more.</source>
-        <translation type="unfinished"/>
+        <translation>各種の削除動作にすばやくアクセスできる新しいショートカットも多数用意されています。詳しくは、%2を参照してください。</translation>
     </message>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/DeleteBehaviorPanel.qml" line="15"/>
@@ -8309,7 +8315,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/CustomRateDialog.qml" line="47"/>
         <source>New sample rate (Hz):</source>
-        <translation>新規サンプルレート（Hz）：</translation>
+        <translation>新規サンプルレート（Hz）: </translation>
     </message>
 </context>
 <context>
@@ -8317,7 +8323,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/trackedit/qml/Audacity/TrackEdit/CustomTimeDialog.qml" line="40"/>
         <source>Position:</source>
-        <translation>位置：</translation>
+        <translation>位置: </translation>
     </message>
 </context>
 <context>
@@ -8373,27 +8379,27 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="21"/>
         <source>hh:mm:ss</source>
-        <translation>時：分：秒</translation>
+        <translation>時: 分: 秒</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="22"/>
         <source>dd:hh:mm:ss</source>
-        <translation>日：時：分：秒</translation>
+        <translation>日: 時: 分: 秒</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="25"/>
         <source>hh:mm:ss + hundredths</source>
-        <translation>時：分：秒 + 1/100 秒</translation>
+        <translation>時: 分: 秒 + 1/100 秒</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="27"/>
         <source>hh:mm:ss + milliseconds</source>
-        <translation>時：分：秒 + ミリ秒</translation>
+        <translation>時: 分: 秒 + ミリ秒</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="30"/>
         <source>hh:mm:ss + samples</source>
-        <translation>時：分：秒 + サンプル</translation>
+        <translation>時: 分: 秒 + サンプル</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="32"/>
@@ -8403,7 +8409,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="35"/>
         <source>hh:mm:ss + film frames (24 fps)</source>
-        <translation>時：分：秒 + フィルムフレーム（24 fps）</translation>
+        <translation>時: 分: 秒 + フィルムフレーム（24 fps）</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="38"/>
@@ -8413,12 +8419,12 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="41"/>
         <source>hh:mm:ss + NTSC drop frames</source>
-        <translation>時：分：秒 + NTSCドロップフレーム</translation>
+        <translation>時: 分: 秒 + NTSCドロップフレーム</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="44"/>
         <source>hh:mm:ss + NTSC non-drop frames</source>
-        <translation>時：分：秒 + NTSCノンドロップフレーム</translation>
+        <translation>時: 分: 秒 + NTSCノンドロップフレーム</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="47"/>
@@ -8428,7 +8434,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="50"/>
         <source>hh:mm:ss + PAL frames (25 fps)</source>
-        <translation>時：分：秒 + PALフレーム（25 fps）</translation>
+        <translation>時: 分: 秒 + PALフレーム（25 fps）</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="53"/>
@@ -8438,7 +8444,7 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="56"/>
         <source>hh:mm:ss + CDDA frames (25 fps)</source>
-        <translation>時：分：秒 + CDDAフレーム（75 fps）</translation>
+        <translation>時: 分: 秒 + CDDAフレーム（75 fps）</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="59"/>
@@ -8448,12 +8454,12 @@ Do you wish to continue?</source>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="62"/>
         <source>bar:beat</source>
-        <translation>小節：ビート</translation>
+        <translation>小節: ビート</translation>
     </message>
     <message>
         <location filename="../../src/uicomponents/components/timecodemodel.cpp" line="63"/>
         <source>bar:beat:tick</source>
-        <translation>小節：ビート：ティック</translation>
+        <translation>小節: ビート: ティック</translation>
     </message>
 </context>
 </TS>
