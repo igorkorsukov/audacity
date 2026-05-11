@@ -67,11 +67,11 @@ jobs:
         submodules: recursive
 
     - name: Override muse_framework
-      if: inputs.framework_ref != ''
+      if: inputs.framework_ref != '' || github.event_name == 'schedule'
       uses: actions/checkout@v6
       with:
-        repository: ${{ inputs.framework_repo }}
-        ref: ${{ inputs.framework_ref }}
+        repository: ${{ inputs.framework_repo || 'musescore/muse_framework' }}
+        ref: ${{ inputs.framework_ref || 'main' }}
         path: muse
         submodules: recursive
 
