@@ -25,6 +25,7 @@
 #include "internal/parameterextractorregistry.h"
 #include "internal/effectloadersregister.h"
 #include "internal/effectsproviderinitializer.h"
+#include "internal/missingeffectchecker.h"
 
 #include "view/effectpresetsbarmodel.h"
 #include "view/presetstatesregister.h"
@@ -67,6 +68,7 @@ void EffectsModule::resolveImports()
     auto ir = globalIoc()->resolve<muse::interactive::IInteractiveUriRegister>(mname);
     if (ir) {
         ir->registerQmlUri(muse::Uri("audacity://effects/destructive_viewer"), "Audacity/Effects/DestructiveEffectsViewerDialog.qml");
+        ir->registerQmlUri(muse::Uri("audacity://effects/missing_plugins"), "Audacity/Effects/MissingPluginsDialog.qml");
         ir->registerQmlUri(muse::Uri("audacity://effects/realtime_viewer"), "Audacity/Effects/RealtimeEffectViewerDialog.qml");
         ir->registerQmlUri(muse::Uri("audacity://effects/presets/input_name"), "Audacity/Effects/PresetNameDialog.qml");
         ir->registerQmlUri(muse::Uri("audacity://effects/plugin_manager"), "Audacity/Effects/PluginManagerDialog.qml");
@@ -148,6 +150,7 @@ void EffectsContext::registerExports()
     ioc()->registerExport<IPresetStatesRegister>(mname, new PresetStatesRegister());
     ioc()->registerExport<IRealtimeEffectService>(mname, m_realtimeEffectService);
     ioc()->registerExport<IEffectsProviderInitializer>(mname, std::make_shared<EffectsProviderInitializer>(iocContext()));
+    ioc()->registerExport<IMissingEffectChecker>(mname, std::make_shared<MissingEffectChecker>(iocContext()));
 }
 
 void EffectsContext::onInit(const muse::IApplication::RunMode&)

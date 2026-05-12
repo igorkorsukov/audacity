@@ -98,7 +98,7 @@ bool Au3EffectLoader::ensurePluginIsLoaded(const EffectId& effectId)
         IF_ASSERT_FAILED(effect) {
             return desc.GetID();
         }
-        if (effects::effectId(effect) == effectId.toStdString()) {
+        if (utils::effectId(effect) == effectId) {
             au3path = ident->GetPath();
             desc.SetID(effectId.toStdString());
         }

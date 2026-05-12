@@ -72,7 +72,7 @@ muse::RetVal<muse::audio::AudioResourceMetaList> Au3AudioPluginMetaReader::readM
             desc.SetVersion(ident->GetVersion());
             desc.SetEffectFamily(provider->GetOptionalFamilySymbol().Internal());
 
-            desc.SetID(effects::effectId(effect));
+            desc.SetID(utils::effectId(effect).toStdString());
             desc.SetDescription(effect->GetDescription().Translation());
             desc.SetEffectType(effect->GetClassification());
             desc.SetEffectFamily(effect->GetFamily().Internal());

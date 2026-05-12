@@ -2,7 +2,11 @@
  * Audacity: A Digital Audio Editor
  */
 #include "realtimeeffectlistitemmodel.h"
-#include "log.h"
+
+#include "au3-realtime-effects/RealtimeEffectState.h"
+
+#include "framework/global/log.h"
+#include "framework/global/translation.h"
 
 namespace au::projectscene {
 RealtimeEffectListItemModel::RealtimeEffectListItemModel(QObject* parent, effects::RealtimeEffectStatePtr effectState)
@@ -40,13 +44,26 @@ bool RealtimeEffectListItemModel::prop_isMasterEffect() const
     return realtimeEffectService()->trackId(state) == effects::IRealtimeEffectService::masterTrackId;
 }
 
+bool RealtimeEffectListItemModel::prop_isAvailable() const
+{
+    return realtimeEffectService()->isAvailable(m_effectState.lock());
+}
+
 QString RealtimeEffectListItemModel::effectName() const
 {
     const auto state = m_effectState.lock();
     IF_ASSERT_FAILED(state) {
         return QString();
     }
-    return QString::fromStdString(effectsProvider()->effectName(*state));
+
+    const auto effectId = state->GetID().ToStdString();
+    const auto name = effectsProvider()->effectName(effectId);
+    const auto isValid = effectsProvider()->meta(muse::String::fromStdString(effectId)).isValid();
+
+    if (!isValid) {
+        return muse::qtrc("effects", "Missing - %1").arg(name);
+    }
+    return QString::fromStdString(name);
 }
 
 QString RealtimeEffectListItemModel::effectState() const
@@ -71,18 +88,12 @@ void RealtimeEffectListItemModel::showEffectDialog()
 bool RealtimeEffectListItemModel::prop_isActive() const
 {
     const auto state = m_effectState.lock();
-    IF_ASSERT_FAILED(state) {
-        return false;
-    }
     return realtimeEffectService()->isActive(state);
 }
 
 void RealtimeEffectListItemModel::prop_setIsActive(bool isActive)
 {
     const auto state = m_effectState.lock();
-    IF_ASSERT_FAILED(state) {
-        return;
-    }
     realtimeEffectService()->setIsActive(state, isActive);
 }
 }

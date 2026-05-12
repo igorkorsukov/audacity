@@ -61,6 +61,10 @@ muse::Ret EffectViewController::showEffect(const EffectId& effectId, const Effec
 
 void EffectViewController::showEffect(const RealtimeEffectStatePtr& state) const
 {
+    if (!realtimeEffectService()->isAvailable(state)) {
+        return;
+    }
+
     callOnLauncher(state, *effectsProvider(), *viewLaunchRegister(),
                    [](const IEffectViewLauncher& launcher, const RealtimeEffectStatePtr& state) {
         launcher.showRealtimeEffect(state);
@@ -69,6 +73,10 @@ void EffectViewController::showEffect(const RealtimeEffectStatePtr& state) const
 
 void EffectViewController::hideEffect(const RealtimeEffectStatePtr& state) const
 {
+    if (!realtimeEffectService()->isAvailable(state)) {
+        return;
+    }
+
     callOnLauncher(state, *effectsProvider(), *viewLaunchRegister(),
                    [](const IEffectViewLauncher& launcher, const RealtimeEffectStatePtr& state) {
         launcher.hideRealtimeEffect(state);

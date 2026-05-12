@@ -45,6 +45,8 @@ public:
     virtual std::optional<std::string> effectTrackName(const RealtimeEffectStatePtr& state) const = 0;
     virtual std::optional<std::vector<RealtimeEffectStatePtr> > effectStack(TrackId trackId) const = 0;
 
+    virtual bool isAvailable(const RealtimeEffectStatePtr& state) const = 0;
+
     virtual bool isActive(const RealtimeEffectStatePtr& state) const = 0;
     virtual void setIsActive(const RealtimeEffectStatePtr& state, bool) = 0;
     virtual muse::async::Channel<RealtimeEffectStatePtr> isActiveChanged() const = 0;

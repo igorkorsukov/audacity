@@ -8,7 +8,8 @@
 #include "../ieffectviewlaunchregister.h"
 
 #include "../ieffectviewcontroller.h"
-#include "ieffectsprovider.h"
+#include "../ieffectsprovider.h"
+#include "../irealtimeeffectservice.h"
 
 class EffectBase;
 class EffectSettingsAccess;
@@ -18,7 +19,9 @@ namespace au::effects {
 class EffectViewController : public IEffectViewController, public muse::Contextable
 {
     muse::GlobalInject<IEffectsProvider> effectsProvider;
-    muse::Inject<IEffectViewLaunchRegister> viewLaunchRegister{ this };
+
+    muse::ContextInject<IRealtimeEffectService> realtimeEffectService{ this };
+    muse::ContextInject<IEffectViewLaunchRegister> viewLaunchRegister{ this };
 
 public:
     EffectViewController(const muse::modularity::ContextPtr& ctx)

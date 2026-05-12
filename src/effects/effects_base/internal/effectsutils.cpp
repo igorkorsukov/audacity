@@ -4,7 +4,11 @@
 
 #include "effectsutils.h"
 #include "effectstypes.h"
+
+#include "au3-components/EffectInterface.h"
+
 #include "framework/global/log.h"
+#include "framework/global/stringutils.h"
 
 namespace au::effects {
 muse::String utils::effectFamilyToString(EffectFamily family)
@@ -59,6 +63,52 @@ static const muse::String distortionAndModulationEffectCategoryString{ "Distorti
 static const muse::String specialEffectCategoryString{ "Special" };
 static const muse::String spectralToolsEffectCategoryString{ "Spectral tools" };
 static const muse::String legacyEffectCategoryString{ "Legacy" };
+}
+
+EffectId utils::effectId(const EffectDefinitionInterface* effect)
+{
+    return EffectId::fromStdString(muse::strings::join({
+            std::string { "Effect" },
+            effect->GetFamily().Internal().ToStdString(),
+            effect->GetVendor().Internal().ToStdString(),
+            effect->GetSymbol().Internal().ToStdString(),
+            effect->GetPath().ToStdString()
+        }, "_"));
+}
+
+namespace {
+std::string parseEffectIdPart(const effects::EffectId& effectId, size_t partIndex)
+{
+    std::vector<std::string> strings;
+    muse::strings::split(effectId.toStdString(), strings, "_");
+    if (strings.size() != 5) {
+        LOGW() << "Unexpected effect ID format: " << effectId;
+    }
+    if (partIndex < strings.size()) {
+        return strings[partIndex];
+    }
+    return {};
+}
+}
+
+std::string utils::parseEffectName(const EffectId& effectId)
+{
+    return parseEffectIdPart(effectId, 3);
+}
+
+std::string utils::parseEffectVendor(const EffectId& effectId)
+{
+    return parseEffectIdPart(effectId, 2);
+}
+
+std::string utils::parseEffectFamily(const EffectId& effectId)
+{
+    return parseEffectIdPart(effectId, 1);
+}
+
+std::string utils::parseEffectPath(const EffectId& effectId)
+{
+    return parseEffectIdPart(effectId, 4);
 }
 
 muse::String utils::effectCategoryToString(EffectCategory category)
