@@ -904,6 +904,7 @@ Ret Au3Record::doRecord(Au3Project& project,
 
             trackedit::ITrackeditProjectPtr prj = globalContext()->currentTrackeditProject();
             prj->notifyAboutTrackAdded(DomConverter::track(newTrack.get()));
+            prj->notifyAboutClipAdded(DomConverter::clip(newTrack.get(), newClip.get()));
         }
         pendingTracks.UpdatePendingTracks();
     }

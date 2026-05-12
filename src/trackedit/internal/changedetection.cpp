@@ -232,6 +232,9 @@ void notifyOfUndoRedo(const TracksAndItems& before,
         [&](Track track, int index) {
         changed = true;
         trackeditProject->trackInserted().send(track, index);
+        for (const Clip& clip : after.clips[index]) {
+            trackeditProject->notifyAboutClipAdded(clip);
+        }
     },
         trackIdCheck
         );
@@ -240,8 +243,11 @@ void notifyOfUndoRedo(const TracksAndItems& before,
     notifier<Track>(
         after.tracks,
         before.tracks,
-        [&](Track track, int) {
+        [&](Track track, int index) {
         changed = true;
+        for (const Clip& clip : before.clips[index]) {
+            trackeditProject->notifyAboutClipRemoved(clip);
+        }
         trackeditProject->trackRemoved().send(track);
     },
         trackIdCheck

@@ -45,6 +45,8 @@ Au3TrackeditProject::Au3TrackeditProject(const muse::modularity::ContextPtr& ctx
         au::trackedit::TimeSignature trackeditTimeSignature = au::trackedit::TimeSignature { event.newTempo, event.newUpperTimeSignature, event.newLowerTimeSignature };
         m_timeSignatureChanged.send(trackeditTimeSignature);
     });
+
+    updateHasAudioContent();
 }
 
 Au3TrackeditProject::~Au3TrackeditProject()
@@ -92,6 +94,26 @@ std::vector<au::trackedit::TrackId> Au3TrackeditProject::trackIdList() const
     }
 
     return au4trackIds;
+}
+
+muse::ValCh<bool> Au3TrackeditProject::hasAudioContent() const
+{
+    return m_hasAudioContent;
+}
+
+void Au3TrackeditProject::updateHasAudioContent()
+{
+    bool has = false;
+    for (const TrackId& trackId : trackIdList()) {
+        if (!getClips(trackId).empty()) {
+            has = true;
+            break;
+        }
+    }
+
+    if (m_hasAudioContent.val != has) {
+        m_hasAudioContent.set(has);
+    }
 }
 
 au::trackedit::TrackList Au3TrackeditProject::trackList() const
@@ -341,12 +363,16 @@ void Au3TrackeditProject::notifyAboutClipRemoved(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemRemoved(clip);
+
+    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutClipAdded(const Clip& clip)
 {
     async::ChangedNotifier<Clip>& notifier = m_clipsChanged[clip.key.trackId];
     notifier.itemAdded(clip);
+
+    updateHasAudioContent();
 }
 
 void Au3TrackeditProject::notifyAboutLabelChanged(const Label& label)
